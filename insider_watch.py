@@ -57,6 +57,7 @@ Konfiguration ueber Umgebungsvariablen:
 
 import os
 import json
+import time
 import requests
 import feedparser
 import pandas as pd
@@ -165,14 +166,31 @@ def hole_congress_eintraege():
     capitoltrades.com. Siehe Hinweis im Modul-Docstring oben -- das ist
     keine offizielle Schnittstelle und kann bei einer Layout-Aenderung
     der Seite aufhoeren zu funktionieren.
+
+    Enthaelt einen einfachen Retry mit Wartezeit, weil GitHub-Actions-
+    Runner-IPs von Bot-Schutzsystemen manchmal haerter behandelt werden
+    als normale Heim-IPs (429 Too Many Requests).
     """
     header = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-        )
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9,de;q=0.8",
+        "Referer": "https://www.google.com/",
     }
-    antwort = requests.get(CAPITOL_TRADES_URL, headers=header, timeout=20)
+
+    anzahl_versuche = 3
+    antwort = None
+    for versuch in range(1, anzahl_versuche + 1):
+        antwort = requests.get(CAPITOL_TRADES_URL, headers=header, timeout=20)
+        if antwort.status_code != 429:
+            break
+        wartezeit = versuch * 15
+        print("429 bekommen, warte", wartezeit, "Sekunden und versuche es erneut (Versuch", versuch, "von", anzahl_versuche, ")")
+        time.sleep(wartezeit)
+
     antwort.raise_for_status()
 
     tabellen = pd.read_html(antwort.text)
