@@ -5,10 +5,8 @@ Ueberwacht:
     1) SEC Form-4-Meldungen (US-Firmen-Insider)
     2) optionale selbst konfigurierte RSS/Atom-Feeds fuer europaeische
        Directors'-Dealings-Meldungen
-    3) Trades von US-Kongressmitgliedern (Senat + Repraesentantenhaus)
-       ueber die Financial Modeling Prep (FMP) API
-    4) NEU, BEST-EFFORT/FRAGIL: Trumps Periodic Transaction Reports
-       (OGE Form 278-T), die als PDFs auf whitehouse.gov landen
+    3) HAUPTFEATURE: Trades von US-Kongressmitgliedern, gescraped von
+       capitoltrades.com (kostenlos, kein API-Key)
 
 Neue Eintraege werden per ntfy.sh als Push-Benachrichtigung aufs Handy
 geschickt.
@@ -26,57 +24,42 @@ Wichtig zu EU/AT-Directors'-Dealings:
     zentralen Feed. Firmen-Feeds koennen unten bei EU_FEEDS eingetragen
     werden, falls vorhanden.
 
-Wichtig zu Congress-Trades (FMP):
-    - Kostenloser FMP-Account noetig (financialmodelingprep.com),
-      kostenloser Tier: 250 Calls/Tag.
-    - Kongressmitglieder muessen ihre Trades erst innerhalb von bis zu
-      45 Tagen melden -- das ist keine Echtzeit-Meldung, sondern die
-      Meldung der Meldung.
-    - Der gemeldete Betrag ist eine Spanne (z.B. "$1,001 - $15,000"),
-      kein exakter Preis.
-    - Die genauen JSON-Feldnamen der FMP-API sind aus der
-      Dokumentation/einem Drittanbieter-Client abgeleitet, nicht selbst
-      live getestet. Falls nach dem ersten Lauf keine oder komische
-      Titel ankommen: einmal in der FMP-API-Playground nachsehen, wie
-      die Antwort tatsaechlich aussieht, und die Feldnamen in
-      baue_congress_eintrag() anpassen.
-
-Wichtig zum Trump-Watcher (whitehouse.gov):
-    - Trump meldet ueber OGE Form 278-T (Praesident), NICHT ueber den
-      Congress-Mechanismus oben. Es gibt dafuer keine offizielle,
-      dokumentierte API.
-    - Dieser Watcher versucht es ueber die eingebaute WordPress-REST-
-      Suche der Seite (whitehouse.gov laeuft nachweislich auf
-      WordPress). Das ist NICHT offiziell dokumentiert und kann
-      jederzeit ohne Vorwarnung aufhoeren zu funktionieren (Endpunkt
-      abgeschaltet, Struktur geaendert, Rate-Limit, etc.).
-    - WICHTIG: Vor dem produktiven Einsatz die URL unten (WH_MEDIA_URL
-      + Parameter) einmal im Browser oeffnen und pruefen, ob echtes
-      JSON mit Treffern zurueckkommt. Wenn nicht, funktioniert dieser
-      Ansatz auf dieser Seite nicht und muesste durch etwas anderes
-      ersetzt werden (z.B. manuelles Nachschauen).
-    - Auch hier gilt: bis zu 45 Tage Meldefrist, Betrag nur als Spanne.
-    - Um den Trump-Watcher zu deaktivieren: die Zeile mit
-      "Whitehouse-Trump" in der QUELLEN-Liste in main() entfernen oder
-      auskommentieren.
+Wichtig zu Congress-Trades (capitoltrades.com):
+    - HAUPTFEATURE dieses Scripts, also besonders wichtig zu verstehen:
+      Das ist HTML-Scraping einer Website, KEIN offizielles API. Es gibt
+      keinen Vertrag mit der Seite, dass sich an der Struktur nichts
+      aendert. Wenn capitoltrades.com ihr Seitenlayout aendert, kann
+      dieser Teil ohne Vorwarnung aufhoeren zu funktionieren.
+    - Es wird pandas.read_html() benutzt, das die HTML-<table>-Struktur
+      der Seite ausliest, statt einzelne CSS-Klassen zu suchen -- das
+      ist robuster gegen Style-Aenderungen als klassisches Scraping,
+      aber nicht unverwundbar.
+    - Sortierung der Seite ist standardmaessig nach "Published"
+      (Veroeffentlichungsdatum), nicht nach Handelsdatum -- genau das
+      wollen wir fuer "was ist NEU bekannt geworden".
+    - Trotzdem gilt: bis zu 45 Tage gesetzliche Meldefrist zwischen
+      echtem Trade und Veroeffentlichung, Betrag nur als Spanne (z.B.
+      "1K-15K"), kein exakter Dollarbetrag.
+    - BEIM ERSTEN ECHTEN LAUF: Schau dir im GitHub-Actions-Log den
+      Abschnitt "Gefundene Spalten in der Congress-Tabelle: [...]" an.
+      Falls die Titel der Benachrichtigungen komisch aussehen, sag mir
+      genau, was dort als Spaltenliste ausgegeben wird.
 
 Konfiguration ueber Umgebungsvariablen:
-    SEC_USER_AGENT, NTFY_TOPIC und FMP_API_KEY werden aus
-    Umgebungsvariablen gelesen, damit sie nicht im (oeffentlichen)
-    Repo-Code stehen. In GitHub Actions kommen sie aus den Repository
-    Secrets. Lokal kannst du sie vor dem Start setzen, z.B. in
-    PowerShell:
+    SEC_USER_AGENT und NTFY_TOPIC werden aus Umgebungsvariablen
+    gelesen, damit sie nicht im (oeffentlichen) Repo-Code stehen. In
+    GitHub Actions kommen sie aus den Repository Secrets. Lokal kannst
+    du sie vor dem Start setzen, z.B. in PowerShell:
         $env:SEC_USER_AGENT = "Timo Beispielname deine-email@example.com"
         $env:NTFY_TOPIC = "timo-insider-watch-x7k2p9"
-        $env:FMP_API_KEY = "dein-fmp-api-key"
-    Ohne gesetzte Umgebungsvariable wird jeweils der Platzhalter unten
-    benutzt. Der Trump-Watcher braucht keinen API-Key.
+    Der Congress-Teil braucht keinen API-Key mehr.
 """
 
 import os
 import json
 import requests
 import feedparser
+import pandas as pd
 
 # ---------- Konfiguration ----------
 
@@ -85,8 +68,6 @@ SEC_USER_AGENT = os.environ.get(
 )
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "timo-insider-watch-x7k2p9")
-
-FMP_API_KEY = os.environ.get("FMP_API_KEY", "DEIN_FMP_API_KEY")
 
 # SEC-EDGAR-Feed fuer aktuelle Form-4-Meldungen, wird von der SEC alle
 # 10 Minuten aktualisiert
@@ -102,17 +83,13 @@ EU_FEEDS = [
     # "https://www.beispielfirma.at/investor-relations/rss",
 ]
 
-# FMP-Endpunkte fuer die neuesten Senat- und Repraesentantenhaus-Meldungen
-FMP_SENATE_URL = "https://financialmodelingprep.com/stable/senate-latest"
-FMP_HOUSE_URL = "https://financialmodelingprep.com/stable/house-latest"
+# Capitol-Trades-Seite mit den neuesten Congress-Trades, sortiert nach
+# Veroeffentlichungsdatum (neueste zuerst)
+CAPITOL_TRADES_URL = "https://www.capitoltrades.com/trades"
 
 # Nur diese Kongressmitglieder melden (Teilstring-Suche im Namen).
 # Leere Liste = alle Mitglieder melden.
-CONGRESS_NAME_FILTER = []  # z.B. ["Pelosi", "McConnell"]
-
-# Unoffizielle WordPress-Media-Suche von whitehouse.gov (siehe Hinweis
-# oben zur Zuverlaessigkeit)
-WH_MEDIA_URL = "https://www.whitehouse.gov/wp-json/wp/v2/media"
+CONGRESS_NAME_FILTER = []  # z.B. ["Pelosi", "Gottheimer"]
 
 # Datei, in der bereits gemeldete Eintraege gespeichert werden,
 # damit keine doppelten Benachrichtigungen verschickt werden.
@@ -158,78 +135,60 @@ def hole_eu_eintraege():
     return alle_eintraege
 
 
-def name_passt_zum_congress_filter(name):
+def name_passt_zum_congress_filter(text):
     """Prueft, ob ein Name in der gewuenschten Personen-Liste steht."""
     if len(CONGRESS_NAME_FILTER) == 0:
         return True
-    name_klein = name.lower()
+    text_klein = text.lower()
     for gesuchter_name in CONGRESS_NAME_FILTER:
-        if gesuchter_name.lower() in name_klein:
+        if gesuchter_name.lower() in text_klein:
             return True
     return False
 
 
-def baue_congress_eintrag(daten):
-    """Wandelt eine einzelne FMP-Meldung in das gemeinsame Eintrags-Format um."""
-    name = daten.get("representative", "Unbekannt")
-    ticker = daten.get("ticker", "?")
-    art = daten.get("transaction", "?")
-    betrag = daten.get("amount", "?")
-    datum = daten.get("transactionDate", "?")
-    transaktions_id = daten.get("transactionId", name + ticker + datum + betrag)
-    eintrag_id = "congress-" + str(transaktions_id)
-    titel = (
-        name + ": " + art + " " + ticker
-        + " am " + datum + " (Betrag: " + betrag + ")"
-    )
-    return {"id": eintrag_id, "title": titel, "link": ""}
+def baue_congress_eintrag(zeile, spalten):
+    """Wandelt eine Tabellenzeile von capitoltrades.com in das gemeinsame Format um."""
+    werte = []
+    for spalte in spalten:
+        wert = zeile.get(spalte, "")
+        wert_text = str(wert).strip()
+        if wert_text != "" and wert_text.lower() != "nan":
+            werte.append(wert_text)
+    titel = " | ".join(werte)
+    eintrag_id = "capitoltrades-" + "-".join(werte)
+    return {"id": eintrag_id, "title": titel, "link": CAPITOL_TRADES_URL}
 
 
 def hole_congress_eintraege():
-    """Ruft die neuesten Senat- und Repraesentantenhaus-Meldungen von FMP ab."""
-    if FMP_API_KEY == "DEIN_FMP_API_KEY":
-        print("FMP_API_KEY nicht gesetzt -- Congress-Abfrage wird uebersprungen.")
+    """
+    HAUPTFEATURE, BEST EFFORT: Scraped die neuesten Congress-Trades von
+    capitoltrades.com. Siehe Hinweis im Modul-Docstring oben -- das ist
+    keine offizielle Schnittstelle und kann bei einer Layout-Aenderung
+    der Seite aufhoeren zu funktionieren.
+    """
+    header = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+        )
+    }
+    antwort = requests.get(CAPITOL_TRADES_URL, headers=header, timeout=20)
+    antwort.raise_for_status()
+
+    tabellen = pd.read_html(antwort.text)
+    if len(tabellen) == 0:
+        print("Keine Tabelle auf capitoltrades.com gefunden -- Seitenstruktur hat sich vermutlich geaendert.")
         return []
 
-    eintraege = []
-    for url in (FMP_SENATE_URL, FMP_HOUSE_URL):
-        parameter = {"page": 0, "limit": 100, "apikey": FMP_API_KEY}
-        antwort = requests.get(url, params=parameter, timeout=15)
-        antwort.raise_for_status()
-        daten_liste = antwort.json()
-        for daten in daten_liste:
-            name = daten.get("representative", "Unbekannt")
-            if name_passt_zum_congress_filter(name):
-                eintraege.append(baue_congress_eintrag(daten))
-    return eintraege
-
-
-def hole_trump_eintraege():
-    """
-    BEST-EFFORT/FRAGIL: Sucht ueber die WordPress-Media-API von
-    whitehouse.gov nach neuen PDF-Uploads von Trumps Periodic
-    Transaction Reports. Siehe Hinweis im Modul-Docstring oben --
-    das ist keine offizielle Schnittstelle und kann jederzeit brechen.
-    """
-    parameter = {
-        "search": "Trump Periodic Transaction Report",
-        "orderby": "date",
-        "order": "desc",
-        "per_page": 20,
-    }
-    antwort = requests.get(WH_MEDIA_URL, params=parameter, timeout=15)
-    antwort.raise_for_status()
-    medien_liste = antwort.json()
+    tabelle = tabellen[0]
+    spalten = list(tabelle.columns)
+    print("Gefundene Spalten in der Congress-Tabelle:", spalten)
 
     eintraege = []
-    for medium in medien_liste:
-        titel_objekt = medium.get("title", {})
-        titel_text = titel_objekt.get("rendered", "")
-        if "trump" not in titel_text.lower():
-            continue
-        link = medium.get("source_url", "")
-        medium_id = "whitehouse-" + str(medium.get("id", link))
-        eintraege.append({"id": medium_id, "title": titel_text, "link": link})
+    for _, zeile in tabelle.iterrows():
+        eintrag = baue_congress_eintrag(zeile, spalten)
+        if name_passt_zum_congress_filter(eintrag["title"]):
+            eintraege.append(eintrag)
     return eintraege
 
 
@@ -271,13 +230,12 @@ def main():
     gesehene_ids = lade_gesehene_eintraege()
 
     # Jede Quelle einzeln in try/except, damit ein Fehler bei einer
-    # Quelle (z.B. dem fragilen Whitehouse-Watcher) nicht die anderen,
-    # zuverlaessigeren Quellen mit abschiesst.
+    # Quelle (z.B. dem scraping-basierten Congress-Teil) nicht die
+    # anderen, zuverlaessigeren Quellen mit abschiesst.
     quellen = [
         ("SEC", hole_sec_eintraege),
         ("EU", hole_eu_eintraege),
         ("Congress", hole_congress_eintraege),
-        ("Whitehouse-Trump", hole_trump_eintraege),
     ]
 
     for name, hole_funktion in quellen:
