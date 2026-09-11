@@ -3,7 +3,7 @@ name: Insider Trade Watcher
 # Zeitplan-Trigger (Uhrzeit in UTC!) + manueller Trigger zum Testen
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/20 * * * *"
   workflow_dispatch:
 
 # Wird benoetigt, damit der Workflow Dateien zurueck ins Repo pushen darf
