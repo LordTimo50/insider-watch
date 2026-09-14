@@ -17,6 +17,20 @@ Abhaengigkeiten (einmalig installieren):
 Wichtig zu SEC EDGAR:
     Die SEC verlangt einen echten User-Agent-Header mit Kontaktinfo,
     sonst wird der Zugriff blockiert (Fair Access Policy).
+    Fuer Ticker/Name/Betrag wird pro NEUER Form-4-Meldung zusaetzlich
+    das eigentliche XML-Dokument der Meldung geladen (2 Requests: erst
+    die Dateiliste der Meldung ueber index.json, dann die XML-Datei
+    selbst -- der Dateiname variiert je nach Filing-Software, darum
+    wird er nicht geraten, sondern aus index.json gelesen). Das
+    passiert nur fuer Eintraege, die noch nicht in seen_entries.json
+    stehen, nicht fuer alle 100 Feed-Eintraege bei jedem Lauf.
+    Der SEC-Feed liefert durch Praefix-Matching auch andere Formulare,
+    die mit "4" beginnen (424B2, 424B5, 425) -- die werden erkannt und
+    NICHT als Form 4 geparst, behalten aber ihren rohen Titel.
+    Bekannte kleine Einschraenkung: Eine einzelne Form-4-Meldung kann
+    im Feed doppelt auftauchen (einmal aus Sicht des Insiders, einmal
+    aus Sicht der Firma) und dadurch zweimal eine inhaltlich identische
+    Benachrichtigung ausloesen. Nicht behoben, da selten und harmlos.
 
 Wichtig zu EU/AT-Directors'-Dealings:
     Seit 3.7.2016 veroeffentlicht die FMA diese Meldungen NICHT mehr
@@ -62,6 +76,7 @@ import re
 import requests
 import feedparser
 import pandas as pd
+import xml.etree.ElementTree as ET
 
 # ---------- Konfiguration ----------
 
@@ -120,12 +135,115 @@ def speichere_gesehene_eintraege(gesehene_ids):
 
 
 def hole_sec_eintraege():
-    """Ruft den SEC-EDGAR-Feed ab und gibt eine Liste von Eintraegen zurueck."""
+    """Ruft den SEC-EDGAR-Feed ab und gibt einfache Eintraege zurueck (ohne teure Detail-Requests)."""
     header = {"User-Agent": SEC_USER_AGENT}
     antwort = requests.get(SEC_FEED_URL, headers=header, timeout=15)
     antwort.raise_for_status()
     feed = feedparser.parse(antwort.text)
-    return feed.entries
+
+    eintraege = []
+    for feed_eintrag in feed.entries:
+        eintraege.append({
+            "id": feed_eintrag.get("id", feed_eintrag.get("link", "")),
+            "title": feed_eintrag.get("title", "Unbekannte Meldung"),
+            "link": feed_eintrag.get("link", ""),
+        })
+    return eintraege
+
+
+def ist_form4_eintrag(titel):
+    """
+    Prueft, ob ein SEC-Feed-Eintrag wirklich ein Form 4 ist. Der Feed
+    liefert durch Praefix-Matching auch 424B2/424B5/425 usw., die alle
+    mit '4' anfangen aber keine Ownership-Formulare sind.
+    """
+    return titel.startswith("4 - ") or titel.startswith("4/A - ")
+
+
+def hole_form4_xml_url(index_link):
+    """
+    Findet die echte XML-Dokument-URL einer Form-4-Meldung ueber die
+    index.json der Filing-Directory, statt einen Dateinamen zu raten
+    (der je nach verwendeter Filing-Software unterschiedlich ist, z.B.
+    'primary_doc.xml' oder 'a4.xml' in einem Unterordner).
+    """
+    ordner_url = index_link.rsplit("/", 1)[0]
+    index_json_url = ordner_url + "/index.json"
+    header = {"User-Agent": SEC_USER_AGENT}
+    antwort = requests.get(index_json_url, headers=header, timeout=15)
+    antwort.raise_for_status()
+    daten = antwort.json()
+    dateien = daten.get("directory", {}).get("item", [])
+    for datei in dateien:
+        name = datei.get("name", "")
+        if name.endswith(".xml"):
+            return ordner_url + "/" + name
+    return None
+
+
+def hole_form4_details(index_link):
+    """
+    Laedt das eigentliche Form-4-XML-Dokument und extrahiert Name,
+    Ticker und den Dollarbetrag der ersten Transaktion. Gibt None
+    zurueck, wenn nichts Verwertbares gefunden wird (z.B. reine
+    Bestandsmeldung ohne Transaktion, fehlender Preis bei Schenkungen).
+    """
+    xml_url = hole_form4_xml_url(index_link)
+    if xml_url is None:
+        return None
+
+    header = {"User-Agent": SEC_USER_AGENT}
+    antwort = requests.get(xml_url, headers=header, timeout=15)
+    antwort.raise_for_status()
+    baum = ET.fromstring(antwort.content)
+
+    ticker_element = baum.find("./issuer/issuerTradingSymbol")
+    ticker = ticker_element.text.strip() if ticker_element is not None and ticker_element.text else "?"
+
+    name_element = baum.find("./reportingOwner/reportingOwnerId/rptOwnerName")
+    name = name_element.text.strip() if name_element is not None and name_element.text else "Unbekannt"
+
+    transaktion = baum.find("./nonDerivativeTable/nonDerivativeTransaction")
+    if transaktion is None:
+        return None
+
+    shares_element = transaktion.find("./transactionAmounts/transactionShares/value")
+    preis_element = transaktion.find("./transactionAmounts/transactionPricePerShare/value")
+    if shares_element is None or preis_element is None or not shares_element.text or not preis_element.text:
+        return None
+
+    shares = float(shares_element.text)
+    preis = float(preis_element.text)
+    betrag = shares * preis
+
+    return {"name": name, "ticker": ticker, "betrag": betrag}
+
+
+def anreichere_sec_eintrag(eintrag):
+    """
+    Wird nur fuer NEUE SEC-Eintraege aufgerufen (siehe verarbeite_eintraege).
+    Ersetzt den rohen Feed-Titel durch 'Name: TICKER ($Betrag)', wenn es
+    ein echtes Form 4 mit auswertbarer Transaktion ist. Andernfalls
+    bleibt der urspruengliche Titel stehen.
+    """
+    roh_titel = eintrag.get("title", "")
+    link = eintrag.get("link", "")
+
+    if not ist_form4_eintrag(roh_titel) or not link:
+        return eintrag
+
+    try:
+        details = hole_form4_details(link)
+    except Exception as fehler:
+        print("Form-4-Details konnten nicht geladen werden fuer", link, ":", fehler)
+        return eintrag
+
+    if details is None:
+        return eintrag
+
+    betrag_text = "${:,.0f}".format(details["betrag"])
+    eintrag["title"] = details["name"] + ": " + details["ticker"] + " (" + betrag_text + ")"
+    return eintrag
 
 
 def hole_eu_eintraege():
@@ -266,26 +384,32 @@ def eintrag_passt_zum_filter(titel):
     return False
 
 
-def sende_benachrichtigung(titel, link):
-    """Schickt eine Push-Benachrichtigung ueber ntfy.sh aufs Handy."""
+def sende_benachrichtigung(titel):
+    """Schickt eine Push-Benachrichtigung ueber ntfy.sh aufs Handy (nur Titeltext, kein Link)."""
     url = "https://ntfy.sh/" + NTFY_TOPIC
-    nachricht = titel
-    if link:
-        nachricht = nachricht + "\n" + link
-    requests.post(url, data=nachricht.encode("utf-8"), timeout=10)
+    requests.post(url, data=titel.encode("utf-8"), timeout=10)
 
 
-def verarbeite_eintraege(eintraege, gesehene_ids):
-    """Geht Eintraege durch, filtert neue heraus und verschickt Benachrichtigungen."""
+def verarbeite_eintraege(eintraege, gesehene_ids, anreicherungsfunktion=None):
+    """
+    Geht Eintraege durch, filtert neue heraus und verschickt Benachrichtigungen.
+    Falls eine anreicherungsfunktion uebergeben wird, laeuft sie NUR fuer
+    tatsaechlich neue Eintraege -- so entstehen teure Zusatz-Requests
+    (z.B. das Nachladen der Form-4-XML) nicht bei jedem Lauf fuer alle
+    Feed-Eintraege, sondern nur fuer wirklich neue.
+    """
     for eintrag in eintraege:
         eintrag_id = eintrag.get("id", eintrag.get("link", ""))
         if eintrag_id in gesehene_ids:
             continue
         gesehene_ids.add(eintrag_id)
+
+        if anreicherungsfunktion:
+            eintrag = anreicherungsfunktion(eintrag)
+
         titel = eintrag.get("title", "Unbekannte Meldung")
-        link = eintrag.get("link", "")
         if eintrag_passt_zum_filter(titel):
-            sende_benachrichtigung(titel, link)
+            sende_benachrichtigung(titel)
             print("Benachrichtigung verschickt:", titel)
 
 
@@ -295,18 +419,23 @@ def main():
     # Jede Quelle einzeln in try/except, damit ein Fehler bei einer
     # Quelle (z.B. dem scraping-basierten Congress-Teil) nicht die
     # anderen, zuverlaessigeren Quellen mit abschiesst.
-    quellen = [
-        ("SEC", hole_sec_eintraege),
-        ("EU", hole_eu_eintraege),
-        ("Congress", hole_congress_eintraege),
-    ]
+    try:
+        sec_eintraege = hole_sec_eintraege()
+        verarbeite_eintraege(sec_eintraege, gesehene_ids, anreicherungsfunktion=anreichere_sec_eintrag)
+    except Exception as fehler:
+        print("Fehler bei Quelle SEC :", fehler)
 
-    for name, hole_funktion in quellen:
-        try:
-            eintraege = hole_funktion()
-            verarbeite_eintraege(eintraege, gesehene_ids)
-        except Exception as fehler:
-            print("Fehler bei Quelle", name, ":", fehler)
+    try:
+        eu_eintraege = hole_eu_eintraege()
+        verarbeite_eintraege(eu_eintraege, gesehene_ids)
+    except Exception as fehler:
+        print("Fehler bei Quelle EU :", fehler)
+
+    try:
+        congress_eintraege = hole_congress_eintraege()
+        verarbeite_eintraege(congress_eintraege, gesehene_ids)
+    except Exception as fehler:
+        print("Fehler bei Quelle Congress :", fehler)
 
     speichere_gesehene_eintraege(gesehene_ids)
 
