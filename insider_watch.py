@@ -58,6 +58,7 @@ Konfiguration ueber Umgebungsvariablen:
 import os
 import json
 import time
+import re
 import requests
 import feedparser
 import pandas as pd
@@ -147,16 +148,55 @@ def name_passt_zum_congress_filter(text):
     return False
 
 
-def baue_congress_eintrag(zeile, spalten):
-    """Wandelt eine Tabellenzeile von capitoltrades.com in das gemeinsame Format um."""
-    werte = []
+def finde_spalte(spalten, suchbegriff):
+    """Findet den Spaltennamen, der den Suchbegriff enthaelt (Gross-/Kleinschreibung egal)."""
     for spalte in spalten:
-        wert = zeile.get(spalte, "")
-        wert_text = str(wert).strip()
-        if wert_text != "" and wert_text.lower() != "nan":
-            werte.append(wert_text)
-    titel = " | ".join(werte)
-    eintrag_id = "capitoltrades-" + "-".join(werte)
+        if suchbegriff.lower() in str(spalte).lower():
+            return spalte
+    return None
+
+
+def extrahiere_name(politiker_text):
+    """
+    Extrahiert nur den Namen aus dem Politiker-Zellentext.
+    Auf capitoltrades.com stehen Name, Partei, Kammer und Bundesstaat
+    ohne Leerzeichen aneinandergehaengt in einer Zelle, z.B.
+    'Pete SessionsRepublicanHouseTX' -> 'Pete Sessions'.
+    """
+    treffer = re.match(r"^(.*?)(Republican|Democrat|Independent)", politiker_text)
+    if treffer:
+        return treffer.group(1).strip()
+    return politiker_text.strip()
+
+
+def extrahiere_ticker(issuer_text):
+    """
+    Extrahiert das Tickersymbol aus dem 'Traded Issuer'-Zellentext, z.B.
+    'Agree Realty CorpADC:US' -> 'ADC'. Falls kein Ticker-Muster
+    gefunden wird (z.B. bei Optionsgeschaeften ohne Ticker), wird der
+    rohe Text zurueckgegeben, damit nichts verloren geht.
+    """
+    treffer = re.search(r"([A-Z]{1,6}):[A-Z]{2}$", issuer_text)
+    if treffer:
+        return treffer.group(1)
+    return issuer_text.strip()
+
+
+def baue_congress_eintrag(zeile, spalte_politiker, spalte_issuer, spalte_size, spalte_datum):
+    """Wandelt eine Tabellenzeile von capitoltrades.com in Name/Ticker/Betrag um."""
+    politiker_text = str(zeile.get(spalte_politiker, "")) if spalte_politiker else "Unbekannt"
+    issuer_text = str(zeile.get(spalte_issuer, "")) if spalte_issuer else "?"
+    size_text = str(zeile.get(spalte_size, "")).strip() if spalte_size else "?"
+    datum_text = str(zeile.get(spalte_datum, "")).strip() if spalte_datum else ""
+
+    name = extrahiere_name(politiker_text)
+    ticker = extrahiere_ticker(issuer_text)
+    betrag = size_text if size_text.lower() != "nan" else "?"
+
+    titel = name + ": " + ticker + " (" + betrag + ")"
+    # Datum fliesst nur in die ID ein (fuer korrekte Duplikat-Erkennung),
+    # nicht in den angezeigten Text, da nicht angefordert.
+    eintrag_id = "capitoltrades-" + name + "-" + ticker + "-" + betrag + "-" + datum_text
     return {"id": eintrag_id, "title": titel, "link": CAPITOL_TRADES_URL}
 
 
@@ -202,9 +242,14 @@ def hole_congress_eintraege():
     spalten = list(tabelle.columns)
     print("Gefundene Spalten in der Congress-Tabelle:", spalten)
 
+    spalte_politiker = finde_spalte(spalten, "politician")
+    spalte_issuer = finde_spalte(spalten, "issuer")
+    spalte_size = finde_spalte(spalten, "size")
+    spalte_datum = finde_spalte(spalten, "published") or finde_spalte(spalten, "traded")
+
     eintraege = []
     for _, zeile in tabelle.iterrows():
-        eintrag = baue_congress_eintrag(zeile, spalten)
+        eintrag = baue_congress_eintrag(zeile, spalte_politiker, spalte_issuer, spalte_size, spalte_datum)
         if name_passt_zum_congress_filter(eintrag["title"]):
             eintraege.append(eintrag)
     return eintraege
