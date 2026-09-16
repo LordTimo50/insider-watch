@@ -229,6 +229,26 @@
    "richtung": "buy",
    "titel": "Tanco Christopher: PLNT ($119,259)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T23:01:13Z",
+   "quelle": "SEC",
+   "name": "ADAR1 Capital Management, LLC",
+   "ticker": "INM",
+   "betrag": 36879.769,
+   "richtung": "buy",
+   "titel": "ADAR1 Capital Management, LLC: INM ($36,880)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T23:01:16Z",
+   "quelle": "SEC",
+   "name": "Capper Joseph H",
+   "ticker": "TELA",
+   "betrag": 25502.5,
+   "richtung": "buy",
+   "titel": "Capper Joseph H: TELA ($25,502)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
