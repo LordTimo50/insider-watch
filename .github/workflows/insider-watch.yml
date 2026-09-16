@@ -1,9 +1,9 @@
 name: Insider Trade Watcher
 
-# Kein eingebauter "schedule"-Trigger mehr: der wurde von GitHub bei
+# Kein eingebauter "schedule"-Trigger: der wurde von GitHub bei
 # haeufigen Intervallen (< 1 Stunde) unzuverlaessig/verzoegert
 # ausgefuehrt. Stattdessen loest ein externer Dienst (cron-job.org)
-# praezise alle 20 Minuten workflow_dispatch ueber die GitHub-API aus.
+# praezise alle 15 Minuten workflow_dispatch ueber die GitHub-API aus.
 # Zusaetzlich bleibt workflow_dispatch fuer manuelle Testlaeufe nutzbar.
 on:
   workflow_dispatch:
@@ -35,14 +35,34 @@ jobs:
 
       # Zeitstempel wird IMMER aktualisiert (auch ohne neue Meldungen).
       # Nuetzlich, um auf einen Blick zu sehen, wann der letzte Lauf war.
+      # if: always() -- auch nach einem abgestuerzten Lauf soll sichtbar
+      # sein, dass ueberhaupt einer stattgefunden hat.
       - name: Zeitstempel aktualisieren
+        if: always()
         run: date -u +"%Y-%m-%dT%H:%M:%SZ" > last_run.txt
 
+      # WICHTIG: hier muessen ALLE Zustandsdateien mit rein. Fehlt eine,
+      # faengt der zugehoerige Zaehler bei jedem Lauf wieder bei null an,
+      # weil jeder Runner mit einem frischen Checkout startet:
+      #   seen_entries.json -- sonst kaemen Doppel-Benachrichtigungen
+      #   error_state.json  -- sonst erreicht der Fehlerzaehler nie die
+      #                        Schwelle und die Stoerungsmeldung kommt nie
+      #   statistik.json    -- sonst haette der Smart-Filter keine
+      #                        Historie und die Berichte waeren leer
+      #
+      # "git add --" mit Dateiliste wuerde abbrechen, falls eine Datei
+      # fehlt (z.B. beim allerersten Lauf). Darum -A mit Pathspec: das
+      # nimmt vorhandene Dateien mit und ignoriert fehlende still.
+      #
+      # "git commit || echo": ohne Aenderung gibt git commit Exitcode 1
+      # zurueck und wuerde den ganzen Job rot faerben, obwohl nichts
+      # kaputt ist.
       - name: Aenderungen zurueck ins Repo committen
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_entries.json last_run.txt
-          git commit -m "Automatischer Lauf: $(date -u)"
+          git add -A -- seen_entries.json last_run.txt error_state.json statistik.json
+          git commit -m "Automatischer Lauf: $(date -u)" || echo "Nichts zu committen"
           git pull --rebase
           git push
