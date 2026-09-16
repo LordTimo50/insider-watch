@@ -19,6 +19,16 @@
    "richtung": "buy",
    "titel": "Kravitz Hal: CELH ($336,000)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T14:30:57Z",
+   "quelle": "SEC",
+   "name": "SWEENEY GERARD H",
+   "ticker": "BDN",
+   "betrag": 100344.0,
+   "richtung": "buy",
+   "titel": "SWEENEY GERARD H: BDN ($100,344)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "",
