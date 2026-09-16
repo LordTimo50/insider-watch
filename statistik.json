@@ -129,6 +129,26 @@
    "richtung": "buy",
    "titel": "RADY ERNEST S: AAT ($1,082,500)",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-16T20:45:46Z",
+   "quelle": "SEC",
+   "name": "Schlacks Jabbok",
+   "ticker": "EQPT",
+   "betrag": 37800.0,
+   "richtung": "buy",
+   "titel": "Schlacks Jabbok: EQPT ($37,800)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T20:45:46Z",
+   "quelle": "SEC",
+   "name": "Stewart David Raymond",
+   "ticker": "AAON",
+   "betrag": 74660.0,
+   "richtung": "buy",
+   "titel": "Stewart David Raymond: AAON ($74,660)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
