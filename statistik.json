@@ -109,8 +109,28 @@
    "richtung": "buy",
    "titel": "GEORGE WALTER N.: FRPT ($64,920)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T20:30:54Z",
+   "quelle": "SEC",
+   "name": "Archer James Bradley",
+   "ticker": "TH",
+   "betrag": 250165.65000000002,
+   "richtung": "buy",
+   "titel": "Archer James Bradley: TH ($250,166)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T20:31:09Z",
+   "quelle": "SEC",
+   "name": "RADY ERNEST S",
+   "ticker": "AAT",
+   "betrag": 1082500.0,
+   "richtung": "buy",
+   "titel": "RADY ERNEST S: AAT ($1,082,500)",
+   "gemeldet": true
   }
  ],
- "letzter_tagesbericht": "",
+ "letzter_tagesbericht": "2026-09-16",
  "letzter_wochenbericht": ""
 }
