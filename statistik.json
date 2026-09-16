@@ -249,6 +249,16 @@
    "richtung": "buy",
    "titel": "Capper Joseph H: TELA ($25,502)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T23:15:41Z",
+   "quelle": "SEC",
+   "name": "Loh Michael Anthony",
+   "ticker": "BUKS",
+   "betrag": 39100.0,
+   "richtung": "buy",
+   "titel": "Loh Michael Anthony: BUKS ($39,100)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
