@@ -149,6 +149,16 @@
    "richtung": "buy",
    "titel": "Stewart David Raymond: AAON ($74,660)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T21:01:22Z",
+   "quelle": "SEC",
+   "name": "ROBO JAMES L",
+   "ticker": "KBDC",
+   "betrag": 781020.0,
+   "richtung": "buy",
+   "titel": "ROBO JAMES L: KBDC ($781,020)",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
