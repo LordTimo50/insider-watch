@@ -99,6 +99,16 @@
    "richtung": "buy",
    "titel": "Robinson Dashiell I: RWT ($251,580)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T20:15:54Z",
+   "quelle": "SEC",
+   "name": "GEORGE WALTER N.",
+   "ticker": "FRPT",
+   "betrag": 64920.0,
+   "richtung": "buy",
+   "titel": "GEORGE WALTER N.: FRPT ($64,920)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "",
