@@ -169,6 +169,26 @@
    "richtung": "buy",
    "titel": "Global GP LLC: GLP ($261,000)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T21:45:45Z",
+   "quelle": "SEC",
+   "name": "Veradace Partners LP",
+   "ticker": "BUKS",
+   "betrag": 163600.0,
+   "richtung": "buy",
+   "titel": "Veradace Partners LP: BUKS ($163,600)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T21:45:47Z",
+   "quelle": "SEC",
+   "name": "Brito Marcos",
+   "ticker": "BMA",
+   "betrag": 102399.00000000001,
+   "richtung": "buy",
+   "titel": "Brito Marcos: BMA ($102,399)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
