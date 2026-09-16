@@ -25,7 +25,7 @@ DIE WICHTIGSTEN SCHRAUBEN ZUM EINSTELLEN (siehe Konfiguration unten):
     NUR_KAEUFE_CONGRESS        -- bei Congress nur Kaeufe statt auch Verkaeufe
     CONGRESS_NAME_FILTER       -- nur bestimmte Politiker
     TICKER_FILTER              -- nur bestimmte Aktien
-    ZUSAMMENFASSUNG_STUNDE_UTC -- wann Tages-/Wochenbericht rausgeht
+    ZUSAMMENFASSUNG_STUNDE     -- wann Tages-/Wochenbericht rausgeht
 
 ZWEISTUFIGES FILTERN (wichtig zu verstehen):
     Stufe 1, harte Filter: falsche Formularart, falsche Transaktionsart,
@@ -150,9 +150,18 @@ Dateien, die zwischen Laeufen bestehen bleiben muessen:
     Zaehler bei jedem Lauf wieder bei null an.
 
 Zeitrechnung:
-    Ueberall UTC, passend zu last_run.txt und zum Actions-Runner.
-    ZUSAMMENFASSUNG_STUNDE_UTC ist also auch UTC -- im Sommer liegt
-    Mitteleuropa 2 Stunden davor, im Winter 1 Stunde.
+    Gerechnet und gespeichert wird ueberall in UTC, passend zu
+    last_run.txt und zum Actions-Runner.
+
+    EINE Ausnahme: der Zeitpunkt der Berichte haengt an der
+    Boersen-Zeitzone (BOERSEN_ZEITZONE), nicht an UTC. Grund ist die
+    Sommerzeit -- Handelsschluss der NYSE ist immer 16:00 Ortszeit New
+    York, in UTC ist das aber 20:00 im Sommer und 21:00 im Winter. Eine
+    fest verdrahtete UTC-Stunde wuerde den Bericht im Winter VOR
+    Handelsschluss verschicken. Ueber die Boersen-Zeitzone stimmt es
+    ganzjaehrig, und weil Europa und die USA fast gleichzeitig
+    umstellen, liegt 16:30 New York praktisch immer auf 22:30
+    mitteleuropaeischer Zeit.
 
 Konfiguration ueber Umgebungsvariablen:
     SEC_USER_AGENT und NTFY_TOPIC werden aus Umgebungsvariablen
@@ -170,6 +179,7 @@ import feedparser
 import pandas as pd
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 # ---------- Konfiguration ----------
 
@@ -248,11 +258,27 @@ CLUSTER_FENSTER_TAGE = 14
 
 # ---------- Zusammenfassungen ----------
 
-# Uhrzeit (UTC), ab der die Berichte verschickt werden. Der erste Lauf
-# nach dieser Stunde schickt ihn. 21 UTC sind 23 Uhr MESZ / 22 Uhr MEZ.
-ZUSAMMENFASSUNG_STUNDE_UTC = 21
+# Zeitzone, in der die Berichtsuhrzeit gemeint ist. Die der US-Boersen,
+# damit der Bericht ganzjaehrig nach Handelsschluss kommt und nicht
+# zweimal im Jahr durch die Sommerzeitumstellung verrutscht.
+BOERSEN_ZEITZONE = "America/New_York"
+
+# Uhrzeit in BOERSEN_ZEITZONE, ab der die Berichte rausgehen. Der erste
+# Lauf nach diesem Zeitpunkt schickt sie.
+# 16:30 New York = eine halbe Stunde nach Handelsschluss von NYSE und
+# Nasdaq (16:00) = 22:30 mitteleuropaeischer Zeit.
+ZUSAMMENFASSUNG_STUNDE = 16
+ZUSAMMENFASSUNG_MINUTE = 30
+
+# Zeitzone, in der die Uhrzeit IM Bericht angezeigt wird: deine eigene.
+# Betrifft nur den angezeigten Text. WANN der Bericht ausgeloest wird,
+# haengt allein an BOERSEN_ZEITZONE.
+ANZEIGE_ZEITZONE = "Europe/Vienna"
 
 # Wochentag fuer den Wochenbericht: Montag=0 ... Sonntag=6.
+# Gemeint ist der Wochentag in BOERSEN_ZEITZONE. Sonntag ist ein
+# Ruhetag an der Boerse -- willst du den Wochenbericht lieber direkt
+# nach dem letzten Handelstag, trag hier 4 (Freitag) ein.
 WOCHENBERICHT_WOCHENTAG = 6
 
 # Wie viele Eintraege pro Rangliste im Bericht stehen.
@@ -1257,8 +1283,13 @@ def baue_bericht(trades, zeitraum_text):
 def pruefe_zusammenfassungen(statistik):
     """
     Schickt Tages- und Wochenbericht, sobald ein Lauf nach
-    ZUSAMMENFASSUNG_STUNDE_UTC stattfindet und der jeweilige Bericht
-    heute bzw. diese Woche noch nicht raus ist.
+    ZUSAMMENFASSUNG_STUNDE:ZUSAMMENFASSUNG_MINUTE stattfindet und der
+    jeweilige Bericht heute bzw. diese Woche noch nicht raus ist.
+
+    Uhrzeit, Datum und Wochentag werden in BOERSEN_ZEITZONE gerechnet,
+    nicht in UTC -- sonst wandert der Bericht mit der Sommerzeit an
+    Handelsschluss vorbei (siehe Modul-Docstring). Die Trades selbst
+    bleiben unveraendert in UTC gespeichert.
 
     Gemerkt wird das ueber Datum bzw. ISO-Kalenderwoche in
     statistik.json -- so bekommst du bei einem Lauf alle 15 Minuten
@@ -1269,13 +1300,19 @@ def pruefe_zusammenfassungen(statistik):
     fehlt die Zeit davor im Bericht -- die Trades selbst bleiben aber
     in statistik.json erhalten.
     """
-    jetzt = jetzt_utc()
-    if jetzt.hour < ZUSAMMENFASSUNG_STUNDE_UTC:
+    jetzt = jetzt_utc().astimezone(ZoneInfo(BOERSEN_ZEITZONE))
+
+    # Als Paar vergleichen, damit auch die Minute zaehlt: um 16:15 ist
+    # (16, 15) < (16, 30), um 16:45 nicht mehr.
+    if (jetzt.hour, jetzt.minute) < (ZUSAMMENFASSUNG_STUNDE, ZUSAMMENFASSUNG_MINUTE):
         return
+
+    # Ausgeloest wird nach Boersenzeit, angezeigt wird in deiner Zeit.
+    anzeige = jetzt.astimezone(ZoneInfo(ANZEIGE_ZEITZONE))
 
     heute = jetzt.strftime("%Y-%m-%d")
     if statistik.get("letzter_tagesbericht") != heute:
-        zeitraum = "Letzte 24 Stunden (Stand {} UTC)".format(jetzt.strftime("%d.%m. %H:%M"))
+        zeitraum = "Letzte 24 Stunden (Stand {})".format(anzeige.strftime("%d.%m. %H:%M %Z"))
         sende_benachrichtigung(
             baue_bericht(trades_im_fenster(statistik, 1), zeitraum),
             ueberschrift="Tagesbericht " + jetzt.strftime("%d.%m.%Y"),
@@ -1294,7 +1331,7 @@ def pruefe_zusammenfassungen(statistik):
     # zusammen mit weekday() korrekt, anders als %Y-%W.
     woche = jetzt.strftime("%G-W%V")
     if statistik.get("letzter_wochenbericht") != woche:
-        zeitraum = "Letzte 7 Tage (Stand {} UTC)".format(jetzt.strftime("%d.%m. %H:%M"))
+        zeitraum = "Letzte 7 Tage (Stand {})".format(anzeige.strftime("%d.%m. %H:%M %Z"))
         sende_benachrichtigung(
             baue_bericht(trades_im_fenster(statistik, 7), zeitraum),
             ueberschrift="Wochenbericht KW " + jetzt.strftime("%V"),
