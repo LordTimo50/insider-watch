@@ -39,6 +39,26 @@
    "richtung": "buy",
    "titel": "Erhardt Koert: SBLK ($169,620)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T15:31:00Z",
+   "quelle": "SEC",
+   "name": "Three Lions Sponsor, LLC",
+   "ticker": "TLAC",
+   "betrag": 2000000.0,
+   "richtung": "buy",
+   "titel": "Three Lions Sponsor, LLC: TLAC ($2,000,000)",
+   "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-16T15:31:00Z",
+   "quelle": "SEC",
+   "name": "Karellis Nikolaos",
+   "ticker": "SBLK",
+   "betrag": 56540.0,
+   "richtung": "buy",
+   "titel": "Karellis Nikolaos: SBLK ($56,540)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "",
