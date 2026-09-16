@@ -170,6 +170,7 @@ Konfiguration ueber Umgebungsvariablen:
 """
 
 import os
+import io
 import json
 import time
 import re
@@ -984,7 +985,12 @@ def hole_congress_eintraege():
 
     antwort.raise_for_status()
 
-    tabellen = pd.read_html(antwort.text)
+    # io.StringIO ist Pflicht, nicht Kosmetik: pandas 3.0 hat das
+    # Uebergeben von rohem HTML als String entfernt und deutet den Text
+    # seitdem als Dateipfad -- die Quelle starb dadurch mit einem
+    # FileNotFoundError, obwohl die Seite sauber mit 200 antwortete.
+    # Ueber StringIO laeuft es mit pandas 1.x, 2.x und 3.x gleich.
+    tabellen = pd.read_html(io.StringIO(antwort.text))
     if len(tabellen) == 0:
         print("Keine Tabelle auf capitoltrades.com gefunden -- Seitenstruktur hat sich vermutlich geaendert.")
         return []
