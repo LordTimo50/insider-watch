@@ -79,6 +79,16 @@
    "richtung": "buy",
    "titel": "BANKERS LIFE & CASUALTY CO: NONE ($8,000,000)",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-16T16:30:59Z",
+   "quelle": "SEC",
+   "name": "SABOL THOMAS B",
+   "ticker": "ASYS",
+   "betrag": 28270.0,
+   "richtung": "buy",
+   "titel": "SABOL THOMAS B: ASYS ($28,270)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "",
