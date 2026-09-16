@@ -69,6 +69,16 @@
    "richtung": "buy",
    "titel": "Spyrou Symeon: SBLK ($424,050) | 3 Kaeufer, $650K in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-16T16:01:19Z",
+   "quelle": "SEC",
+   "name": "BANKERS LIFE & CASUALTY CO",
+   "ticker": "NONE",
+   "betrag": 7999999.99885,
+   "richtung": "buy",
+   "titel": "BANKERS LIFE & CASUALTY CO: NONE ($8,000,000)",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "",
