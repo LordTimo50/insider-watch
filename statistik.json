@@ -219,6 +219,16 @@
    "richtung": "buy",
    "titel": "KAPLAN BETH J: CROX ($99,228)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T22:15:48Z",
+   "quelle": "SEC",
+   "name": "Tanco Christopher",
+   "ticker": "PLNT",
+   "betrag": 119259.0168,
+   "richtung": "buy",
+   "titel": "Tanco Christopher: PLNT ($119,259)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
