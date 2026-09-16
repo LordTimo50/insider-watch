@@ -159,6 +159,16 @@
    "richtung": "buy",
    "titel": "ROBO JAMES L: KBDC ($781,020)",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-16T21:30:58Z",
+   "quelle": "SEC",
+   "name": "Global GP LLC",
+   "ticker": "GLP",
+   "betrag": 261000.0,
+   "richtung": "buy",
+   "titel": "Global GP LLC: GLP ($261,000)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
