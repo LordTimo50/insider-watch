@@ -9,6 +9,16 @@
    "richtung": "buy",
    "titel": "Murphy Michael Dennis: AVBC ($110,600)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-16T13:15:42Z",
+   "quelle": "SEC",
+   "name": "Kravitz Hal",
+   "ticker": "CELH",
+   "betrag": 336000.0,
+   "richtung": "buy",
+   "titel": "Kravitz Hal: CELH ($336,000)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "",
