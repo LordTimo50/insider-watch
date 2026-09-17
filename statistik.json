@@ -279,6 +279,26 @@
    "richtung": "buy",
    "titel": "Bucella Michael C.: WULF ($89,967)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T10:15:48Z",
+   "quelle": "SEC",
+   "name": "Luo Peter",
+   "ticker": "ADAG",
+   "betrag": 63980.457,
+   "richtung": "buy",
+   "titel": "Luo Peter: ADAG ($63,980)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T10:15:49Z",
+   "quelle": "SEC",
+   "name": "Wu Junhua",
+   "ticker": "BZUN",
+   "betrag": 37947.0,
+   "richtung": "buy",
+   "titel": "Wu Junhua: BZUN ($37,947)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
