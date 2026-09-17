@@ -259,6 +259,16 @@
    "richtung": "buy",
    "titel": "Loh Michael Anthony: BUKS ($39,100)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T01:31:17Z",
+   "quelle": "SEC",
+   "name": "WARD TOM L.",
+   "ticker": "MNR",
+   "betrag": 1999990.8,
+   "richtung": "buy",
+   "titel": "WARD TOM L.: MNR ($1,999,991)",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
