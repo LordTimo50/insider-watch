@@ -489,6 +489,46 @@
    "richtung": "buy",
    "titel": "Weiss Eric Stanton: CORZ ($97,980)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T21:01:12Z",
+   "quelle": "SEC",
+   "name": "FRANKOLA JIM",
+   "ticker": "SKIL",
+   "betrag": 128594.99999999999,
+   "richtung": "buy",
+   "titel": "FRANKOLA JIM: SKIL ($128,595)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T21:01:14Z",
+   "quelle": "SEC",
+   "name": "CHEVALLIER SANTIAGO CAMPOS",
+   "ticker": "BWMX",
+   "betrag": 246924.0,
+   "richtung": "buy",
+   "titel": "CHEVALLIER SANTIAGO CAMPOS: BWMX ($246,924)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T21:01:14Z",
+   "quelle": "SEC",
+   "name": "Campos Luis",
+   "ticker": "BWMX",
+   "betrag": 731646.0,
+   "richtung": "buy",
+   "titel": "Campos Luis: BWMX ($731,646) | 2 Kaeufer, $979K in 14T",
+   "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T21:01:15Z",
+   "quelle": "SEC",
+   "name": "CHEVALLIER ANDRES CAMPOS",
+   "ticker": "BWMX",
+   "betrag": 492291.0,
+   "richtung": "buy",
+   "titel": "CHEVALLIER ANDRES CAMPOS: BWMX ($492,291) | 3 Kaeufer, $1.5M in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
