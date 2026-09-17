@@ -329,6 +329,16 @@
    "richtung": "buy",
    "titel": "Reskos Nikolaos: SBLK ($282,700) | 4 Kaeufer, $933K in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T13:01:17Z",
+   "quelle": "SEC",
+   "name": "Troim Tor Olav",
+   "ticker": "BORR",
+   "betrag": 4299500.0,
+   "richtung": "buy",
+   "titel": "Troim Tor Olav: BORR ($4,299,500)",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
