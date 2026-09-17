@@ -399,6 +399,46 @@
    "richtung": "buy",
    "titel": "HRT FINANCIAL LP: USO ($2,208,960)",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T20:01:11Z",
+   "quelle": "SEC",
+   "name": "MITAROTONDA JAMES A",
+   "ticker": "EML",
+   "betrag": 35930.75,
+   "richtung": "buy",
+   "titel": "MITAROTONDA JAMES A: EML ($35,931)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T20:01:11Z",
+   "quelle": "SEC",
+   "name": "Nagpal Ankur",
+   "ticker": "N/A",
+   "betrag": 34243.02168,
+   "richtung": "buy",
+   "titel": "Nagpal Ankur: N/A ($34,243)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T20:01:12Z",
+   "quelle": "SEC",
+   "name": "EVERETS JOHN",
+   "ticker": "EML",
+   "betrag": 26184.25,
+   "richtung": "buy",
+   "titel": "EVERETS JOHN: EML ($26,184)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T20:01:13Z",
+   "quelle": "SEC",
+   "name": "Galbato Chan",
+   "ticker": "EML",
+   "betrag": 30729.25,
+   "richtung": "buy",
+   "titel": "Galbato Chan: EML ($30,729) | 3 Kaeufer, $93K in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
