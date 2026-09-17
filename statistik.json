@@ -559,6 +559,16 @@
    "richtung": "buy",
    "titel": "Kayyem Jon Faiz: INBX ($500,000)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T22:45:51Z",
+   "quelle": "SEC",
+   "name": "Jonovic Andrej",
+   "ticker": "XBP",
+   "betrag": 89145.0,
+   "richtung": "buy",
+   "titel": "Jonovic Andrej: XBP ($89,145)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
