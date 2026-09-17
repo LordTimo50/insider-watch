@@ -469,8 +469,28 @@
    "richtung": "buy",
    "titel": "Avenue Global Opportunities Master Fund LP: XBP ($204,875)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T20:31:16Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 7385801.9697,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO: CRBG ($7,385,802)",
+   "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T20:31:20Z",
+   "quelle": "SEC",
+   "name": "Weiss Eric Stanton",
+   "ticker": "CORZ",
+   "betrag": 97979.99999999999,
+   "richtung": "buy",
+   "titel": "Weiss Eric Stanton: CORZ ($97,980)",
+   "gemeldet": false
   }
  ],
- "letzter_tagesbericht": "2026-09-16",
+ "letzter_tagesbericht": "2026-09-17",
  "letzter_wochenbericht": ""
 }
