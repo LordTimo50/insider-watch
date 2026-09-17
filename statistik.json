@@ -529,6 +529,26 @@
    "richtung": "buy",
    "titel": "CHEVALLIER ANDRES CAMPOS: BWMX ($492,291) | 3 Kaeufer, $1.5M in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T21:15:52Z",
+   "quelle": "SEC",
+   "name": "McMullen William Wallace",
+   "ticker": "MNR",
+   "betrag": 248895.0,
+   "richtung": "buy",
+   "titel": "McMullen William Wallace: MNR ($248,895) | 2 Kaeufer, $2.2M in 14T",
+   "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T21:16:00Z",
+   "quelle": "SEC",
+   "name": "Lipman Nathaniel",
+   "ticker": "PLAY",
+   "betrag": 81300.0,
+   "richtung": "buy",
+   "titel": "Lipman Nathaniel: PLAY ($81,300)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
