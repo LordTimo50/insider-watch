@@ -569,6 +569,16 @@
    "richtung": "buy",
    "titel": "Jonovic Andrej: XBP ($89,145)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T23:01:11Z",
+   "quelle": "SEC",
+   "name": "CHADHA PAR",
+   "ticker": "XBP",
+   "betrag": 579997.18,
+   "richtung": "buy",
+   "titel": "CHADHA PAR: XBP ($579,997) | 3 Kaeufer, $874K in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
