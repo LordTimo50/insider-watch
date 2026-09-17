@@ -269,6 +269,16 @@
    "richtung": "buy",
    "titel": "WARD TOM L.: MNR ($1,999,991)",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T01:45:43Z",
+   "quelle": "SEC",
+   "name": "Bucella Michael C.",
+   "ticker": "WULF",
+   "betrag": 89966.725,
+   "richtung": "buy",
+   "titel": "Bucella Michael C.: WULF ($89,967)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
