@@ -319,6 +319,16 @@
    "richtung": "buy",
    "titel": "Agree Joey: ADC ($500,922) | 2 Kaeufer, $1.9M in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T12:30:59Z",
+   "quelle": "SEC",
+   "name": "Reskos Nikolaos",
+   "ticker": "SBLK",
+   "betrag": 282700.0,
+   "richtung": "buy",
+   "titel": "Reskos Nikolaos: SBLK ($282,700) | 4 Kaeufer, $933K in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
