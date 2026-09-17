@@ -299,6 +299,26 @@
    "richtung": "buy",
    "titel": "Wu Junhua: BZUN ($37,947)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T11:01:10Z",
+   "quelle": "SEC",
+   "name": "RAKOLTA JOHN JR",
+   "ticker": "ADC",
+   "betrag": 1375600.0,
+   "richtung": "buy",
+   "titel": "RAKOLTA JOHN JR: ADC ($1,375,600)",
+   "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T11:01:10Z",
+   "quelle": "SEC",
+   "name": "Agree Joey",
+   "ticker": "ADC",
+   "betrag": 500921.60000000003,
+   "richtung": "buy",
+   "titel": "Agree Joey: ADC ($500,922) | 2 Kaeufer, $1.9M in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
