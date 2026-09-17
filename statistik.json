@@ -339,6 +339,36 @@
    "richtung": "buy",
    "titel": "Troim Tor Olav: BORR ($4,299,500)",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T14:15:43Z",
+   "quelle": "SEC",
+   "name": "Pappa Milena Maria",
+   "ticker": "SBLK",
+   "betrag": 2103288.0,
+   "richtung": "buy",
+   "titel": "Pappa Milena Maria: SBLK ($2,103,288) | 5 Kaeufer, $3.0M in 14T",
+   "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T14:15:44Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 36101.52,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P.: GF ($36,102)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T14:15:45Z",
+   "quelle": "SEC",
+   "name": "Pappas Alexandros",
+   "ticker": "SBLK",
+   "betrag": 2103288.0,
+   "richtung": "buy",
+   "titel": "Pappas Alexandros: SBLK ($2,103,288) | 6 Kaeufer, $5.1M in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
