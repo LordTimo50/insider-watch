@@ -369,6 +369,16 @@
    "richtung": "buy",
    "titel": "Pappas Alexandros: SBLK ($2,103,288) | 6 Kaeufer, $5.1M in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T14:45:48Z",
+   "quelle": "SEC",
+   "name": "Plakantonaki Charis",
+   "ticker": "SBLK",
+   "betrag": 84810.0,
+   "richtung": "buy",
+   "titel": "Plakantonaki Charis: SBLK ($84,810) | 7 Kaeufer, $5.2M in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
