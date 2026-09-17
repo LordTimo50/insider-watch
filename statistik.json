@@ -379,6 +379,16 @@
    "richtung": "buy",
    "titel": "Plakantonaki Charis: SBLK ($84,810) | 7 Kaeufer, $5.2M in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T15:15:51Z",
+   "quelle": "SEC",
+   "name": "Zagari Raffaele",
+   "ticker": "SBLK",
+   "betrag": 282700.0,
+   "richtung": "buy",
+   "titel": "Zagari Raffaele: SBLK ($282,700) | 8 Kaeufer, $5.5M in 14T",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
