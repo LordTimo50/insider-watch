@@ -439,6 +439,36 @@
    "richtung": "buy",
    "titel": "Galbato Chan: EML ($30,729) | 3 Kaeufer, $93K in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T20:16:25Z",
+   "quelle": "SEC",
+   "name": "WALKER ROBERT W",
+   "ticker": "FGBI",
+   "betrag": 70960.0,
+   "richtung": "buy",
+   "titel": "WALKER ROBERT W: FGBI ($70,960)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T20:16:32Z",
+   "quelle": "SEC",
+   "name": "Lipman Nathaniel",
+   "ticker": "PLAY",
+   "betrag": 81300.0,
+   "richtung": "buy",
+   "titel": "Lipman Nathaniel: PLAY ($81,300)",
+   "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T20:16:40Z",
+   "quelle": "SEC",
+   "name": "Avenue Global Opportunities Master Fund LP",
+   "ticker": "XBP",
+   "betrag": 204875.02000000002,
+   "richtung": "buy",
+   "titel": "Avenue Global Opportunities Master Fund LP: XBP ($204,875)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
