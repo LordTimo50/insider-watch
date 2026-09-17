@@ -549,6 +549,16 @@
    "richtung": "buy",
    "titel": "Lipman Nathaniel: PLAY ($81,300)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-17T22:01:17Z",
+   "quelle": "SEC",
+   "name": "Kayyem Jon Faiz",
+   "ticker": "INBX",
+   "betrag": 500000.0,
+   "richtung": "buy",
+   "titel": "Kayyem Jon Faiz: INBX ($500,000)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
