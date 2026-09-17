@@ -389,6 +389,16 @@
    "richtung": "buy",
    "titel": "Zagari Raffaele: SBLK ($282,700) | 8 Kaeufer, $5.5M in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-17T18:30:57Z",
+   "quelle": "SEC",
+   "name": "HRT FINANCIAL LP",
+   "ticker": "USO",
+   "betrag": 2208959.87,
+   "richtung": "buy",
+   "titel": "HRT FINANCIAL LP: USO ($2,208,960)",
+   "gemeldet": true
   }
  ],
  "letzter_tagesbericht": "2026-09-16",
