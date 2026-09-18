@@ -655,8 +655,30 @@
    "titel": "COX JOHN D (Director): NWWP ($58,800)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T20:31:11Z",
+   "quelle": "SEC",
+   "name": "Schrenk Troy C.",
+   "ticker": "TH",
+   "betrag": 124992.12,
+   "richtung": "buy",
+   "titel": "Schrenk Troy C. (Chief Commercial Officer): TH ($124,992)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T20:31:14Z",
+   "quelle": "SEC",
+   "name": "Capper Joseph H",
+   "ticker": "TELA",
+   "betrag": 58265.0,
+   "richtung": "buy",
+   "titel": "Capper Joseph H (Director): TELA ($58,265)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-09-17",
+ "letzter_tagesbericht": "2026-09-18",
  "letzter_wochenbericht": ""
 }
