@@ -600,6 +600,28 @@
    "titel": "Lyons Michael P. (President & CEO): TFC ($1,015,577)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T12:31:04Z",
+   "quelle": "SEC",
+   "name": "Stinnett David",
+   "ticker": "KRMN",
+   "betrag": 1007648.1000000001,
+   "richtung": "buy",
+   "titel": "Stinnett David (Director): KRMN ($1,007,648)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T12:31:05Z",
+   "quelle": "SEC",
+   "name": "Troim Tor Olav",
+   "ticker": "BORR",
+   "betrag": 656925.0,
+   "richtung": "buy",
+   "titel": "Troim Tor Olav (Director): BORR ($656,925)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
