@@ -743,6 +743,17 @@
    "titel": "Shen Ching Hang (10%-Owner): cv ($4,999,996)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T23:30:53Z",
+   "quelle": "SEC",
+   "name": "MacDonald Ryan S",
+   "ticker": "BPRE",
+   "betrag": 66000.0,
+   "richtung": "buy",
+   "titel": "MacDonald Ryan S: BPRE ($66,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-18",
