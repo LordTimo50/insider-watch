@@ -579,6 +579,16 @@
    "richtung": "buy",
    "titel": "CHADHA PAR: XBP ($579,997) | 3 Kaeufer, $874K in 14T",
    "gemeldet": true
+  },
+  {
+   "zeit": "2026-09-18T01:30:58Z",
+   "quelle": "SEC",
+   "name": "Doogan Declan",
+   "ticker": "TENX",
+   "betrag": 101760.0,
+   "richtung": "buy",
+   "titel": "Doogan Declan: TENX ($101,760)",
+   "gemeldet": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
