@@ -677,6 +677,17 @@
    "titel": "Capper Joseph H (Director): TELA ($58,265)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T21:01:31Z",
+   "quelle": "SEC",
+   "name": "Wong Albert",
+   "ticker": "ELOG",
+   "betrag": 200000.0,
+   "richtung": "buy",
+   "titel": "Wong Albert (Chief Executive Officer): ELOG ($200,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-18",
