@@ -1,0 +1,15 @@
+# Dependabot schaut einmal pro Woche nach neuen Versionen und stellt
+# dafuer je einen Pull Request. Nichts wird automatisch uebernommen --
+# erst nach dem Zusammenfuehren laeuft der Workflow mit der neuen
+# Version.
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

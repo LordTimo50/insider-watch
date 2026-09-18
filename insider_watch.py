@@ -7,9 +7,14 @@ Ueberwacht:
        Directors'-Dealings-Meldungen
     3) Trades von US-Kongressmitgliedern, gescraped von
        capitoltrades.com (kostenlos, kein API-Key)
+    4) neue Transaktionsmeldungen (PTR) von Watchlist-Personen im
+       Repraesentantenhaus, direkt aus dem offiziellen Verzeichnis des
+       House Clerk -- ohne Ticker und Betrag, nur "hat gemeldet" plus
+       Link zum PDF
 
 Neue Eintraege werden per ntfy.sh als Push-Benachrichtigung aufs Handy
-geschickt, im Format "Name: TICKER (Betrag)". Zusaetzlich kommt einmal
+geschickt, im Format "Name: TICKER (Betrag)". Antippen oeffnet die
+Quelle (Meldung, Trade-Seite bzw. PDF). Zusaetzlich kommt einmal
 taeglich und einmal woechentlich eine Zusammenfassung.
 
 Abhaengigkeiten (einmalig installieren):
@@ -64,9 +69,27 @@ DER SMART-FILTER (bewerte_trade):
         wenig. Wer zweimal im Jahr handelt, sagt damit viel. Seltene
         Trader bekommen Punkte, Vielhaendler verlieren welche.
 
-    Ab SCORE_SCHWELLE Punkten gibt es einen Push. Im Log steht bei
-    jeder Bewertung die komplette Aufschluesselung, damit sich die
-    Schwelle anhand echter Laeufe nachjustieren laesst.
+      Rolle und Handelsplan (nur SEC) -10 bis +10 Punkte
+        Ein Kauf des CEO oder CFO sagt mehr als einer eines reinen
+        10-%-Grossaktionaers, der oft ein Fonds ist. Und ein Trade nach
+        einem vorab festgelegten Rule-10b5-1-Plan ist keine spontane
+        Entscheidung, er sagt darum weniger. Congress- und EU-Eintraege
+        haben diese Angaben nicht und bekommen hier 0.
+
+    Ab SCORE_SCHWELLE Punkten gibt es einen Push, hoechstens jedoch
+    MAX_PUSHES_PRO_TAG Stueck pro Tag. Im Log steht bei jeder
+    Bewertung die komplette Aufschluesselung, damit sich die Schwelle
+    anhand echter Laeufe nachjustieren laesst.
+
+    WAS DER BACKTEST DAZU SAGT (backtest.py, 3 Jahre Congress-Daten):
+    Die Punkte trennen NICHT nachweisbar gute von schlechten Trades.
+    Was mit hoher Punktzahl durchkam, sah zwar besser aus (+5,2
+    Punkte Vorsprung), verteilte sich aber auf nur 26 verschiedene
+    Aktien -- je Aktie gerechnet bleibt nichts uebrig (-1,8, t -0,6).
+    Auch Betrag, Cluster und Seltenheit einzeln halten dieser Pruefung
+    nicht stand. Schwelle und Tageslimit sind deshalb ehrlicherweise
+    MENGENREGLER. Fuer die SEC-Meldungen, also die Mehrheit der
+    Pushes, fehlt eine solche Messung bisher ganz.
 
     Bewusste Eigenheit: Der ERSTE Kaeufer eines Clusters kann noch
     keine Cluster-Punkte bekommen, den Cluster gibt es zu dem
@@ -140,6 +163,25 @@ Wichtig zu Congress-Trades (capitoltrades.com):
       Quellen mitzureissen.
     - Es gilt: bis zu 45 Tage gesetzliche Meldefrist zwischen echtem
       Trade und Veroeffentlichung.
+    - Als Kennung gegen Doppelmeldungen dient die Nummer der
+      Trade-Detailseite (/trades/<nummer>). Die Spalte "Published"
+      taugt dafuer NICHT: sie wandert von "13:01Today" ueber
+      "13:01Yesterday" zu "15 Sept2026", derselbe Trade saehe also
+      jeden Tag neu aus. Ausserdem gibt es inhaltlich identische Zeilen,
+      die trotzdem verschiedene Trades sind.
+
+Wichtig zu House-PTRs (disclosures-clerk.house.gov):
+    - Der House Clerk stellt pro Jahr ein ZIP mit einem XML-Verzeichnis
+      aller Offenlegungen bereit. FilingType "P" ist die Periodic
+      Transaction Report (PTR), also die Meldung einzelner Trades.
+    - Das Verzeichnis enthaelt nur Name, Datum und Dokumentnummer. Die
+      eigentlichen Trades stehen im PDF, das hier nicht ausgelesen
+      wird. Darum laeuft diese Quelle NUR fuer Watchlist-Personen und
+      landet nicht in statistik.json (kein Ticker, kein Betrag).
+    - Deckt nur das Repraesentantenhaus ab, nicht den Senat.
+    - Gemeldet werden nur PTRs, deren Einreichungsdatum hoechstens
+      HOUSE_MAX_ALTER_TAGE zurueckliegt. Sonst kaeme beim ersten Lauf
+      jede Meldung des ganzen Jahres auf einmal.
 
 Dateien, die zwischen Laeufen bestehen bleiben muessen:
     seen_entries.json  -- schon gemeldete IDs (gegen Doppel-Pushes)
@@ -167,6 +209,7 @@ Konfiguration ueber Umgebungsvariablen:
     SEC_USER_AGENT und NTFY_TOPIC werden aus Umgebungsvariablen
     gelesen, damit sie nicht im (oeffentlichen) Repo-Code stehen. In
     GitHub Actions kommen sie aus den Repository Secrets.
+    HEALTHCHECK_URL ist optional (siehe unten bei der Konfiguration).
 """
 
 import os
@@ -175,11 +218,13 @@ import json
 import time
 import re
 import math
+import zipfile
 import requests
 import feedparser
 import pandas as pd
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
 
 # ---------- Konfiguration ----------
@@ -189,6 +234,16 @@ SEC_USER_AGENT = os.environ.get(
 )
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "timo-insider-watch-x7k2p9")
+
+# Totmannschalter: Am Ende jedes vollstaendigen Laufs wird diese
+# Adresse kurz aufgerufen (z.B. https://hc-ping.com/<uuid> von
+# healthchecks.io). Bleibt der Aufruf laenger aus, weil cron-job.org
+# ausgefallen ist, das GitHub-Token abgelaufen ist oder das Skript
+# abstuerzt, schlaegt der Dienst von aussen Alarm. Das Skript selbst
+# kann nicht melden, dass es NICHT laeuft.
+# Leer = abgeschaltet. Gehoert als Secret in GitHub, nicht in den Code:
+# Wer die Adresse kennt, kann einen Lauf vortaeuschen.
+HEALTHCHECK_URL = os.environ.get("HEALTHCHECK_URL", "")
 
 # ---------- Welche Quellen ueberhaupt laufen ----------
 #
@@ -208,6 +263,7 @@ QUELLEN_AKTIV = {
     "SEC": True,
     "EU": True,
     "Congress": True,
+    "House": True,
 }
 
 # Harte Untergrenze. Alles darunter wird komplett verworfen und taucht
@@ -238,24 +294,56 @@ NUR_KAEUFE_CONGRESS = True
 SMART_FILTER_AKTIV = True
 
 # Ab wie vielen Punkten ein Trade einen Push wert ist. Groessenordnung
-# zum Gefuehl bekommen (alle Beispiele ohne Watchlist):
+# zum Gefuehl bekommen (alle Beispiele ohne Watchlist und ohne die
+# Rollen-Punkte, die bei SEC noch -10 bis +10 dazubringen):
 #    ~13  einzelner 150k-Kauf von jemandem, der staendig handelt
 #    ~40  einzelner 500k-Kauf von jemandem, der selten handelt
 #    ~45  drei verschiedene Leute kaufen je 50k derselben Aktie
 #    ~54  einzelner 2M-Kauf von jemandem, der selten handelt
 # Hoeher = weniger Pushes. Niedriger = mehr. Die Zusammenfassung
 # enthaelt so oder so alles, hier stellst du nur ein, wann es klingelt.
-SCORE_SCHWELLE = 40
+#
+# WICHTIG, was der Backtest dazu sagt (backtest.py, 3 Jahre Congress):
+# Eine hoehere Schwelle bringt WENIGER Meldungen -- dass sie auch
+# BESSERE bringt, ist nicht belegt. Die 91 Congress-Kaeufe, die 40
+# Punkte erreichten, sahen mit +5,2 Punkten Vorsprung gut aus, verteilen
+# sich aber auf nur 26 verschiedene Aktien; je Aktie gerechnet bleiben
+# -1,8 (t -0,6). Die Schwelle ist also ein Mengenregler, kein
+# Qualitaetsfilter. Fuer die SEC-Meldungen fehlt so eine Messung ganz.
+#
+# Gemessene Congress-Pushes pro Woche bei verschiedenen Schwellen:
+#   40 Punkte -> 0,8   50 -> 0,4   55 -> 0,3   65 -> 0,1
+SCORE_SCHWELLE = 55
 
 # Ab so vielen Punkten wird mit hoher Prioritaet verschickt (kommt
 # auch im Stumm-Modus durch).
-HOHE_PRIORITAET_SCORE = 65
+HOHE_PRIORITAET_SCORE = 75
 
 # Wie weit zurueck fuer die Cluster-Erkennung geschaut wird. 14 Tage
 # passt grob zur Meldepraxis: SEC-Insider muessen binnen 2 Werktagen
 # melden, bei Congress dauert es laenger, aber Cluster bilden sich dort
 # auch ueber Wochen.
 CLUSTER_FENSTER_TAGE = 14
+
+# Punkte fuer die Rolle des Insiders bei SEC-Meldungen. Welche Rolle
+# jemand hat, steht im Form-4-XML (reportingOwnerRelationship). Bei
+# Officern wird zusaetzlich der frei eingetragene Titel durchsucht --
+# steht dort einer der SPITZEN_TITEL, gibt es die hoeheren Punkte.
+# Mehrere Rollen zaehlen nicht doppelt, es gilt die hoechste.
+PUNKTE_SPITZENMANAGER = 10.0   # CEO, CFO, Praesident, Vorsitzender
+PUNKTE_OFFICER = 5.0           # sonstige leitende Angestellte
+PUNKTE_DIRECTOR = 3.0          # Mitglied des Board of Directors
+# Reine 10-%-Eigentuemer (oft Fonds) und "Other" bekommen 0 Punkte.
+SPITZEN_TITEL = [
+    "CEO", "CHIEF EXECUTIVE", "CFO", "CHIEF FINANCIAL",
+    "PRESIDENT", "CHAIRMAN", "CHAIR",
+]
+
+# Abzug, wenn der Insider angekreuzt hat, dass der Trade nach einem
+# vorab festgelegten Rule-10b5-1-Handelsplan lief (Feld aff10b5One,
+# Pflicht seit April 2023). Solche Trades sind keine spontane
+# Entscheidung und sagen deshalb weniger.
+PUNKTE_10B5_1_PLAN = -10.0
 
 # ---------- Zusammenfassungen ----------
 
@@ -284,6 +372,14 @@ WOCHENBERICHT_WOCHENTAG = 6
 
 # Wie viele Eintraege pro Rangliste im Bericht stehen.
 BERICHT_TOP_ANZAHL = 5
+
+# Harte Obergrenze fuer Pushes pro Tag (UTC). Die Punkteschwelle
+# regelt, WAS durchkommt, dieses Limit regelt WIE VIEL -- auch dann,
+# wenn an einem Tag ungewoehnlich viel los ist oder eine Quelle
+# unerwartet viele starke Signale liefert. Was das Limit abweist, ist
+# nicht verloren: Es steht in statistik.json und im Tagesbericht.
+# Watchlist-Personen zaehlen mit, werden aber nie abgewiesen.
+MAX_PUSHES_PRO_TAG = 6
 
 # ---------- Feeds und Quellen ----------
 
@@ -324,6 +420,22 @@ CONGRESS_NAME_FILTER = []  # z.B. ["Pelosi", "Gottheimer"]
 # Leere Liste = alles melden.
 TICKER_FILTER = []  # z.B. ["AAPL", "TSLA", "MSFT"]
 
+# Jahres-Verzeichnis aller Offenlegungen im Repraesentantenhaus. {jahr}
+# wird beim Abruf ersetzt. Die Datei ist klein (2026: rund 60 KB) und
+# wird laut House Clerk taeglich neu erzeugt.
+HOUSE_INDEX_URL = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{jahr}FD.zip"
+
+# Wo das PDF einer Transaktionsmeldung liegt. {jahr} und {doc_id}
+# kommen aus dem Verzeichnis.
+HOUSE_PTR_PDF_URL = "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{jahr}/{doc_id}.pdf"
+
+# Nur PTRs melden, die hoechstens so viele Tage alt sind (gemessen am
+# Einreichungsdatum). Verhindert, dass der erste Lauf alle Meldungen
+# des Jahres auf einmal schickt. Grosszuegig gewaehlt, weil nicht
+# bekannt ist, mit wie viel Verzoegerung neue PTRs im Verzeichnis
+# auftauchen.
+HOUSE_MAX_ALTER_TAGE = 7
+
 # ---------- Dateien mit Zustand ----------
 
 # Datei, in der bereits gemeldete Eintraege gespeichert werden,
@@ -340,8 +452,12 @@ ERROR_STATE_FILE = "error_state.json"
 
 # Ab so vielen Fehlschlaegen hintereinander wird EINMAL eine
 # Stoerungsmeldung aufs Handy geschickt. Bei einem Lauf alle 15 Minuten
-# sind 10 Fehlschlaege rund 2,5 Stunden Ausfall.
+# sind 10 Fehlschlaege rund 2,5 Stunden Ausfall. Laeuft die Quelle
+# danach wieder, kommt EINMAL eine Entwarnung.
 FEHLER_SCHWELLE = 10
+
+# Wie viele Zeichen der Fehlermeldung in die Stoerungsmeldung kommen.
+FEHLERTEXT_MAX_ZEICHEN = 300
 
 # Datei mit der Trade-Historie. Basis fuer Cluster-Erkennung,
 # Haeufigkeitsbewertung und die Zusammenfassungen.
@@ -386,10 +502,21 @@ STATISTIK_AUFBEWAHRUNG_TAGE = 35
 # HINWEIS ZUR HALTBARKEIT: Nancy Pelosis Amtszeit endet am 3.1.2027,
 # danach taucht sie in keiner Meldung mehr auf. Renditelisten werden
 # jaehrlich neu erstellt -- diese Liste also gelegentlich pruefen.
+#
+# STAND NACH DEM BACKTEST (backtest.py, 3 Jahre, Sept 2026):
+# Khanna und Gottheimer wurden ENTFERNT. Beide handeln sehr viel, und
+# genau deshalb ist ihre Bilanz belastbar messbar -- sie ist null:
+#   Khanna      5309 bewertete Kaeufe, +0,2 Punkte Vorsprung (t 0,6)
+#   Gottheimer   411 bewertete Kaeufe, +1,1 Punkte Vorsprung (t 1,5)
+# Als Watchlist-Personen umgingen sie jeden Filter und loesten mit
+# hoechster Prioritaet Pushes aus -- viel Laerm ohne belegten Nutzen.
+#
+# Pelosi bleibt, aber mit Vorbehalt: +9,1 Punkte klingen gut, beruhen
+# aber auf nur 24 bewerteten Kaeufen in 9 Aktien (t 1,3) -- das ist
+# von Glueck nicht zu unterscheiden. Sie bleibt drin, weil sie selten
+# handelt (35 Trades in 3 Jahren) und damit kaum Meldungen erzeugt.
 WATCHLIST_NAMEN = [
-    "Khanna",      # mit Abstand aktivster Trader im Kongress
-    "Pelosi",      # bekannteste Investorin, grosse konzentrierte Positionen
-    "Gottheimer",  # dauerhaft hohes Handelsvolumen
+    "Pelosi",      # selten, konzentriert; Datenlage zu duenn fuer ein Urteil
 ]
 
 # ---------- Zeit-Hilfsfunktionen ----------
@@ -519,9 +646,26 @@ def notiere_trade(statistik, eintrag):
         "richtung": eintrag.get("richtung", "?"),
         "titel": eintrag.get("title", ""),
         "gemeldet": False,
+        # Wird True, wenn der Trade gut genug war, aber das Tageslimit
+        # schon erreicht war.
+        "zurueckgehalten": False,
     }
     statistik["trades"].append(datensatz)
     return datensatz
+
+
+def zaehle_pushes_heute(statistik):
+    """
+    Wie viele Pushes heute (UTC) schon rausgegangen sind. Gezaehlt wird
+    aus der Historie, weil jeder Lauf in einem frischen Runner startet
+    und sonst nichts von den vorherigen Laeufen des Tages wuesste.
+    """
+    heute = zeit_als_text(jetzt_utc())[:10]
+    anzahl = 0
+    for trade in statistik["trades"]:
+        if trade.get("gemeldet") and str(trade.get("zeit", ""))[:10] == heute:
+            anzahl += 1
+    return anzahl
 
 
 def trades_im_fenster(statistik, tage):
@@ -538,12 +682,13 @@ def trades_im_fenster(statistik, tage):
 # ---------- Benachrichtigung ----------
 
 
-def sende_benachrichtigung(text, tags=None, prioritaet=None, ueberschrift=None):
+def sende_benachrichtigung(text, tags=None, prioritaet=None, ueberschrift=None, klick_url=None):
     """
     Schickt eine Push-Benachrichtigung ueber ntfy.sh aufs Handy.
     text ist der Nachrichtenkoerper (darf mehrzeilig sein),
     ueberschrift landet in der fetten Titelzeile,
-    tags ist eine Liste von ntfy-Tags, prioritaet z.B. "high".
+    tags ist eine Liste von ntfy-Tags, prioritaet z.B. "high",
+    klick_url wird geoeffnet, wenn man die Benachrichtigung antippt.
 
     Die Ueberschrift geht als HTTP-Header raus und bleibt deshalb
     bewusst bei ASCII -- Umlaute in Headern vertragen sich nicht mit
@@ -557,6 +702,8 @@ def sende_benachrichtigung(text, tags=None, prioritaet=None, ueberschrift=None):
         header["Priority"] = prioritaet
     if ueberschrift:
         header["Title"] = ueberschrift
+    if klick_url:
+        header["Click"] = klick_url
     requests.post(url, data=text.encode("utf-8"), headers=header, timeout=10)
 
 
@@ -675,7 +822,62 @@ def hole_form4_details(index_link):
     preis = float(preis_element.text)
     betrag = shares * preis
 
-    return {"name": name, "ticker": ticker, "betrag": betrag, "code": code}
+    rolle = lese_rolle(baum)
+    plan_10b5_1 = xml_wahrheitswert(baum.find("./aff10b5One"))
+
+    return {
+        "name": name, "ticker": ticker, "betrag": betrag, "code": code,
+        "rolle": rolle, "plan_10b5_1": plan_10b5_1,
+    }
+
+
+def xml_wahrheitswert(element):
+    """
+    Liest ein Ja/Nein-Feld aus dem Form-4-XML. Die SEC erlaubt dort
+    sowohl 'true'/'false' als auch '1'/'0'. Fehlt das Feld, gilt es
+    als Nein -- aeltere Meldungen haben z.B. noch kein aff10b5One.
+    """
+    if element is None or not element.text:
+        return False
+    return element.text.strip().lower() in ["1", "true"]
+
+
+def ist_spitzentitel(officer_titel):
+    """
+    Prueft, ob ein Officer-Titel zur Unternehmensspitze gehoert.
+    'Vice President' wird vorher entfernt, sonst wuerde jeder
+    Vizepraesident ueber das Wort 'PRESIDENT' als Spitze zaehlen.
+    """
+    titel_gross = officer_titel.upper().replace("VICE PRESIDENT", "")
+    for spitzen_titel in SPITZEN_TITEL:
+        if spitzen_titel in titel_gross:
+            return True
+    return False
+
+
+def lese_rolle(baum):
+    """
+    Ermittelt die Rolle des Insiders aus reportingOwnerRelationship.
+    Gibt 'spitze', 'officer', 'director', 'grossaktionaer' oder
+    'sonstige' zurueck -- bei mehreren Rollen die wichtigste.
+    Zusaetzlich kommt der Officer-Titel mit, fuer den Meldungstext.
+    """
+    beziehung = baum.find("./reportingOwner/reportingOwnerRelationship")
+    if beziehung is None:
+        return {"art": "sonstige", "titel": ""}
+
+    titel_element = beziehung.find("./officerTitle")
+    titel = titel_element.text.strip() if titel_element is not None and titel_element.text else ""
+
+    if xml_wahrheitswert(beziehung.find("./isOfficer")):
+        if ist_spitzentitel(titel):
+            return {"art": "spitze", "titel": titel}
+        return {"art": "officer", "titel": titel}
+    if xml_wahrheitswert(beziehung.find("./isDirector")):
+        return {"art": "director", "titel": "Director"}
+    if xml_wahrheitswert(beziehung.find("./isTenPercentOwner")):
+        return {"art": "grossaktionaer", "titel": "10%-Owner"}
+    return {"art": "sonstige", "titel": ""}
 
 
 def richtung_aus_sec_code(code):
@@ -727,7 +929,18 @@ def anreichere_sec_eintrag(eintrag):
             print("Uebersprungen (unter Rauschgrenze: ${:,.0f}):".format(betrag), name, details["ticker"])
             return None
 
-    titel = name + ": " + details["ticker"] + " (" + "${:,.0f}".format(betrag) + ")"
+    # Rolle hinter den Namen, damit man ohne Antippen sieht, ob da der
+    # CEO kauft oder ein Fonds. Lange Titel werden gekuerzt.
+    rollen_titel = details["rolle"]["titel"]
+    if len(rollen_titel) > 30:
+        rollen_titel = rollen_titel[:29] + "…"
+    anzeige_name = name
+    if rollen_titel:
+        anzeige_name = name + " (" + rollen_titel + ")"
+
+    titel = anzeige_name + ": " + details["ticker"] + " (" + "${:,.0f}".format(betrag) + ")"
+    if details["plan_10b5_1"]:
+        titel = titel + " [10b5-1-Plan]"
     if auf_watchlist:
         titel = "TOP-TRADER | " + titel
 
@@ -738,6 +951,8 @@ def anreichere_sec_eintrag(eintrag):
     eintrag["betrag"] = betrag
     eintrag["richtung"] = richtung_aus_sec_code(code)
     eintrag["auf_watchlist"] = auf_watchlist
+    eintrag["rolle"] = details["rolle"]["art"]
+    eintrag["plan_10b5_1"] = details["plan_10b5_1"]
 
     if code == "P":
         richtungs_tag = "chart_with_upwards_trend"
@@ -824,7 +1039,13 @@ def extrahiere_ticker(issuer_text):
     treffer = re.search(r"([A-Z]{1,6}):[A-Z]{2}$", issuer_text)
     if treffer:
         return treffer.group(1)
-    return issuer_text.strip()
+    # Anleihen und andere Papiere ohne Ticker stehen als
+    # 'US TREASURY NOTEN/A' in der Zelle -- das angehaengte 'N/A'
+    # gehoert nicht zum Namen.
+    text = issuer_text.strip()
+    if text.endswith("N/A"):
+        text = text[:-3].strip()
+    return text
 
 
 def wandle_betragstext_in_zahl(text):
@@ -874,17 +1095,47 @@ def richtung_aus_congress_typ(typ_text):
     return "?"
 
 
-def baue_congress_eintrag(zeile, spalte_politiker, spalte_issuer, spalte_size, spalte_datum, spalte_typ):
+def zellen_text(zelle):
+    """
+    Text einer Tabellenzelle. read_html liefert mit extract_links jede
+    Zelle als Paar (Text, Link), leere Zellen als NaN -- beides wird
+    hier zu einem sauberen String.
+    """
+    if isinstance(zelle, tuple):
+        zelle = zelle[0]
+    if zelle is None:
+        return ""
+    text = str(zelle).strip()
+    if text.lower() == "nan":
+        return ""
+    return text
+
+
+def finde_trade_link(zeile):
+    """
+    Sucht in einer Tabellenzeile den Link auf die Trade-Detailseite
+    (/trades/<nummer>). Gibt None zurueck, wenn keiner da ist.
+    """
+    for zelle in zeile:
+        if not isinstance(zelle, tuple) or len(zelle) < 2:
+            continue
+        link = zelle[1]
+        if isinstance(link, str) and re.search(r"/trades/[0-9]+", link):
+            return link
+    return None
+
+
+def baue_congress_eintrag(zeile, spalte_politiker, spalte_issuer, spalte_size, spalte_gehandelt, spalte_typ):
     """Wandelt eine Tabellenzeile von capitoltrades.com in Name/Ticker/Betrag um."""
-    politiker_text = str(zeile.get(spalte_politiker, "")) if spalte_politiker else "Unbekannt"
-    issuer_text = str(zeile.get(spalte_issuer, "")) if spalte_issuer else "?"
-    size_text = str(zeile.get(spalte_size, "")).strip() if spalte_size else "?"
-    datum_text = str(zeile.get(spalte_datum, "")).strip() if spalte_datum else ""
-    typ_text = str(zeile.get(spalte_typ, "")).strip().lower() if spalte_typ else ""
+    politiker_text = zellen_text(zeile.get(spalte_politiker, "")) if spalte_politiker else "Unbekannt"
+    issuer_text = zellen_text(zeile.get(spalte_issuer, "")) if spalte_issuer else "?"
+    size_text = zellen_text(zeile.get(spalte_size, "")) if spalte_size else ""
+    gehandelt_text = zellen_text(zeile.get(spalte_gehandelt, "")) if spalte_gehandelt else ""
+    typ_text = zellen_text(zeile.get(spalte_typ, "")).lower() if spalte_typ else ""
 
     name = extrahiere_name(politiker_text)
     ticker = extrahiere_ticker(issuer_text)
-    betrag_text = size_text if size_text.lower() != "nan" else "?"
+    betrag_text = size_text if size_text else "?"
 
     auf_watchlist = ist_auf_watchlist(name)
 
@@ -892,14 +1143,25 @@ def baue_congress_eintrag(zeile, spalte_politiker, spalte_issuer, spalte_size, s
     if auf_watchlist:
         titel = "TOP-TRADER | " + titel
 
-    # Datum fliesst nur in die ID ein (fuer korrekte Duplikat-Erkennung),
-    # nicht in den angezeigten Text.
-    eintrag_id = "capitoltrades-" + name + "-" + ticker + "-" + betrag_text + "-" + datum_text
+    # Kennung gegen Doppelmeldungen: die Nummer der Trade-Detailseite.
+    # Nur wenn die fehlt (Seitenumbau), wird aus den Inhalten eine
+    # gebaut -- dann mit dem Handelsdatum, das sich anders als
+    # "Published" nicht von Tag zu Tag aendert (siehe Modul-Docstring).
+    trade_link = finde_trade_link(zeile)
+    if trade_link:
+        eintrag_id = "capitoltrades-" + trade_link.rstrip("/").rsplit("/", 1)[-1]
+        link = urljoin(CAPITOL_TRADES_URL, trade_link)
+    else:
+        eintrag_id = (
+            "capitoltrades-" + name + "-" + ticker + "-" + betrag_text
+            + "-" + typ_text + "-" + gehandelt_text
+        )
+        link = CAPITOL_TRADES_URL
 
     eintrag = {
         "id": eintrag_id,
         "title": titel,
-        "link": CAPITOL_TRADES_URL,
+        "link": link,
         "quelle": "Congress",
         "name": name,
         "ticker": ticker,
@@ -990,7 +1252,11 @@ def hole_congress_eintraege():
     # seitdem als Dateipfad -- die Quelle starb dadurch mit einem
     # FileNotFoundError, obwohl die Seite sauber mit 200 antwortete.
     # Ueber StringIO laeuft es mit pandas 1.x, 2.x und 3.x gleich.
-    tabellen = pd.read_html(io.StringIO(antwort.text))
+    #
+    # extract_links="body" liefert jede Zelle als (Text, Link). Gebraucht
+    # wird das fuer den Link auf die Trade-Detailseite, dessen Nummer
+    # die stabile Kennung jedes Trades ist.
+    tabellen = pd.read_html(io.StringIO(antwort.text), extract_links="body")
     if len(tabellen) == 0:
         print("Keine Tabelle auf capitoltrades.com gefunden -- Seitenstruktur hat sich vermutlich geaendert.")
         return []
@@ -1002,15 +1268,97 @@ def hole_congress_eintraege():
     spalte_politiker = finde_spalte(spalten, "politician")
     spalte_issuer = finde_spalte(spalten, "issuer")
     spalte_size = finde_spalte(spalten, "size")
-    spalte_datum = finde_spalte(spalten, "published") or finde_spalte(spalten, "traded")
+    # Nur exakt "Traded": "Traded Issuer" enthaelt das Wort auch.
+    spalte_gehandelt = None
+    for spalte in spalten:
+        if str(spalte).strip().lower() == "traded":
+            spalte_gehandelt = spalte
     spalte_typ = finde_spalte(spalten, "type")
 
     eintraege = []
     for _, zeile in tabelle.iterrows():
         eintrag = baue_congress_eintrag(
-            zeile, spalte_politiker, spalte_issuer, spalte_size, spalte_datum, spalte_typ
+            zeile, spalte_politiker, spalte_issuer, spalte_size, spalte_gehandelt, spalte_typ
         )
         eintraege.append(eintrag)
+    return eintraege
+
+
+# ---------- House: Transaktionsmeldungen (PTR) ----------
+
+
+def lade_house_verzeichnis():
+    """
+    Laedt das XML-Verzeichnis aller Offenlegungen des laufenden Jahres
+    aus dem ZIP des House Clerk. Gibt (jahr, xml_baum) zurueck.
+
+    Gibt es fuer das laufende Jahr noch kein ZIP (Anfang Januar), wird
+    das Vorjahr genommen.
+    """
+    header = {"User-Agent": "insider-watch (github.com/LordTimo50/insider-watch)"}
+    jahr = jetzt_utc().year
+    antwort = requests.get(HOUSE_INDEX_URL.format(jahr=jahr), headers=header, timeout=30)
+    if antwort.status_code == 404:
+        jahr = jahr - 1
+        antwort = requests.get(HOUSE_INDEX_URL.format(jahr=jahr), headers=header, timeout=30)
+    antwort.raise_for_status()
+
+    archiv = zipfile.ZipFile(io.BytesIO(antwort.content))
+    xml_name = None
+    for dateiname in archiv.namelist():
+        if dateiname.lower().endswith(".xml"):
+            xml_name = dateiname
+    if xml_name is None:
+        raise ValueError("Im House-ZIP ist keine XML-Datei -- Format hat sich geaendert.")
+    return jahr, ET.fromstring(archiv.read(xml_name))
+
+
+def hole_house_eintraege():
+    """
+    Liefert neue Transaktionsmeldungen (FilingType "P") von
+    Watchlist-Personen aus dem Verzeichnis des House Clerk. Siehe
+    Modul-Docstring zu den Grenzen dieser Quelle.
+    """
+    jahr, baum = lade_house_verzeichnis()
+    grenze = jetzt_utc() - timedelta(days=HOUSE_MAX_ALTER_TAGE)
+
+    eintraege = []
+    for mitglied in baum.findall("Member"):
+        if (mitglied.findtext("FilingType") or "").strip() != "P":
+            continue
+
+        vorname = (mitglied.findtext("First") or "").strip()
+        nachname = (mitglied.findtext("Last") or "").strip()
+        name = (vorname + " " + nachname).strip()
+        if not ist_auf_watchlist(name):
+            continue
+
+        datum_text = (mitglied.findtext("FilingDate") or "").strip()
+        try:
+            eingereicht = datetime.strptime(datum_text, "%m/%d/%Y").replace(tzinfo=timezone.utc)
+        except ValueError:
+            # Unlesbares Datum: lieber melden als verpassen.
+            eingereicht = None
+        if eingereicht is not None and eingereicht < grenze:
+            continue
+
+        doc_id = (mitglied.findtext("DocID") or "").strip()
+        if not doc_id:
+            continue
+
+        eintraege.append({
+            "id": "house-ptr-" + doc_id,
+            "title": "TOP-TRADER | " + name + ": neue Transaktionsmeldung (PTR vom " + datum_text + ")",
+            "link": HOUSE_PTR_PDF_URL.format(jahr=jahr, doc_id=doc_id),
+            "quelle": "House",
+            "name": name,
+            "auf_watchlist": True,
+            "tags": ["star", "page_facing_up"],
+            "prioritaet": "max",
+            # Kein Ticker, kein Betrag: gehoert nicht in die Trade-Historie,
+            # sonst verfaelscht es Berichte und Haeufigkeitszaehlung.
+            "nicht_in_statistik": True,
+        })
     return eintraege
 
 
@@ -1085,6 +1433,25 @@ def punkte_fuer_seltenheit(anzahl_trades):
     return -10.0
 
 
+def punkte_fuer_rolle(eintrag):
+    """
+    Bewertet Rolle des Insiders und Handelsplan (nur SEC, siehe
+    Modul-Docstring). Eintraege ohne diese Angaben bekommen 0.
+    """
+    rolle = eintrag.get("rolle")
+    if rolle == "spitze":
+        punkte = PUNKTE_SPITZENMANAGER
+    elif rolle == "officer":
+        punkte = PUNKTE_OFFICER
+    elif rolle == "director":
+        punkte = PUNKTE_DIRECTOR
+    else:
+        punkte = 0.0
+    if eintrag.get("plan_10b5_1"):
+        punkte = punkte + PUNKTE_10B5_1_PLAN
+    return punkte
+
+
 def bewerte_trade(eintrag, statistik):
     """
     Kernstueck des Smart-Filters. Gibt (punkte, teile) zurueck, wobei
@@ -1093,7 +1460,7 @@ def bewerte_trade(eintrag, statistik):
     Der Trade muss vorher schon in der Historie stehen (notiere_trade),
     damit er in seinem eigenen Cluster mitgezaehlt wird: ein einsamer
     Kauf ergibt dann 1 Kaeufer und damit 0 Cluster-Punkte.
-    Die vier Achsen sind oben im Modul-Docstring erklaert.
+    Die fuenf Achsen sind oben im Modul-Docstring erklaert.
     """
     betrag = eintrag.get("betrag")
     ticker = eintrag.get("ticker", "?")
@@ -1116,13 +1483,17 @@ def bewerte_trade(eintrag, statistik):
     # -10 bis +10: sagt ein Trade dieser Person ueberhaupt etwas aus?
     seltenheits_punkte = punkte_fuer_seltenheit(trades_der_person)
 
-    punkte = betrag_punkte + cluster_punkte + summen_punkte + seltenheits_punkte
+    # -10 bis +10: Rolle im Unternehmen und Handelsplan (nur SEC).
+    rollen_punkte = punkte_fuer_rolle(eintrag)
+
+    punkte = betrag_punkte + cluster_punkte + summen_punkte + seltenheits_punkte + rollen_punkte
 
     teile = {
         "betrag": betrag_punkte,
         "cluster": cluster_punkte,
         "summe": summen_punkte,
         "seltenheit": seltenheits_punkte,
+        "rolle": rollen_punkte,
         "kaeufer": kaeufer,
         "ticker_summe": ticker_summe,
         "trades_der_person": trades_der_person,
@@ -1170,10 +1541,11 @@ def pruefe_und_markiere(eintrag, statistik):
 
     print(
         "Bewertung {:5.1f} (Grenze {}) fuer {} | Betrag {:.1f} + Cluster {:.1f}"
-        " + Summe {:.1f} + Seltenheit {:+.1f} | {} Kaeufer, {} in {}T,"
+        " + Summe {:.1f} + Seltenheit {:+.1f} + Rolle {:+.1f} | {} Kaeufer, {} in {}T,"
         " Person handelte {}x".format(
             punkte, SCORE_SCHWELLE, titel,
             teile["betrag"], teile["cluster"], teile["summe"], teile["seltenheit"],
+            teile["rolle"],
             teile["kaeufer"], formatiere_betrag(teile["ticker_summe"]),
             CLUSTER_FENSTER_TAGE, teile["trades_der_person"],
         )
@@ -1250,10 +1622,18 @@ def baue_bericht(trades, zeitraum_text):
         return zeitraum_text + "\nKeine neuen Trades erfasst."
 
     gemeldet = len([trade for trade in trades if trade.get("gemeldet")])
-    zeilen = [
-        zeitraum_text,
-        "{} Trades erfasst, davon {} gepusht".format(len(trades), gemeldet),
-    ]
+    zurueckgehalten = len([trade for trade in trades if trade.get("zurueckgehalten")])
+    kopfzeile = "{} Trades erfasst, davon {} gepusht".format(len(trades), gemeldet)
+    if zurueckgehalten > 0:
+        kopfzeile = kopfzeile + ", {} wegen Tageslimit zurueckgehalten".format(zurueckgehalten)
+    zeilen = [zeitraum_text, kopfzeile]
+
+    if zurueckgehalten > 0:
+        zeilen.append("")
+        zeilen.append("Zurueckgehalten (haetten gereicht, Limit war voll):")
+        for trade in trades:
+            if trade.get("zurueckgehalten"):
+                zeilen.append("- " + str(trade.get("titel", "?")))
 
     groesste = top_einzeltrades(trades, BERICHT_TOP_ANZAHL)
     if groesste:
@@ -1378,9 +1758,23 @@ def verarbeite_eintraege(eintraege, zustand, anreicherungsfunktion=None):
             if eintrag is None:
                 continue
 
-        datensatz = notiere_trade(statistik, eintrag)
+        # Eintraege ohne Ticker und Betrag (House-PTRs) bleiben aus der
+        # Historie draussen, sonst verfaelschen sie Berichte und
+        # Haeufigkeitszaehlung.
+        datensatz = None
+        if not eintrag.get("nicht_in_statistik"):
+            datensatz = notiere_trade(statistik, eintrag)
 
         if not pruefe_und_markiere(eintrag, statistik):
+            continue
+
+        # Tageslimit: Watchlist-Personen kommen immer durch, alles
+        # andere wird zurueckgehalten und steht im Tagesbericht.
+        if not eintrag.get("auf_watchlist") and zustand["pushes_heute"] >= MAX_PUSHES_PRO_TAG:
+            print("Tageslimit von", MAX_PUSHES_PRO_TAG, "Pushes erreicht, zurueckgehalten:",
+                  eintrag.get("title", ""))
+            if datensatz is not None:
+                datensatz["zurueckgehalten"] = True
             continue
 
         titel = eintrag.get("title", "Unbekannte Meldung")
@@ -1388,10 +1782,13 @@ def verarbeite_eintraege(eintraege, zustand, anreicherungsfunktion=None):
             titel,
             tags=eintrag.get("tags"),
             prioritaet=eintrag.get("prioritaet"),
+            klick_url=eintrag.get("link") or None,
         )
-        # Der Titel kann durch den Cluster-Hinweis ergaenzt worden sein.
-        datensatz["titel"] = titel
-        datensatz["gemeldet"] = True
+        zustand["pushes_heute"] = zustand["pushes_heute"] + 1
+        if datensatz is not None:
+            # Der Titel kann durch den Cluster-Hinweis ergaenzt worden sein.
+            datensatz["titel"] = titel
+            datensatz["gemeldet"] = True
         print("Benachrichtigung verschickt:", titel)
 
 
@@ -1414,16 +1811,34 @@ def verarbeite_quelle(name, hole_funktion, zustand, anreicherungsfunktion=None):
     try:
         eintraege = hole_funktion()
         verarbeite_eintraege(eintraege, zustand, anreicherungsfunktion)
-        if fehlerzaehler.get(name, 0) > 0:
+        bisherige_fehler = fehlerzaehler.get(name, 0)
+        if bisherige_fehler > 0:
             print("Quelle", name, "funktioniert wieder.")
+        # Entwarnung nur, wenn vorher auch eine Stoerungsmeldung raus
+        # ist -- sonst kaeme sie nach jedem einzelnen Aussetzer.
+        if bisherige_fehler >= FEHLER_SCHWELLE:
+            sende_benachrichtigung(
+                "Quelle " + name + " funktioniert wieder (nach "
+                + str(bisherige_fehler) + " Fehlschlaegen in Folge).",
+                ueberschrift="Entwarnung: " + name,
+                tags=["white_check_mark"],
+            )
         fehlerzaehler[name] = 0
     except Exception as fehler:
         anzahl = fehlerzaehler.get(name, 0) + 1
         fehlerzaehler[name] = anzahl
         print("Fehler bei Quelle", name, "(Fehlschlag Nummer", anzahl, "):", fehler)
         if anzahl == FEHLER_SCHWELLE:
+            # Die Fehlermeldung selbst mitschicken, damit sich am Handy
+            # erkennen laesst, ob es z.B. die bekannte 429-Sperre ist
+            # oder etwas Neues -- ohne in die Actions-Logs zu muessen.
+            fehlertext = type(fehler).__name__ + ": " + str(fehler)
+            if len(fehlertext) > FEHLERTEXT_MAX_ZEICHEN:
+                fehlertext = fehlertext[:FEHLERTEXT_MAX_ZEICHEN] + "…"
             sende_benachrichtigung(
-                "Stoerung: Quelle " + name + " schlaegt seit " + str(anzahl) + " Laeufen fehl",
+                "Quelle " + name + " schlaegt seit " + str(anzahl)
+                + " Laeufen fehl.\n\nLetzter Fehler:\n" + fehlertext,
+                ueberschrift="Stoerung: " + name,
                 tags=["warning"],
                 prioritaet="high",
             )
@@ -1437,6 +1852,8 @@ def main():
         "fehlerzaehler": lade_fehlerzaehler(),
         "statistik": lade_statistik(),
     }
+    zustand["pushes_heute"] = zaehle_pushes_heute(zustand["statistik"])
+    print("Pushes heute bisher:", zustand["pushes_heute"], "von", MAX_PUSHES_PRO_TAG)
 
     verarbeite_quelle(
         "SEC", hole_sec_eintraege, zustand,
@@ -1447,6 +1864,7 @@ def main():
         "Congress", hole_congress_eintraege, zustand,
         anreicherungsfunktion=filtere_congress_eintrag,
     )
+    verarbeite_quelle("House", hole_house_eintraege, zustand)
 
     # Eigenes try/except: ein Fehler beim Bericht darf nicht dazu
     # fuehren, dass die frisch gesammelten Trades ungespeichert
@@ -1459,6 +1877,24 @@ def main():
     speichere_gesehene_eintraege(zustand["gesehene_liste"])
     speichere_fehlerzaehler(zustand["fehlerzaehler"])
     speichere_statistik(zustand["statistik"])
+
+    melde_lebenszeichen()
+
+
+def melde_lebenszeichen():
+    """
+    Ruft HEALTHCHECK_URL auf, wenn gesetzt. Steht bewusst ganz am Ende
+    von main(): stuerzt das Skript vorher ab, bleibt das Lebenszeichen
+    aus und der externe Dienst schlaegt Alarm. Ein Fehler hier darf den
+    Lauf aber nicht rot faerben -- die Arbeit ist ja schon getan.
+    """
+    if not HEALTHCHECK_URL:
+        return
+    try:
+        requests.get(HEALTHCHECK_URL, timeout=10)
+        print("Lebenszeichen gesendet.")
+    except Exception as fehler:
+        print("Lebenszeichen konnte nicht gesendet werden:", fehler)
 
 
 if __name__ == "__main__":

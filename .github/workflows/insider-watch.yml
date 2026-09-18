@@ -31,12 +31,16 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          # Optional. Ohne das Secret ist der Totmannschalter aus.
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
         run: python insider_watch.py
 
-      # Zeitstempel wird IMMER aktualisiert (auch ohne neue Meldungen).
-      # Nuetzlich, um auf einen Blick zu sehen, wann der letzte Lauf war.
-      # if: always() -- auch nach einem abgestuerzten Lauf soll sichtbar
-      # sein, dass ueberhaupt einer stattgefunden hat.
+      # Zeitstempel wird bei jedem Lauf geschrieben, aber nur mit
+      # committet, wenn sich auch eine Zustandsdatei geaendert hat (siehe
+      # naechster Schritt). last_run.txt zeigt also den letzten Lauf MIT
+      # Aenderung. Ob ueberhaupt Laeufe stattfinden, zeigen der
+      # Actions-Tab und der Totmannschalter (HEALTHCHECK_URL).
+      # if: always() -- auch nach einem abgestuerzten Lauf.
       - name: Zeitstempel aktualisieren
         if: always()
         run: date -u +"%Y-%m-%dT%H:%M:%SZ" > last_run.txt
@@ -54,15 +58,22 @@ jobs:
       # fehlt (z.B. beim allerersten Lauf). Darum -A mit Pathspec: das
       # nimmt vorhandene Dateien mit und ignoriert fehlende still.
       #
-      # "git commit || echo": ohne Aenderung gibt git commit Exitcode 1
-      # zurueck und wuerde den ganzen Job rot faerben, obwohl nichts
-      # kaputt ist.
+      # Committet wird nur, wenn sich eine Zustandsdatei wirklich
+      # geaendert hat. Frueher kam durch last_run.txt bei JEDEM Lauf ein
+      # Commit dazu, rund 96 am Tag. "git diff --cached --quiet" gibt 0
+      # zurueck, wenn nichts vorgemerkt ist -- dann endet der Schritt
+      # hier ohne Fehler.
       - name: Aenderungen zurueck ins Repo committen
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A -- seen_entries.json last_run.txt error_state.json statistik.json
-          git commit -m "Automatischer Lauf: $(date -u)" || echo "Nichts zu committen"
+          git add -A -- seen_entries.json error_state.json statistik.json
+          if git diff --cached --quiet; then
+            echo "Keine Zustandsaenderung, kein Commit"
+            exit 0
+          fi
+          git add -A -- last_run.txt
+          git commit -m "Automatischer Lauf: $(date -u)"
           git pull --rebase
           git push

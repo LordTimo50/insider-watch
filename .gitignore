@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Backtest: Zwischenspeicher und Ergebnisse, nur lokal
+backtest_daten/
+backtest_ergebnisse/
