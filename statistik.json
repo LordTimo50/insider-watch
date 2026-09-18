@@ -732,6 +732,17 @@
    "titel": "Wiens David Victor (Chief Executive Officer): THM ($200,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T22:15:46Z",
+   "quelle": "SEC",
+   "name": "Shen Ching Hang",
+   "ticker": "cv",
+   "betrag": 4999996.46,
+   "richtung": "buy",
+   "titel": "Shen Ching Hang (10%-Owner): cv ($4,999,996)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-18",
