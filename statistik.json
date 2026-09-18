@@ -633,6 +633,17 @@
    "titel": "Fox Michael (See Remarks): ECOR ($49,004)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T14:46:09Z",
+   "quelle": "SEC",
+   "name": "Walsh Joe",
+   "ticker": "THRY",
+   "betrag": 45000.0,
+   "richtung": "buy",
+   "titel": "Walsh Joe (Chairman and CEO): THRY ($45,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
