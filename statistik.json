@@ -589,6 +589,17 @@
    "richtung": "buy",
    "titel": "Doogan Declan: TENX ($101,760)",
    "gemeldet": false
+  },
+  {
+   "zeit": "2026-09-18T12:01:07Z",
+   "quelle": "SEC",
+   "name": "Lyons Michael P.",
+   "ticker": "TFC",
+   "betrag": 1015576.7999999999,
+   "richtung": "buy",
+   "titel": "Lyons Michael P. (President & CEO): TFC ($1,015,577)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
