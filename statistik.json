@@ -710,6 +710,28 @@
    "titel": "LIBERTY MUTUAL HOLDING Co INC. (10%-Owner): NONE ($9,761,988) | 2 Kaeufer, $17.8M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T22:01:14Z",
+   "quelle": "SEC",
+   "name": "Priest Jeffrey W",
+   "ticker": "GAM",
+   "betrag": 93840.0,
+   "richtung": "buy",
+   "titel": "Priest Jeffrey W (President & CEO): GAM ($93,840)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T22:01:15Z",
+   "quelle": "SEC",
+   "name": "Wiens David Victor",
+   "ticker": "THM",
+   "betrag": 199999.98,
+   "richtung": "buy",
+   "titel": "Wiens David Victor (Chief Executive Officer): THM ($200,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-18",
