@@ -688,6 +688,28 @@
    "titel": "Wong Albert (Chief Executive Officer): ELOG ($200,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T21:30:57Z",
+   "quelle": "SEC",
+   "name": "MALONE JOHN C",
+   "ticker": "LILA",
+   "betrag": 754322.8244,
+   "richtung": "buy",
+   "titel": "MALONE JOHN C (10%-Owner): LILA ($754,323)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T21:31:01Z",
+   "quelle": "SEC",
+   "name": "LIBERTY MUTUAL HOLDING Co INC.",
+   "ticker": "NONE",
+   "betrag": 9761987.52,
+   "richtung": "buy",
+   "titel": "LIBERTY MUTUAL HOLDING Co INC. (10%-Owner): NONE ($9,761,988) | 2 Kaeufer, $17.8M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-18",
