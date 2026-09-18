@@ -644,6 +644,17 @@
    "titel": "Walsh Joe (Chairman and CEO): THRY ($45,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-18T20:01:08Z",
+   "quelle": "SEC",
+   "name": "COX JOHN D",
+   "ticker": "NWWP",
+   "betrag": 58800.00000000001,
+   "richtung": "buy",
+   "titel": "COX JOHN D (Director): NWWP ($58,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-17",
