@@ -754,6 +754,17 @@
    "titel": "MacDonald Ryan S: BPRE ($66,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-19T00:30:56Z",
+   "quelle": "SEC",
+   "name": "Abate Christopher J",
+   "ticker": "RWT",
+   "betrag": 383900.0,
+   "richtung": "buy",
+   "titel": "Abate Christopher J (Chief Executive Officer): RWT ($383,900) | 2 Kaeufer, $635K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-18",
