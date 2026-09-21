@@ -765,6 +765,28 @@
    "titel": "Abate Christopher J (Chief Executive Officer): RWT ($383,900) | 2 Kaeufer, $635K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T11:15:44Z",
+   "quelle": "SEC",
+   "name": "Morand De Oliveira Bruno",
+   "ticker": "BORR",
+   "betrag": 200200.00000000003,
+   "richtung": "buy",
+   "titel": "Morand De Oliveira Bruno (Chief Executive Officer): BORR ($200,200) | 2 Kaeufer, $5.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T11:15:45Z",
+   "quelle": "SEC",
+   "name": "SHERIFF WILLIAM M",
+   "ticker": "EU",
+   "betrag": 81000.0,
+   "richtung": "buy",
+   "titel": "SHERIFF WILLIAM M (Executive Chairman): EU ($81,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-20",
