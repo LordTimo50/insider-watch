@@ -787,6 +787,17 @@
    "titel": "SHERIFF WILLIAM M (Executive Chairman): EU ($81,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T15:15:51Z",
+   "quelle": "SEC",
+   "name": "DeMaria Dustin",
+   "ticker": "CTRI",
+   "betrag": 100204.0,
+   "richtung": "buy",
+   "titel": "DeMaria Dustin (Director): CTRI ($100,204)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-20",
