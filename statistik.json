@@ -897,6 +897,28 @@
    "titel": "LEITH CHARLES KENNETH (Chief Revenue Officer): FBDT ($45,330)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T21:15:49Z",
+   "quelle": "SEC",
+   "name": "Halstead Michael",
+   "ticker": "CYBN",
+   "betrag": 1347050.0,
+   "richtung": "buy",
+   "titel": "Halstead Michael (Chief Executive Officer): CYBN ($1,347,050)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-21T21:15:52Z",
+   "quelle": "SEC",
+   "name": "Cohen Ryan",
+   "ticker": "GME",
+   "betrag": 26393722.5,
+   "richtung": "buy",
+   "titel": "Cohen Ryan (President, CEO and Chairman): GME ($26,393,722)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
