@@ -853,6 +853,39 @@
    "titel": "Panico Alexandre (Executive Officer): BBD ($784,288) | 2 Kaeufer, $6.3M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T20:45:59Z",
+   "quelle": "SEC",
+   "name": "Monroe James III",
+   "ticker": "GSAT",
+   "betrag": 29839232.0,
+   "richtung": "buy",
+   "titel": "Monroe James III (Director): GSAT ($29,839,232)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T20:46:07Z",
+   "quelle": "SEC",
+   "name": "Conifer Management, L.L.C.",
+   "ticker": "GPI",
+   "betrag": 312981.12000000005,
+   "richtung": "buy",
+   "titel": "Conifer Management, L.L.C. (10%-Owner): GPI ($312,981)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T20:46:07Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 6150730.6280000005,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($6,150,731) [10b5-1-Plan]",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
