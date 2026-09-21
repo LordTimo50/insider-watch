@@ -886,6 +886,17 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($6,150,731) [10b5-1-Plan]",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T21:01:23Z",
+   "quelle": "SEC",
+   "name": "LEITH CHARLES KENNETH",
+   "ticker": "FBDT",
+   "betrag": 45330.0,
+   "richtung": "buy",
+   "titel": "LEITH CHARLES KENNETH (Chief Revenue Officer): FBDT ($45,330)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
