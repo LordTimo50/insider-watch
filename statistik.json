@@ -952,6 +952,17 @@
    "titel": "Kirk David Blair (Director): CRM ($999,451)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T23:01:44Z",
+   "quelle": "SEC",
+   "name": "Stabell Jason",
+   "ticker": "EPSN",
+   "betrag": 48257.159999999996,
+   "richtung": "buy",
+   "titel": "Stabell Jason (Chief Executive Officer): EPSN ($48,257)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
