@@ -820,8 +820,41 @@
    "titel": "Dorsett Jason Christopher (10%-Owner): RTB ($196,840)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T20:31:25Z",
+   "quelle": "SEC",
+   "name": "de Oliveira Andre Luis Duarte",
+   "ticker": "BBD",
+   "betrag": 5557815.78,
+   "richtung": "buy",
+   "titel": "de Oliveira Andre Luis Duarte (Executive Officer): BBD ($5,557,816)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T20:31:30Z",
+   "quelle": "SEC",
+   "name": "SCULLY WILLIAM P",
+   "ticker": "PRTA",
+   "betrag": 843460.0,
+   "richtung": "buy",
+   "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($843,460)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T20:31:31Z",
+   "quelle": "SEC",
+   "name": "Panico Alexandre",
+   "ticker": "BBD",
+   "betrag": 784287.6,
+   "richtung": "buy",
+   "titel": "Panico Alexandre (Executive Officer): BBD ($784,288) | 2 Kaeufer, $6.3M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-09-20",
+ "letzter_tagesbericht": "2026-09-21",
  "letzter_wochenbericht": "2026-W38"
 }
