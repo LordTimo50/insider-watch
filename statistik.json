@@ -809,6 +809,17 @@
    "titel": "Lincoln Financial Investments Corp (10%-Owner): LNBIX ($25,000,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-21T17:01:12Z",
+   "quelle": "SEC",
+   "name": "Dorsett Jason Christopher",
+   "ticker": "RTB",
+   "betrag": 196840.0,
+   "richtung": "buy",
+   "titel": "Dorsett Jason Christopher (10%-Owner): RTB ($196,840)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-20",
