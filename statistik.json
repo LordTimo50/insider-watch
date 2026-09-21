@@ -919,6 +919,17 @@
    "titel": "Cohen Ryan (President, CEO and Chairman): GME ($26,393,722)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-21T21:45:47Z",
+   "quelle": "SEC",
+   "name": "da Cunha Paulo Roberto Simoes",
+   "ticker": "BBD",
+   "betrag": 842794.52,
+   "richtung": "buy",
+   "titel": "da Cunha Paulo Roberto Simoes (Director): BBD ($842,795)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
