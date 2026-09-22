@@ -985,6 +985,17 @@
    "titel": "Tan Anthony Ping Yeow (Chief Executive Officer): GRAB ($29,876,310) | 2 Kaeufer, $30.7M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T01:15:56Z",
+   "quelle": "SEC",
+   "name": "Attal Alain",
+   "ticker": "GME",
+   "betrag": 401957.5,
+   "richtung": "buy",
+   "titel": "Attal Alain (Director): GME ($401,958) | 2 Kaeufer, $26.8M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
