@@ -1271,6 +1271,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($42,775)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T20:16:21Z",
+   "quelle": "SEC",
+   "name": "BULLS HERMAN E",
+   "ticker": "FLNC",
+   "betrag": 73600.0,
+   "richtung": "buy",
+   "titel": "BULLS HERMAN E (Director): FLNC ($73,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
