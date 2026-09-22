@@ -1139,6 +1139,17 @@
    "titel": "Freiberger Fernando (Executive Officer): BBD ($890,909)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T14:45:50Z",
+   "quelle": "SEC",
+   "name": "Tescarolo Marcos Valerio",
+   "ticker": "BBD",
+   "betrag": 1025075.76,
+   "richtung": "buy",
+   "titel": "Tescarolo Marcos Valerio (Executive Officer): BBD ($1,025,076)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
