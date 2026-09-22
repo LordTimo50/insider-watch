@@ -1293,6 +1293,28 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($4,581,512) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T20:45:50Z",
+   "quelle": "SEC",
+   "name": "Labe James",
+   "ticker": "TPVG",
+   "betrag": 1477081.111842,
+   "richtung": "buy",
+   "titel": "Labe James (Chief Executive Officer): TPVG ($1,477,081)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T20:45:54Z",
+   "quelle": "SEC",
+   "name": "Hunt Bryan Cecil",
+   "ticker": "SEZL",
+   "betrag": 28965.0,
+   "richtung": "buy",
+   "titel": "Hunt Bryan Cecil (Director): SEZL ($28,965)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
