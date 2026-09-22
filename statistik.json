@@ -1205,6 +1205,28 @@
    "titel": "Paris Roberto de Jesus (Executive Officer): BBD ($1,738,702)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T15:31:00Z",
+   "quelle": "SEC",
+   "name": "Caffarelli Paulo Rogerio",
+   "ticker": "BBD",
+   "betrag": 562162.68,
+   "richtung": "buy",
+   "titel": "Caffarelli Paulo Rogerio (Director): BBD ($562,163)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T15:31:00Z",
+   "quelle": "SEC",
+   "name": "Favarao Vinicius Urias",
+   "ticker": "BBD",
+   "betrag": 1087646.16,
+   "richtung": "buy",
+   "titel": "Favarao Vinicius Urias (Executive Officer): BBD ($1,087,646)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
