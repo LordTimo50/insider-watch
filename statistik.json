@@ -1117,6 +1117,28 @@
    "titel": "Ben-Avi David (CTO and Co Founder): NYAX ($43,511)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T14:31:04Z",
+   "quelle": "SEC",
+   "name": "Bueno Julio Cesar",
+   "ticker": "BBD",
+   "betrag": 1013262.9,
+   "richtung": "buy",
+   "titel": "Bueno Julio Cesar (Executive Officer): BBD ($1,013,263)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T14:31:04Z",
+   "quelle": "SEC",
+   "name": "Freiberger Fernando",
+   "ticker": "BBD",
+   "betrag": 890909.0,
+   "richtung": "buy",
+   "titel": "Freiberger Fernando (Executive Officer): BBD ($890,909)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
