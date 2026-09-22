@@ -1018,6 +1018,17 @@
    "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN, LEN.B ($20,981,340)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T11:01:11Z",
+   "quelle": "SEC",
+   "name": "Errico Thomas J.",
+   "ticker": "ECOR",
+   "betrag": 49081.5,
+   "richtung": "buy",
+   "titel": "Errico Thomas J. (Director): ECOR ($49,082)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
