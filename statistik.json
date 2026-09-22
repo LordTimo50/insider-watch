@@ -1172,6 +1172,39 @@
    "titel": "Fernandes Oswaldo Tadeu (Executive Officer): BBD ($1,434,480)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T15:15:48Z",
+   "quelle": "SEC",
+   "name": "de Oliveira Tulio Xavier",
+   "ticker": "BBD",
+   "betrag": 996883.12,
+   "richtung": "buy",
+   "titel": "de Oliveira Tulio Xavier (Executive Officer): BBD ($996,883)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T15:15:48Z",
+   "quelle": "SEC",
+   "name": "Machado Silvana Rosa",
+   "ticker": "BBD",
+   "betrag": 1115623.04,
+   "richtung": "buy",
+   "titel": "Machado Silvana Rosa (Executive Officer): BBD ($1,115,623)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T15:15:49Z",
+   "quelle": "SEC",
+   "name": "Paris Roberto de Jesus",
+   "ticker": "BBD",
+   "betrag": 1738701.96,
+   "richtung": "buy",
+   "titel": "Paris Roberto de Jesus (Executive Officer): BBD ($1,738,702)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
