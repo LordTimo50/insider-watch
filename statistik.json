@@ -1150,6 +1150,28 @@
    "titel": "Tescarolo Marcos Valerio (Executive Officer): BBD ($1,025,076)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T15:01:21Z",
+   "quelle": "SEC",
+   "name": "Mantarro Renata Geiser",
+   "ticker": "BBD",
+   "betrag": 984584.8,
+   "richtung": "buy",
+   "titel": "Mantarro Renata Geiser (Executive Officer): BBD ($984,585)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T15:01:22Z",
+   "quelle": "SEC",
+   "name": "Fernandes Oswaldo Tadeu",
+   "ticker": "BBD",
+   "betrag": 1434480.36,
+   "richtung": "buy",
+   "titel": "Fernandes Oswaldo Tadeu (Executive Officer): BBD ($1,434,480)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
