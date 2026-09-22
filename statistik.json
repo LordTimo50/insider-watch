@@ -996,6 +996,17 @@
    "titel": "Attal Alain (Director): GME ($401,958) | 2 Kaeufer, $26.8M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T01:30:58Z",
+   "quelle": "SEC",
+   "name": "Apeiron Investment Group Ltd.",
+   "ticker": "ENHA",
+   "betrag": 6992054.05,
+   "richtung": "buy",
+   "titel": "Apeiron Investment Group Ltd. (Director): ENHA ($6,992,054)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
