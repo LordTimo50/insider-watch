@@ -1227,6 +1227,39 @@
    "titel": "Favarao Vinicius Urias (Executive Officer): BBD ($1,087,646)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T18:31:12Z",
+   "quelle": "SEC",
+   "name": "Klein Mark D",
+   "ticker": "NSLR",
+   "betrag": 39550.0,
+   "richtung": "buy",
+   "titel": "Klein Mark D (Chairman, CEO and President): NSLR ($39,550)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T18:31:13Z",
+   "quelle": "SEC",
+   "name": "OBrien Thomas M",
+   "ticker": "BCBP",
+   "betrag": 1240000.0,
+   "richtung": "buy",
+   "titel": "OBrien Thomas M (CHIEF EXECUTIVE OFFICER): BCBP ($1,240,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T18:31:13Z",
+   "quelle": "SEC",
+   "name": "Chaudhry Jawad",
+   "ticker": "BCBP",
+   "betrag": 77500.0,
+   "richtung": "buy",
+   "titel": "Chaudhry Jawad (CHIEF FINANCIAL OFFICER): BCBP ($77,500)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
