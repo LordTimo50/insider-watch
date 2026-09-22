@@ -1282,8 +1282,19 @@
    "titel": "BULLS HERMAN E (Director): FLNC ($73,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T20:31:05Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 4581512.3051,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($4,581,512) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-09-21",
+ "letzter_tagesbericht": "2026-09-22",
  "letzter_wochenbericht": "2026-W38"
 }
