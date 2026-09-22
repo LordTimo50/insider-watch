@@ -1084,6 +1084,17 @@
    "titel": "Marcilio Juliano Ribeiro (Executive Officer): BBD ($1,092,806)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T13:31:02Z",
+   "quelle": "SEC",
+   "name": "Nunes Regina Helena Jorge",
+   "ticker": "BBD",
+   "betrag": 562162.68,
+   "richtung": "buy",
+   "titel": "Nunes Regina Helena Jorge (Director): BBD ($562,163)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
