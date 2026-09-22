@@ -1315,6 +1315,17 @@
    "titel": "Hunt Bryan Cecil (Director): SEZL ($28,965)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T22:45:47Z",
+   "quelle": "SEC",
+   "name": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG",
+   "betrag": 34900.0,
+   "richtung": "buy",
+   "titel": "TANNENBAUM LEONARD M (Director): AFCG ($34,900)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
