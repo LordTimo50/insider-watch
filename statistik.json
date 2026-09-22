@@ -963,6 +963,28 @@
    "titel": "Stabell Jason (Chief Executive Officer): EPSN ($48,257)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T00:45:41Z",
+   "quelle": "SEC",
+   "name": "Hungate Alexander Charles",
+   "ticker": "GRAB",
+   "betrag": 866838.6456,
+   "richtung": "buy",
+   "titel": "Hungate Alexander Charles (President and COO): GRAB ($866,839)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-22T00:45:42Z",
+   "quelle": "SEC",
+   "name": "Tan Anthony Ping Yeow",
+   "ticker": "GRAB",
+   "betrag": 29876310.0,
+   "richtung": "buy",
+   "titel": "Tan Anthony Ping Yeow (Chief Executive Officer): GRAB ($29,876,310) | 2 Kaeufer, $30.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
