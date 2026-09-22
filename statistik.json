@@ -1073,6 +1073,17 @@
    "titel": "Alvarez Rubens Aguiar (Director): BBD ($842,795)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-22T13:15:49Z",
+   "quelle": "SEC",
+   "name": "Marcilio Juliano Ribeiro",
+   "ticker": "BBD",
+   "betrag": 1092806.42,
+   "richtung": "buy",
+   "titel": "Marcilio Juliano Ribeiro (Executive Officer): BBD ($1,092,806)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-21",
