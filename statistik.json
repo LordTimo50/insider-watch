@@ -1414,6 +1414,17 @@
    "titel": "Boulette David (Chief Executive Officer): GOAI ($37,510)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T14:45:41Z",
+   "quelle": "SEC",
+   "name": "Batista de Lima Filho Pedro",
+   "ticker": "AXIA3",
+   "betrag": 545435.0,
+   "richtung": "buy",
+   "titel": "Batista de Lima Filho Pedro (Director): AXIA3 ($545,435)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
