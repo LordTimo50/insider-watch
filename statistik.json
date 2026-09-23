@@ -1359,6 +1359,17 @@
    "titel": "Dreyfuss Avraham (Chief Financial Officer): NONE ($99,997) | 4 Kaeufer, $18.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T02:01:08Z",
+   "quelle": "SEC",
+   "name": "Kaplan Andrew Jay",
+   "ticker": "NTRP",
+   "betrag": 99999.9,
+   "richtung": "buy",
+   "titel": "Kaplan Andrew Jay (Director): NTRP ($100,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
