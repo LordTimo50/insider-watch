@@ -1557,6 +1557,17 @@
    "titel": "Shen Ching Hang (10%-Owner): cv ($4,999,996)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T22:01:19Z",
+   "quelle": "SEC",
+   "name": "Affeldt Eric",
+   "ticker": "AIAI",
+   "betrag": 149999.5,
+   "richtung": "buy",
+   "titel": "Affeldt Eric (Director): AIAI ($150,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
