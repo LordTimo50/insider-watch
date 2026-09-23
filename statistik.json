@@ -1568,6 +1568,17 @@
    "titel": "Affeldt Eric (Director): AIAI ($150,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T22:15:51Z",
+   "quelle": "SEC",
+   "name": "STEEL PARTNERS HOLDINGS L.P.",
+   "ticker": "SPRU",
+   "betrag": 107671.2,
+   "richtung": "buy",
+   "titel": "STEEL PARTNERS HOLDINGS L.P. (10%-Owner): SPRU ($107,671)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
