@@ -1326,6 +1326,39 @@
    "titel": "TANNENBAUM LEONARD M (Director): AFCG ($34,900)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T00:15:42Z",
+   "quelle": "SEC",
+   "name": "Munro Lucy Lu",
+   "ticker": "NONE",
+   "betrag": 99996.6951,
+   "richtung": "buy",
+   "titel": "Munro Lucy Lu (Chief Operating Officer): NONE ($99,997) | 3 Kaeufer, $17.9M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T00:15:45Z",
+   "quelle": "SEC",
+   "name": "Goldthorpe Edward J.",
+   "ticker": "RWAY",
+   "betrag": 25193.28,
+   "richtung": "buy",
+   "titel": "Goldthorpe Edward J. (Director): RWAY ($25,193)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T00:15:45Z",
+   "quelle": "SEC",
+   "name": "Dreyfuss Avraham",
+   "ticker": "NONE",
+   "betrag": 99996.6951,
+   "richtung": "buy",
+   "titel": "Dreyfuss Avraham (Chief Financial Officer): NONE ($99,997) | 4 Kaeufer, $18.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
