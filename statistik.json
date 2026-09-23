@@ -1458,8 +1458,52 @@
    "titel": "Juniper Investment Company, LLC (10%-Owner): OFIX ($1,048,716)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:31:20Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 7465942.391600001,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($7,465,942) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:31:20Z",
+   "quelle": "SEC",
+   "name": "Recker Frank Douglas",
+   "ticker": "DUOT",
+   "betrag": 84557.025,
+   "richtung": "buy",
+   "titel": "Recker Frank Douglas (Chief Executive Officer): DUOT ($84,557)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:31:22Z",
+   "quelle": "SEC",
+   "name": "HOVSEPIAN RONALD W",
+   "ticker": "SKIL",
+   "betrag": 50771.6775,
+   "richtung": "buy",
+   "titel": "HOVSEPIAN RONALD W (CEO & Executive Chair): SKIL ($50,772)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:31:25Z",
+   "quelle": "SEC",
+   "name": "ALLEN PATRICK E",
+   "ticker": "TNC",
+   "betrag": 208250.4,
+   "richtung": "buy",
+   "titel": "ALLEN PATRICK E (Director): TNC ($208,250)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-09-22",
+ "letzter_tagesbericht": "2026-09-23",
  "letzter_wochenbericht": "2026-W38"
 }
