@@ -1392,6 +1392,28 @@
    "titel": "Floyd Justin Beck Hinton (Chief Executive Officer): RCT ($185,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T14:31:15Z",
+   "quelle": "SEC",
+   "name": "Grassi Craig Anthony",
+   "ticker": "GAM",
+   "betrag": 46160.0,
+   "richtung": "buy",
+   "titel": "Grassi Craig Anthony (Vice-President): GAM ($46,160)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T14:31:15Z",
+   "quelle": "SEC",
+   "name": "Boulette David",
+   "ticker": "GOAI",
+   "betrag": 37510.34,
+   "richtung": "buy",
+   "titel": "Boulette David (Chief Executive Officer): GOAI ($37,510)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
