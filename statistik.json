@@ -1381,6 +1381,17 @@
    "titel": "Erlich Craig (CHIEF GROWTH OFFICER): ADC ($67,550) | 3 Kaeufer, $1.9M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T13:31:15Z",
+   "quelle": "SEC",
+   "name": "Floyd Justin Beck Hinton",
+   "ticker": "RCT",
+   "betrag": 185000.0,
+   "richtung": "buy",
+   "titel": "Floyd Justin Beck Hinton (Chief Executive Officer): RCT ($185,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
