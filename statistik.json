@@ -1447,6 +1447,17 @@
    "titel": "Nesbitt Stephen Lane (President): CRAFX ($5,000,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:01:29Z",
+   "quelle": "SEC",
+   "name": "Juniper Investment Company, LLC",
+   "ticker": "OFIX",
+   "betrag": 1048716.0,
+   "richtung": "buy",
+   "titel": "Juniper Investment Company, LLC (10%-Owner): OFIX ($1,048,716)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
