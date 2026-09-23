@@ -1436,6 +1436,17 @@
    "titel": "Dorsett Jason Christopher (10%-Owner): RTB ($91,520)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T18:15:41Z",
+   "quelle": "SEC",
+   "name": "Nesbitt Stephen Lane",
+   "ticker": "CRAFX",
+   "betrag": 5000000.0,
+   "richtung": "buy",
+   "titel": "Nesbitt Stephen Lane (President): CRAFX ($5,000,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
