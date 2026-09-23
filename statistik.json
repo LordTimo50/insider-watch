@@ -1502,6 +1502,39 @@
    "titel": "ALLEN PATRICK E (Director): TNC ($208,250)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:45:48Z",
+   "quelle": "SEC",
+   "name": "Gieselman Scott",
+   "ticker": "INR",
+   "betrag": 233127.408,
+   "richtung": "buy",
+   "titel": "Gieselman Scott (Director): INR ($233,127)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:45:50Z",
+   "quelle": "SEC",
+   "name": "Villani Fiorenzo",
+   "ticker": "ALP",
+   "betrag": 44047.0,
+   "richtung": "buy",
+   "titel": "Villani Fiorenzo (See Remarks): ALP ($44,047)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T20:45:54Z",
+   "quelle": "SEC",
+   "name": "ROBO JAMES L",
+   "ticker": "KBDC",
+   "betrag": 273746.535,
+   "richtung": "buy",
+   "titel": "ROBO JAMES L (Director): KBDC ($273,747)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
