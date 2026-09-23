@@ -1425,6 +1425,17 @@
    "titel": "Batista de Lima Filho Pedro (Director): AXIA3 ($545,435)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-23T17:16:06Z",
+   "quelle": "SEC",
+   "name": "Dorsett Jason Christopher",
+   "ticker": "RTB",
+   "betrag": 91520.0,
+   "richtung": "buy",
+   "titel": "Dorsett Jason Christopher (10%-Owner): RTB ($91,520)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-22",
