@@ -1590,6 +1590,17 @@
    "titel": "Lewinsohn Jonathan (Co-President): NONE ($1,000,000) | 5 Kaeufer, $19.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T00:31:01Z",
+   "quelle": "SEC",
+   "name": "MacDonald Ryan S",
+   "ticker": "BPRE",
+   "betrag": 124522.32,
+   "richtung": "buy",
+   "titel": "MacDonald Ryan S (Director): BPRE ($124,522)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
