@@ -1777,6 +1777,28 @@
    "titel": "Blackstone Private Multi-Asset Credit & Income Fund (10%-Owner): NONE ($5,000,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-24T23:15:43Z",
+   "quelle": "SEC",
+   "name": "Davis Andrew D.",
+   "ticker": "HHH",
+   "betrag": 64489.99999999999,
+   "richtung": "buy",
+   "titel": "Davis Andrew D. (Chief Operating Officer, HHC): HHH ($64,490)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T23:15:52Z",
+   "quelle": "SEC",
+   "name": "Morris Sonya",
+   "ticker": "PDI",
+   "betrag": 79885.5,
+   "richtung": "buy",
+   "titel": "Morris Sonya (Director): PDI ($79,886)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
