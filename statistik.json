@@ -1667,6 +1667,17 @@
    "titel": "Ben-Avi David (CTO and Co Founder): NYAX ($67,105)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T17:01:17Z",
+   "quelle": "SEC",
+   "name": "Nechmad Yair",
+   "ticker": "NYAX",
+   "betrag": 4607722.7724,
+   "richtung": "buy",
+   "titel": "Nechmad Yair (CEO, Co Founder & Chairman): NYAX ($4,607,723) | 2 Kaeufer, $4.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
