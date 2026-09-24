@@ -1634,6 +1634,17 @@
    "titel": "Li Bin (William) (Director): UXIN ($996,852)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T13:31:25Z",
+   "quelle": "SEC",
+   "name": "Stark Eugene S",
+   "ticker": "GAM",
+   "betrag": 113750.0,
+   "richtung": "buy",
+   "titel": "Stark Eugene S (VP Administration): GAM ($113,750) | 3 Kaeufer, $254K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
