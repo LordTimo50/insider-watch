@@ -1799,6 +1799,17 @@
    "titel": "Morris Sonya (Director): PDI ($79,886)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T23:31:11Z",
+   "quelle": "SEC",
+   "name": "GRANDISSON MARC",
+   "ticker": "HHH",
+   "betrag": 1602937.5000000002,
+   "richtung": "buy",
+   "titel": "GRANDISSON MARC (Executive Chairman, Vantage): HHH ($1,602,938)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
