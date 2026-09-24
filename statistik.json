@@ -1579,6 +1579,17 @@
    "titel": "STEEL PARTNERS HOLDINGS L.P. (10%-Owner): SPRU ($107,671)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T00:16:02Z",
+   "quelle": "SEC",
+   "name": "Lewinsohn Jonathan",
+   "ticker": "NONE",
+   "betrag": 999999.99748,
+   "richtung": "buy",
+   "titel": "Lewinsohn Jonathan (Co-President): NONE ($1,000,000) | 5 Kaeufer, $19.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
