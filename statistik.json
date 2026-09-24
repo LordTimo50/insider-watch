@@ -1678,6 +1678,28 @@
    "titel": "Nechmad Yair (CEO, Co Founder & Chairman): NYAX ($4,607,723) | 2 Kaeufer, $4.7M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T20:15:49Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 10178412.0788,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($10,178,412) [10b5-1-Plan]",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T20:16:00Z",
+   "quelle": "SEC",
+   "name": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG",
+   "betrag": 80521.28,
+   "richtung": "buy",
+   "titel": "TANNENBAUM LEONARD M (Director): AFCG ($80,521)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
