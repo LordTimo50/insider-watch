@@ -1601,6 +1601,17 @@
    "titel": "MacDonald Ryan S (Director): BPRE ($124,522)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-24T01:01:24Z",
+   "quelle": "SEC",
+   "name": "Kang Daniel",
+   "ticker": "DFDV",
+   "betrag": 60996.0,
+   "richtung": "buy",
+   "titel": "Kang Daniel (Chief Strategy Officer): DFDV ($60,996)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-23",
