@@ -1733,6 +1733,17 @@
    "titel": "Gupta Navdeep (EVP, Chief Financial Officer): DKS ($999,983)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-24T21:01:15Z",
+   "quelle": "SEC",
+   "name": "Durable Capital Partners LP",
+   "ticker": "GSHD",
+   "betrag": 7098000.0,
+   "richtung": "buy",
+   "titel": "Durable Capital Partners LP (10%-Owner): GSHD ($7,098,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
