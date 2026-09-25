@@ -1909,6 +1909,28 @@
    "titel": "Querrey Kimberly K. (Director): NONE ($7,000,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-25T10:15:46Z",
+   "quelle": "SEC",
+   "name": "Zhu Muchun",
+   "ticker": "NCT",
+   "betrag": 650000.0,
+   "richtung": "buy",
+   "titel": "Zhu Muchun (CEO and Chairman): NCT ($650,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T10:15:48Z",
+   "quelle": "SEC",
+   "name": "HO LAWRENCE YAU LUNG",
+   "ticker": "MSC",
+   "betrag": 206319.71999999997,
+   "richtung": "buy",
+   "titel": "HO LAWRENCE YAU LUNG (Director): MSC ($206,320)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
