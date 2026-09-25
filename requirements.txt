@@ -3,6 +3,6 @@
 # kaputtgegangen). Updates kommen per Dependabot als Pull Request.
 requests==2.34.2
 feedparser==6.0.14
-pandas==3.0.5
+pandas==3.0.6
 lxml==6.1.3
 tzdata==2026.4
