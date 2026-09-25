@@ -2008,6 +2008,28 @@
    "titel": "DIMARTINO JOSEPH S (Director): DHF ($44,400)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T20:16:24Z",
+   "quelle": "SEC",
+   "name": "Lifshin Marc Chanin",
+   "ticker": "NONE",
+   "betrag": 30907590.0,
+   "richtung": "buy",
+   "titel": "Lifshin Marc Chanin (Director): NONE ($30,907,590)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-25T20:16:43Z",
+   "quelle": "SEC",
+   "name": "Levinson Sam",
+   "ticker": "CLPR",
+   "betrag": 45947.462,
+   "richtung": "buy",
+   "titel": "Levinson Sam (Director): CLPR ($45,947)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
