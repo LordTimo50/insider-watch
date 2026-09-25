@@ -2074,6 +2074,17 @@
    "titel": "Gamson Michael (Director): NONE ($5,000,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-25T20:45:50Z",
+   "quelle": "SEC",
+   "name": "Walle Jade",
+   "ticker": "URG",
+   "betrag": 109474.2,
+   "richtung": "buy",
+   "titel": "Walle Jade (VICE PRESIDENT FINANCE): URG ($109,474)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-25",
