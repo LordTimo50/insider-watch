@@ -1964,6 +1964,17 @@
    "titel": "ROBO JAMES L (Director): KBDC ($1,369,830)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T15:45:45Z",
+   "quelle": "SEC",
+   "name": "HOUSEY WILLIAM A JR",
+   "ticker": "FTHY",
+   "betrag": 64500.0,
+   "richtung": "buy",
+   "titel": "HOUSEY WILLIAM A JR: FTHY ($64,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
