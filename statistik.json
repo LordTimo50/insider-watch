@@ -2096,6 +2096,17 @@
    "titel": "Sherman Jeffrey J. (Vice President): DLY ($130,300)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T22:15:47Z",
+   "quelle": "SEC",
+   "name": "Markell Jack A.",
+   "ticker": "RSI",
+   "betrag": 29025.000000000004,
+   "richtung": "buy",
+   "titel": "Markell Jack A. (Director): RSI ($29,025)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-25",
