@@ -2085,6 +2085,17 @@
    "titel": "Walle Jade (VICE PRESIDENT FINANCE): URG ($109,474)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T21:31:09Z",
+   "quelle": "SEC",
+   "name": "Sherman Jeffrey J.",
+   "ticker": "DLY",
+   "betrag": 130300.0,
+   "richtung": "buy",
+   "titel": "Sherman Jeffrey J. (Vice President): DLY ($130,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-25",
