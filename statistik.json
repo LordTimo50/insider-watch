@@ -1810,6 +1810,17 @@
    "titel": "GRANDISSON MARC (Executive Chairman, Vantage): HHH ($1,602,938)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-25T00:31:12Z",
+   "quelle": "SEC",
+   "name": "Jaffe Max James",
+   "ticker": "NONE",
+   "betrag": 49999.99002,
+   "richtung": "buy",
+   "titel": "Jaffe Max James (Chief Operating Officer): NONE ($50,000) | 8 Kaeufer, $29.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
