@@ -1821,6 +1821,94 @@
    "titel": "Jaffe Max James (Chief Operating Officer): NONE ($50,000) | 8 Kaeufer, $29.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T00:45:50Z",
+   "quelle": "SEC",
+   "name": "Dinsdale Mike John",
+   "ticker": "PWRL",
+   "betrag": 99999.08739999999,
+   "richtung": "buy",
+   "titel": "Dinsdale Mike John (Chief Executive Officer): PWRL ($99,999)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T00:45:50Z",
+   "quelle": "SEC",
+   "name": "Abrahams Riad M",
+   "ticker": "NONE",
+   "betrag": 100000.00558,
+   "richtung": "buy",
+   "titel": "Abrahams Riad M (Chief Executive Officer): NONE ($100,000) | 9 Kaeufer, $29.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T00:45:51Z",
+   "quelle": "SEC",
+   "name": "Collins Philip Daniel",
+   "ticker": "NONE",
+   "betrag": 2000000.0094399997,
+   "richtung": "buy",
+   "titel": "Collins Philip Daniel (Director): NONE ($2,000,000) | 10 Kaeufer, $31.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T00:45:52Z",
+   "quelle": "SEC",
+   "name": "Gardiner William Simpson",
+   "ticker": "NONE",
+   "betrag": 49999.99002,
+   "richtung": "buy",
+   "titel": "Gardiner William Simpson (Chief Compliance Officer): NONE ($50,000) | 11 Kaeufer, $31.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T00:45:53Z",
+   "quelle": "SEC",
+   "name": "Desai Ravi Rajendra",
+   "ticker": "NONE",
+   "betrag": 399999.99678,
+   "richtung": "buy",
+   "titel": "Desai Ravi Rajendra (President): NONE ($400,000) | 12 Kaeufer, $31.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T00:45:56Z",
+   "quelle": "SEC",
+   "name": "Knopp Paul James",
+   "ticker": "NONE",
+   "betrag": 100000.00558,
+   "richtung": "buy",
+   "titel": "Knopp Paul James (Director): NONE ($100,000) | 13 Kaeufer, $31.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T00:45:57Z",
+   "quelle": "SEC",
+   "name": "Uffner Gregory Adam",
+   "ticker": "NONE",
+   "betrag": 49999.99002,
+   "richtung": "buy",
+   "titel": "Uffner Gregory Adam (Chief Legal Officer): NONE ($50,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-25T00:45:57Z",
+   "quelle": "SEC",
+   "name": "Querrey Kimberly K.",
+   "ticker": "NONE",
+   "betrag": 7000000.007499999,
+   "richtung": "buy",
+   "titel": "Querrey Kimberly K. (Director): NONE ($7,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
