@@ -2030,8 +2030,52 @@
    "titel": "Levinson Sam (Director): CLPR ($45,947)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T20:31:27Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 7484664.582,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($7,484,665) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T20:31:29Z",
+   "quelle": "SEC",
+   "name": "CS RE Holdings, LLC",
+   "ticker": "NONE",
+   "betrag": 30907590.0,
+   "richtung": "buy",
+   "titel": "CS RE Holdings, LLC (10%-Owner): NONE ($30,907,590)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-25T20:31:32Z",
+   "quelle": "SEC",
+   "name": "HOVSEPIAN RONALD W",
+   "ticker": "SKIL",
+   "betrag": 66414.672,
+   "richtung": "buy",
+   "titel": "HOVSEPIAN RONALD W (CEO & Executive Chair): SKIL ($66,415)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T20:31:33Z",
+   "quelle": "SEC",
+   "name": "Gamson Michael",
+   "ticker": "NONE",
+   "betrag": 5000000.0,
+   "richtung": "buy",
+   "titel": "Gamson Michael (Director): NONE ($5,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
- "letzter_tagesbericht": "2026-09-24",
+ "letzter_tagesbericht": "2026-09-25",
  "letzter_wochenbericht": "2026-W38"
 }
