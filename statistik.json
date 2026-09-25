@@ -1997,6 +1997,17 @@
    "titel": "Calamos Aksia Hedged Strategies Fund (Offshore), Ltd. (10%-Owner): N/A ($7,477,500)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-25T19:01:21Z",
+   "quelle": "SEC",
+   "name": "DIMARTINO JOSEPH S",
+   "ticker": "DHF",
+   "betrag": 44400.00000000001,
+   "richtung": "buy",
+   "titel": "DIMARTINO JOSEPH S (Director): DHF ($44,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
