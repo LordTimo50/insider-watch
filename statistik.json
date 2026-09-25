@@ -2107,6 +2107,17 @@
    "titel": "Markell Jack A. (Director): RSI ($29,025)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T23:01:37Z",
+   "quelle": "SEC",
+   "name": "Zambrano Lozano Rogelio",
+   "ticker": "CX",
+   "betrag": 6926304.959999999,
+   "richtung": "buy",
+   "titel": "Zambrano Lozano Rogelio (Director): CX ($6,926,305)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-25",
