@@ -1931,6 +1931,17 @@
    "titel": "HO LAWRENCE YAU LUNG (Director): MSC ($206,320)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T12:45:48Z",
+   "quelle": "SEC",
+   "name": "Titterton Lewis H jr",
+   "ticker": "ANIX",
+   "betrag": 131906.84,
+   "richtung": "buy",
+   "titel": "Titterton Lewis H jr (Director): ANIX ($131,907)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
