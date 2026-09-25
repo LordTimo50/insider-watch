@@ -1953,6 +1953,17 @@
    "titel": "Clark Anthony S. (Director): AEF ($43,335)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T15:31:03Z",
+   "quelle": "SEC",
+   "name": "ROBO JAMES L",
+   "ticker": "KBDC",
+   "betrag": 1369830.0,
+   "richtung": "buy",
+   "titel": "ROBO JAMES L (Director): KBDC ($1,369,830)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
