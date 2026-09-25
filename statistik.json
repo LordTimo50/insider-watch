@@ -1975,6 +1975,28 @@
    "titel": "HOUSEY WILLIAM A JR: FTHY ($64,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T18:31:21Z",
+   "quelle": "SEC",
+   "name": "White Parker",
+   "ticker": "DFDV",
+   "betrag": 84779.52,
+   "richtung": "buy",
+   "titel": "White Parker (10%-Owner): DFDV ($84,780)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-25T18:31:23Z",
+   "quelle": "SEC",
+   "name": "Calamos Aksia Hedged Strategies Fund (Offshore), Ltd.",
+   "ticker": "N/A",
+   "betrag": 7477499.999070001,
+   "richtung": "buy",
+   "titel": "Calamos Aksia Hedged Strategies Fund (Offshore), Ltd. (10%-Owner): N/A ($7,477,500)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-24",
