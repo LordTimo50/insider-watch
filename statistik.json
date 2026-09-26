@@ -2118,6 +2118,17 @@
    "titel": "Zambrano Lozano Rogelio (Director): CX ($6,926,305)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-26T00:15:45Z",
+   "quelle": "SEC",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "ticker": "LEN",
+   "betrag": 43518878.45,
+   "richtung": "buy",
+   "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($43,518,878)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-25",
