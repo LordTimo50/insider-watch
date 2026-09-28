@@ -2261,6 +2261,17 @@
    "titel": "Lappe Mark (Chief Executive Officer): INBX ($328,630) | 2 Kaeufer, $1.3M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T23:45:49Z",
+   "quelle": "SEC",
+   "name": "Rappaport Alan",
+   "ticker": "PDI",
+   "betrag": 75654.7,
+   "richtung": "buy",
+   "titel": "Rappaport Alan (Director): PDI ($75,655)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
