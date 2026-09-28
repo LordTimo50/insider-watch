@@ -2129,6 +2129,17 @@
    "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($43,518,878)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T11:15:45Z",
+   "quelle": "SEC",
+   "name": "Jarrett Jennifer",
+   "ticker": "DMRA",
+   "betrag": 252875.0,
+   "richtung": "buy",
+   "titel": "Jarrett Jennifer (Director, President and CEO): DMRA ($252,875)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-27",
