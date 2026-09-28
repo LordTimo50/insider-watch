@@ -2228,6 +2228,17 @@
    "titel": "Hatton Cory (Interim CFO): PLAY ($26,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T21:30:56Z",
+   "quelle": "SEC",
+   "name": "Fierman Michael",
+   "ticker": "AOMR",
+   "betrag": 290510.8342,
+   "richtung": "buy",
+   "titel": "Fierman Michael (Director): AOMR ($290,511)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
