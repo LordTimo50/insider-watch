@@ -2195,8 +2195,30 @@
    "titel": "Boulette David (Chief Executive Officer): GOAI ($39,798)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T20:31:07Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 8763848.7096,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($8,763,849) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T20:31:18Z",
+   "quelle": "SEC",
+   "name": "Hartree Partners, LP",
+   "ticker": "HDSN",
+   "betrag": 604445.7863,
+   "richtung": "buy",
+   "titel": "Hartree Partners, LP (10%-Owner): HDSN ($604,446)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-09-27",
+ "letzter_tagesbericht": "2026-09-28",
  "letzter_wochenbericht": "2026-W39"
 }
