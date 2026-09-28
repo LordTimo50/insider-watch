@@ -2140,6 +2140,17 @@
    "titel": "Jarrett Jennifer (Director, President and CEO): DMRA ($252,875)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T12:45:50Z",
+   "quelle": "SEC",
+   "name": "Connelly Terrence John JR",
+   "ticker": "DX",
+   "betrag": 27950.0,
+   "richtung": "buy",
+   "titel": "Connelly Terrence John JR (Chief Investment Officer): DX ($27,950)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-27",
