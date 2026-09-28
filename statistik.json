@@ -2239,6 +2239,28 @@
    "titel": "Fierman Michael (Director): AOMR ($290,511)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T22:15:53Z",
+   "quelle": "SEC",
+   "name": "Baetz Cary D",
+   "ticker": "INR",
+   "betrag": 295702.0,
+   "richtung": "buy",
+   "titel": "Baetz Cary D (EVP and CFO): INR ($295,702) | 2 Kaeufer, $529K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T22:15:58Z",
+   "quelle": "SEC",
+   "name": "Lappe Mark",
+   "ticker": "INBX",
+   "betrag": 328630.25159999996,
+   "richtung": "buy",
+   "titel": "Lappe Mark (Chief Executive Officer): INBX ($328,630) | 2 Kaeufer, $1.3M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
