@@ -2173,6 +2173,17 @@
    "titel": "Buchanan Michael Carlton: WDI ($59,415)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-28T16:31:15Z",
+   "quelle": "SEC",
+   "name": "ELLIS ADAM CHRISTOPHER",
+   "ticker": "ZUMZ",
+   "betrag": 134000.0,
+   "richtung": "buy",
+   "titel": "ELLIS ADAM CHRISTOPHER (President International): ZUMZ ($134,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-27",
