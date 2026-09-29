@@ -2371,8 +2371,19 @@
    "titel": "Rossa Alexander William: AMFN ($85,963)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T20:31:02Z",
+   "quelle": "SEC",
+   "name": "Meli Ali",
+   "ticker": "MONIX",
+   "betrag": 85999.99394,
+   "richtung": "buy",
+   "titel": "Meli Ali (President and CEO): MONIX ($86,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-09-28",
+ "letzter_tagesbericht": "2026-09-29",
  "letzter_wochenbericht": "2026-W39"
 }
