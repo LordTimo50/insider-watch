@@ -2393,6 +2393,28 @@
    "titel": "KAMFAR RAMIN (Director): BPRE ($812,025)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T21:01:11Z",
+   "quelle": "SEC",
+   "name": "Cohen Ryan",
+   "ticker": "GME",
+   "betrag": 10481721.450000001,
+   "richtung": "buy",
+   "titel": "Cohen Ryan (President, CEO and Chairman): GME ($10,481,721) | 2 Kaeufer, $37.3M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T21:01:17Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 6174129.088,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($6,174,129) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
