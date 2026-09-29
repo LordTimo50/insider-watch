@@ -2305,6 +2305,28 @@
    "titel": "Williams Paul Jay (Director): CRAFX ($220,000) | 2 Kaeufer, $5.2M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T15:30:55Z",
+   "quelle": "SEC",
+   "name": "Ben-Avi David",
+   "ticker": "NYAX",
+   "betrag": 67104.82800000001,
+   "richtung": "buy",
+   "titel": "Ben-Avi David (CTO and Co Founder): NYAX ($67,105)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T15:30:56Z",
+   "quelle": "SEC",
+   "name": "HOUSEY WILLIAM A JR",
+   "ticker": "FTHY",
+   "betrag": 32162.5,
+   "richtung": "buy",
+   "titel": "HOUSEY WILLIAM A JR: FTHY ($32,162)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
