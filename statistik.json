@@ -2327,6 +2327,17 @@
    "titel": "HOUSEY WILLIAM A JR: FTHY ($32,162)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T18:01:18Z",
+   "quelle": "SEC",
+   "name": "Ben-Noon Dagi Shahar",
+   "ticker": "QTEX",
+   "betrag": 119543.17319999999,
+   "richtung": "buy",
+   "titel": "Ben-Noon Dagi Shahar (Chief Executive Officer): QTEX ($119,543)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
