@@ -2426,6 +2426,28 @@
    "titel": "Pale Fire Capital SE (10%-Owner): COUR ($6,748,872)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T21:45:41Z",
+   "quelle": "SEC",
+   "name": "SCULLY WILLIAM P",
+   "ticker": "PRTA",
+   "betrag": 889872.2999999999,
+   "richtung": "buy",
+   "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($889,872)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T21:45:43Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 1871279.9999999998,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($1,871,280) | 2 Kaeufer, $2.9M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
