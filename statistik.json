@@ -2294,6 +2294,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($85,718)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T14:45:47Z",
+   "quelle": "SEC",
+   "name": "Williams Paul Jay",
+   "ticker": "CRAFX",
+   "betrag": 220000.0,
+   "richtung": "buy",
+   "titel": "Williams Paul Jay (Director): CRAFX ($220,000) | 2 Kaeufer, $5.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
