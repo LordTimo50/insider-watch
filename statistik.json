@@ -2448,6 +2448,17 @@
    "titel": "KAMFAR RAMIN (Director): BPRE ($1,871,280) | 2 Kaeufer, $2.9M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T22:45:48Z",
+   "quelle": "SEC",
+   "name": "McLennan Hamish",
+   "ticker": "ASX:LNW",
+   "betrag": 86933.88,
+   "richtung": "buy",
+   "titel": "McLennan Hamish (Director): ASX:LNW ($86,934)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
