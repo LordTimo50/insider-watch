@@ -2338,6 +2338,17 @@
    "titel": "Ben-Noon Dagi Shahar (Chief Executive Officer): QTEX ($119,543)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T19:45:44Z",
+   "quelle": "SEC",
+   "name": "Mariani Gustavo",
+   "ticker": "PAM",
+   "betrag": 1956500.0000000002,
+   "richtung": "buy",
+   "titel": "Mariani Gustavo (Vicepresident): PAM ($1,956,500)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
