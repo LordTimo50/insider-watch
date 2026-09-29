@@ -2272,6 +2272,17 @@
    "titel": "Rappaport Alan (Director): PDI ($75,655)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-29T00:01:42Z",
+   "quelle": "SEC",
+   "name": "Opaleye Management Inc.",
+   "ticker": "ACOG",
+   "betrag": 157082.0768,
+   "richtung": "buy",
+   "titel": "Opaleye Management Inc. (10%-Owner): ACOG ($157,082)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-28",
