@@ -2547,6 +2547,17 @@
    "titel": "Zaheer Srilata (Director): FUL ($98,120) | 5 Kaeufer, $473K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T15:45:41Z",
+   "quelle": "SEC",
+   "name": "HADEN PATRICK C",
+   "ticker": "TSI",
+   "betrag": 267239.7,
+   "richtung": "buy",
+   "titel": "HADEN PATRICK C (Director): TSI ($267,240)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
