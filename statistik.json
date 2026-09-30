@@ -2624,6 +2624,17 @@
    "titel": "Woolley Peter Scott: PMPEX ($150,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T20:46:07Z",
+   "quelle": "SEC",
+   "name": "Di Marcello Francesco",
+   "ticker": "BBD",
+   "betrag": 1002519.9999999999,
+   "richtung": "buy",
+   "titel": "Di Marcello Francesco (Executive Officer): BBD ($1,002,520) | 20 Kaeufer, $25.9M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
