@@ -2459,6 +2459,17 @@
    "titel": "McLennan Hamish (Director): ASX:LNW ($86,934)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T10:15:45Z",
+   "quelle": "SEC",
+   "name": "Zhang Jingjing Eason",
+   "ticker": "MNSO",
+   "betrag": 340099.98000000004,
+   "richtung": "buy",
+   "titel": "Zhang Jingjing Eason (VP and Chief Financial Officer): MNSO ($340,100)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
