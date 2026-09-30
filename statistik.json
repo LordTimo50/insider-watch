@@ -2470,6 +2470,17 @@
    "titel": "Zhang Jingjing Eason (VP and Chief Financial Officer): MNSO ($340,100)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T12:30:54Z",
+   "quelle": "SEC",
+   "name": "TEACHERS INSURANCE & ANNUITY ASSOCIATION OF AMERICA",
+   "ticker": "NONE",
+   "betrag": 99005.34,
+   "richtung": "buy",
+   "titel": "TEACHERS INSURANCE & ANNUITY ASSOCIATION OF AMERICA: NONE ($99,005) | 19 Kaeufer, $105.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
