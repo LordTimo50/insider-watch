@@ -2569,6 +2569,28 @@
    "titel": "Kencel Kenneth J. (CEO and President): NONE ($250,000) | 19 Kaeufer, $97.9M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T20:15:42Z",
+   "quelle": "SEC",
+   "name": "BROWN BROTHERS HARRIMAN & CO",
+   "ticker": "BBASX",
+   "betrag": 800000.0046,
+   "richtung": "buy",
+   "titel": "BROWN BROTHERS HARRIMAN & CO (10%-Owner): BBASX ($800,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T20:15:47Z",
+   "quelle": "SEC",
+   "name": "ROBO JAMES L",
+   "ticker": "KBDC",
+   "betrag": 1912657.915,
+   "richtung": "buy",
+   "titel": "ROBO JAMES L (Director): KBDC ($1,912,658)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
