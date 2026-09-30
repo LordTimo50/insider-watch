@@ -442,9 +442,25 @@ HOUSE_MAX_ALTER_TAGE = 7
 # damit keine doppelten Benachrichtigungen verschickt werden.
 SEEN_FILE = "seen_entries.json"
 
-# Maximale Anzahl gemerkter Eintraege. Aeltere werden verworfen, weil
-# sie ohnehin nicht mehr im Feed auftauchen.
+# Maximale Anzahl gemerkter SEC-Eintraege. Aeltere werden verworfen,
+# weil sie ohnehin nicht mehr im Feed auftauchen (der Feed zeigt nur
+# die neuesten 100). Die SEC erzeugt so viele Eintraege, dass sich
+# diese 2000 in weniger als zwei Tagen komplett austauschen
+# (gemessen Ende September 2026).
 MAX_GESPEICHERTE_EINTRAEGE = 2000
+
+# Eigene Obergrenze fuer alle anderen Quellen (Congress, House, EU).
+# Frueher teilten sie sich die 2000 Plaetze mit der SEC und flogen
+# nach spaetestens zwei Tagen raus. Eine House-Meldung bleibt aber
+# HOUSE_MAX_ALTER_TAGE lang im Verzeichnis und waere dann alle ein bis
+# zwei Tage erneut gemeldet worden -- mit hoechster Prioritaet.
+# Diese Quellen liefern nur wenige neue Eintraege pro Tag, 5000 Plaetze
+# reichen also fuer viele Wochen.
+MAX_GESPEICHERTE_EINTRAEGE_ANDERE = 5000
+
+# Woran SEC-Eintraege erkannt werden: Die IDs aus dem EDGAR-Feed
+# beginnen alle so.
+SEC_ID_PRAEFIX = "urn:tag:sec.gov"
 
 # Datei, in der pro Quelle gezaehlt wird, wie oft sie hintereinander
 # fehlgeschlagen ist (fuer die Stoerungs-Benachrichtigung).
@@ -565,13 +581,25 @@ def lade_gesehene_eintraege():
 
 def speichere_gesehene_eintraege(gesehene_liste):
     """
-    Speichert die Eintrags-IDs und kuerzt dabei auf die neuesten
-    MAX_GESPEICHERTE_EINTRAEGE Eintraege.
+    Speichert die Eintrags-IDs und kuerzt dabei SEC-Eintraege und alle
+    anderen getrennt, jeweils auf die neuesten (siehe
+    MAX_GESPEICHERTE_EINTRAEGE und MAX_GESPEICHERTE_EINTRAEGE_ANDERE).
+    Innerhalb jeder Gruppe bleibt die Reihenfolge erhalten.
     """
-    gekuerzt = gesehene_liste[-MAX_GESPEICHERTE_EINTRAEGE:]
+    sec_ids = []
+    andere_ids = []
+    for eintrag_id in gesehene_liste:
+        if str(eintrag_id).startswith(SEC_ID_PRAEFIX):
+            sec_ids.append(eintrag_id)
+        else:
+            andere_ids.append(eintrag_id)
+
+    sec_gekuerzt = sec_ids[-MAX_GESPEICHERTE_EINTRAEGE:]
+    andere_gekuerzt = andere_ids[-MAX_GESPEICHERTE_EINTRAEGE_ANDERE:]
+    gekuerzt = andere_gekuerzt + sec_gekuerzt
     with open(SEEN_FILE, "w", encoding="utf-8") as datei:
         json.dump(gekuerzt, datei)
-    print("Gespeicherte Eintraege:", len(gekuerzt))
+    print("Gespeicherte Eintraege:", len(sec_gekuerzt), "SEC,", len(andere_gekuerzt), "andere")
 
 
 def lade_fehlerzaehler():
@@ -1323,15 +1351,19 @@ def hole_house_eintraege():
     grenze = jetzt_utc() - timedelta(days=HOUSE_MAX_ALTER_TAGE)
 
     eintraege = []
+    anzahl_ptr = 0
+    anzahl_watchlist_ptr = 0
     for mitglied in baum.findall("Member"):
         if (mitglied.findtext("FilingType") or "").strip() != "P":
             continue
+        anzahl_ptr = anzahl_ptr + 1
 
         vorname = (mitglied.findtext("First") or "").strip()
         nachname = (mitglied.findtext("Last") or "").strip()
         name = (vorname + " " + nachname).strip()
         if not ist_auf_watchlist(name):
             continue
+        anzahl_watchlist_ptr = anzahl_watchlist_ptr + 1
 
         datum_text = (mitglied.findtext("FilingDate") or "").strip()
         try:
@@ -1359,6 +1391,12 @@ def hole_house_eintraege():
             # sonst verfaelscht es Berichte und Haeufigkeitszaehlung.
             "nicht_in_statistik": True,
         })
+
+    # Ohne diese Zeile laeuft die Quelle im Actions-Log voellig stumm,
+    # und man kann nicht unterscheiden zwischen "lief, nichts Neues" und
+    # "lief gar nicht".
+    print("House", jahr, ":", anzahl_ptr, "PTRs im Verzeichnis, davon", anzahl_watchlist_ptr,
+          "von der Watchlist,", len(eintraege), "aus den letzten", HOUSE_MAX_ALTER_TAGE, "Tagen")
     return eintraege
 
 

@@ -11,7 +11,10 @@ PC des Nutzers an ist.
 
 - `insider_watch.py` — das gesamte Programm, eine Datei, keine Module
 - `requirements.txt` — requests, feedparser, pandas, lxml, tzdata, **mit festen Versionen**
-- `seen_entries.json` — bereits gemeldete Einträge, verhindert Doppelmeldungen
+- `seen_entries.json` — bereits gemeldete Einträge, verhindert Doppelmeldungen. SEC-IDs und alle
+  anderen werden **getrennt** gekürzt (2000 / 5000). Die SEC tauscht ihre 2000 Plätze in unter zwei
+  Tagen komplett aus; vorher flogen House- und Congress-IDs mit raus, und eine House-Meldung
+  (7 Tage im Fenster) wäre alle ein bis zwei Tage erneut gepusht worden.
 - `error_state.json` — Zähler für aufeinanderfolgende Fehlschläge pro Quelle
 - `statistik.json` — Trade-Historie für Smart-Filter und Berichte
 - `last_run.txt` — Zeitstempel des letzten Laufs **mit Zustandsänderung**
@@ -66,7 +69,8 @@ FilingType `P` = Periodic Transaction Report. Das PDF liegt unter
 `public_disc/ptr-pdfs/{jahr}/{DocID}.pdf`. Die Trades selbst stehen nur im PDF, darum:
 nur Watchlist-Personen, kein Eintrag in `statistik.json`, nur Meldungen der letzten
 `HOUSE_MAX_ALTER_TAGE` Tage (sonst kommen beim ersten Lauf alle des Jahres). Deckt den Senat
-nicht ab. Ob die Seite GitHub-Actions-IPs durchlässt, ist noch nicht beobachtet.
+nicht ab. Die Seite lässt GitHub-Actions-IPs durch (Fehlerzähler 0, Stand 30.9.2026). Jeder Lauf
+schreibt eine Zeile `House 2026 : N PTRs im Verzeichnis, davon ...` ins Log.
 
 ### Congress — das ungelöste Problem
 
@@ -199,6 +203,9 @@ Spannen werden **durchgelassen**, nicht still verworfen.
 
 - Der Congress-Teil läuft in GitHub Actions meist nicht (siehe oben). Bewusst so belassen.
 - Die Congress-Watchlist-Logik ist in Actions noch nie mit echten Daten durchgelaufen.
+- Bis 30.9.2026 kam noch nie ein TOP-TRADER-Push. Grund: Congress kommt in Actions nicht durch, und
+  Pelosis letzte PTR (21.8.2026) lag vor dem Start der House-Quelle am 18.9. Die House-Logik
+  selbst ist gegen das echte Verzeichnis getestet (findet die PTR mit größerem Zeitfenster).
 - `WATCHLIST_NAMEN` enthält **nur noch** Nancy Pelosi. Ihre Amtszeit endet am
   **3. Januar 2027**, danach taucht sie in keiner Meldung mehr auf — und die Watchlist wäre leer.
   Dann entweder ersetzen oder das Watchlist-Konzept aufgeben. Ein Ersatz sollte aus den
