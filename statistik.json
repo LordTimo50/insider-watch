@@ -2646,6 +2646,39 @@
    "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($1,405,674)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T21:45:46Z",
+   "quelle": "SEC",
+   "name": "Abu Dhabi Investment Authority",
+   "ticker": "NONE",
+   "betrag": 22380356.011620004,
+   "richtung": "buy",
+   "titel": "Abu Dhabi Investment Authority (10%-Owner): NONE ($22,380,356)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-30T21:45:46Z",
+   "quelle": "SEC",
+   "name": "Horowitz Joshua",
+   "ticker": "KWY",
+   "betrag": 25202.0769,
+   "richtung": "buy",
+   "titel": "Horowitz Joshua (Director): KWY ($25,202)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T21:45:48Z",
+   "quelle": "SEC",
+   "name": "HAMILTON LANE ADVISORS LLC",
+   "ticker": "NONE",
+   "betrag": 1000000.0037599999,
+   "richtung": "buy",
+   "titel": "HAMILTON LANE ADVISORS LLC (10%-Owner): NONE ($1,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
