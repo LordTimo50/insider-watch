@@ -2635,6 +2635,17 @@
    "titel": "Di Marcello Francesco (Executive Officer): BBD ($1,002,520) | 20 Kaeufer, $25.9M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T21:15:45Z",
+   "quelle": "SEC",
+   "name": "SCULLY WILLIAM P",
+   "ticker": "PRTA",
+   "betrag": 1405674.0,
+   "richtung": "buy",
+   "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($1,405,674)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
