@@ -2492,6 +2492,61 @@
    "titel": "Nechmad Yair (CEO, Co Founder & Chairman): NYAX ($357,680) | 2 Kaeufer, $5.1M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T15:31:01Z",
+   "quelle": "SEC",
+   "name": "HANDLEY THOMAS W",
+   "ticker": "FUL",
+   "betrag": 98820.0,
+   "richtung": "buy",
+   "titel": "HANDLEY THOMAS W (Director): FUL ($98,820)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T15:31:02Z",
+   "quelle": "SEC",
+   "name": "Rasmussen Trangsrud Teresa J",
+   "ticker": "FUL",
+   "betrag": 75494.3154,
+   "richtung": "buy",
+   "titel": "Rasmussen Trangsrud Teresa J (Director): FUL ($75,494)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T15:31:02Z",
+   "quelle": "SEC",
+   "name": "FLORNESS DANIEL L",
+   "ticker": "FUL",
+   "betrag": 100160.20000000001,
+   "richtung": "buy",
+   "titel": "FLORNESS DANIEL L (Director): FUL ($100,160)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T15:31:03Z",
+   "quelle": "SEC",
+   "name": "Lauber Charles T",
+   "ticker": "FUL",
+   "betrag": 99984.538,
+   "richtung": "buy",
+   "titel": "Lauber Charles T (Director): FUL ($99,985) | 4 Kaeufer, $374K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T15:31:04Z",
+   "quelle": "SEC",
+   "name": "Zaheer Srilata",
+   "ticker": "FUL",
+   "betrag": 98120.0,
+   "richtung": "buy",
+   "titel": "Zaheer Srilata (Director): FUL ($98,120) | 5 Kaeufer, $473K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-29",
