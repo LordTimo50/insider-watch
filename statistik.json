@@ -2591,8 +2591,41 @@
    "titel": "ROBO JAMES L (Director): KBDC ($1,912,658)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T20:31:00Z",
+   "quelle": "SEC",
+   "name": "BAKER BROS. ADVISORS LP",
+   "ticker": "KOD",
+   "betrag": 42402.003,
+   "richtung": "buy",
+   "titel": "BAKER BROS. ADVISORS LP (Director): KOD ($42,402)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T20:31:01Z",
+   "quelle": "SEC",
+   "name": "BAKER BROS. ADVISORS LP",
+   "ticker": "KOD",
+   "betrag": 52396.1024,
+   "richtung": "buy",
+   "titel": "BAKER BROS. ADVISORS LP (Director): KOD ($52,396)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-09-30T20:31:05Z",
+   "quelle": "SEC",
+   "name": "Woolley Peter Scott",
+   "ticker": "PMPEX",
+   "betrag": 149999.99248000002,
+   "richtung": "buy",
+   "titel": "Woolley Peter Scott: PMPEX ($150,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-09-29",
+ "letzter_tagesbericht": "2026-09-30",
  "letzter_wochenbericht": "2026-W39"
 }
