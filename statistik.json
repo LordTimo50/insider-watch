@@ -2679,6 +2679,17 @@
    "titel": "HAMILTON LANE ADVISORS LLC (10%-Owner): NONE ($1,000,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-09-30T22:01:06Z",
+   "quelle": "SEC",
+   "name": "Bistricer Jacob",
+   "ticker": "CLPR",
+   "betrag": 246225.0,
+   "richtung": "buy",
+   "titel": "Bistricer Jacob (Chief Operating Officer): CLPR ($246,225)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
