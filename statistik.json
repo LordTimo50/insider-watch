@@ -2756,6 +2756,17 @@
    "titel": "Conifer Management, L.L.C. (10%-Owner): GPI ($3,008,121)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T12:01:09Z",
+   "quelle": "SEC",
+   "name": "Barry Richard",
+   "ticker": "FLNA",
+   "betrag": 186131.7,
+   "richtung": "buy",
+   "titel": "Barry Richard (President & CEO): FLNA ($186,132)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
