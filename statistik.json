@@ -2690,6 +2690,17 @@
    "titel": "Bistricer Jacob (Chief Operating Officer): CLPR ($246,225)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T00:01:08Z",
+   "quelle": "SEC",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "ticker": "LEN",
+   "betrag": 426191.99999999994,
+   "richtung": "buy",
+   "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($426,192)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
