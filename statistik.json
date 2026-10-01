@@ -2888,6 +2888,39 @@
    "titel": "Manulife (Singapore) Pte. Ltd. (10%-Owner): N/A ($3,999,826)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T19:16:19Z",
+   "quelle": "SEC",
+   "name": "GLASSCOCK LARRY C",
+   "ticker": "SPG",
+   "betrag": 74420.26,
+   "richtung": "buy",
+   "titel": "GLASSCOCK LARRY C (Director): SPG ($74,420)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T19:16:20Z",
+   "quelle": "SEC",
+   "name": "Aeppel Glyn",
+   "ticker": "SPG",
+   "betrag": 45017.16,
+   "richtung": "buy",
+   "titel": "Aeppel Glyn (Director): SPG ($45,017)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T19:16:21Z",
+   "quelle": "SEC",
+   "name": "Elsztain Alejandro Gustavo",
+   "ticker": "CRESY",
+   "betrag": 99703.99,
+   "richtung": "buy",
+   "titel": "Elsztain Alejandro Gustavo (CEO): CRESY ($99,704)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
