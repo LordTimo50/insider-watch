@@ -3064,6 +3064,50 @@
    "titel": "SENEFF JAMES M JR (10%-Owner): NONE ($5,000,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T21:45:36Z",
+   "quelle": "SEC",
+   "name": "Smith James Grant",
+   "ticker": "PRHI",
+   "betrag": 48935.325,
+   "richtung": "buy",
+   "titel": "Smith James Grant (Director): PRHI ($48,935)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T21:45:37Z",
+   "quelle": "SEC",
+   "name": "RUSCKOWSKI STEPHEN H",
+   "ticker": "ORCL",
+   "betrag": 3483800.0,
+   "richtung": "buy",
+   "titel": "RUSCKOWSKI STEPHEN H (Director): ORCL ($3,483,800)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T21:45:39Z",
+   "quelle": "SEC",
+   "name": "RONEY BRIAN J",
+   "ticker": "PRHI",
+   "betrag": 50622.75,
+   "richtung": "buy",
+   "titel": "RONEY BRIAN J (Chief Executive Officer): PRHI ($50,623)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T21:45:42Z",
+   "quelle": "SEC",
+   "name": "MELOCHE HAROLD J",
+   "ticker": "PRHI",
+   "betrag": 26137.5,
+   "richtung": "buy",
+   "titel": "MELOCHE HAROLD J (CFO, Treasurer): PRHI ($26,138)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
