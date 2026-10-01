@@ -3042,6 +3042,28 @@
    "titel": "Barnes Matthew (President - Foot Locker Intl): DKS ($499,869)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T21:30:56Z",
+   "quelle": "SEC",
+   "name": "AULT MILTON C III",
+   "ticker": "UUU",
+   "betrag": 92412000.0,
+   "richtung": "buy",
+   "titel": "AULT MILTON C III (Director): UUU ($92,412,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T21:31:06Z",
+   "quelle": "SEC",
+   "name": "SENEFF JAMES M JR",
+   "ticker": "NONE",
+   "betrag": 5000000.0708,
+   "richtung": "buy",
+   "titel": "SENEFF JAMES M JR (10%-Owner): NONE ($5,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
