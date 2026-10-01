@@ -3031,6 +3031,17 @@
    "titel": "James Christopher J. (Chairperson): NONE ($131,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T21:01:16Z",
+   "quelle": "SEC",
+   "name": "Barnes Matthew",
+   "ticker": "DKS",
+   "betrag": 499868.98350000003,
+   "richtung": "buy",
+   "titel": "Barnes Matthew (President - Foot Locker Intl): DKS ($499,869)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
