@@ -2767,6 +2767,28 @@
    "titel": "Barry Richard (President & CEO): FLNA ($186,132)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T13:30:58Z",
+   "quelle": "SEC",
+   "name": "Kelly Thomas Patrick",
+   "ticker": "XENE",
+   "betrag": 559740.0,
+   "richtung": "buy",
+   "titel": "Kelly Thomas Patrick (Chief Financial Officer): XENE ($559,740)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T13:30:58Z",
+   "quelle": "SEC",
+   "name": "MORTIMER IAN",
+   "ticker": "XENE",
+   "betrag": 1121400.0,
+   "richtung": "buy",
+   "titel": "MORTIMER IAN (PRESIDENT & CEO): XENE ($1,121,400) | 2 Kaeufer, $1.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
