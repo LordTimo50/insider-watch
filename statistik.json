@@ -2921,6 +2921,50 @@
    "titel": "Elsztain Alejandro Gustavo (CEO): CRESY ($99,704)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T19:30:57Z",
+   "quelle": "SEC",
+   "name": "Smith Daniel C.",
+   "ticker": "SPG",
+   "betrag": 70973.0,
+   "richtung": "buy",
+   "titel": "Smith Daniel C. (Director): SPG ($70,973)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T19:30:57Z",
+   "quelle": "SEC",
+   "name": "SELIG STEFAN M",
+   "ticker": "SPG",
+   "betrag": 42178.24,
+   "richtung": "buy",
+   "titel": "SELIG STEFAN M (Director): SPG ($42,178)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T19:30:58Z",
+   "quelle": "SEC",
+   "name": "RODKIN GARY M",
+   "ticker": "SPG",
+   "betrag": 47044.96,
+   "richtung": "buy",
+   "titel": "RODKIN GARY M (Director): SPG ($47,045)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T19:30:59Z",
+   "quelle": "SEC",
+   "name": "LEIBOWITZ REUBEN S",
+   "ticker": "SPG",
+   "betrag": 97334.4,
+   "richtung": "buy",
+   "titel": "LEIBOWITZ REUBEN S (Director): SPG ($97,334)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
