@@ -3108,6 +3108,50 @@
    "titel": "MELOCHE HAROLD J (CFO, Treasurer): PRHI ($26,138)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T22:01:11Z",
+   "quelle": "SEC",
+   "name": "GEORGE W WHITNEY",
+   "ticker": "FUND",
+   "betrag": 1827220.65,
+   "richtung": "buy",
+   "titel": "GEORGE W WHITNEY (Director): FUND ($1,827,221)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T22:01:12Z",
+   "quelle": "SEC",
+   "name": "Ryan Robert John Andrew",
+   "ticker": "ASPI",
+   "betrag": 40200.0,
+   "richtung": "buy",
+   "titel": "Ryan Robert John Andrew (Director): ASPI ($40,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T22:01:13Z",
+   "quelle": "SEC",
+   "name": "SARAFA JOSEPH D",
+   "ticker": "PRHI",
+   "betrag": 74246.7,
+   "richtung": "buy",
+   "titel": "SARAFA JOSEPH D (Director): PRHI ($74,247)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T22:01:13Z",
+   "quelle": "SEC",
+   "name": "O'Hanlon Isolde",
+   "ticker": "PRHI",
+   "betrag": 48935.325,
+   "richtung": "buy",
+   "titel": "O'Hanlon Isolde (Director): PRHI ($48,935)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
