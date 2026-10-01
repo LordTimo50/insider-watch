@@ -3163,6 +3163,17 @@
    "titel": "Finke Thomas M (Director): VENU ($75,900)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T23:15:41Z",
+   "quelle": "SEC",
+   "name": "Thomas William R III",
+   "ticker": "CSWC",
+   "betrag": 50005.48,
+   "richtung": "buy",
+   "titel": "Thomas William R III (Director): CSWC ($50,005)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
