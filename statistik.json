@@ -2987,6 +2987,17 @@
    "titel": "STEWART MARTA R (Director): SPG ($40,353)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T20:01:13Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 25242.82,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($25,243)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
