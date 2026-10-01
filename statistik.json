@@ -2745,6 +2745,17 @@
    "titel": "Ruddy Jordan B. (President): BPRE ($29,975) | 3 Kaeufer, $4.6M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T01:01:09Z",
+   "quelle": "SEC",
+   "name": "Conifer Management, L.L.C.",
+   "ticker": "GPI",
+   "betrag": 3008121.256,
+   "richtung": "buy",
+   "titel": "Conifer Management, L.L.C. (10%-Owner): GPI ($3,008,121)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
