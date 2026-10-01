@@ -2712,6 +2712,39 @@
    "titel": "UAW Chrysler Retirees Medical Benefits Plan (10%-Owner): NONE ($1,930,693) | 22 Kaeufer, $123.2M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T00:45:42Z",
+   "quelle": "SEC",
+   "name": "Higuchi John W.",
+   "ticker": "LPCN",
+   "betrag": 27131.760000000002,
+   "richtung": "buy",
+   "titel": "Higuchi John W. (Director): LPCN ($27,132)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T00:45:43Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 1696011.7359,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($1,696,012) | 2 Kaeufer, $4.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T00:45:44Z",
+   "quelle": "SEC",
+   "name": "Ruddy Jordan B.",
+   "ticker": "BPRE",
+   "betrag": 29975.28,
+   "richtung": "buy",
+   "titel": "Ruddy Jordan B. (President): BPRE ($29,975) | 3 Kaeufer, $4.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
