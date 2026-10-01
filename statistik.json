@@ -2965,6 +2965,28 @@
    "titel": "LEIBOWITZ REUBEN S (Director): SPG ($97,334)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T19:45:39Z",
+   "quelle": "SEC",
+   "name": "REALTY ADVISORS INC",
+   "ticker": "GBR",
+   "betrag": 2000000.0,
+   "richtung": "buy",
+   "titel": "REALTY ADVISORS INC (10%-Owner): GBR ($2,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T19:45:39Z",
+   "quelle": "SEC",
+   "name": "STEWART MARTA R",
+   "ticker": "SPG",
+   "betrag": 40353.22,
+   "richtung": "buy",
+   "titel": "STEWART MARTA R (Director): SPG ($40,353)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
