@@ -282,6 +282,21 @@ MINDESTBETRAG_USD = 25000
 # Optionsausuebungen M): leere Liste [] eintragen.
 RELEVANTE_TRANSAKTIONSCODES = ["P"]
 
+# SEC-Meldungen von Firmen ohne Boersenticker verwerfen. Im Form-4-XML
+# steht dann "NONE" oder "N/A" als issuerTradingSymbol -- typisch fuer
+# nicht boersennotierte Kreditfonds, Versicherungstoechter und
+# Privatfirmen, deren Anteile man gar nicht kaufen kann.
+# Frueher landeten alle diese Firmen unter demselben Ticker "NONE" und
+# bildeten einen falschen Cluster ("19 Kaeufer, $105.6M in 14T"), der
+# sie ueber die Punkteschwelle hob und echte Kaeufe aus dem Tageslimit
+# verdraengte (14 von 74 Pushes zwischen 16.9. und 1.10.2026).
+# Auf False setzen, um sie trotzdem zu sehen; dann zaehlen sie ohne
+# Cluster-Punkte.
+NUR_MIT_BOERSENTICKER = True
+
+# Was im Form-4-XML als "kein Ticker" gilt (Vergleich in Grossbuchstaben).
+PLATZHALTER_TICKER = ["", "?", "-", "NONE", "N/A", "NA"]
+
 # Bei Congress nur Kaeufe melden. Auf False setzen, um auch Verkaeufe
 # zu bekommen.
 NUR_KAEUFE_CONGRESS = True
@@ -816,10 +831,13 @@ def hole_form4_xml_url(index_link):
 def hole_form4_details(index_link):
     """
     Laedt das eigentliche Form-4-XML-Dokument und extrahiert Name,
-    Ticker, Transaktionscode und den Dollarbetrag der ersten
-    Transaktion. Gibt None zurueck, wenn nichts Verwertbares gefunden
-    wird (z.B. reine Bestandsmeldung ohne Transaktion oder fehlender
-    Preis bei Schenkungen).
+    Ticker, Transaktionscode und Dollarbetrag. Gibt None zurueck, wenn
+    nichts Verwertbares gefunden wird (z.B. reine Bestandsmeldung ohne
+    Transaktion oder fehlender Preis bei Schenkungen).
+
+    Eine Meldung kann mehrere Transaktionen enthalten, z.B. Kaeufe an
+    drei Tagen hintereinander oder eine Zuteilung (A) und danach einen
+    Kauf (P). Siehe waehle_transaktionen().
     """
     xml_url = hole_form4_xml_url(index_link)
     if xml_url is None:
@@ -834,21 +852,10 @@ def hole_form4_details(index_link):
     name_element = baum.find("./reportingOwner/reportingOwnerId/rptOwnerName")
     name = name_element.text.strip() if name_element is not None and name_element.text else "Unbekannt"
 
-    transaktion = baum.find("./nonDerivativeTable/nonDerivativeTransaction")
-    if transaktion is None:
+    transaktionen = lese_transaktionen(baum)
+    if len(transaktionen) == 0:
         return None
-
-    code_element = transaktion.find("./transactionCoding/transactionCode")
-    code = code_element.text.strip() if code_element is not None and code_element.text else "?"
-
-    shares_element = transaktion.find("./transactionAmounts/transactionShares/value")
-    preis_element = transaktion.find("./transactionAmounts/transactionPricePerShare/value")
-    if shares_element is None or preis_element is None or not shares_element.text or not preis_element.text:
-        return None
-
-    shares = float(shares_element.text)
-    preis = float(preis_element.text)
-    betrag = shares * preis
+    code, betrag = waehle_transaktionen(transaktionen)
 
     rolle = lese_rolle(baum)
     plan_10b5_1 = xml_wahrheitswert(baum.find("./aff10b5One"))
@@ -857,6 +864,60 @@ def hole_form4_details(index_link):
         "name": name, "ticker": ticker, "betrag": betrag, "code": code,
         "rolle": rolle, "plan_10b5_1": plan_10b5_1,
     }
+
+
+def lese_transaktionen(baum):
+    """
+    Liest alle Transaktionen aus der nonDerivativeTable eines Form-4-XML
+    als Liste von (code, betrag). Zeilen ohne Stueckzahl oder Preis
+    (z.B. Schenkungen) werden uebersprungen.
+    """
+    transaktionen = []
+    for transaktion in baum.findall("./nonDerivativeTable/nonDerivativeTransaction"):
+        code_element = transaktion.find("./transactionCoding/transactionCode")
+        code = code_element.text.strip() if code_element is not None and code_element.text else "?"
+
+        shares_element = transaktion.find("./transactionAmounts/transactionShares/value")
+        preis_element = transaktion.find("./transactionAmounts/transactionPricePerShare/value")
+        if shares_element is None or preis_element is None or not shares_element.text or not preis_element.text:
+            continue
+        try:
+            betrag = float(shares_element.text) * float(preis_element.text)
+        except ValueError:
+            continue
+        transaktionen.append((code, betrag))
+    return transaktionen
+
+
+def waehle_transaktionen(transaktionen):
+    """
+    Entscheidet bei einer Meldung mit mehreren Transaktionen, welche
+    zaehlt, und gibt (code, betrag) zurueck.
+
+    Frueher zaehlte nur die erste Zeile. Dadurch fiel ein Kauf durch,
+    wenn davor eine Zuteilung (A) stand, und bei Kaeufen ueber mehrere
+    Tage wurde nur der erste Tag gerechnet.
+
+    Jetzt gilt: Kommt einer der RELEVANTE_TRANSAKTIONSCODES vor, zaehlt
+    der zuerst vorkommende davon, sonst der Code der ersten Zeile. Der
+    Betrag ist die Summe aller Zeilen mit diesem Code.
+    """
+    gewaehlter_code = transaktionen[0][0]
+    for code, betrag in transaktionen:
+        if code in RELEVANTE_TRANSAKTIONSCODES:
+            gewaehlter_code = code
+            break
+
+    summe = 0.0
+    for code, betrag in transaktionen:
+        if code == gewaehlter_code:
+            summe = summe + betrag
+    return gewaehlter_code, summe
+
+
+def ist_platzhalter_ticker(ticker):
+    """Prueft, ob im Ticker-Feld nur ein Platzhalter wie "NONE" steht."""
+    return ticker.strip().upper() in PLATZHALTER_TICKER
 
 
 def xml_wahrheitswert(element):
@@ -950,6 +1011,9 @@ def anreichere_sec_eintrag(eintrag):
     # Watchlist-Personen umgehen beide harten Filter: bei denen willst
     # du jede Bewegung sehen, auch Verkaeufe und auch kleine.
     if not auf_watchlist:
+        if NUR_MIT_BOERSENTICKER and ist_platzhalter_ticker(details["ticker"]):
+            print("Uebersprungen (kein Boersenticker):", name, details["ticker"])
+            return None
         if len(RELEVANTE_TRANSAKTIONSCODES) > 0 and code not in RELEVANTE_TRANSAKTIONSCODES:
             print("Uebersprungen (Transaktionsart", code, "):", name, details["ticker"])
             return None
@@ -1504,7 +1568,14 @@ def bewerte_trade(eintrag, statistik):
     ticker = eintrag.get("ticker", "?")
     name = eintrag.get("name", "Unbekannt")
 
-    kaeufer, ticker_summe = sammle_ticker_statistik(statistik, ticker)
+    if ist_platzhalter_ticker(str(ticker)):
+        # Ohne echten Ticker laesst sich nicht sagen, welche Trades
+        # dieselbe Firma betreffen. Sonst bilden alle "NONE"-Firmen
+        # zusammen einen falschen Cluster.
+        kaeufer = 1
+        ticker_summe = betrag or 0
+    else:
+        kaeufer, ticker_summe = sammle_ticker_statistik(statistik, ticker)
     trades_der_person = zaehle_trades_von(statistik, name)
 
     # 0-40: Ueberzeugung im Einzeltrade. 10k = 0 Punkte, 10M = volle 40.
@@ -1627,7 +1698,9 @@ def top_ticker(trades, anzahl):
     pro_ticker = {}
     for trade in trades:
         ticker = trade.get("ticker", "?")
-        if not ticker or ticker == "?" or trade.get("richtung") != "buy":
+        # Platzhalter wie "NONE" stehen fuer viele verschiedene Firmen
+        # und wuerden sonst als scheinbar meistgekaufte Aktie oben stehen.
+        if not ticker or ist_platzhalter_ticker(str(ticker)) or trade.get("richtung") != "buy":
             continue
         eintrag = pro_ticker.setdefault(ticker, {"ticker": ticker, "kaeufer": set(), "summe": 0.0})
         eintrag["kaeufer"].add(trade.get("name", "?"))

@@ -54,6 +54,17 @@ Der Feed liefert durch Präfix-Matching auch Formulare, die nur mit "4" anfangen
 (424B2, 424B5, 425). Das sind Prospekt- und Übernahmemeldungen, keine Insider-Transaktionen.
 `ist_form4_eintrag()` filtert sie heraus.
 
+Eine Form-4-Meldung kann mehrere Transaktionen enthalten (Kauf über mehrere Tage, Zuteilung `A`
+vor einem Kauf `P`). `waehle_transaktionen()` nimmt den ersten vorkommenden Code aus
+`RELEVANTE_TRANSAKTIONSCODES` (sonst den der ersten Zeile) und summiert alle Zeilen mit diesem
+Code. Bis 1.10.2026 zählte nur die erste Zeile.
+
+Firmen ohne Börsenticker stehen im XML als `NONE` oder `N/A` (nicht notierte Kreditfonds,
+Versicherungstöchter). Sie bildeten unter dem gemeinsamen Ticker `NONE` einen falschen Cluster
+("22 Kaeufer, $123M") und machten 14 von 74 Pushes zwischen 16.9. und 1.10.2026 aus.
+`NUR_MIT_BOERSENTICKER` verwirft sie; Platzhalter-Ticker bekommen nie Cluster-Punkte und fehlen
+in der Top-Aktien-Liste der Berichte.
+
 Aus dem Form-4-XML werden außerdem die Rolle (`reportingOwnerRelationship`: isOfficer mit
 `officerTitle`, isDirector, isTenPercentOwner) und das Kreuzchen für einen Rule-10b5-1-Plan
 (`aff10b5One`, Werte `true`/`false` oder `1`/`0`) gelesen. Sie geben -10 bis +10 Punkte im
@@ -192,6 +203,7 @@ Alle oben im Konfigurationsblock von `insider_watch.py`:
 - `PUNKTE_SPITZENMANAGER`, `PUNKTE_OFFICER`, `PUNKTE_DIRECTOR`, `PUNKTE_10B5_1_PLAN`, `SPITZEN_TITEL`
 - `HOUSE_MAX_ALTER_TAGE` — aktuell 7
 - `RELEVANTE_TRANSAKTIONSCODES` — aktuell `["P"]`, also nur offene Marktkäufe
+- `NUR_MIT_BOERSENTICKER` — aktuell `True`, `PLATZHALTER_TICKER` legt fest, was als „kein Ticker“ gilt
 - `NUR_KAEUFE_CONGRESS`
 - `CONGRESS_NAME_FILTER`, `TICKER_FILTER`
 
