@@ -2800,6 +2800,28 @@
    "titel": "English Christopher T.: MOALX ($50,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T18:15:42Z",
+   "quelle": "SEC",
+   "name": "AMG New York Holdings Corp.",
+   "ticker": "BBASX",
+   "betrag": 3199999.9956000005,
+   "richtung": "buy",
+   "titel": "AMG New York Holdings Corp. (10%-Owner): BBASX ($3,200,000) | 2 Kaeufer, $4.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T18:15:44Z",
+   "quelle": "SEC",
+   "name": "Happe Michael J",
+   "ticker": "FUL",
+   "betrag": 99250.0,
+   "richtung": "buy",
+   "titel": "Happe Michael J (Director): FUL ($99,250)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
