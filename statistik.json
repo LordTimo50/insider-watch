@@ -2822,6 +2822,39 @@
    "titel": "Happe Michael J (Director): FUL ($99,250)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T18:30:58Z",
+   "quelle": "SEC",
+   "name": "Manufacturers Life Reinsurance Ltd",
+   "ticker": "N/A",
+   "betrag": 8999608.6008756,
+   "richtung": "buy",
+   "titel": "Manufacturers Life Reinsurance Ltd (10%-Owner): N/A ($8,999,609)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T18:30:59Z",
+   "quelle": "SEC",
+   "name": "Manufacturers Life Reinsurance Ltd",
+   "ticker": "N/A",
+   "betrag": 30998383.6495028,
+   "richtung": "buy",
+   "titel": "Manufacturers Life Reinsurance Ltd (10%-Owner): N/A ($30,998,384)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T18:31:02Z",
+   "quelle": "SEC",
+   "name": "Manufacturers Life Insurance Co (Bermuda Branch)",
+   "ticker": "N/A",
+   "betrag": 11999374.3169204,
+   "richtung": "buy",
+   "titel": "Manufacturers Life Insurance Co (Bermuda Branch) (10%-Owner): N/A ($11,999,374)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
