@@ -3009,8 +3009,30 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($7,300,934) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T20:30:57Z",
+   "quelle": "SEC",
+   "name": "Morrison Thomas M",
+   "ticker": "NONE",
+   "betrag": 25999.9890476,
+   "richtung": "buy",
+   "titel": "Morrison Thomas M (President): NONE ($26,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T20:30:58Z",
+   "quelle": "SEC",
+   "name": "James Christopher J.",
+   "ticker": "NONE",
+   "betrag": 131000.01204300001,
+   "richtung": "buy",
+   "titel": "James Christopher J. (Chairperson): NONE ($131,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
- "letzter_tagesbericht": "2026-09-30",
+ "letzter_tagesbericht": "2026-10-01",
  "letzter_wochenbericht": "2026-W39"
 }
