@@ -2701,6 +2701,17 @@
    "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($426,192)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T00:15:43Z",
+   "quelle": "SEC",
+   "name": "UAW Chrysler Retirees Medical Benefits Plan",
+   "ticker": "NONE",
+   "betrag": 1930693.32,
+   "richtung": "buy",
+   "titel": "UAW Chrysler Retirees Medical Benefits Plan (10%-Owner): NONE ($1,930,693) | 22 Kaeufer, $123.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
