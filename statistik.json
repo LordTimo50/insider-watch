@@ -2789,6 +2789,17 @@
    "titel": "MORTIMER IAN (PRESIDENT & CEO): XENE ($1,121,400) | 2 Kaeufer, $1.7M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-01T15:16:06Z",
+   "quelle": "SEC",
+   "name": "English Christopher T.",
+   "ticker": "MOALX",
+   "betrag": 49999.99676,
+   "richtung": "buy",
+   "titel": "English Christopher T.: MOALX ($50,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
