@@ -2855,6 +2855,39 @@
    "titel": "Manufacturers Life Insurance Co (Bermuda Branch) (10%-Owner): N/A ($11,999,374)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T18:45:43Z",
+   "quelle": "SEC",
+   "name": "Manulife (International) Ltd",
+   "ticker": "N/A",
+   "betrag": 25998869.292984,
+   "richtung": "buy",
+   "titel": "Manulife (International) Ltd (10%-Owner): N/A ($25,998,869)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T18:45:44Z",
+   "quelle": "SEC",
+   "name": "Manufacturers Life Insurance Co (Bermuda Branch)",
+   "ticker": "N/A",
+   "betrag": 999956.5114041,
+   "richtung": "buy",
+   "titel": "Manufacturers Life Insurance Co (Bermuda Branch) (10%-Owner): N/A ($999,957)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-01T18:45:45Z",
+   "quelle": "SEC",
+   "name": "Manulife (Singapore) Pte. Ltd.",
+   "ticker": "N/A",
+   "betrag": 3999826.0456164,
+   "richtung": "buy",
+   "titel": "Manulife (Singapore) Pte. Ltd. (10%-Owner): N/A ($3,999,826)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-09-30",
