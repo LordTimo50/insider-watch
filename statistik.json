@@ -3251,6 +3251,28 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($11,716,077) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-02T21:01:24Z",
+   "quelle": "SEC",
+   "name": "Cohen Ryan",
+   "ticker": "GME",
+   "betrag": 17084270.0,
+   "richtung": "buy",
+   "titel": "Cohen Ryan (President, CEO and Chairman): GME ($17,084,270) | 3 Kaeufer, $54.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-02T21:01:25Z",
+   "quelle": "SEC",
+   "name": "MENDOLA ROBERT JAMES JR",
+   "ticker": "LEEEF",
+   "betrag": 89388.25,
+   "richtung": "buy",
+   "titel": "MENDOLA ROBERT JAMES JR (Director): LEEEF ($89,388)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-02",
