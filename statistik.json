@@ -3174,6 +3174,28 @@
    "titel": "Thomas William R III (Director): CSWC ($50,005)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-02T00:15:40Z",
+   "quelle": "SEC",
+   "name": "Cavers Greg",
+   "ticker": "HELP",
+   "betrag": 38730.0,
+   "richtung": "buy",
+   "titel": "Cavers Greg (Chief Financial Officer): HELP ($38,730)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-02T00:15:45Z",
+   "quelle": "SEC",
+   "name": "L1 Capital Pty Ltd",
+   "ticker": "AVR",
+   "betrag": 3027831.92,
+   "richtung": "buy",
+   "titel": "L1 Capital Pty Ltd (10%-Owner): AVR ($3,027,832)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
