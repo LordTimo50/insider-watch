@@ -3229,6 +3229,17 @@
    "titel": "Nechmad Yair (CEO, Co Founder & Chairman): NYAX ($2,112,082) | 2 Kaeufer, $7.3M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-02T14:15:45Z",
+   "quelle": "SEC",
+   "name": "Mink Brook Asset Management LLC",
+   "ticker": "DLHC",
+   "betrag": 736666.3,
+   "richtung": "buy",
+   "titel": "Mink Brook Asset Management LLC (10%-Owner): DLHC ($736,666)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
