@@ -3240,8 +3240,19 @@
    "titel": "Mink Brook Asset Management LLC (10%-Owner): DLHC ($736,666)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-02T20:31:03Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 11716076.711499998,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($11,716,077) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-01",
+ "letzter_tagesbericht": "2026-10-02",
  "letzter_wochenbericht": "2026-W39"
 }
