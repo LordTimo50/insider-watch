@@ -3196,6 +3196,17 @@
    "titel": "L1 Capital Pty Ltd (10%-Owner): AVR ($3,027,832)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-02T00:30:58Z",
+   "quelle": "SEC",
+   "name": "Higuchi John W.",
+   "ticker": "LPCN",
+   "betrag": 55042.649999999994,
+   "richtung": "buy",
+   "titel": "Higuchi John W. (Director): LPCN ($55,043)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-01",
