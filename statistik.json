@@ -3273,6 +3273,17 @@
    "titel": "MENDOLA ROBERT JAMES JR (Director): LEEEF ($89,388)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-03T00:30:55Z",
+   "quelle": "SEC",
+   "name": "Lin Yi-Chien",
+   "ticker": "XAIR",
+   "betrag": 56590.399999999994,
+   "richtung": "buy",
+   "titel": "Lin Yi-Chien (10%-Owner): XAIR ($56,590)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-02",
