@@ -3339,6 +3339,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GRX ($58,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T15:15:42Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 389471.02,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($389,471)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-04",
