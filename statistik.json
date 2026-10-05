@@ -3361,6 +3361,17 @@
    "titel": "Alvarez Denise Aguiar (Director): BBD ($5,757,279) | 20 Kaeufer, $65.2M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T17:15:43Z",
+   "quelle": "SEC",
+   "name": "Hattersley Gavin",
+   "ticker": "MKC",
+   "betrag": 44610.0,
+   "richtung": "buy",
+   "titel": "Hattersley Gavin (Director): MKC ($44,610)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-04",
