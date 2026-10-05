@@ -3449,6 +3449,17 @@
    "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($123,819)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T23:15:40Z",
+   "quelle": "SEC",
+   "name": "Mitin Yury",
+   "ticker": "ALP",
+   "betrag": 51482.64,
+   "richtung": "buy",
+   "titel": "Mitin Yury (See Remarks): ALP ($51,483)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
