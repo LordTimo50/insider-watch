@@ -3471,6 +3471,17 @@
    "titel": "Leonard Braden Michael (10%-Owner): OM ($870,260)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T23:45:44Z",
+   "quelle": "SEC",
+   "name": "McGraner Matt",
+   "ticker": "NXRT",
+   "betrag": 201049.2,
+   "richtung": "buy",
+   "titel": "McGraner Matt (See Remarks): NXRT ($201,049)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
