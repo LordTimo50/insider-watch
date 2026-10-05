@@ -3460,6 +3460,17 @@
    "titel": "Mitin Yury (See Remarks): ALP ($51,483)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T23:30:57Z",
+   "quelle": "SEC",
+   "name": "Leonard Braden Michael",
+   "ticker": "OM",
+   "betrag": 870260.4049999999,
+   "richtung": "buy",
+   "titel": "Leonard Braden Michael (10%-Owner): OM ($870,260)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
