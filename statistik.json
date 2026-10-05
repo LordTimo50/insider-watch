@@ -3328,6 +3328,17 @@
    "titel": "Alvarez Denise Aguiar (Director): BBD ($33,581,299) | 20 Kaeufer, $59.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T15:01:10Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GRX",
+   "betrag": 58500.200000000004,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GRX ($58,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-04",
