@@ -3306,6 +3306,17 @@
    "titel": "Pittas Aristeidis P (Director): ESEA ($74,626)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T13:15:46Z",
+   "quelle": "SEC",
+   "name": "Gonzalez Francisco",
+   "ticker": "SKYH",
+   "betrag": 35612.5,
+   "richtung": "buy",
+   "titel": "Gonzalez Francisco (Chief Financial Officer): SKYH ($35,612)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-04",
