@@ -3317,6 +3317,17 @@
    "titel": "Gonzalez Francisco (Chief Financial Officer): SKYH ($35,612)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T14:30:59Z",
+   "quelle": "SEC",
+   "name": "Alvarez Denise Aguiar",
+   "ticker": "BBD",
+   "betrag": 33581299.08,
+   "richtung": "buy",
+   "titel": "Alvarez Denise Aguiar (Director): BBD ($33,581,299) | 20 Kaeufer, $59.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-04",
