@@ -3416,6 +3416,28 @@
    "titel": "MacDonald Ryan S (Director): BPRE ($85,090) | 3 Kaeufer, $4.6M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T22:15:53Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 3408193.2743,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($3,408,193) | 3 Kaeufer, $8.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T22:15:59Z",
+   "quelle": "SEC",
+   "name": "MAROONE MICHAEL E",
+   "ticker": "CVNA",
+   "betrag": 1544981.37,
+   "richtung": "buy",
+   "titel": "MAROONE MICHAEL E (Director): CVNA ($1,544,981)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
