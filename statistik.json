@@ -3383,6 +3383,28 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($9,002,473) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T21:20:53Z",
+   "quelle": "SEC",
+   "name": "Williams Donald Allen",
+   "ticker": "PALI",
+   "betrag": 28800.0,
+   "richtung": "buy",
+   "titel": "Williams Donald Allen (Director): PALI ($28,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T21:20:56Z",
+   "quelle": "SEC",
+   "name": "Johnson Chris A",
+   "ticker": "GGROU",
+   "betrag": 50000.0,
+   "richtung": "buy",
+   "titel": "Johnson Chris A (Director): GGROU ($50,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
