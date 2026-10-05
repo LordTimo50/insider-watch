@@ -3405,6 +3405,17 @@
    "titel": "Johnson Chris A (Director): GGROU ($50,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T22:01:09Z",
+   "quelle": "SEC",
+   "name": "MacDonald Ryan S",
+   "ticker": "BPRE",
+   "betrag": 85090.0,
+   "richtung": "buy",
+   "titel": "MacDonald Ryan S (Director): BPRE ($85,090) | 3 Kaeufer, $4.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
