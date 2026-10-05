@@ -3372,8 +3372,19 @@
    "titel": "Hattersley Gavin (Director): MKC ($44,610)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T20:56:10Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 9002472.9328,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($9,002,473) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-04",
+ "letzter_tagesbericht": "2026-10-05",
  "letzter_wochenbericht": "2026-W40"
 }
