@@ -3295,6 +3295,17 @@
    "titel": "HOO VOON HIM (CEO and Director): VCIG ($313,225)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T13:03:22Z",
+   "quelle": "SEC",
+   "name": "Pittas Aristeidis P",
+   "ticker": "ESEA",
+   "betrag": 74625.705,
+   "richtung": "buy",
+   "titel": "Pittas Aristeidis P (Director): ESEA ($74,626)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-04",
