@@ -3350,6 +3350,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($389,471)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-05T16:15:41Z",
+   "quelle": "SEC",
+   "name": "Alvarez Denise Aguiar",
+   "ticker": "BBD",
+   "betrag": 5757279.07,
+   "richtung": "buy",
+   "titel": "Alvarez Denise Aguiar (Director): BBD ($5,757,279) | 20 Kaeufer, $65.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-04",
