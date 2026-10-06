@@ -3658,6 +3658,17 @@
    "titel": "CRIST EUGENE SCOTT (Director): ARBE ($30,250)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T23:15:39Z",
+   "quelle": "SEC",
+   "name": "Rusnak Paul P.",
+   "ticker": "SAH",
+   "betrag": 1658698.56,
+   "richtung": "buy",
+   "titel": "Rusnak Paul P. (10%-Owner): SAH ($1,658,699)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-06",
