@@ -3493,6 +3493,50 @@
    "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($192,634,433)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T01:30:51Z",
+   "quelle": "SEC",
+   "name": "JONES GINGER M",
+   "ticker": "ACCV",
+   "betrag": 180000.0,
+   "richtung": "buy",
+   "titel": "JONES GINGER M (Director): ACCV ($180,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T01:30:52Z",
+   "quelle": "SEC",
+   "name": "HECKES HOWARD C",
+   "ticker": "ACCV",
+   "betrag": 90000.0,
+   "richtung": "buy",
+   "titel": "HECKES HOWARD C (Director): ACCV ($90,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T01:30:52Z",
+   "quelle": "SEC",
+   "name": "Donahue Paul D",
+   "ticker": "ACCV",
+   "betrag": 126000.0,
+   "richtung": "buy",
+   "titel": "Donahue Paul D (Director): ACCV ($126,000) | 3 Kaeufer, $396K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T01:30:53Z",
+   "quelle": "SEC",
+   "name": "Jewell Brent C",
+   "ticker": "ACCV",
+   "betrag": 45000.0,
+   "richtung": "buy",
+   "titel": "Jewell Brent C (Chief Operating Officer): ACCV ($45,000) | 4 Kaeufer, $441K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
