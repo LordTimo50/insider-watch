@@ -3647,6 +3647,17 @@
    "titel": "Batista de Lima Filho Pedro (Director): AXIA3 ($5,295,819)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-06T23:01:05Z",
+   "quelle": "SEC",
+   "name": "CRIST EUGENE SCOTT",
+   "ticker": "ARBE",
+   "betrag": 30250.0,
+   "richtung": "buy",
+   "titel": "CRIST EUGENE SCOTT (Director): ARBE ($30,250)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-06",
