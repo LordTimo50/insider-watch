@@ -3537,6 +3537,17 @@
    "titel": "Jewell Brent C (Chief Operating Officer): ACCV ($45,000) | 4 Kaeufer, $441K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T01:45:43Z",
+   "quelle": "SEC",
+   "name": "Rubiera Michael",
+   "ticker": "ACCV",
+   "betrag": 3657600.0,
+   "richtung": "buy",
+   "titel": "Rubiera Michael (Chief Executive Officer): ACCV ($3,657,600) | 5 Kaeufer, $4.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
