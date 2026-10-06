@@ -3636,6 +3636,17 @@
    "titel": "ISRAEL RYAN (Chief Investment Officer): PSUS ($9,615,216)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-06T22:15:48Z",
+   "quelle": "SEC",
+   "name": "Batista de Lima Filho Pedro",
+   "ticker": "AXIA3",
+   "betrag": 5295819.0,
+   "richtung": "buy",
+   "titel": "Batista de Lima Filho Pedro (Director): AXIA3 ($5,295,819)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-10-06",
