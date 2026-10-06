@@ -3592,6 +3592,17 @@
    "titel": "Rusnak Paul P. (10%-Owner): SAH ($1,287,878)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T20:15:42Z",
+   "quelle": "SEC",
+   "name": "Posner Brian S",
+   "ticker": "DYN",
+   "betrag": 40000.0,
+   "richtung": "buy",
+   "titel": "Posner Brian S (Director): DYN ($40,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
