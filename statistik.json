@@ -3482,6 +3482,17 @@
    "titel": "McGraner Matt (See Remarks): NXRT ($201,049)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T01:15:44Z",
+   "quelle": "SEC",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "ticker": "LEN",
+   "betrag": 192634432.68000004,
+   "richtung": "buy",
+   "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($192,634,433)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
