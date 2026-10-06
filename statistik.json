@@ -3581,6 +3581,17 @@
    "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($857,240)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-06T18:45:42Z",
+   "quelle": "SEC",
+   "name": "Rusnak Paul P.",
+   "ticker": "SAH",
+   "betrag": 1287877.5,
+   "richtung": "buy",
+   "titel": "Rusnak Paul P. (10%-Owner): SAH ($1,287,878)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-05",
