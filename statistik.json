@@ -3790,8 +3790,19 @@
    "titel": "Rusnak Paul P. (10%-Owner): SAH ($67,028)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-07T20:30:59Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 2283647.8118999996,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($2,283,648) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-06",
+ "letzter_tagesbericht": "2026-10-07",
  "letzter_wochenbericht": "2026-W40"
 }
