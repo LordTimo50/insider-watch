@@ -3724,6 +3724,17 @@
    "titel": "Troim Tor Olav (Director): BORR ($6,364,200)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-07T12:15:42Z",
+   "quelle": "SEC",
+   "name": "Knotnerus Tim Jasper",
+   "ticker": "AGMB",
+   "betrag": 94380.0,
+   "richtung": "buy",
+   "titel": "Knotnerus Tim Jasper (Chief Executive Officer): AGMB ($94,380)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-06",
