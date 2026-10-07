@@ -3779,6 +3779,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($520,331)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-07T19:01:07Z",
+   "quelle": "SEC",
+   "name": "Rusnak Paul P.",
+   "ticker": "SAH",
+   "betrag": 67028.09999999999,
+   "richtung": "buy",
+   "titel": "Rusnak Paul P. (10%-Owner): SAH ($67,028)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-06",
