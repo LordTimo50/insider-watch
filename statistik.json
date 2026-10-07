@@ -3713,6 +3713,17 @@
    "titel": "Lin Shih-Yao David (10%-Owner): IRIX ($597,903)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-07T12:01:14Z",
+   "quelle": "SEC",
+   "name": "Troim Tor Olav",
+   "ticker": "BORR",
+   "betrag": 6364200.0,
+   "richtung": "buy",
+   "titel": "Troim Tor Olav (Director): BORR ($6,364,200)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-06",
