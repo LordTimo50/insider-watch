@@ -3680,6 +3680,39 @@
    "titel": "Divisadero Street Capital Management, LP (10%-Owner): LWAY ($2,169,394)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-07T10:15:40Z",
+   "quelle": "SEC",
+   "name": "Lin Shih-Yao David",
+   "ticker": "IRIX",
+   "betrag": 438762.24309999996,
+   "richtung": "buy",
+   "titel": "Lin Shih-Yao David (10%-Owner): IRIX ($438,762)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-07T10:15:41Z",
+   "quelle": "SEC",
+   "name": "Lin Shih-Yao David",
+   "ticker": "IRIX",
+   "betrag": 273611.2064,
+   "richtung": "buy",
+   "titel": "Lin Shih-Yao David (10%-Owner): IRIX ($273,611)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-07T10:15:41Z",
+   "quelle": "SEC",
+   "name": "Lin Shih-Yao David",
+   "ticker": "IRIX",
+   "betrag": 597902.5281,
+   "richtung": "buy",
+   "titel": "Lin Shih-Yao David (10%-Owner): IRIX ($597,903)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-06",
