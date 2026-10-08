@@ -3933,8 +3933,19 @@
    "titel": "FLATTUM DAVID C (Director): PDI ($249,508) | 3 Kaeufer, $405K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T20:30:59Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 4099101.9435,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($4,099,102) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-07",
+ "letzter_tagesbericht": "2026-10-08",
  "letzter_wochenbericht": "2026-W40"
 }
