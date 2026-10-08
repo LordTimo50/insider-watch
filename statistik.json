@@ -3878,6 +3878,28 @@
    "titel": "BAILLY R JEFFREY (Director): FUL ($500,000) | 7 Kaeufer, $1.1M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T15:45:45Z",
+   "quelle": "SEC",
+   "name": "Boulette David",
+   "ticker": "GOAI",
+   "betrag": 37510.34,
+   "richtung": "buy",
+   "titel": "Boulette David (Chief Executive Officer): GOAI ($37,510)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T15:45:46Z",
+   "quelle": "SEC",
+   "name": "Hill John C",
+   "ticker": "CET",
+   "betrag": 28185.0,
+   "richtung": "buy",
+   "titel": "Hill John C (CEO & President): CET ($28,185)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-07",
