@@ -3900,6 +3900,17 @@
    "titel": "Hill John C (CEO & President): CET ($28,185)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T16:01:10Z",
+   "quelle": "SEC",
+   "name": "Boulette David",
+   "ticker": "GOAI",
+   "betrag": 39797.99999999999,
+   "richtung": "buy",
+   "titel": "Boulette David (Chief Executive Officer): GOAI ($39,798)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-07",
