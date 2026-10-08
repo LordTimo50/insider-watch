@@ -3812,6 +3812,17 @@
    "titel": "Brockman Ivan (Director): VRA ($50,200)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T00:01:05Z",
+   "quelle": "SEC",
+   "name": "Tourism & Entertainment Group, LLC",
+   "ticker": "STWI",
+   "betrag": 138000.0,
+   "richtung": "buy",
+   "titel": "Tourism & Entertainment Group, LLC (10%-Owner): STWI ($138,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-07",
