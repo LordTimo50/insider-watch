@@ -3911,6 +3911,28 @@
    "titel": "Boulette David (Chief Executive Officer): GOAI ($39,798)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T20:15:54Z",
+   "quelle": "SEC",
+   "name": "FLATTUM DAVID C",
+   "ticker": "PHK",
+   "betrag": 249245.2638,
+   "richtung": "buy",
+   "titel": "FLATTUM DAVID C (Director): PHK ($249,245)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T20:15:54Z",
+   "quelle": "SEC",
+   "name": "FLATTUM DAVID C",
+   "ticker": "PDI",
+   "betrag": 249508.25900000002,
+   "richtung": "buy",
+   "titel": "FLATTUM DAVID C (Director): PDI ($249,508) | 3 Kaeufer, $405K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-07",
