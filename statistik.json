@@ -3966,6 +3966,17 @@
    "titel": "Singer Eric (President and CEO): IMMR ($292,800)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T23:15:40Z",
+   "quelle": "SEC",
+   "name": "L1 Capital Pty Ltd",
+   "ticker": "AVR",
+   "betrag": 1957950.0999999999,
+   "richtung": "buy",
+   "titel": "L1 Capital Pty Ltd (10%-Owner): AVR ($1,957,950)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-08",
