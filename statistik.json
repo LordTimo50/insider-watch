@@ -3856,6 +3856,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GRX ($41,771)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T15:15:43Z",
+   "quelle": "SEC",
+   "name": "Troim Tor Olav",
+   "ticker": "BORR",
+   "betrag": 5390250.0,
+   "richtung": "buy",
+   "titel": "Troim Tor Olav (Director): BORR ($5,390,250)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-07",
