@@ -3867,6 +3867,17 @@
    "titel": "Troim Tor Olav (Director): BORR ($5,390,250)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T15:31:01Z",
+   "quelle": "SEC",
+   "name": "BAILLY R JEFFREY",
+   "ticker": "FUL",
+   "betrag": 500000.0,
+   "richtung": "buy",
+   "titel": "BAILLY R JEFFREY (Director): FUL ($500,000) | 7 Kaeufer, $1.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-07",
