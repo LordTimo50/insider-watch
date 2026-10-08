@@ -3944,6 +3944,17 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($4,099,102) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T22:01:09Z",
+   "quelle": "SEC",
+   "name": "Martins Fernando Matt Borges",
+   "ticker": "CINT",
+   "betrag": 49323.270000000004,
+   "richtung": "buy",
+   "titel": "Martins Fernando Matt Borges (Director): CINT ($49,323)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-08",
