@@ -3823,6 +3823,17 @@
    "titel": "Tourism & Entertainment Group, LLC (10%-Owner): STWI ($138,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-08T10:45:47Z",
+   "quelle": "SEC",
+   "name": "Huang Jack Jiajia",
+   "ticker": "COE",
+   "betrag": 32333529.6,
+   "richtung": "buy",
+   "titel": "Huang Jack Jiajia (Chief Executive Officer): COE ($32,333,530)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-07",
