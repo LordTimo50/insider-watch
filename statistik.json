@@ -4087,8 +4087,19 @@
    "titel": "Hamilton Michael S.: NMCO ($26,106)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T20:31:18Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 20880079.065599997,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($20,880,079) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-08",
+ "letzter_tagesbericht": "2026-10-09",
  "letzter_wochenbericht": "2026-W40"
 }
