@@ -4076,6 +4076,17 @@
    "titel": "Leverton Jaime (Director): VDTA ($255,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T20:01:08Z",
+   "quelle": "SEC",
+   "name": "Hamilton Michael S.",
+   "ticker": "NMCO",
+   "betrag": 26106.0,
+   "richtung": "buy",
+   "titel": "Hamilton Michael S.: NMCO ($26,106)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-08",
