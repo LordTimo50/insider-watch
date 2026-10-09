@@ -4065,6 +4065,17 @@
    "titel": "Aksia LLC: N.A. ($909,653)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T19:15:41Z",
+   "quelle": "SEC",
+   "name": "Leverton Jaime",
+   "ticker": "VDTA",
+   "betrag": 255000.0,
+   "richtung": "buy",
+   "titel": "Leverton Jaime (Director): VDTA ($255,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-08",
