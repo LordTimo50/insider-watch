@@ -3977,6 +3977,17 @@
    "titel": "L1 Capital Pty Ltd (10%-Owner): AVR ($1,957,950)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T10:30:54Z",
+   "quelle": "SEC",
+   "name": "Yin Chung-Yao",
+   "ticker": "GGR",
+   "betrag": 35114297.68,
+   "richtung": "buy",
+   "titel": "Yin Chung-Yao (Director): GGR ($35,114,298)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-08",
