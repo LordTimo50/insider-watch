@@ -4098,6 +4098,39 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($20,880,079) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T20:45:42Z",
+   "quelle": "SEC",
+   "name": "SUBIN NEIL S",
+   "ticker": "OPTU",
+   "betrag": 2454821.5502,
+   "richtung": "buy",
+   "titel": "SUBIN NEIL S (10%-Owner): OPTU ($2,454,822)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T20:45:43Z",
+   "quelle": "SEC",
+   "name": "OLIVER ERIC L",
+   "ticker": "CRT",
+   "betrag": 87575.41,
+   "richtung": "buy",
+   "titel": "OLIVER ERIC L (10%-Owner): CRT ($87,575)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T20:45:44Z",
+   "quelle": "SEC",
+   "name": "Rusnak Paul P.",
+   "ticker": "SAH",
+   "betrag": 819045.78,
+   "richtung": "buy",
+   "titel": "Rusnak Paul P. (10%-Owner): SAH ($819,046)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-09",
