@@ -4153,6 +4153,17 @@
    "titel": "Healy Brian C. (Director): MWA ($29,927) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T23:01:07Z",
+   "quelle": "SEC",
+   "name": "Bastion Trading Ltd",
+   "ticker": "SKYA",
+   "betrag": 78262.8,
+   "richtung": "buy",
+   "titel": "Bastion Trading Ltd (10%-Owner): SKYA ($78,263) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-09",
