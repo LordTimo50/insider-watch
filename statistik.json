@@ -4142,6 +4142,17 @@
    "titel": "Gon Cesar Nivaldo (Chief Executive Officer): CINT ($25,531)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T21:45:40Z",
+   "quelle": "SEC",
+   "name": "Healy Brian C.",
+   "ticker": "MWA",
+   "betrag": 29927.4496,
+   "richtung": "buy",
+   "titel": "Healy Brian C. (Director): MWA ($29,927) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-09",
