@@ -4043,6 +4043,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GRX ($27,866)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T15:30:56Z",
+   "quelle": "SEC",
+   "name": "Ben-Noon Dagi Shahar",
+   "ticker": "QTEX",
+   "betrag": 30362.27,
+   "richtung": "buy",
+   "titel": "Ben-Noon Dagi Shahar (Chief Executive Officer): QTEX ($30,362)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-08",
