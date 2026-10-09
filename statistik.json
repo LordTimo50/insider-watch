@@ -4131,6 +4131,17 @@
    "titel": "Rusnak Paul P. (10%-Owner): SAH ($819,046)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T21:31:00Z",
+   "quelle": "SEC",
+   "name": "Gon Cesar Nivaldo",
+   "ticker": "CINT",
+   "betrag": 25530.760000000002,
+   "richtung": "buy",
+   "titel": "Gon Cesar Nivaldo (Chief Executive Officer): CINT ($25,531)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-09",
