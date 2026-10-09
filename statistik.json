@@ -3988,6 +3988,17 @@
    "titel": "Yin Chung-Yao (Director): GGR ($35,114,298)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-09T12:15:44Z",
+   "quelle": "SEC",
+   "name": "Epstein David R",
+   "ticker": "AGMB",
+   "betrag": 44500.0,
+   "richtung": "buy",
+   "titel": "Epstein David R (Director): AGMB ($44,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-08",
