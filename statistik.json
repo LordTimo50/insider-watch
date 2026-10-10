@@ -4164,6 +4164,17 @@
    "titel": "Bastion Trading Ltd (10%-Owner): SKYA ($78,263) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-10T01:15:43Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 8501526.6013,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($8,501,527) | 3 Kaeufer, $16.4M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-09",
