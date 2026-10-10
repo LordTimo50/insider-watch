@@ -4175,6 +4175,28 @@
    "titel": "KAMFAR RAMIN (Director): BPRE ($8,501,527) | 3 Kaeufer, $16.4M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-10T01:30:59Z",
+   "quelle": "SEC",
+   "name": "Allen Zipporah",
+   "ticker": "REF",
+   "betrag": 52500.0,
+   "richtung": "buy",
+   "titel": "Allen Zipporah (Director): REF ($52,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-10T01:30:59Z",
+   "quelle": "SEC",
+   "name": "Coyle John Joseph",
+   "ticker": "REF",
+   "betrag": 3000000.0,
+   "richtung": "buy",
+   "titel": "Coyle John Joseph (Director): REF ($3,000,000) | 2 Kaeufer, $3.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-09",
