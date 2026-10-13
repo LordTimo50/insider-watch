@@ -4230,6 +4230,28 @@
    "titel": "KUKES SIMON G (10%-Owner): PED ($1,911,910)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T12:30:56Z",
+   "quelle": "SEC",
+   "name": "Oberbeck Christian L",
+   "ticker": "SAR",
+   "betrag": 445800.0,
+   "richtung": "buy",
+   "titel": "Oberbeck Christian L (CEO and Director): SAR ($445,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T12:30:57Z",
+   "quelle": "SEC",
+   "name": "Troim Tor Olav",
+   "ticker": "BORR",
+   "betrag": 11843500.0,
+   "richtung": "buy",
+   "titel": "Troim Tor Olav (Director): BORR ($11,843,500)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
