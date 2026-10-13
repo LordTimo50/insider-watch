@@ -4329,6 +4329,50 @@
    "titel": "vant Hoff Graham (Director): FEAM ($215,400)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:31:03Z",
+   "quelle": "SEC",
+   "name": "Fine Carol F.",
+   "ticker": "HEI, HEI.A",
+   "betrag": 175141.9185,
+   "richtung": "buy",
+   "titel": "Fine Carol F. (Director): HEI, HEI.A ($175,142)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:31:03Z",
+   "quelle": "SEC",
+   "name": "SCHRIESHEIM ALAN",
+   "ticker": "HEI, HEI.A",
+   "betrag": 175141.9185,
+   "richtung": "buy",
+   "titel": "SCHRIESHEIM ALAN (Director): HEI, HEI.A ($175,142)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:31:03Z",
+   "quelle": "SEC",
+   "name": "HENRIQUES ADOLFO",
+   "ticker": "HEI, HEI.A",
+   "betrag": 175141.9185,
+   "richtung": "buy",
+   "titel": "HENRIQUES ADOLFO (Director): HEI, HEI.A ($175,142) | 3 Kaeufer, $525K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:31:04Z",
+   "quelle": "SEC",
+   "name": "CHERUVATATH NANDAKUMAR",
+   "ticker": "HEI, HEI.A",
+   "betrag": 175141.9185,
+   "richtung": "buy",
+   "titel": "CHERUVATATH NANDAKUMAR (Director): HEI, HEI.A ($175,142) | 4 Kaeufer, $701K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
