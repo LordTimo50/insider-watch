@@ -4285,6 +4285,17 @@
    "titel": "Slattery Thomas M. (Director): HBIA.PK ($47,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T14:45:50Z",
+   "quelle": "SEC",
+   "name": "Gold Alan D",
+   "ticker": "IIPR",
+   "betrag": 1000000.0,
+   "richtung": "buy",
+   "titel": "Gold Alan D (EXECUTIVE CHAIRMAN): IIPR ($1,000,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
