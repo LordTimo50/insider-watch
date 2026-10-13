@@ -4318,6 +4318,17 @@
    "titel": "SHARMAN MARK BRADY (Director): LCU ($28,997)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:15:46Z",
+   "quelle": "SEC",
+   "name": "vant Hoff Graham",
+   "ticker": "FEAM",
+   "betrag": 215400.0,
+   "richtung": "buy",
+   "titel": "vant Hoff Graham (Director): FEAM ($215,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
