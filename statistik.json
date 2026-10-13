@@ -4483,6 +4483,39 @@
    "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($29,683)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T22:15:46Z",
+   "quelle": "SEC",
+   "name": "AJB Investment Fund II, LP",
+   "ticker": "JCTC",
+   "betrag": 35619.30099999999,
+   "richtung": "buy",
+   "titel": "AJB Investment Fund II, LP (10%-Owner): JCTC ($35,619)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T22:15:50Z",
+   "quelle": "SEC",
+   "name": "Keller Eric L.",
+   "ticker": "RTSN",
+   "betrag": 249600.0,
+   "richtung": "buy",
+   "titel": "Keller Eric L. (CHIEF EXECUTIVE OFFICER): RTSN ($249,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T22:15:55Z",
+   "quelle": "SEC",
+   "name": "BERGER FRANKLIN M",
+   "ticker": "RTSN",
+   "betrag": 120000.0,
+   "richtung": "buy",
+   "titel": "BERGER FRANKLIN M (Director): RTSN ($120,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
