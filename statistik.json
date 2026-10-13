@@ -4296,6 +4296,17 @@
    "titel": "Gold Alan D (EXECUTIVE CHAIRMAN): IIPR ($1,000,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T15:15:48Z",
+   "quelle": "SEC",
+   "name": "BUCKMAN FREDERICK W",
+   "ticker": "IMSR",
+   "betrag": 39336.0,
+   "richtung": "buy",
+   "titel": "BUCKMAN FREDERICK W (Director): IMSR ($39,336)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
