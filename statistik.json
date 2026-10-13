@@ -4472,6 +4472,17 @@
    "titel": "Gonzalez Luis A (Director): AVO ($594,785)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T21:45:42Z",
+   "quelle": "SEC",
+   "name": "Opaleye Management Inc.",
+   "ticker": "GRCE",
+   "betrag": 29682.8115,
+   "richtung": "buy",
+   "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($29,683)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
