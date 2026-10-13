@@ -4516,6 +4516,17 @@
    "titel": "BERGER FRANKLIN M (Director): RTSN ($120,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T23:30:57Z",
+   "quelle": "SEC",
+   "name": "Liu Huan",
+   "ticker": "CTNT",
+   "betrag": 330000.0,
+   "richtung": "buy",
+   "titel": "Liu Huan (See Remarks): CTNT ($330,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
