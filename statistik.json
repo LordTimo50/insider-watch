@@ -4197,6 +4197,28 @@
    "titel": "Coyle John Joseph (Director): REF ($3,000,000) | 2 Kaeufer, $3.1M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T11:15:44Z",
+   "quelle": "SEC",
+   "name": "Mulacek Phil E",
+   "ticker": "EP",
+   "betrag": 68068.245,
+   "richtung": "buy",
+   "titel": "Mulacek Phil E (Director): EP ($68,068)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T11:15:44Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 695746.9476000001,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($695,747) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
