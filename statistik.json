@@ -4307,6 +4307,17 @@
    "titel": "BUCKMAN FREDERICK W (Director): IMSR ($39,336)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T17:15:46Z",
+   "quelle": "SEC",
+   "name": "SHARMAN MARK BRADY",
+   "ticker": "LCU",
+   "betrag": 28997.15,
+   "richtung": "buy",
+   "titel": "SHARMAN MARK BRADY (Director): LCU ($28,997)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
