@@ -4219,6 +4219,17 @@
    "titel": "Zhao Bin (Chief Executive Officer): API ($695,747) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T12:15:44Z",
+   "quelle": "SEC",
+   "name": "KUKES SIMON G",
+   "ticker": "PED",
+   "betrag": 1911910.0,
+   "richtung": "buy",
+   "titel": "KUKES SIMON G (10%-Owner): PED ($1,911,910)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
