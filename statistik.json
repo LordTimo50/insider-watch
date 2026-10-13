@@ -4373,6 +4373,50 @@
    "titel": "CHERUVATATH NANDAKUMAR (Director): HEI, HEI.A ($175,142) | 4 Kaeufer, $701K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:45:45Z",
+   "quelle": "SEC",
+   "name": "MENDELSON VICTOR H",
+   "ticker": "HEI, HEI.A",
+   "betrag": 175141.9185,
+   "richtung": "buy",
+   "titel": "MENDELSON VICTOR H (Co-COB and Co-CEO): HEI, HEI.A ($175,142) | 5 Kaeufer, $876K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:45:46Z",
+   "quelle": "SEC",
+   "name": "CULLIGAN THOMAS M",
+   "ticker": "HEI, HEI.A",
+   "betrag": 175141.9185,
+   "richtung": "buy",
+   "titel": "CULLIGAN THOMAS M (Director): HEI, HEI.A ($175,142) | 6 Kaeufer, $1.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-13T19:45:47Z",
+   "quelle": "SEC",
+   "name": "Hildebrandt Mark H",
+   "ticker": "HEI, HEI.A",
+   "betrag": 175141.9185,
+   "richtung": "buy",
+   "titel": "Hildebrandt Mark H (Director): HEI, HEI.A ($175,142)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-13T19:45:47Z",
+   "quelle": "SEC",
+   "name": "Neitzel Julie",
+   "ticker": "HEI, HEI.A",
+   "betrag": 174601.1056,
+   "richtung": "buy",
+   "titel": "Neitzel Julie (Director): HEI, HEI.A ($174,601)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-10-12",
