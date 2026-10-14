@@ -4527,6 +4527,17 @@
    "titel": "Liu Huan (See Remarks): CTNT ($330,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T00:31:05Z",
+   "quelle": "SEC",
+   "name": "Hassen Tyler Lewis",
+   "ticker": "ZONE",
+   "betrag": 146075.0,
+   "richtung": "buy",
+   "titel": "Hassen Tyler Lewis (Chief Executive Officer): ZONE ($146,075)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
