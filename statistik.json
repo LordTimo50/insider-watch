@@ -4538,6 +4538,28 @@
    "titel": "Hassen Tyler Lewis (Chief Executive Officer): ZONE ($146,075)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T01:01:10Z",
+   "quelle": "SEC",
+   "name": "Kosasa Thomas",
+   "ticker": "ONMD",
+   "betrag": 750001.24,
+   "richtung": "buy",
+   "titel": "Kosasa Thomas (Director): ONMD ($750,001)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T01:01:11Z",
+   "quelle": "SEC",
+   "name": "Yu Jeffrey",
+   "ticker": "ONMD",
+   "betrag": 249998.04,
+   "richtung": "buy",
+   "titel": "Yu Jeffrey (Chief Medical Officer): ONMD ($249,998) | 2 Kaeufer, $1000K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
