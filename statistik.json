@@ -4593,6 +4593,28 @@
    "titel": "Irish Simon (Chief Executive Officer): IMSR ($50,818)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T15:15:52Z",
+   "quelle": "SEC",
+   "name": "Pimentel Rudy",
+   "ticker": "KIO",
+   "betrag": 40890.0,
+   "richtung": "buy",
+   "titel": "Pimentel Rudy (President): KIO ($40,890)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T15:15:52Z",
+   "quelle": "SEC",
+   "name": "Seto Wai Yue",
+   "ticker": "TDIC",
+   "betrag": 600000.0,
+   "richtung": "buy",
+   "titel": "Seto Wai Yue (Chief Executive Officer): TDIC ($600,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
