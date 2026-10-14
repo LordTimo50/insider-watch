@@ -4560,6 +4560,17 @@
    "titel": "Yu Jeffrey (Chief Medical Officer): ONMD ($249,998) | 2 Kaeufer, $1000K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T10:30:56Z",
+   "quelle": "SEC",
+   "name": "Qiu Wenbin",
+   "ticker": "BZUN",
+   "betrag": 40166.0,
+   "richtung": "buy",
+   "titel": "Qiu Wenbin (Chief Executive Officer): BZUN ($40,166)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
