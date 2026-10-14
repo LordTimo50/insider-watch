@@ -4670,6 +4670,17 @@
    "titel": "GOLDENTREE ASSET MANAGEMENT LP (10%-Owner): QVCG ($16,697,200)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T21:31:00Z",
+   "quelle": "SEC",
+   "name": "MCCARTHY KENT C",
+   "ticker": "NUAI",
+   "betrag": 1192350.0,
+   "richtung": "buy",
+   "titel": "MCCARTHY KENT C (10%-Owner): NUAI ($1,192,350)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
