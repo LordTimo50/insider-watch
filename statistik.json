@@ -4615,6 +4615,17 @@
    "titel": "Seto Wai Yue (Chief Executive Officer): TDIC ($600,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T16:30:58Z",
+   "quelle": "SEC",
+   "name": "Troim Tor Olav",
+   "ticker": "BORR",
+   "betrag": 7401600.0,
+   "richtung": "buy",
+   "titel": "Troim Tor Olav (Director): BORR ($7,401,600)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
