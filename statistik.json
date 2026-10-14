@@ -4681,6 +4681,28 @@
    "titel": "MCCARTHY KENT C (10%-Owner): NUAI ($1,192,350)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T21:45:46Z",
+   "quelle": "SEC",
+   "name": "OLIVER ERIC L",
+   "ticker": "CRT",
+   "betrag": 74644.70999999999,
+   "richtung": "buy",
+   "titel": "OLIVER ERIC L (10%-Owner): CRT ($74,645)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T21:45:47Z",
+   "quelle": "SEC",
+   "name": "Pale Fire Capital SE",
+   "ticker": "DOLE",
+   "betrag": 75720.51,
+   "richtung": "buy",
+   "titel": "Pale Fire Capital SE (10%-Owner): DOLE ($75,721)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
