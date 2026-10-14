@@ -4648,8 +4648,19 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($175,638)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T20:31:07Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 16412296.713,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($16,412,297) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-13",
+ "letzter_tagesbericht": "2026-10-14",
  "letzter_wochenbericht": "2026-W41"
 }
