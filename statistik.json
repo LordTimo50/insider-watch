@@ -4703,6 +4703,17 @@
    "titel": "Pale Fire Capital SE (10%-Owner): DOLE ($75,721)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T22:30:56Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 5477974.6811999995,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($5,477,975) | 3 Kaeufer, $19.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
