@@ -4582,6 +4582,17 @@
    "titel": "Pittas Aristeidis P (Director): EDRY ($35,826)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T13:31:01Z",
+   "quelle": "SEC",
+   "name": "Irish Simon",
+   "ticker": "IMSR",
+   "betrag": 50818.3,
+   "richtung": "buy",
+   "titel": "Irish Simon (Chief Executive Officer): IMSR ($50,818)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-13",
