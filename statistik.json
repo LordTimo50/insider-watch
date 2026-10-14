@@ -4659,6 +4659,17 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($16,412,297) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-14T21:15:45Z",
+   "quelle": "SEC",
+   "name": "GOLDENTREE ASSET MANAGEMENT LP",
+   "ticker": "QVCG",
+   "betrag": 16697200.0,
+   "richtung": "buy",
+   "titel": "GOLDENTREE ASSET MANAGEMENT LP (10%-Owner): QVCG ($16,697,200)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
