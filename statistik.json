@@ -4890,6 +4890,28 @@
    "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($920,049)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T20:45:44Z",
+   "quelle": "SEC",
+   "name": "Cha Albert",
+   "ticker": "FLSC",
+   "betrag": 3000000.0,
+   "richtung": "buy",
+   "titel": "Cha Albert (Chief Executive Officer): FLSC ($3,000,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T20:45:47Z",
+   "quelle": "SEC",
+   "name": "Alexandria Venture Investments, LLC",
+   "ticker": "TRXB",
+   "betrag": 2499994.0,
+   "richtung": "buy",
+   "titel": "Alexandria Venture Investments, LLC (10%-Owner): TRXB ($2,499,994) | 2 Kaeufer, $3.8M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-15",
