@@ -4846,6 +4846,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($54,809)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T20:15:48Z",
+   "quelle": "SEC",
+   "name": "WARD JR STEPHEN M",
+   "ticker": "CXM",
+   "betrag": 850500.0,
+   "richtung": "buy",
+   "titel": "WARD JR STEPHEN M (Director): CXM ($850,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T20:15:58Z",
+   "quelle": "SEC",
+   "name": "Amar Michel",
+   "ticker": "DGXX",
+   "betrag": 55256.0,
+   "richtung": "buy",
+   "titel": "Amar Michel (Chief Executive Officer): DGXX ($55,256)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
