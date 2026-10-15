@@ -4736,6 +4736,17 @@
    "titel": "Hassen Tyler Lewis (Chief Executive Officer): ZONE ($85,200)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T11:01:12Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 101521.2074,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($101,521) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
