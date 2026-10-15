@@ -4747,6 +4747,17 @@
    "titel": "Zhao Bin (Chief Executive Officer): API ($101,521) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T13:01:11Z",
+   "quelle": "SEC",
+   "name": "Hass John A",
+   "ticker": "NEOV",
+   "betrag": 65250.0,
+   "richtung": "buy",
+   "titel": "Hass John A (Director): NEOV ($65,250)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
