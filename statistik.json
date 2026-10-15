@@ -4791,6 +4791,28 @@
    "titel": "Setcavage Rebecca: VMO ($25,920)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T15:31:04Z",
+   "quelle": "SEC",
+   "name": "Elsztain Alejandro Gustavo",
+   "ticker": "CRESY",
+   "betrag": 92738.09999999999,
+   "richtung": "buy",
+   "titel": "Elsztain Alejandro Gustavo (Director): CRESY ($92,738)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T15:31:04Z",
+   "quelle": "SEC",
+   "name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+   "ticker": "GOLD",
+   "betrag": 2702483.954,
+   "richtung": "buy",
+   "titel": "Tether Global Investments Fund, S.I.C.A.F., S.A. (10%-Owner): GOLD ($2,702,484)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
