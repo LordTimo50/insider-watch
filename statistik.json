@@ -4725,6 +4725,17 @@
    "titel": "Lappe Mark (Chief Executive Officer): INBX ($848,977)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T00:15:38Z",
+   "quelle": "SEC",
+   "name": "Hassen Tyler Lewis",
+   "ticker": "ZONE",
+   "betrag": 85200.0,
+   "richtung": "buy",
+   "titel": "Hassen Tyler Lewis (Chief Executive Officer): ZONE ($85,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
