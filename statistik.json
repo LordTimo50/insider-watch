@@ -4780,6 +4780,17 @@
    "titel": "de Oliveira Andre Luis Duarte (Executive Officer): BBD ($1,148,221) | 3 Kaeufer, $72.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T15:15:45Z",
+   "quelle": "SEC",
+   "name": "Setcavage Rebecca",
+   "ticker": "VMO",
+   "betrag": 25920.0,
+   "richtung": "buy",
+   "titel": "Setcavage Rebecca: VMO ($25,920)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
