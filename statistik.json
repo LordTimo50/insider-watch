@@ -4912,6 +4912,17 @@
    "titel": "Alexandria Venture Investments, LLC (10%-Owner): TRXB ($2,499,994) | 2 Kaeufer, $3.8M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T22:01:09Z",
+   "quelle": "SEC",
+   "name": "Ruddy Jordan B.",
+   "ticker": "BPRE",
+   "betrag": 44316.8,
+   "richtung": "buy",
+   "titel": "Ruddy Jordan B. (President): BPRE ($44,317) | 3 Kaeufer, $17.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-15",
