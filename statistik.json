@@ -4813,6 +4813,17 @@
    "titel": "Tether Global Investments Fund, S.I.C.A.F., S.A. (10%-Owner): GOLD ($2,702,484)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-15T19:31:04Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "ECF",
+   "betrag": 658414.42,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($658,414)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-14",
