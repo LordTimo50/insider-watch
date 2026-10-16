@@ -5000,6 +5000,17 @@
    "titel": "EEME Energy SPV I, LLC (10%-Owner): SAFX ($142,083,451)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T21:15:47Z",
+   "quelle": "SEC",
+   "name": "TOTH TERENCE J",
+   "ticker": "NAD",
+   "betrag": 71799.99920703999,
+   "richtung": "buy",
+   "titel": "TOTH TERENCE J: NAD ($71,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-16",
