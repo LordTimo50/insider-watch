@@ -5011,6 +5011,17 @@
    "titel": "TOTH TERENCE J: NAD ($71,800)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T22:01:21Z",
+   "quelle": "SEC",
+   "name": "Rusnak Paul P.",
+   "ticker": "SAH",
+   "betrag": 752044.5,
+   "richtung": "buy",
+   "titel": "Rusnak Paul P. (10%-Owner): SAH ($752,044)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-16",
