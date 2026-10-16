@@ -4989,6 +4989,17 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($20,487,096) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T20:45:47Z",
+   "quelle": "SEC",
+   "name": "EEME Energy SPV I, LLC",
+   "ticker": "SAFX",
+   "betrag": 142083450.544,
+   "richtung": "buy",
+   "titel": "EEME Energy SPV I, LLC (10%-Owner): SAFX ($142,083,451)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-16",
