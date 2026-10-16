@@ -4956,6 +4956,17 @@
    "titel": "Snowling Harvey Edward (Chief Operating Officer): BORR ($1,473,000) | 2 Kaeufer, $44.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T18:45:49Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "JOF",
+   "betrag": 161929.89,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($161,930)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-15",
