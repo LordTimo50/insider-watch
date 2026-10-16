@@ -4934,6 +4934,17 @@
    "titel": "Pittas Aristeidis P (Director): EDRY ($28,901)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T11:31:00Z",
+   "quelle": "SEC",
+   "name": "Troim Tor Olav",
+   "ticker": "BORR",
+   "betrag": 2299150.0,
+   "richtung": "buy",
+   "titel": "Troim Tor Olav (Director): BORR ($2,299,150)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-15",
