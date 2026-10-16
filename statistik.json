@@ -4923,6 +4923,17 @@
    "titel": "Ruddy Jordan B. (President): BPRE ($44,317) | 3 Kaeufer, $17.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T10:45:39Z",
+   "quelle": "SEC",
+   "name": "Pittas Aristeidis P",
+   "ticker": "EDRY",
+   "betrag": 28900.92,
+   "richtung": "buy",
+   "titel": "Pittas Aristeidis P (Director): EDRY ($28,901)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-15",
