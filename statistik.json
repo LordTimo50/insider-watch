@@ -4967,6 +4967,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($161,930)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T19:31:01Z",
+   "quelle": "SEC",
+   "name": "Mindlin Marcos Marcelo",
+   "ticker": "PAM",
+   "betrag": 35139300.0,
+   "richtung": "buy",
+   "titel": "Mindlin Marcos Marcelo (Director): PAM ($35,139,300)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-15",
