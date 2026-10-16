@@ -4945,6 +4945,17 @@
    "titel": "Troim Tor Olav (Director): BORR ($2,299,150)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T14:31:04Z",
+   "quelle": "SEC",
+   "name": "Snowling Harvey Edward",
+   "ticker": "BORR",
+   "betrag": 1473000.0,
+   "richtung": "buy",
+   "titel": "Snowling Harvey Edward (Chief Operating Officer): BORR ($1,473,000) | 2 Kaeufer, $44.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-15",
