@@ -5022,6 +5022,17 @@
    "titel": "Rusnak Paul P. (10%-Owner): SAH ($752,044)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-16T23:30:58Z",
+   "quelle": "SEC",
+   "name": "Hassen Tyler Lewis",
+   "ticker": "ZONE",
+   "betrag": 55150.0,
+   "richtung": "buy",
+   "titel": "Hassen Tyler Lewis (Chief Executive Officer): ZONE ($55,150)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-16",
