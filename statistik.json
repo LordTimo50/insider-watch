@@ -5077,6 +5077,17 @@
    "titel": "Zhang Jason Gechen (President): APLD ($5,658,000) | 2 Kaeufer, $6.7M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T12:45:44Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 76930.445,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($76,930) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-18",
