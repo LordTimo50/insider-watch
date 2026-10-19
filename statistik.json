@@ -5187,6 +5187,17 @@
    "titel": "Opaleye Management Inc. (10%-Owner): ACOG ($308,576)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T22:01:23Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 170743.1,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($170,743)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
