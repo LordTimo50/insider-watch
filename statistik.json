@@ -5055,6 +5055,28 @@
    "titel": "Dash Barry H (Director): ELTP ($25,980)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T11:15:44Z",
+   "quelle": "SEC",
+   "name": "Cummins Wes",
+   "ticker": "APLD",
+   "betrag": 1006686.12,
+   "richtung": "buy",
+   "titel": "Cummins Wes (CEO; Chairman): APLD ($1,006,686)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T11:15:44Z",
+   "quelle": "SEC",
+   "name": "Zhang Jason Gechen",
+   "ticker": "APLD",
+   "betrag": 5658000.0,
+   "richtung": "buy",
+   "titel": "Zhang Jason Gechen (President): APLD ($5,658,000) | 2 Kaeufer, $6.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-18",
