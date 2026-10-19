@@ -5044,6 +5044,17 @@
    "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($136,178)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T10:15:44Z",
+   "quelle": "SEC",
+   "name": "Dash Barry H",
+   "ticker": "ELTP",
+   "betrag": 25979.999999999996,
+   "richtung": "buy",
+   "titel": "Dash Barry H (Director): ELTP ($25,980)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-18",
