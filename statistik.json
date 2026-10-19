@@ -5088,6 +5088,17 @@
    "titel": "Zhao Bin (Chief Executive Officer): API ($76,930) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T17:15:55Z",
+   "quelle": "SEC",
+   "name": "Brown Bruce",
+   "ticker": "MAGN",
+   "betrag": 49995.869,
+   "richtung": "buy",
+   "titel": "Brown Bruce (Director): MAGN ($49,996)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-18",
