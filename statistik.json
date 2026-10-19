@@ -5121,6 +5121,17 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($17,076,202) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T21:01:21Z",
+   "quelle": "SEC",
+   "name": "Purcell Lynn Sebastian",
+   "ticker": "CNXU",
+   "betrag": 499998.0,
+   "richtung": "buy",
+   "titel": "Purcell Lynn Sebastian (Director): CNXU ($499,998)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
