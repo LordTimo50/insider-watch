@@ -5099,6 +5099,17 @@
    "titel": "Brown Bruce (Director): MAGN ($49,996)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T17:31:04Z",
+   "quelle": "SEC",
+   "name": "Lincoln Financial Investments Corp",
+   "ticker": "LNBIX",
+   "betrag": 24999999.9621,
+   "richtung": "buy",
+   "titel": "Lincoln Financial Investments Corp (10%-Owner): LNBIX ($25,000,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-18",
