@@ -5198,6 +5198,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($170,743)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T22:15:44Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 72112.88,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($72,113)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T22:15:45Z",
+   "quelle": "SEC",
+   "name": "Mulacek Phil E",
+   "ticker": "EP",
+   "betrag": 312810.528,
+   "richtung": "buy",
+   "titel": "Mulacek Phil E (Director): EP ($312,811)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
