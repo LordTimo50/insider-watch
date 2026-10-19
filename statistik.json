@@ -5132,6 +5132,61 @@
    "titel": "Purcell Lynn Sebastian (Director): CNXU ($499,998)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T21:45:45Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "ECF",
+   "betrag": 115839.78,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($115,840)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T21:45:46Z",
+   "quelle": "SEC",
+   "name": "ARCH Venture Partners XII, LLC",
+   "ticker": "CTY",
+   "betrag": 3060000.0,
+   "richtung": "buy",
+   "titel": "ARCH Venture Partners XII, LLC (10%-Owner): CTY ($3,060,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T21:45:47Z",
+   "quelle": "SEC",
+   "name": "GLENBROOK CAPITAL MANAGEMENT",
+   "ticker": "SNES",
+   "betrag": 706056.77,
+   "richtung": "buy",
+   "titel": "GLENBROOK CAPITAL MANAGEMENT (10%-Owner): SNES ($706,057)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T21:45:48Z",
+   "quelle": "SEC",
+   "name": "NELSEN ROBERT",
+   "ticker": "CTY",
+   "betrag": 3060000.0,
+   "richtung": "buy",
+   "titel": "NELSEN ROBERT (Director): CTY ($3,060,000) | 2 Kaeufer, $6.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-19T21:45:51Z",
+   "quelle": "SEC",
+   "name": "Opaleye Management Inc.",
+   "ticker": "ACOG",
+   "betrag": 308575.5244,
+   "richtung": "buy",
+   "titel": "Opaleye Management Inc. (10%-Owner): ACOG ($308,576)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
