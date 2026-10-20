@@ -5242,6 +5242,17 @@
    "titel": "Grimme Arne (Director): NBIS ($25,159) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T12:01:14Z",
+   "quelle": "SEC",
+   "name": "Chernett Jorey",
+   "ticker": "XGN",
+   "betrag": 104440.0,
+   "richtung": "buy",
+   "titel": "Chernett Jorey (10%-Owner): XGN ($104,440)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
