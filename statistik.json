@@ -5352,6 +5352,28 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($12,052,562) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T22:01:12Z",
+   "quelle": "SEC",
+   "name": "TANG KEVIN",
+   "ticker": "BOLD",
+   "betrag": 349592.97,
+   "richtung": "buy",
+   "titel": "TANG KEVIN (10%-Owner): BOLD ($349,593)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T22:01:12Z",
+   "quelle": "SEC",
+   "name": "Popenoe Smriti Laxman",
+   "ticker": "DX",
+   "betrag": 156560.0,
+   "richtung": "buy",
+   "titel": "Popenoe Smriti Laxman (Co-CEO and President): DX ($156,560)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-20",
