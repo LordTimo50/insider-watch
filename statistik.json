@@ -5264,6 +5264,17 @@
    "titel": "MA Eagle II Holdings Fund (10%-Owner): SCISX ($2,400,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T14:45:43Z",
+   "quelle": "SEC",
+   "name": "Sunderland Todd",
+   "ticker": "NXG",
+   "betrag": 46500.0,
+   "richtung": "buy",
+   "titel": "Sunderland Todd: NXG ($46,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
