@@ -5253,6 +5253,17 @@
    "titel": "Chernett Jorey (10%-Owner): XGN ($104,440)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T14:01:16Z",
+   "quelle": "SEC",
+   "name": "MA Eagle II Holdings Fund",
+   "ticker": "SCISX",
+   "betrag": 2399999.99708,
+   "richtung": "buy",
+   "titel": "MA Eagle II Holdings Fund (10%-Owner): SCISX ($2,400,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
