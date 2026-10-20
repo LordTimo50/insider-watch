@@ -5231,6 +5231,17 @@
    "titel": "Rachlin Evan Lockwood (Director): IAM ($11,500,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T10:45:42Z",
+   "quelle": "SEC",
+   "name": "Grimme Arne",
+   "ticker": "NBIS",
+   "betrag": 25158.52,
+   "richtung": "buy",
+   "titel": "Grimme Arne (Director): NBIS ($25,159) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
