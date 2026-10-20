@@ -5297,6 +5297,17 @@
    "titel": "Sims David C (CFO, CCO, Secretary, Treasurer): GRF ($108,633)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T17:45:43Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 310658.66000000003,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($310,659)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
