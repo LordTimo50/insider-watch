@@ -5275,6 +5275,28 @@
    "titel": "Sunderland Todd: NXG ($46,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T17:30:58Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "ECF",
+   "betrag": 386338.68000000005,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($386,339)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T17:30:59Z",
+   "quelle": "SEC",
+   "name": "Sims David C",
+   "ticker": "GRF",
+   "betrag": 108632.62,
+   "richtung": "buy",
+   "titel": "Sims David C (CFO, CCO, Secretary, Treasurer): GRF ($108,633)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
