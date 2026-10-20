@@ -5319,6 +5319,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($1,096,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-20T18:17:35Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "JOF",
+   "betrag": 551890.6799999999,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($551,891)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-19",
