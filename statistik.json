@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T13:15:42Z",
-   "quelle": "SEC",
-   "name": "Kravitz Hal",
-   "ticker": "CELH",
-   "betrag": 336000.0,
-   "richtung": "buy",
-   "titel": "Kravitz Hal: CELH ($336,000)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-16T14:30:57Z",
    "quelle": "SEC",
    "name": "SWEENEY GERARD H",
