@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T15:45:42Z",
-   "quelle": "SEC",
-   "name": "Spyrou Symeon",
-   "ticker": "SBLK",
-   "betrag": 424050.0,
-   "richtung": "buy",
-   "titel": "Spyrou Symeon: SBLK ($424,050) | 3 Kaeufer, $650K in 14T",
-   "gemeldet": true
-  },
-  {
    "zeit": "2026-09-16T16:01:19Z",
    "quelle": "SEC",
    "name": "BANKERS LIFE & CASUALTY CO",
