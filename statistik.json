@@ -5309,6 +5309,17 @@
    "titel": "Ignelzi Troy A. (Chief Financial Officer): RAPP ($143,550)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T22:30:55Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 3345006.1730000004,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($3,345,006) | 2 Kaeufer, $17.4M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-21",
