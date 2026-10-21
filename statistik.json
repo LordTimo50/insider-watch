@@ -5329,6 +5329,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($906,898)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T20:01:18Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 77528.36,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($77,528)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-20",
