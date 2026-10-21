@@ -5290,6 +5290,17 @@
    "titel": "KAMFAR RAMIN (Director): BPRE ($3,345,006) | 2 Kaeufer, $17.4M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T23:30:55Z",
+   "quelle": "SEC",
+   "name": "INGRAM ORRIN H II",
+   "ticker": "FBK",
+   "betrag": 1537787.78,
+   "richtung": "buy",
+   "titel": "INGRAM ORRIN H II (Director): FBK ($1,537,788)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-21",
