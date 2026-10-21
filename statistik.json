@@ -5357,6 +5357,17 @@
    "titel": "ADAR1 Capital Management, LLC (10%-Owner): TENX ($1,463,426)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T21:15:49Z",
+   "quelle": "SEC",
+   "name": "Bradshaw Joshua",
+   "ticker": "CRF",
+   "betrag": 117600.0,
+   "richtung": "buy",
+   "titel": "Bradshaw Joshua (Vice Chairman and President): CRF ($117,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-21",
