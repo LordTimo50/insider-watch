@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T21:01:22Z",
-   "quelle": "SEC",
-   "name": "ROBO JAMES L",
-   "ticker": "KBDC",
-   "betrag": 781020.0,
-   "richtung": "buy",
-   "titel": "ROBO JAMES L: KBDC ($781,020)",
-   "gemeldet": true
-  },
-  {
    "zeit": "2026-09-16T21:30:58Z",
    "quelle": "SEC",
    "name": "Global GP LLC",
@@ -5332,6 +5322,39 @@
    "betrag": 56126.729999999996,
    "richtung": "buy",
    "titel": "A.L. Sarroff Fund, LLC (10%-Owner): PETV ($56,127)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T21:01:13Z",
+   "quelle": "SEC",
+   "name": "Bradshaw Joshua",
+   "ticker": "CLM",
+   "betrag": 97280.0,
+   "richtung": "buy",
+   "titel": "Bradshaw Joshua (Vice Chairman and President): CLM ($97,280)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T21:01:15Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 5591237.6088,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($5,591,238) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T21:01:18Z",
+   "quelle": "SEC",
+   "name": "ADAR1 Capital Management, LLC",
+   "ticker": "TENX",
+   "betrag": 1463426.2084,
+   "richtung": "buy",
+   "titel": "ADAR1 Capital Management, LLC (10%-Owner): TENX ($1,463,426)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
