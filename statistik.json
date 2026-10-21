@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T21:30:58Z",
-   "quelle": "SEC",
-   "name": "Global GP LLC",
-   "ticker": "GLP",
-   "betrag": 261000.0,
-   "richtung": "buy",
-   "titel": "Global GP LLC: GLP ($261,000)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-16T21:45:45Z",
    "quelle": "SEC",
    "name": "Veradace Partners LP",
