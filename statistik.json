@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T22:15:48Z",
-   "quelle": "SEC",
-   "name": "Tanco Christopher",
-   "ticker": "PLNT",
-   "betrag": 119259.0168,
-   "richtung": "buy",
-   "titel": "Tanco Christopher: PLNT ($119,259)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-16T23:01:13Z",
    "quelle": "SEC",
    "name": "ADAR1 Capital Management, LLC",
