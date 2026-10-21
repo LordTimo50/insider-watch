@@ -1,26 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T20:30:54Z",
-   "quelle": "SEC",
-   "name": "Archer James Bradley",
-   "ticker": "TH",
-   "betrag": 250165.65000000002,
-   "richtung": "buy",
-   "titel": "Archer James Bradley: TH ($250,166)",
-   "gemeldet": false
-  },
-  {
-   "zeit": "2026-09-16T20:31:09Z",
-   "quelle": "SEC",
-   "name": "RADY ERNEST S",
-   "ticker": "AAT",
-   "betrag": 1082500.0,
-   "richtung": "buy",
-   "titel": "RADY ERNEST S: AAT ($1,082,500)",
-   "gemeldet": true
-  },
-  {
    "zeit": "2026-09-16T20:45:46Z",
    "quelle": "SEC",
    "name": "Schlacks Jabbok",
@@ -5363,8 +5343,19 @@
    "titel": "GLOBAL X MANAGEMENT COMPANY, INC. (10%-Owner): GXVIX ($25,000,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T20:31:11Z",
+   "quelle": "SEC",
+   "name": "A.L. Sarroff Fund, LLC",
+   "ticker": "PETV",
+   "betrag": 56126.729999999996,
+   "richtung": "buy",
+   "titel": "A.L. Sarroff Fund, LLC (10%-Owner): PETV ($56,127)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-20",
+ "letzter_tagesbericht": "2026-10-21",
  "letzter_wochenbericht": "2026-W42"
 }
