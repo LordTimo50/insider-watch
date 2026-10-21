@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T20:15:54Z",
-   "quelle": "SEC",
-   "name": "GEORGE WALTER N.",
-   "ticker": "FRPT",
-   "betrag": 64920.0,
-   "richtung": "buy",
-   "titel": "GEORGE WALTER N.: FRPT ($64,920)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-16T20:30:54Z",
    "quelle": "SEC",
    "name": "Archer James Bradley",
@@ -5339,6 +5329,39 @@
    "richtung": "buy",
    "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($77,528)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T20:16:03Z",
+   "quelle": "SEC",
+   "name": "Ziegler Christoph Samuel",
+   "ticker": "VRXA",
+   "betrag": 32700.000000000004,
+   "richtung": "buy",
+   "titel": "Ziegler Christoph Samuel (Director): VRXA ($32,700)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T20:16:03Z",
+   "quelle": "SEC",
+   "name": "BOSTON BYRON L",
+   "ticker": "DX",
+   "betrag": 99970.20000000001,
+   "richtung": "buy",
+   "titel": "BOSTON BYRON L (Co-CEO & Chairman of the Board): DX ($99,970)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T20:16:08Z",
+   "quelle": "SEC",
+   "name": "GLOBAL X MANAGEMENT COMPANY, INC.",
+   "ticker": "GXVIX",
+   "betrag": 25000000.002199996,
+   "richtung": "buy",
+   "titel": "GLOBAL X MANAGEMENT COMPANY, INC. (10%-Owner): GXVIX ($25,000,000)",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
