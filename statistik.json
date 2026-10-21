@@ -5377,6 +5377,17 @@
    "titel": "Velazquez David M (Director): YORW ($40,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T15:01:21Z",
+   "quelle": "SEC",
+   "name": "Eriksen Howard Timothy",
+   "ticker": "SKAS",
+   "betrag": 70104.0,
+   "richtung": "buy",
+   "titel": "Eriksen Howard Timothy (10%-Owner): SKAS ($70,104)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-20",
