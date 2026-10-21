@@ -1,36 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T22:01:09Z",
-   "quelle": "SEC",
-   "name": "SMACH THOMAS J",
-   "ticker": "CROX",
-   "betrag": 75813.2,
-   "richtung": "buy",
-   "titel": "SMACH THOMAS J: CROX ($75,813)",
-   "gemeldet": false
-  },
-  {
-   "zeit": "2026-09-16T22:01:10Z",
-   "quelle": "SEC",
-   "name": "Opaleye Management Inc.",
-   "ticker": "ACOG",
-   "betrag": 351083.608,
-   "richtung": "buy",
-   "titel": "Opaleye Management Inc.: ACOG ($351,084)",
-   "gemeldet": false
-  },
-  {
-   "zeit": "2026-09-16T22:01:11Z",
-   "quelle": "SEC",
-   "name": "KAPLAN BETH J",
-   "ticker": "CROX",
-   "betrag": 99227.5275,
-   "richtung": "buy",
-   "titel": "KAPLAN BETH J: CROX ($99,228)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-16T22:15:48Z",
    "quelle": "SEC",
    "name": "Tanco Christopher",
@@ -5336,6 +5306,17 @@
    "betrag": 117600.0,
    "richtung": "buy",
    "titel": "Bradshaw Joshua (Vice Chairman and President): CRF ($117,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T22:01:21Z",
+   "quelle": "SEC",
+   "name": "Ignelzi Troy A.",
+   "ticker": "RAPP",
+   "betrag": 143550.0,
+   "richtung": "buy",
+   "titel": "Ignelzi Troy A. (Chief Financial Officer): RAPP ($143,550)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
