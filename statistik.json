@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T13:01:10Z",
-   "quelle": "SEC",
-   "name": "Murphy Michael Dennis",
-   "ticker": "AVBC",
-   "betrag": 110600.0,
-   "richtung": "buy",
-   "titel": "Murphy Michael Dennis: AVBC ($110,600)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-16T13:15:42Z",
    "quelle": "SEC",
    "name": "Kravitz Hal",
@@ -5383,6 +5373,17 @@
    "betrag": 52036.6752,
    "richtung": "buy",
    "titel": "WANG CHUN KAI (Chief Executive Officer): OWLS ($52,037)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T13:01:19Z",
+   "quelle": "SEC",
+   "name": "SHAW STEVEN A",
+   "ticker": "MHH",
+   "betrag": 30026.0,
+   "richtung": "buy",
+   "titel": "SHAW STEVEN A (10%-Owner): MHH ($30,026)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
