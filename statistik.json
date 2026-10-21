@@ -5318,6 +5318,17 @@
    "titel": "Eriksen Howard Timothy (10%-Owner): SKAS ($70,104)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T19:31:03Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 906898.0499999999,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($906,898)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-20",
