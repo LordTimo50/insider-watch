@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-16T18:45:59Z",
-   "quelle": "SEC",
-   "name": "Robinson Dashiell I",
-   "ticker": "RWT",
-   "betrag": 251580.29739999998,
-   "richtung": "buy",
-   "titel": "Robinson Dashiell I: RWT ($251,580)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-16T20:15:54Z",
    "quelle": "SEC",
    "name": "GEORGE WALTER N.",
