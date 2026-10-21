@@ -5366,6 +5366,17 @@
    "titel": "SHAW STEVEN A (10%-Owner): MHH ($30,026)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-21T14:45:47Z",
+   "quelle": "SEC",
+   "name": "Velazquez David M",
+   "ticker": "YORW",
+   "betrag": 40000.0497017,
+   "richtung": "buy",
+   "titel": "Velazquez David M (Director): YORW ($40,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-20",
