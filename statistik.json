@@ -1,26 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-17T20:31:16Z",
-   "quelle": "SEC",
-   "name": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG",
-   "betrag": 7385801.9697,
-   "richtung": "buy",
-   "titel": "NIPPON LIFE INSURANCE CO: CRBG ($7,385,802)",
-   "gemeldet": true
-  },
-  {
-   "zeit": "2026-09-17T20:31:20Z",
-   "quelle": "SEC",
-   "name": "Weiss Eric Stanton",
-   "ticker": "CORZ",
-   "betrag": 97979.99999999999,
-   "richtung": "buy",
-   "titel": "Weiss Eric Stanton: CORZ ($97,980)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-17T21:01:12Z",
    "quelle": "SEC",
    "name": "FRANKOLA JIM",
@@ -5135,8 +5115,19 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($25,703)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T20:31:08Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 109459.0,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($109,459)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-21",
+ "letzter_tagesbericht": "2026-10-22",
  "letzter_wochenbericht": "2026-W42"
 }
