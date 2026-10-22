@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-17T18:30:57Z",
-   "quelle": "SEC",
-   "name": "HRT FINANCIAL LP",
-   "ticker": "USO",
-   "betrag": 2208959.87,
-   "richtung": "buy",
-   "titel": "HRT FINANCIAL LP: USO ($2,208,960)",
-   "gemeldet": true
-  },
-  {
    "zeit": "2026-09-17T20:01:11Z",
    "quelle": "SEC",
    "name": "MITAROTONDA JAMES A",
