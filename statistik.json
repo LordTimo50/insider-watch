@@ -1,46 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-17T21:01:12Z",
-   "quelle": "SEC",
-   "name": "FRANKOLA JIM",
-   "ticker": "SKIL",
-   "betrag": 128594.99999999999,
-   "richtung": "buy",
-   "titel": "FRANKOLA JIM: SKIL ($128,595)",
-   "gemeldet": false
-  },
-  {
-   "zeit": "2026-09-17T21:01:14Z",
-   "quelle": "SEC",
-   "name": "CHEVALLIER SANTIAGO CAMPOS",
-   "ticker": "BWMX",
-   "betrag": 246924.0,
-   "richtung": "buy",
-   "titel": "CHEVALLIER SANTIAGO CAMPOS: BWMX ($246,924)",
-   "gemeldet": false
-  },
-  {
-   "zeit": "2026-09-17T21:01:14Z",
-   "quelle": "SEC",
-   "name": "Campos Luis",
-   "ticker": "BWMX",
-   "betrag": 731646.0,
-   "richtung": "buy",
-   "titel": "Campos Luis: BWMX ($731,646) | 2 Kaeufer, $979K in 14T",
-   "gemeldet": true
-  },
-  {
-   "zeit": "2026-09-17T21:01:15Z",
-   "quelle": "SEC",
-   "name": "CHEVALLIER ANDRES CAMPOS",
-   "ticker": "BWMX",
-   "betrag": 492291.0,
-   "richtung": "buy",
-   "titel": "CHEVALLIER ANDRES CAMPOS: BWMX ($492,291) | 3 Kaeufer, $1.5M in 14T",
-   "gemeldet": true
-  },
-  {
    "zeit": "2026-09-17T21:15:52Z",
    "quelle": "SEC",
    "name": "McMullen William Wallace",
@@ -5124,6 +5084,61 @@
    "betrag": 109459.0,
    "richtung": "buy",
    "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($109,459)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T21:01:24Z",
+   "quelle": "SEC",
+   "name": "Silva Paul M",
+   "ticker": "RAPP",
+   "betrag": 99636.0,
+   "richtung": "buy",
+   "titel": "Silva Paul M (Director): RAPP ($99,636)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T21:01:25Z",
+   "quelle": "SEC",
+   "name": "Young Wendy B.",
+   "ticker": "RAPP",
+   "betrag": 99991.71,
+   "richtung": "buy",
+   "titel": "Young Wendy B. (Director): RAPP ($99,992) | 3 Kaeufer, $343K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T21:01:26Z",
+   "quelle": "SEC",
+   "name": "PAUL STEVEN M",
+   "ticker": "RAPP",
+   "betrag": 974277.92,
+   "richtung": "buy",
+   "titel": "PAUL STEVEN M (Director): RAPP ($974,278) | 4 Kaeufer, $1.3M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T21:01:27Z",
+   "quelle": "SEC",
+   "name": "MARAGANORE JOHN",
+   "ticker": "RAPP",
+   "betrag": 248891.0717,
+   "richtung": "buy",
+   "titel": "MARAGANORE JOHN (Director): RAPP ($248,891) | 5 Kaeufer, $1.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T21:01:29Z",
+   "quelle": "SEC",
+   "name": "Spence John Yogi",
+   "ticker": "XFLT",
+   "betrag": 34140.0,
+   "richtung": "buy",
+   "titel": "Spence John Yogi: XFLT ($34,140)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
