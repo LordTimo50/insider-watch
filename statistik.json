@@ -5241,6 +5241,17 @@
    "titel": "INGRAM ORRIN H II (Director): FBK ($1,537,788)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T12:15:46Z",
+   "quelle": "SEC",
+   "name": "Epstein David R",
+   "ticker": "AGMB",
+   "betrag": 88800.0,
+   "richtung": "buy",
+   "titel": "Epstein David R (Director): AGMB ($88,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-21",
