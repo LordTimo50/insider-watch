@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-17T12:30:59Z",
-   "quelle": "SEC",
-   "name": "Reskos Nikolaos",
-   "ticker": "SBLK",
-   "betrag": 282700.0,
-   "richtung": "buy",
-   "titel": "Reskos Nikolaos: SBLK ($282,700) | 4 Kaeufer, $933K in 14T",
-   "gemeldet": true
-  },
-  {
    "zeit": "2026-09-17T13:01:17Z",
    "quelle": "SEC",
    "name": "Troim Tor Olav",
