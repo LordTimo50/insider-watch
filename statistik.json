@@ -5194,6 +5194,17 @@
    "titel": "RAN ASSAF (President and CEO): LOAN ($34,693)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T19:31:01Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 25703.28,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($25,703)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-21",
