@@ -5143,6 +5143,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($327,435)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T21:45:44Z",
+   "quelle": "SEC",
+   "name": "Clarke Teresa Hillary",
+   "ticker": "AMT",
+   "betrag": 63718.03424,
+   "richtung": "buy",
+   "titel": "Clarke Teresa Hillary (Director): AMT ($63,718)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T21:45:46Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "LEO",
+   "betrag": 262611.63,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($262,612)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
