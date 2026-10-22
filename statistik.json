@@ -5157,6 +5157,17 @@
    "titel": "GLENBROOK CAPITAL MANAGEMENT (10%-Owner): SNES ($74,838)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T23:45:43Z",
+   "quelle": "SEC",
+   "name": "Boswell Peyton",
+   "ticker": "LIQT",
+   "betrag": 50000.0,
+   "richtung": "buy",
+   "titel": "Boswell Peyton (Director): LIQT ($50,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
