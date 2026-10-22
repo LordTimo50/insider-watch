@@ -5183,6 +5183,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($30,108)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-22T19:01:11Z",
+   "quelle": "SEC",
+   "name": "RAN ASSAF",
+   "ticker": "LOAN",
+   "betrag": 34692.7465,
+   "richtung": "buy",
+   "titel": "RAN ASSAF (President and CEO): LOAN ($34,693)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-21",
