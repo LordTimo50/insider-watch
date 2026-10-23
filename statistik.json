@@ -5169,6 +5169,17 @@
    "titel": "Zhao Bin (Chief Executive Officer): API ($168,305) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T10:45:44Z",
+   "quelle": "SEC",
+   "name": "Qiu Wenbin",
+   "ticker": "BZUN",
+   "betrag": 39900.0,
+   "richtung": "buy",
+   "titel": "Qiu Wenbin (Chief Executive Officer): BZUN ($39,900)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
