@@ -1,16 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-18T01:30:58Z",
-   "quelle": "SEC",
-   "name": "Doogan Declan",
-   "ticker": "TENX",
-   "betrag": 101760.0,
-   "richtung": "buy",
-   "titel": "Doogan Declan: TENX ($101,760)",
-   "gemeldet": false
-  },
-  {
    "zeit": "2026-09-18T12:01:07Z",
    "quelle": "SEC",
    "name": "Lyons Michael P.",
