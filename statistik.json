@@ -5136,6 +5136,17 @@
    "titel": "Qiu Wenbin (Chief Executive Officer): BZUN ($39,900)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T13:31:01Z",
+   "quelle": "SEC",
+   "name": "Camara Edilson",
+   "ticker": "CLF",
+   "betrag": 99826.0,
+   "richtung": "buy",
+   "titel": "Camara Edilson (Director): CLF ($99,826)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
