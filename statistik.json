@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-18T22:15:46Z",
-   "quelle": "SEC",
-   "name": "Shen Ching Hang",
-   "ticker": "cv",
-   "betrag": 4999996.46,
-   "richtung": "buy",
-   "titel": "Shen Ching Hang (10%-Owner): cv ($4,999,996)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-18T23:30:53Z",
    "quelle": "SEC",
    "name": "MacDonald Ryan S",
@@ -5178,6 +5167,17 @@
    "betrag": 352684.31999999995,
    "richtung": "buy",
    "titel": "Equinox Partners Investment Management LLC (10%-Owner): SAMG ($352,684)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T22:15:42Z",
+   "quelle": "SEC",
+   "name": "BANK OF AMERICA CORP /DE/",
+   "ticker": "PNI",
+   "betrag": 77084.78,
+   "richtung": "buy",
+   "titel": "BANK OF AMERICA CORP /DE/ (10%-Owner): PNI ($77,085)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
