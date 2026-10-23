@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-18T13:01:11Z",
-   "quelle": "SEC",
-   "name": "Fox Michael",
-   "ticker": "ECOR",
-   "betrag": 49003.50000000001,
-   "richtung": "buy",
-   "titel": "Fox Michael (See Remarks): ECOR ($49,004)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-18T14:46:09Z",
    "quelle": "SEC",
    "name": "Walsh Joe",
