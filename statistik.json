@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-18T21:30:57Z",
-   "quelle": "SEC",
-   "name": "MALONE JOHN C",
-   "ticker": "LILA",
-   "betrag": 754322.8244,
-   "richtung": "buy",
-   "titel": "MALONE JOHN C (10%-Owner): LILA ($754,323)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-18T21:31:01Z",
-   "quelle": "SEC",
-   "name": "LIBERTY MUTUAL HOLDING Co INC.",
-   "ticker": "NONE",
-   "betrag": 9761987.52,
-   "richtung": "buy",
-   "titel": "LIBERTY MUTUAL HOLDING Co INC. (10%-Owner): NONE ($9,761,988) | 2 Kaeufer, $17.8M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-18T22:01:14Z",
    "quelle": "SEC",
    "name": "Priest Jeffrey W",
@@ -5212,6 +5190,17 @@
    "richtung": "buy",
    "titel": "Swank Jerry V (See Remarks): NXG ($439,493) | 3 Kaeufer, $526K in 14T",
    "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T21:31:07Z",
+   "quelle": "SEC",
+   "name": "Equinox Partners Investment Management LLC",
+   "ticker": "SAMG",
+   "betrag": 352684.31999999995,
+   "richtung": "buy",
+   "titel": "Equinox Partners Investment Management LLC (10%-Owner): SAMG ($352,684)",
+   "gemeldet": false,
    "zurueckgehalten": false
   }
  ],
