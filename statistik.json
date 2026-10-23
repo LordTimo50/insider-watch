@@ -5158,6 +5158,17 @@
    "titel": "Worley Matthew Eugene (Director): CRAFX ($431,249)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T18:31:05Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 40280.0,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($40,280)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
