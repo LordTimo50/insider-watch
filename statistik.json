@@ -5136,6 +5136,17 @@
    "titel": "Camara Edilson (Director): CLF ($99,826)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T16:01:16Z",
+   "quelle": "SEC",
+   "name": "GALLIGAN GREGORY T",
+   "ticker": "[NONE]",
+   "betrag": 100000.15482600001,
+   "richtung": "buy",
+   "titel": "GALLIGAN GREGORY T (CEO and President): [NONE] ($100,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
