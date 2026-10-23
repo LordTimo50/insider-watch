@@ -5168,6 +5168,17 @@
    "titel": "Boswell Peyton (Director): LIQT ($50,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T01:01:08Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 168304.7483,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($168,305) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
