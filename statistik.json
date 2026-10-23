@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-18T20:31:11Z",
-   "quelle": "SEC",
-   "name": "Schrenk Troy C.",
-   "ticker": "TH",
-   "betrag": 124992.12,
-   "richtung": "buy",
-   "titel": "Schrenk Troy C. (Chief Commercial Officer): TH ($124,992)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-18T20:31:14Z",
-   "quelle": "SEC",
-   "name": "Capper Joseph H",
-   "ticker": "TELA",
-   "betrag": 58265.0,
-   "richtung": "buy",
-   "titel": "Capper Joseph H (Director): TELA ($58,265)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-18T21:01:31Z",
    "quelle": "SEC",
    "name": "Wong Albert",
@@ -5191,8 +5169,30 @@
    "titel": "CHS US Investments LLC (10%-Owner): RENT ($1,626,770) | 3 Kaeufer, $6.1M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T20:30:58Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 7684333.523999999,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($7,684,334) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T20:31:10Z",
+   "quelle": "SEC",
+   "name": "Slone Reuben E",
+   "ticker": "MSM",
+   "betrag": 50129.164300000004,
+   "richtung": "buy",
+   "titel": "Slone Reuben E (Director): MSM ($50,129)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-22",
+ "letzter_tagesbericht": "2026-10-23",
  "letzter_wochenbericht": "2026-W42"
 }
