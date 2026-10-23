@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-18T23:30:53Z",
-   "quelle": "SEC",
-   "name": "MacDonald Ryan S",
-   "ticker": "BPRE",
-   "betrag": 66000.0,
-   "richtung": "buy",
-   "titel": "MacDonald Ryan S: BPRE ($66,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-19T00:30:56Z",
    "quelle": "SEC",
    "name": "Abate Christopher J",
