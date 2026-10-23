@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-18T22:01:14Z",
-   "quelle": "SEC",
-   "name": "Priest Jeffrey W",
-   "ticker": "GAM",
-   "betrag": 93840.0,
-   "richtung": "buy",
-   "titel": "Priest Jeffrey W (President & CEO): GAM ($93,840)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-18T22:01:15Z",
-   "quelle": "SEC",
-   "name": "Wiens David Victor",
-   "ticker": "THM",
-   "betrag": 199999.98,
-   "richtung": "buy",
-   "titel": "Wiens David Victor (Chief Executive Officer): THM ($200,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-18T22:15:46Z",
    "quelle": "SEC",
    "name": "Shen Ching Hang",
