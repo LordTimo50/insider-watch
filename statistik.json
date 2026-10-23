@@ -5158,6 +5158,39 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($40,280)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T20:15:44Z",
+   "quelle": "SEC",
+   "name": "STORY3 Capital Partners, LLC",
+   "ticker": "RENT",
+   "betrag": 2246873.1,
+   "richtung": "buy",
+   "titel": "STORY3 Capital Partners, LLC (Director): RENT ($2,246,873)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T20:15:45Z",
+   "quelle": "SEC",
+   "name": "Nexus Capital Management LP",
+   "ticker": "RENT",
+   "betrag": 2246873.1,
+   "richtung": "buy",
+   "titel": "Nexus Capital Management LP (Director): RENT ($2,246,873) | 2 Kaeufer, $4.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-23T20:15:46Z",
+   "quelle": "SEC",
+   "name": "CHS US Investments LLC",
+   "ticker": "RENT",
+   "betrag": 1626769.75,
+   "richtung": "buy",
+   "titel": "CHS US Investments LLC (10%-Owner): RENT ($1,626,770) | 3 Kaeufer, $6.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-22",
