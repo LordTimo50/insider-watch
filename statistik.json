@@ -1,39 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T20:31:25Z",
-   "quelle": "SEC",
-   "name": "de Oliveira Andre Luis Duarte",
-   "ticker": "BBD",
-   "betrag": 5557815.78,
-   "richtung": "buy",
-   "titel": "de Oliveira Andre Luis Duarte (Executive Officer): BBD ($5,557,816)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-21T20:31:30Z",
-   "quelle": "SEC",
-   "name": "SCULLY WILLIAM P",
-   "ticker": "PRTA",
-   "betrag": 843460.0,
-   "richtung": "buy",
-   "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($843,460)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-21T20:31:31Z",
-   "quelle": "SEC",
-   "name": "Panico Alexandre",
-   "ticker": "BBD",
-   "betrag": 784287.6,
-   "richtung": "buy",
-   "titel": "Panico Alexandre (Executive Officer): BBD ($784,288) | 2 Kaeufer, $6.3M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-21T20:45:59Z",
    "quelle": "SEC",
    "name": "Monroe James III",
@@ -5125,8 +5092,41 @@
    "titel": "Hollister Thomas J (Director): BBT ($104,984)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T20:31:00Z",
+   "quelle": "SEC",
+   "name": "HUFF CRAIG A",
+   "ticker": "CITR",
+   "betrag": 500000.0,
+   "richtung": "buy",
+   "titel": "HUFF CRAIG A (Director): CITR ($500,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T20:31:01Z",
+   "quelle": "SEC",
+   "name": "Bobbora William",
+   "ticker": "TCBX",
+   "betrag": 40339.799999999996,
+   "richtung": "buy",
+   "titel": "Bobbora William (See Remarks): TCBX ($40,340)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T20:31:04Z",
+   "quelle": "SEC",
+   "name": "SCULLY WILLIAM P",
+   "ticker": "PRTA",
+   "betrag": 1222045.0,
+   "richtung": "buy",
+   "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($1,222,045)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-25",
+ "letzter_tagesbericht": "2026-10-26",
  "letzter_wochenbericht": "2026-W43"
 }
