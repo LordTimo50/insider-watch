@@ -5136,6 +5136,17 @@
    "titel": "BANK OF AMERICA CORP /DE/ (10%-Owner): PNI ($77,085)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T12:45:41Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 2126091.398,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($2,126,091) | 2 Kaeufer, $11.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-25",
