@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T23:01:44Z",
-   "quelle": "SEC",
-   "name": "Stabell Jason",
-   "ticker": "EPSN",
-   "betrag": 48257.159999999996,
-   "richtung": "buy",
-   "titel": "Stabell Jason (Chief Executive Officer): EPSN ($48,257)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T00:45:41Z",
    "quelle": "SEC",
    "name": "Hungate Alexander Charles",
@@ -5134,6 +5123,50 @@
    "betrag": 884751.9105999998,
    "richtung": "buy",
    "titel": "Lynx1 Capital Management LP (10%-Owner): KRRO ($884,752)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T23:01:15Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 8662932.811999999,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($8,662,933) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T23:01:16Z",
+   "quelle": "SEC",
+   "name": "Apel Thomas G",
+   "ticker": "STC",
+   "betrag": 95470.0,
+   "richtung": "buy",
+   "titel": "Apel Thomas G (Director): STC ($95,470)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T23:01:16Z",
+   "quelle": "SEC",
+   "name": "Corey William S. Jr.",
+   "ticker": "STC",
+   "betrag": 93640.0,
+   "richtung": "buy",
+   "titel": "Corey William S. Jr. (Director): STC ($93,640)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T23:01:17Z",
+   "quelle": "SEC",
+   "name": "BRADLEY C ALLEN JR",
+   "ticker": "STC",
+   "betrag": 94600.0,
+   "richtung": "buy",
+   "titel": "BRADLEY C ALLEN JR (Director): STC ($94,600)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
