@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T21:01:23Z",
-   "quelle": "SEC",
-   "name": "LEITH CHARLES KENNETH",
-   "ticker": "FBDT",
-   "betrag": 45330.0,
-   "richtung": "buy",
-   "titel": "LEITH CHARLES KENNETH (Chief Revenue Officer): FBDT ($45,330)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-21T21:15:49Z",
    "quelle": "SEC",
    "name": "Halstead Michael",
@@ -5090,6 +5079,28 @@
    "betrag": 1222045.0,
    "richtung": "buy",
    "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($1,222,045)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:01:25Z",
+   "quelle": "SEC",
+   "name": "Opaleye Management Inc.",
+   "ticker": "ACOG",
+   "betrag": 265820.0834,
+   "richtung": "buy",
+   "titel": "Opaleye Management Inc. (10%-Owner): ACOG ($265,820)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:01:27Z",
+   "quelle": "SEC",
+   "name": "TANG KEVIN",
+   "ticker": "BOLD",
+   "betrag": 51619.2,
+   "richtung": "buy",
+   "titel": "TANG KEVIN (10%-Owner): BOLD ($51,619)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
