@@ -5125,6 +5125,17 @@
    "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($158,601)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T22:45:41Z",
+   "quelle": "SEC",
+   "name": "Lynx1 Capital Management LP",
+   "ticker": "KRRO",
+   "betrag": 884751.9105999998,
+   "richtung": "buy",
+   "titel": "Lynx1 Capital Management LP (10%-Owner): KRRO ($884,752)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-26",
