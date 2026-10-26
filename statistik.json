@@ -5114,6 +5114,17 @@
    "titel": "KAMFAR RAMIN (Director): BPRE ($2,126,091) | 2 Kaeufer, $11.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T19:45:41Z",
+   "quelle": "SEC",
+   "name": "Hollister Thomas J",
+   "ticker": "BBT",
+   "betrag": 104983.5,
+   "richtung": "buy",
+   "titel": "Hollister Thomas J (Director): BBT ($104,984)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-25",
