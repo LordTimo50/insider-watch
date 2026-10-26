@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T21:15:49Z",
-   "quelle": "SEC",
-   "name": "Halstead Michael",
-   "ticker": "CYBN",
-   "betrag": 1347050.0,
-   "richtung": "buy",
-   "titel": "Halstead Michael (Chief Executive Officer): CYBN ($1,347,050)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-09-21T21:15:52Z",
-   "quelle": "SEC",
-   "name": "Cohen Ryan",
-   "ticker": "GME",
-   "betrag": 26393722.5,
-   "richtung": "buy",
-   "titel": "Cohen Ryan (President, CEO and Chairman): GME ($26,393,722)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-21T21:45:47Z",
    "quelle": "SEC",
    "name": "da Cunha Paulo Roberto Simoes",
@@ -5101,6 +5079,39 @@
    "betrag": 51619.2,
    "richtung": "buy",
    "titel": "TANG KEVIN (10%-Owner): BOLD ($51,619)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:15:48Z",
+   "quelle": "SEC",
+   "name": "Stewart Pamela C",
+   "ticker": "BY",
+   "betrag": 44785.047999999995,
+   "richtung": "buy",
+   "titel": "Stewart Pamela C (Director): BY ($44,785)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:15:48Z",
+   "quelle": "SEC",
+   "name": "Darling Craig",
+   "ticker": "OIG",
+   "betrag": 115797.2,
+   "richtung": "buy",
+   "titel": "Darling Craig (10%-Owner): OIG ($115,797)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:15:49Z",
+   "quelle": "SEC",
+   "name": "Grimme Arne",
+   "ticker": "NBIS",
+   "betrag": 122437.87,
+   "richtung": "buy",
+   "titel": "Grimme Arne (Director): NBIS ($122,438) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
   }
