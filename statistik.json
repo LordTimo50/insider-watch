@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T15:46:03Z",
-   "quelle": "SEC",
-   "name": "Lincoln Financial Investments Corp",
-   "ticker": "LNBIX",
-   "betrag": 24999999.9872,
-   "richtung": "buy",
-   "titel": "Lincoln Financial Investments Corp (10%-Owner): LNBIX ($25,000,000)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-21T17:01:12Z",
    "quelle": "SEC",
    "name": "Dorsett Jason Christopher",
