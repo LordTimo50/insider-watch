@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T22:31:06Z",
-   "quelle": "SEC",
-   "name": "Kirk David Blair",
-   "ticker": "CRM",
-   "betrag": 999450.8496,
-   "richtung": "buy",
-   "titel": "Kirk David Blair (Director): CRM ($999,451)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-21T23:01:44Z",
    "quelle": "SEC",
    "name": "Stabell Jason",
