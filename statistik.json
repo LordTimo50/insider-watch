@@ -5169,6 +5169,17 @@
    "titel": "BRADLEY C ALLEN JR (Director): STC ($94,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T23:45:42Z",
+   "quelle": "SEC",
+   "name": "SUBIN NEIL S",
+   "ticker": "OPTU",
+   "betrag": 1163551.2948,
+   "richtung": "buy",
+   "titel": "SUBIN NEIL S (10%-Owner): OPTU ($1,163,551)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-26",
