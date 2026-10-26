@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T22:01:18Z",
-   "quelle": "SEC",
-   "name": "Global GP LLC",
-   "ticker": "GLP",
-   "betrag": 255400.0,
-   "richtung": "buy",
-   "titel": "Global GP LLC: GLP ($255,400)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-21T22:31:06Z",
    "quelle": "SEC",
    "name": "Kirk David Blair",
