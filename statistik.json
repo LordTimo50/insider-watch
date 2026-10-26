@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-21T21:45:47Z",
-   "quelle": "SEC",
-   "name": "da Cunha Paulo Roberto Simoes",
-   "ticker": "BBD",
-   "betrag": 842794.52,
-   "richtung": "buy",
-   "titel": "da Cunha Paulo Roberto Simoes (Director): BBD ($842,795)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-21T22:01:18Z",
    "quelle": "SEC",
    "name": "Global GP LLC",
@@ -5113,6 +5102,39 @@
    "richtung": "buy",
    "titel": "Grimme Arne (Director): NBIS ($122,438) [10b5-1-Plan]",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:45:47Z",
+   "quelle": "SEC",
+   "name": "MASCARENAS PAUL ANTHONY",
+   "ticker": "THRM",
+   "betrag": 532600.0,
+   "richtung": "buy",
+   "titel": "MASCARENAS PAUL ANTHONY (Director): THRM ($532,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:45:50Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "LEO",
+   "betrag": 369200.0,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($369,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T21:45:51Z",
+   "quelle": "SEC",
+   "name": "Presley William T.",
+   "ticker": "THRM",
+   "betrag": 130000.0,
+   "richtung": "buy",
+   "titel": "Presley William T. (President & CEO): THRM ($130,000) | 2 Kaeufer, $663K in 14T",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
