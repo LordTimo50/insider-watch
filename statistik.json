@@ -5125,6 +5125,17 @@
    "titel": "Presley William T. (President & CEO): THRM ($130,000) | 2 Kaeufer, $663K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-26T22:15:39Z",
+   "quelle": "SEC",
+   "name": "Opaleye Management Inc.",
+   "ticker": "GRCE",
+   "betrag": 158600.8689,
+   "richtung": "buy",
+   "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($158,601)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-26",
