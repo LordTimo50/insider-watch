@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T14:15:44Z",
-   "quelle": "SEC",
-   "name": "Ramalho Miranda Jose Augusto",
-   "ticker": "BBD",
-   "betrag": 1145667.62,
-   "richtung": "buy",
-   "titel": "Ramalho Miranda Jose Augusto (Executive Officer): BBD ($1,145,668)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-09-22T14:15:45Z",
-   "quelle": "SEC",
-   "name": "Ben-Avi David",
-   "ticker": "NYAX",
-   "betrag": 43510.5372,
-   "richtung": "buy",
-   "titel": "Ben-Avi David (CTO and Co Founder): NYAX ($43,511)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T14:31:04Z",
    "quelle": "SEC",
    "name": "Bueno Julio Cesar",
