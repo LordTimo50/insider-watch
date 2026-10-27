@@ -5070,6 +5070,17 @@
    "titel": "Panagiotidis Petros Panagiotis (Chief Executive Officer): AIOK ($1,059,604)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-10-27T23:45:40Z",
+   "quelle": "SEC",
+   "name": "ADAR1 Capital Management, LLC",
+   "ticker": "NXTC",
+   "betrag": 53691.322100000005,
+   "richtung": "buy",
+   "titel": "ADAR1 Capital Management, LLC (10%-Owner): NXTC ($53,691)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
