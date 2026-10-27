@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T20:16:21Z",
-   "quelle": "SEC",
-   "name": "BULLS HERMAN E",
-   "ticker": "FLNC",
-   "betrag": 73600.0,
-   "richtung": "buy",
-   "titel": "BULLS HERMAN E (Director): FLNC ($73,600)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T20:31:05Z",
    "quelle": "SEC",
    "name": "NIPPON LIFE INSURANCE CO",
@@ -4926,6 +4915,39 @@
    "richtung": "buy",
    "titel": "Takao Justin (Treasurer, CAO & CFO): KIO ($78,398)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:15:50Z",
+   "quelle": "SEC",
+   "name": "Long Joseph B",
+   "ticker": "NPB",
+   "betrag": 49799.772000000004,
+   "richtung": "buy",
+   "titel": "Long Joseph B (Chief Operating Officer): NPB ($49,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:15:50Z",
+   "quelle": "SEC",
+   "name": "Boer Carrie L",
+   "ticker": "NPB",
+   "betrag": 184761.6,
+   "richtung": "buy",
+   "titel": "Boer Carrie L (Director): NPB ($184,762)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:15:56Z",
+   "quelle": "SEC",
+   "name": "Williams Charles Alan",
+   "ticker": "NPB",
+   "betrag": 1537390.0,
+   "richtung": "buy",
+   "titel": "Williams Charles Alan (CHAIRMAN & CEO): NPB ($1,537,390) | 3 Kaeufer, $1.8M in 14T",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
