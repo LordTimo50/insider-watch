@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T20:45:50Z",
-   "quelle": "SEC",
-   "name": "Labe James",
-   "ticker": "TPVG",
-   "betrag": 1477081.111842,
-   "richtung": "buy",
-   "titel": "Labe James (Chief Executive Officer): TPVG ($1,477,081)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-09-22T20:45:54Z",
-   "quelle": "SEC",
-   "name": "Hunt Bryan Cecil",
-   "ticker": "SEZL",
-   "betrag": 28965.0,
-   "richtung": "buy",
-   "titel": "Hunt Bryan Cecil (Director): SEZL ($28,965)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T22:45:47Z",
    "quelle": "SEC",
    "name": "TANNENBAUM LEONARD M",
@@ -4969,6 +4947,72 @@
    "betrag": 29923.739999999998,
    "richtung": "buy",
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($29,924)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:45:43Z",
+   "quelle": "SEC",
+   "name": "Matz Deborah Jane",
+   "ticker": "STC",
+   "betrag": 43910.0,
+   "richtung": "buy",
+   "titel": "Matz Deborah Jane (Director): STC ($43,910) | 4 Kaeufer, $328K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:45:44Z",
+   "quelle": "SEC",
+   "name": "Robert Young L",
+   "ticker": "NMCO",
+   "betrag": 248882.53499999997,
+   "richtung": "buy",
+   "titel": "Robert Young L: NMCO ($248,883)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:45:45Z",
+   "quelle": "SEC",
+   "name": "Robert Young L",
+   "ticker": "NUV",
+   "betrag": 300394.49399999995,
+   "richtung": "buy",
+   "titel": "Robert Young L: NUV ($300,394)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:45:45Z",
+   "quelle": "SEC",
+   "name": "EPPINGER FREDERICK H",
+   "ticker": "STC",
+   "betrag": 133350.0,
+   "richtung": "buy",
+   "titel": "EPPINGER FREDERICK H (Chief Executive Officer): STC ($133,350) | 5 Kaeufer, $461K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:45:46Z",
+   "quelle": "SEC",
+   "name": "Robert Young L",
+   "ticker": "NXP",
+   "betrag": 300432.9216,
+   "richtung": "buy",
+   "titel": "Robert Young L: NXP ($300,433)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T20:45:47Z",
+   "quelle": "SEC",
+   "name": "ARES MANAGEMENT LLC",
+   "ticker": "CTEV",
+   "betrag": 1678106.0464,
+   "richtung": "buy",
+   "titel": "ARES MANAGEMENT LLC (10%-Owner): CTEV ($1,678,106)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
