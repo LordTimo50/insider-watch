@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T11:31:02Z",
-   "quelle": "SEC",
-   "name": "DEGIGLIO MICHAEL A",
-   "ticker": "VFF",
-   "betrag": 101258.5,
-   "richtung": "buy",
-   "titel": "DEGIGLIO MICHAEL A (Chief Executive Officer): VFF ($101,258)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T12:31:00Z",
    "quelle": "SEC",
    "name": "Alvarez Denise Aguiar",
