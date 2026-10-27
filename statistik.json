@@ -5136,6 +5136,17 @@
    "titel": "Conifer Management, L.L.C. (10%-Owner): GPI ($24,232,209)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T02:01:13Z",
+   "quelle": "SEC",
+   "name": "Whitney Meredith",
+   "ticker": "RVII",
+   "betrag": 26625.0,
+   "richtung": "buy",
+   "titel": "Whitney Meredith (Director): RVII ($26,625)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-26",
