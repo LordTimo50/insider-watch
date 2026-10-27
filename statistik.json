@@ -5147,6 +5147,17 @@
    "titel": "Whitney Meredith (Director): RVII ($26,625)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T10:15:47Z",
+   "quelle": "SEC",
+   "name": "Manieu Alexandre Weinstein",
+   "ticker": "PLUR",
+   "betrag": 1250001.0,
+   "richtung": "buy",
+   "titel": "Manieu Alexandre Weinstein (Director): PLUR ($1,250,001)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-26",
