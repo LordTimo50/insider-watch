@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T01:15:56Z",
-   "quelle": "SEC",
-   "name": "Attal Alain",
-   "ticker": "GME",
-   "betrag": 401957.5,
-   "richtung": "buy",
-   "titel": "Attal Alain (Director): GME ($401,958) | 2 Kaeufer, $26.8M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T01:30:58Z",
    "quelle": "SEC",
    "name": "Apeiron Investment Group Ltd.",
@@ -5157,6 +5146,17 @@
    "richtung": "buy",
    "titel": "SUBIN NEIL S (10%-Owner): OPTU ($1,163,551)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T01:15:47Z",
+   "quelle": "SEC",
+   "name": "Conifer Management, L.L.C.",
+   "ticker": "GPI",
+   "betrag": 24232208.7706,
+   "richtung": "buy",
+   "titel": "Conifer Management, L.L.C. (10%-Owner): GPI ($24,232,209)",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
