@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T13:01:23Z",
-   "quelle": "SEC",
-   "name": "Alvarez Rubens Aguiar",
-   "ticker": "BBD",
-   "betrag": 842794.52,
-   "richtung": "buy",
-   "titel": "Alvarez Rubens Aguiar (Director): BBD ($842,795)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-22T13:15:49Z",
    "quelle": "SEC",
    "name": "Marcilio Juliano Ribeiro",
