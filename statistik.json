@@ -5037,6 +5037,17 @@
    "titel": "JACOBSON MITCHELL (Director): MSM ($28,984,170) | 2 Kaeufer, $29.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T21:45:42Z",
+   "quelle": "SEC",
+   "name": "Red Oak Partners, LLC",
+   "ticker": "DAIO",
+   "betrag": 999996.44,
+   "richtung": "buy",
+   "titel": "Red Oak Partners, LLC (10%-Owner): DAIO ($999,996)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
