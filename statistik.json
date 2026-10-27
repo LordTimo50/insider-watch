@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T22:45:47Z",
-   "quelle": "SEC",
-   "name": "TANNENBAUM LEONARD M",
-   "ticker": "AFCG",
-   "betrag": 34900.0,
-   "richtung": "buy",
-   "titel": "TANNENBAUM LEONARD M (Director): AFCG ($34,900)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T00:15:42Z",
    "quelle": "SEC",
    "name": "Munro Lucy Lu",
@@ -5059,6 +5048,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($72,478)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T22:45:44Z",
+   "quelle": "SEC",
+   "name": "Venrock Healthcare Capital Partners III, L.P.",
+   "ticker": "LYCA",
+   "betrag": 37653863.300000004,
+   "richtung": "buy",
+   "titel": "Venrock Healthcare Capital Partners III, L.P. (10%-Owner): LYCA ($37,653,863)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T22:45:46Z",
+   "quelle": "SEC",
+   "name": "Panagiotidis Petros Panagiotis",
+   "ticker": "AIOK",
+   "betrag": 1059603.5813000002,
+   "richtung": "buy",
+   "titel": "Panagiotidis Petros Panagiotis (Chief Executive Officer): AIOK ($1,059,604)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
