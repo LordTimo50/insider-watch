@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T20:01:19Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "MXF",
-   "betrag": 42775.020000000004,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($42,775)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T20:16:21Z",
    "quelle": "SEC",
    "name": "BULLS HERMAN E",
