@@ -5015,6 +5015,28 @@
    "titel": "ARES MANAGEMENT LLC (10%-Owner): CTEV ($1,678,106)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T21:31:03Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 111326.40000000001,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($111,326)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T21:31:11Z",
+   "quelle": "SEC",
+   "name": "JACOBSON MITCHELL",
+   "ticker": "MSM",
+   "betrag": 28984169.7372,
+   "richtung": "buy",
+   "titel": "JACOBSON MITCHELL (Director): MSM ($28,984,170) | 2 Kaeufer, $29.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
