@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T01:45:41Z",
-   "quelle": "SEC",
-   "name": "BERKSHIRE HATHAWAY INC",
-   "ticker": "LEN, LEN.B",
-   "betrag": 20981339.849999998,
-   "richtung": "buy",
-   "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN, LEN.B ($20,981,340)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T11:01:11Z",
    "quelle": "SEC",
    "name": "Errico Thomas J.",
