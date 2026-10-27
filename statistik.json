@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T11:01:11Z",
-   "quelle": "SEC",
-   "name": "Errico Thomas J.",
-   "ticker": "ECOR",
-   "betrag": 49081.5,
-   "richtung": "buy",
-   "titel": "Errico Thomas J. (Director): ECOR ($49,082)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-22T11:31:02Z",
    "quelle": "SEC",
    "name": "DEGIGLIO MICHAEL A",
