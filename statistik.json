@@ -1,39 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-22T18:31:12Z",
-   "quelle": "SEC",
-   "name": "Klein Mark D",
-   "ticker": "NSLR",
-   "betrag": 39550.0,
-   "richtung": "buy",
-   "titel": "Klein Mark D (Chairman, CEO and President): NSLR ($39,550)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-22T18:31:13Z",
-   "quelle": "SEC",
-   "name": "OBrien Thomas M",
-   "ticker": "BCBP",
-   "betrag": 1240000.0,
-   "richtung": "buy",
-   "titel": "OBrien Thomas M (CHIEF EXECUTIVE OFFICER): BCBP ($1,240,000)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-09-22T18:31:13Z",
-   "quelle": "SEC",
-   "name": "Chaudhry Jawad",
-   "ticker": "BCBP",
-   "betrag": 77500.0,
-   "richtung": "buy",
-   "titel": "Chaudhry Jawad (CHIEF FINANCIAL OFFICER): BCBP ($77,500)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-22T20:01:19Z",
    "quelle": "SEC",
    "name": "Saba Capital Management, L.P.",
@@ -4958,6 +4925,17 @@
    "betrag": 78083.511,
    "richtung": "buy",
    "titel": "Zhao Bin (Chief Executive Officer): API ($78,084) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T18:31:03Z",
+   "quelle": "SEC",
+   "name": "Takao Justin",
+   "ticker": "KIO",
+   "betrag": 78397.99075,
+   "richtung": "buy",
+   "titel": "Takao Justin (Treasurer, CAO & CFO): KIO ($78,398)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
