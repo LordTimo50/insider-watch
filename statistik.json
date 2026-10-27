@@ -5136,6 +5136,17 @@
    "titel": "Manieu Alexandre Weinstein (Director): PLUR ($1,250,001)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-27T11:45:44Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 78083.511,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($78,084) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-26",
