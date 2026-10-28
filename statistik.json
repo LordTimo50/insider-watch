@@ -5081,6 +5081,28 @@
    "titel": "ADAR1 Capital Management, LLC (10%-Owner): NXTC ($53,691)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T00:01:13Z",
+   "quelle": "SEC",
+   "name": "Haggart Dylan G.",
+   "ticker": "LRN",
+   "betrag": 12178122.0,
+   "richtung": "buy",
+   "titel": "Haggart Dylan G. (Director): LRN ($12,178,122)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T00:01:14Z",
+   "quelle": "SEC",
+   "name": "AKKARAJU SRINIVAS",
+   "ticker": "SRRK",
+   "betrag": 11999922.3,
+   "richtung": "buy",
+   "titel": "AKKARAJU SRINIVAS (Director): SRRK ($11,999,922)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
