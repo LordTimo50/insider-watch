@@ -5026,6 +5026,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($37,283)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T21:45:44Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 77102.84999999999,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($77,103)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T21:45:48Z",
+   "quelle": "SEC",
+   "name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+   "ticker": "GOLD",
+   "betrag": 3927258.4300999995,
+   "richtung": "buy",
+   "titel": "Tether Global Investments Fund, S.I.C.A.F., S.A. (10%-Owner): GOLD ($3,927,258)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-28",
