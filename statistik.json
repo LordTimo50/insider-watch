@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-23T22:01:19Z",
-   "quelle": "SEC",
-   "name": "Affeldt Eric",
-   "ticker": "AIAI",
-   "betrag": 149999.5,
-   "richtung": "buy",
-   "titel": "Affeldt Eric (Director): AIAI ($150,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T22:15:51Z",
    "quelle": "SEC",
    "name": "STEEL PARTNERS HOLDINGS L.P.",
@@ -5046,6 +5035,17 @@
    "betrag": 3927258.4300999995,
    "richtung": "buy",
    "titel": "Tether Global Investments Fund, S.I.C.A.F., S.A. (10%-Owner): GOLD ($3,927,258)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T22:01:12Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 2229725.1461,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($2,229,725) | 2 Kaeufer, $13.2M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
   }
