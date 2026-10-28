@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-23T18:15:41Z",
-   "quelle": "SEC",
-   "name": "Nesbitt Stephen Lane",
-   "ticker": "CRAFX",
-   "betrag": 5000000.0,
-   "richtung": "buy",
-   "titel": "Nesbitt Stephen Lane (President): CRAFX ($5,000,000)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T20:01:29Z",
    "quelle": "SEC",
    "name": "Juniper Investment Company, LLC",
@@ -5025,6 +5014,17 @@
    "richtung": "buy",
    "titel": "Price Paula A (Director): ACN ($199,848) | 2 Kaeufer, $3.2M in 14T",
    "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T18:15:44Z",
+   "quelle": "SEC",
+   "name": "Frank Alan L",
+   "ticker": "NYSE:FLG",
+   "betrag": 101400.0,
+   "richtung": "buy",
+   "titel": "Frank Alan L (Director): NYSE:FLG ($101,400)",
+   "gemeldet": false,
    "zurueckgehalten": false
   }
  ],
