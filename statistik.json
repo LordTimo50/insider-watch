@@ -5070,6 +5070,17 @@
    "titel": "AKKARAJU SRINIVAS (Director): SRRK ($11,999,922)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T00:45:40Z",
+   "quelle": "SEC",
+   "name": "Morris Sonya",
+   "ticker": "PDI",
+   "betrag": 81624.0,
+   "richtung": "buy",
+   "titel": "Morris Sonya (Director): PDI ($81,624)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
