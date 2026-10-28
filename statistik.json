@@ -5048,6 +5048,17 @@
    "titel": "Senn Nikolaus Beat (Director): RCT ($425,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T20:16:01Z",
+   "quelle": "SEC",
+   "name": "ROLLINS JAMES D III",
+   "ticker": "HBAN",
+   "betrag": 253720.0,
+   "richtung": "buy",
+   "titel": "ROLLINS JAMES D III (Director): HBAN ($253,720)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
