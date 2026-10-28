@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-23T02:01:08Z",
-   "quelle": "SEC",
-   "name": "Kaplan Andrew Jay",
-   "ticker": "NTRP",
-   "betrag": 99999.9,
-   "richtung": "buy",
-   "titel": "Kaplan Andrew Jay (Director): NTRP ($100,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T11:01:17Z",
    "quelle": "SEC",
    "name": "Erlich Craig",
