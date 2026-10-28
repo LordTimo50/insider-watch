@@ -1,50 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-23T20:31:20Z",
-   "quelle": "SEC",
-   "name": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG",
-   "betrag": 7465942.391600001,
-   "richtung": "buy",
-   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($7,465,942) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-23T20:31:20Z",
-   "quelle": "SEC",
-   "name": "Recker Frank Douglas",
-   "ticker": "DUOT",
-   "betrag": 84557.025,
-   "richtung": "buy",
-   "titel": "Recker Frank Douglas (Chief Executive Officer): DUOT ($84,557)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-23T20:31:22Z",
-   "quelle": "SEC",
-   "name": "HOVSEPIAN RONALD W",
-   "ticker": "SKIL",
-   "betrag": 50771.6775,
-   "richtung": "buy",
-   "titel": "HOVSEPIAN RONALD W (CEO & Executive Chair): SKIL ($50,772)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-23T20:31:25Z",
-   "quelle": "SEC",
-   "name": "ALLEN PATRICK E",
-   "ticker": "TNC",
-   "betrag": 208250.4,
-   "richtung": "buy",
-   "titel": "ALLEN PATRICK E (Director): TNC ($208,250)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T20:45:48Z",
    "quelle": "SEC",
    "name": "Gieselman Scott",
@@ -5059,8 +5015,19 @@
    "titel": "ROLLINS JAMES D III (Director): HBAN ($253,720)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T20:31:04Z",
+   "quelle": "SEC",
+   "name": "Babcock Ken",
+   "ticker": "LBRT",
+   "betrag": 223300.0,
+   "richtung": "buy",
+   "titel": "Babcock Ken (Director): LBRT ($223,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-27",
+ "letzter_tagesbericht": "2026-10-28",
  "letzter_wochenbericht": "2026-W43"
 }
