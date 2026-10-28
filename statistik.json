@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-23T11:01:17Z",
-   "quelle": "SEC",
-   "name": "Erlich Craig",
-   "ticker": "ADC",
-   "betrag": 67550.0,
-   "richtung": "buy",
-   "titel": "Erlich Craig (CHIEF GROWTH OFFICER): ADC ($67,550) | 3 Kaeufer, $1.9M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T13:31:15Z",
    "quelle": "SEC",
    "name": "Floyd Justin Beck Hinton",
@@ -5069,6 +5058,28 @@
    "richtung": "buy",
    "titel": "Morris Sonya (Director): PDI ($81,624)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T11:01:17Z",
+   "quelle": "SEC",
+   "name": "Sweet Julie Spellman",
+   "ticker": "ACN",
+   "betrag": 3001041.2399999998,
+   "richtung": "buy",
+   "titel": "Sweet Julie Spellman (Chair and CEO): ACN ($3,001,041)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T11:01:18Z",
+   "quelle": "SEC",
+   "name": "Price Paula A",
+   "ticker": "ACN",
+   "betrag": 199847.75999999998,
+   "richtung": "buy",
+   "titel": "Price Paula A (Director): ACN ($199,848) | 2 Kaeufer, $3.2M in 14T",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
