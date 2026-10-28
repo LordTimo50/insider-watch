@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-23T20:01:29Z",
-   "quelle": "SEC",
-   "name": "Juniper Investment Company, LLC",
-   "ticker": "OFIX",
-   "betrag": 1048716.0,
-   "richtung": "buy",
-   "titel": "Juniper Investment Company, LLC (10%-Owner): OFIX ($1,048,716)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T20:31:20Z",
    "quelle": "SEC",
    "name": "NIPPON LIFE INSURANCE CO",
@@ -5035,6 +5024,28 @@
    "betrag": 711251.32,
    "richtung": "buy",
    "titel": "SIMARD JOHN (Director): XBIT ($711,251)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T20:01:14Z",
+   "quelle": "SEC",
+   "name": "Rhodes Blake",
+   "ticker": "HYMC",
+   "betrag": 50075.100000000006,
+   "richtung": "buy",
+   "titel": "Rhodes Blake (Director): HYMC ($50,075)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T20:01:14Z",
+   "quelle": "SEC",
+   "name": "Senn Nikolaus Beat",
+   "ticker": "RCT",
+   "betrag": 425000.0,
+   "richtung": "buy",
+   "titel": "Senn Nikolaus Beat (Director): RCT ($425,000)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
