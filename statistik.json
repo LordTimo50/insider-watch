@@ -5026,6 +5026,17 @@
    "titel": "Frank Alan L (Director): NYSE:FLG ($101,400)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T18:45:53Z",
+   "quelle": "SEC",
+   "name": "SIMARD JOHN",
+   "ticker": "XBIT",
+   "betrag": 711251.32,
+   "richtung": "buy",
+   "titel": "SIMARD JOHN (Director): XBIT ($711,251)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-27",
