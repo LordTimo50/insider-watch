@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-23T21:31:07Z",
-   "quelle": "SEC",
-   "name": "Shen Ching Hang",
-   "ticker": "cv",
-   "betrag": 4999996.46,
-   "richtung": "buy",
-   "titel": "Shen Ching Hang (10%-Owner): cv ($4,999,996)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-23T22:01:19Z",
    "quelle": "SEC",
    "name": "Affeldt Eric",
@@ -5013,6 +5002,28 @@
    "betrag": 6390298.8954,
    "richtung": "buy",
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($6,390,299) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T21:31:01Z",
+   "quelle": "SEC",
+   "name": "KEATING NEAL J.",
+   "ticker": "HXL",
+   "betrag": 242010.0,
+   "richtung": "buy",
+   "titel": "KEATING NEAL J. (Director): HXL ($242,010)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-28T21:31:05Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 37282.560000000005,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($37,283)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
