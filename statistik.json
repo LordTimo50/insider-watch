@@ -5081,6 +5081,17 @@
    "titel": "MYERS FRANKLIN (CEO): DINO ($1,108,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T21:45:48Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "JOF",
+   "betrag": 181704.46000000002,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($181,704)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-29",
