@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T21:01:15Z",
-   "quelle": "SEC",
-   "name": "Durable Capital Partners LP",
-   "ticker": "GSHD",
-   "betrag": 7098000.0,
-   "richtung": "buy",
-   "titel": "Durable Capital Partners LP (10%-Owner): GSHD ($7,098,000)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-24T21:31:03Z",
    "quelle": "SEC",
    "name": "Sabater Carmen M",
@@ -5068,6 +5057,17 @@
    "betrag": 199834.5,
    "richtung": "buy",
    "titel": "TORGOW GARY (Director): HBAN ($199,834)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T21:01:17Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 6259185.8665000005,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($6,259,186) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
   }
