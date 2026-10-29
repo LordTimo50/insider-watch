@@ -5037,6 +5037,28 @@
    "titel": "Grimme Arne (Director): NBIS ($57,740) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T13:45:49Z",
+   "quelle": "SEC",
+   "name": "Lyons Michael P.",
+   "ticker": "TFC",
+   "betrag": 1209050.0,
+   "richtung": "buy",
+   "titel": "Lyons Michael P. (President & CEO): TFC ($1,209,050)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T13:45:52Z",
+   "quelle": "SEC",
+   "name": "SCHMITT DANIEL M",
+   "ticker": "ACTU",
+   "betrag": 49999.619999999995,
+   "richtung": "buy",
+   "titel": "SCHMITT DANIEL M (President, CEO and Director): ACTU ($50,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-28",
