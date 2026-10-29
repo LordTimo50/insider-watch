@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T13:31:25Z",
-   "quelle": "SEC",
-   "name": "Stark Eugene S",
-   "ticker": "GAM",
-   "betrag": 113750.0,
-   "richtung": "buy",
-   "titel": "Stark Eugene S (VP Administration): GAM ($113,750) | 3 Kaeufer, $254K in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-24T14:31:04Z",
    "quelle": "SEC",
    "name": "DAVIDSON SPENCER",
