@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T01:01:24Z",
-   "quelle": "SEC",
-   "name": "Kang Daniel",
-   "ticker": "DFDV",
-   "betrag": 60996.0,
-   "richtung": "buy",
-   "titel": "Kang Daniel (Chief Strategy Officer): DFDV ($60,996)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-24T01:15:52Z",
    "quelle": "SEC",
    "name": "HARARI ELIYAHOU ET AL",
@@ -5024,6 +5013,28 @@
    "betrag": 9919161280.9,
    "richtung": "buy",
    "titel": "Portman David J. (10%-Owner): LONA ($9,919,161,281)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T01:01:05Z",
+   "quelle": "SEC",
+   "name": "Roks Edwin",
+   "ticker": "TTMI",
+   "betrag": 440349.99999999994,
+   "richtung": "buy",
+   "titel": "Roks Edwin (President and CEO): TTMI ($440,350)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T01:01:06Z",
+   "quelle": "SEC",
+   "name": "Ali Wajid",
+   "ticker": "TTMI",
+   "betrag": 902460.5,
+   "richtung": "buy",
+   "titel": "Ali Wajid (Director): TTMI ($902,460) | 2 Kaeufer, $1.3M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
   }
