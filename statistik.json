@@ -5026,6 +5026,28 @@
    "titel": "Zhao Bin (Chief Executive Officer): API ($56,081) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T13:15:50Z",
+   "quelle": "SEC",
+   "name": "Callahan Mary Anne",
+   "ticker": "BBT",
+   "betrag": 96672.0,
+   "richtung": "buy",
+   "titel": "Callahan Mary Anne (Director): BBT ($96,672)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T13:15:51Z",
+   "quelle": "SEC",
+   "name": "Grimme Arne",
+   "ticker": "NBIS",
+   "betrag": 57739.52,
+   "richtung": "buy",
+   "titel": "Grimme Arne (Director): NBIS ($57,740) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-28",
