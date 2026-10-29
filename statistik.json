@@ -5103,6 +5103,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($25,541)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T22:30:59Z",
+   "quelle": "SEC",
+   "name": "TANG KEVIN",
+   "ticker": "BOLD",
+   "betrag": 25696.8,
+   "richtung": "buy",
+   "titel": "TANG KEVIN (10%-Owner): BOLD ($25,697)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-29",
