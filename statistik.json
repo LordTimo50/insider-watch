@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T21:31:03Z",
-   "quelle": "SEC",
-   "name": "Sabater Carmen M",
-   "ticker": "DY",
-   "betrag": 98217.0,
-   "richtung": "buy",
-   "titel": "Sabater Carmen M (Director): DY ($98,217)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-24T22:45:52Z",
    "quelle": "SEC",
    "name": "Blackstone Holdings IV L.P.",
@@ -5079,6 +5068,17 @@
    "betrag": 2665900.0,
    "richtung": "buy",
    "titel": "Das Soumen (Director): SCQCU ($2,665,900)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T21:31:01Z",
+   "quelle": "SEC",
+   "name": "MYERS FRANKLIN",
+   "ticker": "DINO",
+   "betrag": 1108000.0,
+   "richtung": "buy",
+   "titel": "MYERS FRANKLIN (CEO): DINO ($1,108,000)",
    "gemeldet": true,
    "zurueckgehalten": false
   }
