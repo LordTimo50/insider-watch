@@ -1,39 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T20:31:19Z",
-   "quelle": "SEC",
-   "name": "Chubb Thomas Caldecot III",
-   "ticker": "OXM",
-   "betrag": 65374.75,
-   "richtung": "buy",
-   "titel": "Chubb Thomas Caldecot III (CEO and President): OXM ($65,375)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-24T20:31:23Z",
-   "quelle": "SEC",
-   "name": "Fitzgerald Larry Jr.",
-   "ticker": "DKS",
-   "betrag": 244906.19999999998,
-   "richtung": "buy",
-   "titel": "Fitzgerald Larry Jr. (Director): DKS ($244,906)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-24T20:31:24Z",
-   "quelle": "SEC",
-   "name": "Gupta Navdeep",
-   "ticker": "DKS",
-   "betrag": 999983.25,
-   "richtung": "buy",
-   "titel": "Gupta Navdeep (EVP, Chief Financial Officer): DKS ($999,983)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-24T21:01:15Z",
    "quelle": "SEC",
    "name": "Durable Capital Partners LP",
@@ -5048,8 +5015,19 @@
    "titel": "Cortes Vargas Christian Mauricio (Chief Financial Officer): ELVR ($42,720)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T20:31:06Z",
+   "quelle": "SEC",
+   "name": "BROWN JEFFREY J",
+   "ticker": "UPBD",
+   "betrag": 47015.64000000001,
+   "richtung": "buy",
+   "titel": "BROWN JEFFREY J (Director): UPBD ($47,016)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-10-28",
+ "letzter_tagesbericht": "2026-10-29",
  "letzter_wochenbericht": "2026-W43"
 }
