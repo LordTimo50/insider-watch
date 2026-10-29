@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T16:45:54Z",
-   "quelle": "SEC",
-   "name": "Ben-Avi David",
-   "ticker": "NYAX",
-   "betrag": 67104.82800000001,
-   "richtung": "buy",
-   "titel": "Ben-Avi David (CTO and Co Founder): NYAX ($67,105)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-24T17:01:17Z",
    "quelle": "SEC",
    "name": "Nechmad Yair",
