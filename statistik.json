@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T23:15:43Z",
-   "quelle": "SEC",
-   "name": "Davis Andrew D.",
-   "ticker": "HHH",
-   "betrag": 64489.99999999999,
-   "richtung": "buy",
-   "titel": "Davis Andrew D. (Chief Operating Officer, HHC): HHH ($64,490)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-24T23:15:52Z",
-   "quelle": "SEC",
-   "name": "Morris Sonya",
-   "ticker": "PDI",
-   "betrag": 79885.5,
-   "richtung": "buy",
-   "titel": "Morris Sonya (Director): PDI ($79,886)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-24T23:31:11Z",
    "quelle": "SEC",
    "name": "GRANDISSON MARC",
@@ -5090,6 +5068,17 @@
    "betrag": 25696.8,
    "richtung": "buy",
    "titel": "TANG KEVIN (10%-Owner): BOLD ($25,697)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T23:15:47Z",
+   "quelle": "SEC",
+   "name": "HENSON MARY BETH",
+   "ticker": "ARCC",
+   "betrag": 46150.0,
+   "richtung": "buy",
+   "titel": "HENSON MARY BETH (Director): ARCC ($46,150)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
