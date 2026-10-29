@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T22:45:52Z",
-   "quelle": "SEC",
-   "name": "Blackstone Holdings IV L.P.",
-   "ticker": "NONE",
-   "betrag": 5000000.0028800005,
-   "richtung": "buy",
-   "titel": "Blackstone Holdings IV L.P. (10%-Owner): NONE ($5,000,000)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-09-24T22:45:52Z",
-   "quelle": "SEC",
-   "name": "Blackstone Private Multi-Asset Credit & Income Fund",
-   "ticker": "NONE",
-   "betrag": 5000000.0028800005,
-   "richtung": "buy",
-   "titel": "Blackstone Private Multi-Asset Credit & Income Fund (10%-Owner): NONE ($5,000,000)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-24T23:15:43Z",
    "quelle": "SEC",
    "name": "Davis Andrew D.",
