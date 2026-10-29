@@ -5026,6 +5026,50 @@
    "titel": "BROWN JEFFREY J (Director): UPBD ($47,016)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T20:45:46Z",
+   "quelle": "SEC",
+   "name": "HAWKINS JAMES B",
+   "ticker": "AEYE",
+   "betrag": 37010.1,
+   "richtung": "buy",
+   "titel": "HAWKINS JAMES B (Director): AEYE ($37,010)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T20:45:50Z",
+   "quelle": "SEC",
+   "name": "INGRAM DAVID B",
+   "ticker": "PNFP",
+   "betrag": 991600.0,
+   "richtung": "buy",
+   "titel": "INGRAM DAVID B (Director): PNFP ($991,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T20:45:51Z",
+   "quelle": "SEC",
+   "name": "Equinox Partners Investment Management LLC",
+   "ticker": "SAMG",
+   "betrag": 348694.45,
+   "richtung": "buy",
+   "titel": "Equinox Partners Investment Management LLC (10%-Owner): SAMG ($348,694)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T20:45:52Z",
+   "quelle": "SEC",
+   "name": "TORGOW GARY",
+   "ticker": "HBAN",
+   "betrag": 199834.5,
+   "richtung": "buy",
+   "titel": "TORGOW GARY (Director): HBAN ($199,834)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-29",
