@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T13:01:17Z",
-   "quelle": "SEC",
-   "name": "Li Bin (William)",
-   "ticker": "UXIN",
-   "betrag": 996852.043,
-   "richtung": "buy",
-   "titel": "Li Bin (William) (Director): UXIN ($996,852)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-24T13:31:25Z",
    "quelle": "SEC",
    "name": "Stark Eugene S",
