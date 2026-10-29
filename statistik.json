@@ -5037,6 +5037,17 @@
    "titel": "Sprang Todd A. (Director): BFC ($59,348)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T20:01:11Z",
+   "quelle": "SEC",
+   "name": "BANK OF AMERICA CORP /DE/",
+   "ticker": "BMN",
+   "betrag": 70548.6,
+   "richtung": "buy",
+   "titel": "BANK OF AMERICA CORP /DE/ (10%-Owner): BMN ($70,549)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-28",
