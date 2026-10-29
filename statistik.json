@@ -5026,6 +5026,17 @@
    "titel": "Ali Wajid (Director): TTMI ($902,460) | 2 Kaeufer, $1.3M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T12:31:06Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 56080.6575,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($56,081) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-28",
