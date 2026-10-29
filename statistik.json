@@ -5015,6 +5015,17 @@
    "titel": "KAMFAR RAMIN (Director): BPRE ($2,229,725) | 2 Kaeufer, $13.2M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T00:45:45Z",
+   "quelle": "SEC",
+   "name": "Portman David J.",
+   "ticker": "LONA",
+   "betrag": 9919161280.9,
+   "richtung": "buy",
+   "titel": "Portman David J. (10%-Owner): LONA ($9,919,161,281)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-28",
