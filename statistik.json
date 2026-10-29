@@ -5059,6 +5059,17 @@
    "titel": "SCHMITT DANIEL M (President, CEO and Director): ACTU ($50,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-29T14:01:16Z",
+   "quelle": "SEC",
+   "name": "Sprang Todd A.",
+   "ticker": "BFC",
+   "betrag": 59348.0,
+   "richtung": "buy",
+   "titel": "Sprang Todd A. (Director): BFC ($59,348)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-28",
