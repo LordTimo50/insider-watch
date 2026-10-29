@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-24T14:31:04Z",
-   "quelle": "SEC",
-   "name": "DAVIDSON SPENCER",
-   "ticker": "GAM",
-   "betrag": 227500.0,
-   "richtung": "buy",
-   "titel": "DAVIDSON SPENCER: GAM ($227,500) | 4 Kaeufer, $481K in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-24T16:45:54Z",
    "quelle": "SEC",
    "name": "Ben-Avi David",
