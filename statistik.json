@@ -4971,6 +4971,17 @@
    "titel": "HENSON MARY BETH (Director): ARCC ($46,150)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T01:01:16Z",
+   "quelle": "SEC",
+   "name": "Haggart Dylan G.",
+   "ticker": "LRN",
+   "betrag": 62187.84,
+   "richtung": "buy",
+   "titel": "Haggart Dylan G. (Director): LRN ($62,188)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-29",
