@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T23:01:37Z",
-   "quelle": "SEC",
-   "name": "Zambrano Lozano Rogelio",
-   "ticker": "CX",
-   "betrag": 6926304.959999999,
-   "richtung": "buy",
-   "titel": "Zambrano Lozano Rogelio (Director): CX ($6,926,305)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-26T00:15:45Z",
    "quelle": "SEC",
    "name": "BERKSHIRE HATHAWAY INC",
