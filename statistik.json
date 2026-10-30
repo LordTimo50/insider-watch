@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T22:15:47Z",
-   "quelle": "SEC",
-   "name": "Markell Jack A.",
-   "ticker": "RSI",
-   "betrag": 29025.000000000004,
-   "richtung": "buy",
-   "titel": "Markell Jack A. (Director): RSI ($29,025)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-25T23:01:37Z",
    "quelle": "SEC",
    "name": "Zambrano Lozano Rogelio",
@@ -4881,6 +4870,28 @@
    "betrag": 70923.25,
    "richtung": "buy",
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($70,923)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T22:15:53Z",
+   "quelle": "SEC",
+   "name": "Grimme Arne",
+   "ticker": "NBIS",
+   "betrag": 25074.16,
+   "richtung": "buy",
+   "titel": "Grimme Arne (Director): NBIS ($25,074) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T22:15:56Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 8671494.6108,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($8,671,495) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
   }
