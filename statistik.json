@@ -4872,6 +4872,17 @@
    "titel": "Fawcett John J. (Director): BFH ($123,490)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T22:01:10Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "ECF",
+   "betrag": 70923.25,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($70,923)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-30",
