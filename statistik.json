@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T18:31:21Z",
-   "quelle": "SEC",
-   "name": "White Parker",
-   "ticker": "DFDV",
-   "betrag": 84779.52,
-   "richtung": "buy",
-   "titel": "White Parker (10%-Owner): DFDV ($84,780)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-25T18:31:23Z",
-   "quelle": "SEC",
-   "name": "Calamos Aksia Hedged Strategies Fund (Offshore), Ltd.",
-   "ticker": "N/A",
-   "betrag": 7477499.999070001,
-   "richtung": "buy",
-   "titel": "Calamos Aksia Hedged Strategies Fund (Offshore), Ltd. (10%-Owner): N/A ($7,477,500)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-09-25T19:01:21Z",
    "quelle": "SEC",
    "name": "DIMARTINO JOSEPH S",
@@ -4936,6 +4914,17 @@
    "betrag": 68027.12689999999,
    "richtung": "buy",
    "titel": "Kiai Parsa (Director): MED ($68,027)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T18:31:04Z",
+   "quelle": "SEC",
+   "name": "Denny Michael B.",
+   "ticker": "FFIN",
+   "betrag": 99816.20000000001,
+   "richtung": "buy",
+   "titel": "Denny Michael B. (Director): FFIN ($99,816)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
