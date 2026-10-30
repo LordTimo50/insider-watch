@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T15:31:03Z",
-   "quelle": "SEC",
-   "name": "ROBO JAMES L",
-   "ticker": "KBDC",
-   "betrag": 1369830.0,
-   "richtung": "buy",
-   "titel": "ROBO JAMES L (Director): KBDC ($1,369,830)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-25T15:45:45Z",
    "quelle": "SEC",
    "name": "HOUSEY WILLIAM A JR",
