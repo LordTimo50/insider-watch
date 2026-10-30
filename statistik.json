@@ -4927,6 +4927,28 @@
    "titel": "Denny Michael B. (Director): FFIN ($99,816)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T18:45:44Z",
+   "quelle": "SEC",
+   "name": "Barrett Patrick Sean",
+   "ticker": "OCFC",
+   "betrag": 89500.0,
+   "richtung": "buy",
+   "titel": "Barrett Patrick Sean (Senior EVP & CFO): OCFC ($89,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T18:45:44Z",
+   "quelle": "SEC",
+   "name": "PANTILIONE VITO S",
+   "ticker": "PKBK",
+   "betrag": 42718.0,
+   "richtung": "buy",
+   "titel": "PANTILIONE VITO S (President & CEO): PKBK ($42,718)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-29",
