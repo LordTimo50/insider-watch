@@ -4883,6 +4883,17 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($8,671,495) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T23:30:56Z",
+   "quelle": "SEC",
+   "name": "Venrock Healthcare Capital Partners III, L.P.",
+   "ticker": "LYCA",
+   "betrag": 644711.2799999999,
+   "richtung": "buy",
+   "titel": "Venrock Healthcare Capital Partners III, L.P. (10%-Owner): LYCA ($644,711)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-30",
