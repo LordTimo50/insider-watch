@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T15:45:45Z",
-   "quelle": "SEC",
-   "name": "HOUSEY WILLIAM A JR",
-   "ticker": "FTHY",
-   "betrag": 64500.0,
-   "richtung": "buy",
-   "titel": "HOUSEY WILLIAM A JR: FTHY ($64,500)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-25T18:31:21Z",
    "quelle": "SEC",
    "name": "White Parker",
@@ -4925,6 +4914,17 @@
    "betrag": 62187.84,
    "richtung": "buy",
    "titel": "Haggart Dylan G. (Director): LRN ($62,188)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T15:45:48Z",
+   "quelle": "SEC",
+   "name": "McLaughlin Shawn Patrick",
+   "ticker": "BHRB",
+   "betrag": 35500.0,
+   "richtung": "buy",
+   "titel": "McLaughlin Shawn Patrick (Director): BHRB ($35,500)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
