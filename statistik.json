@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T19:01:21Z",
-   "quelle": "SEC",
-   "name": "DIMARTINO JOSEPH S",
-   "ticker": "DHF",
-   "betrag": 44400.00000000001,
-   "richtung": "buy",
-   "titel": "DIMARTINO JOSEPH S (Director): DHF ($44,400)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-25T20:16:24Z",
    "quelle": "SEC",
    "name": "Lifshin Marc Chanin",
@@ -4947,6 +4936,28 @@
    "betrag": 42718.0,
    "richtung": "buy",
    "titel": "PANTILIONE VITO S (President & CEO): PKBK ($42,718)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T19:01:19Z",
+   "quelle": "SEC",
+   "name": "Nelson Jane Musser",
+   "ticker": "PEO",
+   "betrag": 30229.3,
+   "richtung": "buy",
+   "titel": "Nelson Jane Musser (Director): PEO ($30,229)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T19:01:20Z",
+   "quelle": "SEC",
+   "name": "Fawcett John J.",
+   "ticker": "BFH",
+   "betrag": 123490.0,
+   "richtung": "buy",
+   "titel": "Fawcett John J. (Director): BFH ($123,490)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
