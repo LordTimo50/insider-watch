@@ -4894,6 +4894,17 @@
    "titel": "Venrock Healthcare Capital Partners III, L.P. (10%-Owner): LYCA ($644,711)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T23:45:41Z",
+   "quelle": "SEC",
+   "name": "HEALY JAMES",
+   "ticker": "RAPP",
+   "betrag": 20359080.0,
+   "richtung": "buy",
+   "titel": "HEALY JAMES (Director): RAPP ($20,359,080) | 6 Kaeufer, $21.9M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-30",
