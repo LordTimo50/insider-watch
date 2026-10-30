@@ -4927,6 +4927,17 @@
    "titel": "McLaughlin Shawn Patrick (Director): BHRB ($35,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-30T17:01:21Z",
+   "quelle": "SEC",
+   "name": "Kiai Parsa",
+   "ticker": "MED",
+   "betrag": 68027.12689999999,
+   "richtung": "buy",
+   "titel": "Kiai Parsa (Director): MED ($68,027)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-29",
