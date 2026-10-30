@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T13:15:44Z",
-   "quelle": "SEC",
-   "name": "Clark Anthony S.",
-   "ticker": "AEF",
-   "betrag": 43335.0,
-   "richtung": "buy",
-   "titel": "Clark Anthony S. (Director): AEF ($43,335)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-25T15:31:03Z",
    "quelle": "SEC",
    "name": "ROBO JAMES L",
