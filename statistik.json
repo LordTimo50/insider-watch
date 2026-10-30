@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-25T20:45:50Z",
-   "quelle": "SEC",
-   "name": "Walle Jade",
-   "ticker": "URG",
-   "betrag": 109474.2,
-   "richtung": "buy",
-   "titel": "Walle Jade (VICE PRESIDENT FINANCE): URG ($109,474)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-25T21:31:09Z",
    "quelle": "SEC",
    "name": "Sherman Jeffrey J.",
