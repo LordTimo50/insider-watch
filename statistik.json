@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-26T00:15:45Z",
-   "quelle": "SEC",
-   "name": "BERKSHIRE HATHAWAY INC",
-   "ticker": "LEN",
-   "betrag": 43518878.45,
-   "richtung": "buy",
-   "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($43,518,878)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-28T11:15:45Z",
    "quelle": "SEC",
    "name": "Jarrett Jennifer",
