@@ -4894,6 +4894,17 @@
    "titel": "HEALY JAMES (Director): RAPP ($20,359,080) | 6 Kaeufer, $21.9M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-10-31T01:15:46Z",
+   "quelle": "SEC",
+   "name": "GLENBROOK CAPITAL MANAGEMENT",
+   "ticker": "SNES",
+   "betrag": 29056.2,
+   "richtung": "buy",
+   "titel": "GLENBROOK CAPITAL MANAGEMENT (10%-Owner): SNES ($29,056)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-10-30",
