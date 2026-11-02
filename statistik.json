@@ -4927,6 +4927,17 @@
    "titel": "Polito Karyn (Director): CLH ($39,354)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T14:01:18Z",
+   "quelle": "SEC",
+   "name": "Chernett Jorey",
+   "ticker": "STIM",
+   "betrag": 40860.0,
+   "richtung": "buy",
+   "titel": "Chernett Jorey (10%-Owner): STIM ($40,860)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
