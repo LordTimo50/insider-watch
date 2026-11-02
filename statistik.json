@@ -5004,6 +5004,39 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($787,183)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T23:01:14Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "JOF",
+   "betrag": 701861.01,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($701,861)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T23:01:19Z",
+   "quelle": "SEC",
+   "name": "R. Randall Rollins Voting Trust U/A dated August 25, 1994",
+   "ticker": "ROL",
+   "betrag": 49956665.33279999,
+   "richtung": "buy",
+   "titel": "R. Randall Rollins Voting Trust U/A dated August 25, 1994 (10%-Owner): ROL ($49,956,665) | 2 Kaeufer, $99.9M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T23:01:20Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "ECF",
+   "betrag": 136120.05,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($136,120)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
