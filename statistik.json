@@ -4916,6 +4916,17 @@
    "titel": "Chernett Jorey (10%-Owner): STIM ($40,860)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T15:31:06Z",
+   "quelle": "SEC",
+   "name": "Diaz Adriana Lizzeth",
+   "ticker": "BLX",
+   "betrag": 93882.88,
+   "richtung": "buy",
+   "titel": "Diaz Adriana Lizzeth (Chief Audit Officer): BLX ($93,883)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
