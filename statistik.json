@@ -5037,6 +5037,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($136,120)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T23:31:00Z",
+   "quelle": "SEC",
+   "name": "Winter Thomas",
+   "ticker": "RSI",
+   "betrag": 118310.0,
+   "richtung": "buy",
+   "titel": "Winter Thomas (Director): RSI ($118,310)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T23:31:01Z",
+   "quelle": "SEC",
+   "name": "Moritz Robert Edward Jr.",
+   "ticker": "NTRS",
+   "betrag": 39900.52,
+   "richtung": "buy",
+   "titel": "Moritz Robert Edward Jr. (Director): NTRS ($39,901)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
