@@ -4927,6 +4927,17 @@
    "titel": "Diaz Adriana Lizzeth (Chief Audit Officer): BLX ($93,883)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T15:45:48Z",
+   "quelle": "SEC",
+   "name": "McClelland Bruce William",
+   "ticker": "RBBN",
+   "betrag": 96240.0,
+   "richtung": "buy",
+   "titel": "McClelland Bruce William (President & CEO): RBBN ($96,240)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
