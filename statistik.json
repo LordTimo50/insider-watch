@@ -4949,6 +4949,28 @@
    "titel": "Jeggle Helmut Wolfgang (Director): BBTX ($6,000,000) | 2 Kaeufer, $12.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T21:46:02Z",
+   "quelle": "SEC",
+   "name": "Hartree Partners, LP",
+   "ticker": "HDSN",
+   "betrag": 1313588.258,
+   "richtung": "buy",
+   "titel": "Hartree Partners, LP (10%-Owner): HDSN ($1,313,588)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T21:46:03Z",
+   "quelle": "SEC",
+   "name": "HAWKINS JAMES B",
+   "ticker": "AEYE",
+   "betrag": 52600.0,
+   "richtung": "buy",
+   "titel": "HAWKINS JAMES B (Director): AEYE ($52,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
