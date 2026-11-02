@@ -4927,6 +4927,17 @@
    "titel": "McClelland Bruce William (President & CEO): RBBN ($96,240)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T17:01:18Z",
+   "quelle": "SEC",
+   "name": "Katsoulis Nicos",
+   "ticker": "OCFC",
+   "betrag": 178277.0,
+   "richtung": "buy",
+   "titel": "Katsoulis Nicos (Director): OCFC ($178,277)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
