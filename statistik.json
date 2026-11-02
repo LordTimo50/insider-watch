@@ -4971,6 +4971,17 @@
    "titel": "HAWKINS JAMES B (Director): AEYE ($52,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T22:01:16Z",
+   "quelle": "SEC",
+   "name": "Kothandaraman Badrinarayanan",
+   "ticker": "ENPH",
+   "betrag": 267514.0,
+   "richtung": "buy",
+   "titel": "Kothandaraman Badrinarayanan (President & CEO): ENPH ($267,514)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
