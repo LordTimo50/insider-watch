@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-28T21:01:14Z",
-   "quelle": "SEC",
-   "name": "Hatton Cory",
-   "ticker": "PLAY",
-   "betrag": 25999.600000000002,
-   "richtung": "buy",
-   "titel": "Hatton Cory (Interim CFO): PLAY ($26,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-28T21:30:56Z",
    "quelle": "SEC",
    "name": "Fierman Michael",
