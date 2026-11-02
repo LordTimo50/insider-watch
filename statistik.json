@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-28T15:01:30Z",
-   "quelle": "SEC",
-   "name": "MCGAREL DAVID",
-   "ticker": "FTHY",
-   "betrag": 129247.0,
-   "richtung": "buy",
-   "titel": "MCGAREL DAVID (Officer-Investment Adviser): FTHY ($129,247)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-09-28T15:01:30Z",
-   "quelle": "SEC",
-   "name": "Buchanan Michael Carlton",
-   "ticker": "WDI",
-   "betrag": 59414.99999999999,
-   "richtung": "buy",
-   "titel": "Buchanan Michael Carlton: WDI ($59,415)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-28T16:31:15Z",
    "quelle": "SEC",
    "name": "ELLIS ADAM CHRISTOPHER",
