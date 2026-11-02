@@ -4905,6 +4905,17 @@
    "titel": "Zhao Bin (Chief Executive Officer): API ($81,722) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T11:45:42Z",
+   "quelle": "SEC",
+   "name": "Kaufman Arik",
+   "ticker": "STKH",
+   "betrag": 38166.9622,
+   "richtung": "buy",
+   "titel": "Kaufman Arik (Chief Executive Officer): STKH ($38,167)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
