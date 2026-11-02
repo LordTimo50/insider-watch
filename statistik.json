@@ -4916,6 +4916,17 @@
    "titel": "Lonegro Frank A (President & CEO): LSTR ($714,619)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T13:15:54Z",
+   "quelle": "SEC",
+   "name": "Polito Karyn",
+   "ticker": "CLH",
+   "betrag": 39353.75,
+   "richtung": "buy",
+   "titel": "Polito Karyn (Director): CLH ($39,354)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
