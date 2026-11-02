@@ -4894,6 +4894,17 @@
    "titel": "GLENBROOK CAPITAL MANAGEMENT (10%-Owner): SNES ($29,056)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T11:31:12Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 81722.3309,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($81,722) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
