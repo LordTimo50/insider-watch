@@ -4905,6 +4905,17 @@
    "titel": "Kaufman Arik (Chief Executive Officer): STKH ($38,167)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T13:01:13Z",
+   "quelle": "SEC",
+   "name": "Lonegro Frank A",
+   "ticker": "LSTR",
+   "betrag": 714619.0,
+   "richtung": "buy",
+   "titel": "Lonegro Frank A (President & CEO): LSTR ($714,619)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
