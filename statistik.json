@@ -4938,6 +4938,17 @@
    "titel": "Katsoulis Nicos (Director): OCFC ($178,277)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-02T17:31:03Z",
+   "quelle": "SEC",
+   "name": "Demski David M",
+   "ticker": "ATEC",
+   "betrag": 408600.0,
+   "richtung": "buy",
+   "titel": "Demski David M (Director): ATEC ($408,600) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-01",
