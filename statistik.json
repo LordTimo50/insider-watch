@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-28T23:45:49Z",
-   "quelle": "SEC",
-   "name": "Rappaport Alan",
-   "ticker": "PDI",
-   "betrag": 75654.7,
-   "richtung": "buy",
-   "titel": "Rappaport Alan (Director): PDI ($75,655)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T00:01:42Z",
    "quelle": "SEC",
    "name": "Opaleye Management Inc.",
