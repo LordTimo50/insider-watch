@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-28T21:30:56Z",
-   "quelle": "SEC",
-   "name": "Fierman Michael",
-   "ticker": "AOMR",
-   "betrag": 290510.8342,
-   "richtung": "buy",
-   "titel": "Fierman Michael (Director): AOMR ($290,511)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-28T22:15:53Z",
    "quelle": "SEC",
    "name": "Baetz Cary D",
@@ -4962,6 +4951,6 @@
    "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-01",
+ "letzter_tagesbericht": "2026-11-02",
  "letzter_wochenbericht": "2026-W44"
 }
