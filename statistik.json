@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-29T14:45:47Z",
-   "quelle": "SEC",
-   "name": "Williams Paul Jay",
-   "ticker": "CRAFX",
-   "betrag": 220000.0,
-   "richtung": "buy",
-   "titel": "Williams Paul Jay (Director): CRAFX ($220,000) | 2 Kaeufer, $5.2M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T15:30:55Z",
    "quelle": "SEC",
    "name": "Ben-Avi David",
@@ -5101,6 +5090,17 @@
    "betrag": 32599.999999999996,
    "richtung": "buy",
    "titel": "Smith Michael Bradley (Director): TRTX ($32,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T14:45:46Z",
+   "quelle": "SEC",
+   "name": "Deslarzes Jean-Christophe",
+   "ticker": "CSTM",
+   "betrag": 42138.0,
+   "richtung": "buy",
+   "titel": "Deslarzes Jean-Christophe (Director): CSTM ($42,138)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
