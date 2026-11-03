@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-29T21:30:57Z",
-   "quelle": "SEC",
-   "name": "Pale Fire Capital SE",
-   "ticker": "COUR",
-   "betrag": 6748872.2138,
-   "richtung": "buy",
-   "titel": "Pale Fire Capital SE (10%-Owner): COUR ($6,748,872)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T21:45:41Z",
    "quelle": "SEC",
    "name": "SCULLY WILLIAM P",
@@ -5004,8 +4993,74 @@
    "titel": "Fish James C Jr (Director): CAT ($620,390)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T21:31:03Z",
+   "quelle": "SEC",
+   "name": "Powell Michael Scott",
+   "ticker": "LKQ",
+   "betrag": 191500.0,
+   "richtung": "buy",
+   "titel": "Powell Michael Scott (Director): LKQ ($191,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T21:31:03Z",
+   "quelle": "SEC",
+   "name": "CLARKE ANDREW C",
+   "ticker": "LKQ",
+   "betrag": 400030.00000000006,
+   "richtung": "buy",
+   "titel": "CLARKE ANDREW C (Director): LKQ ($400,030)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T21:31:08Z",
+   "quelle": "SEC",
+   "name": "Klein Nir",
+   "ticker": "SYNX",
+   "betrag": 45035.875700000004,
+   "richtung": "buy",
+   "titel": "Klein Nir (Chief Executive Officer): SYNX ($45,036)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T21:31:09Z",
+   "quelle": "SEC",
+   "name": "Klein Gal Nir",
+   "ticker": "SYNX",
+   "betrag": 45035.875700000004,
+   "richtung": "buy",
+   "titel": "Klein Gal Nir (VP Marketing & Israel Sales): SYNX ($45,036)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T21:31:09Z",
+   "quelle": "SEC",
+   "name": "Klein Ron",
+   "ticker": "SYNX",
+   "betrag": 27944.4951,
+   "richtung": "buy",
+   "titel": "Klein Ron (Director): SYNX ($27,944)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T21:31:13Z",
+   "quelle": "SEC",
+   "name": "Hill Adrian",
+   "ticker": "MAA",
+   "betrag": 99887.4,
+   "richtung": "buy",
+   "titel": "Hill Adrian (EVP, Chief Investment Officer): MAA ($99,887)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-02",
+ "letzter_tagesbericht": "2026-11-03",
  "letzter_wochenbericht": "2026-W44"
 }
