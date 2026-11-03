@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-29T20:31:02Z",
-   "quelle": "SEC",
-   "name": "Meli Ali",
-   "ticker": "MONIX",
-   "betrag": 85999.99394,
-   "richtung": "buy",
-   "titel": "Meli Ali (President and CEO): MONIX ($86,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T20:45:46Z",
    "quelle": "SEC",
    "name": "KAMFAR RAMIN",
