@@ -5059,6 +5059,17 @@
    "titel": "ARCH Venture Partners XIV, L.P. (10%-Owner): ASPE ($18,000,000) | 2 Kaeufer, $38.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T13:15:52Z",
+   "quelle": "SEC",
+   "name": "Yuan Lipen",
+   "ticker": "TSM",
+   "betrag": 71490.0,
+   "richtung": "buy",
+   "titel": "Yuan Lipen (VP): TSM ($71,490)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
