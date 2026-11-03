@@ -5070,6 +5070,17 @@
    "titel": "Yuan Lipen (VP): TSM ($71,490)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T13:31:05Z",
+   "quelle": "SEC",
+   "name": "Cashman Neil",
+   "ticker": "PMN",
+   "betrag": 38600.0,
+   "richtung": "buy",
+   "titel": "Cashman Neil (Chief Scientific Officer): PMN ($38,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
