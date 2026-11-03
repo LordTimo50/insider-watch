@@ -5092,6 +5092,28 @@
    "titel": "Hirsch Jeffrey (President and CEO): STRZ ($110,650)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T14:01:18Z",
+   "quelle": "SEC",
+   "name": "SILVERSTEIN WENDY",
+   "ticker": "TRTX",
+   "betrag": 253239.0,
+   "richtung": "buy",
+   "titel": "SILVERSTEIN WENDY (Director): TRTX ($253,239)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T14:01:18Z",
+   "quelle": "SEC",
+   "name": "Smith Michael Bradley",
+   "ticker": "TRTX",
+   "betrag": 32599.999999999996,
+   "richtung": "buy",
+   "titel": "Smith Michael Bradley (Director): TRTX ($32,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
