@@ -5092,6 +5092,17 @@
    "titel": "Docler Holding S.a r.l. (Director): PLBY ($5,000,000)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T23:15:47Z",
+   "quelle": "SEC",
+   "name": "RA CAPITAL MANAGEMENT, L.P.",
+   "ticker": "BBTX",
+   "betrag": 46639957.19,
+   "richtung": "buy",
+   "titel": "RA CAPITAL MANAGEMENT, L.P. (Director): BBTX ($46,639,957) | 3 Kaeufer, $58.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
