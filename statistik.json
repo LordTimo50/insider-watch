@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-29T00:01:42Z",
-   "quelle": "SEC",
-   "name": "Opaleye Management Inc.",
-   "ticker": "ACOG",
-   "betrag": 157082.0768,
-   "richtung": "buy",
-   "titel": "Opaleye Management Inc. (10%-Owner): ACOG ($157,082)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T14:15:52Z",
    "quelle": "SEC",
    "name": "Saba Capital Management, L.P.",
