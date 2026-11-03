@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-29T20:15:55Z",
-   "quelle": "SEC",
-   "name": "Rossa Alexander William",
-   "ticker": "AMFN",
-   "betrag": 85963.04999999999,
-   "richtung": "buy",
-   "titel": "Rossa Alexander William: AMFN ($85,963)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T20:31:02Z",
    "quelle": "SEC",
    "name": "Meli Ali",
