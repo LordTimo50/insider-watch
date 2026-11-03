@@ -5070,6 +5070,17 @@
    "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($7,886,207) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T22:31:13Z",
+   "quelle": "SEC",
+   "name": "Amlani Ajay K",
+   "ticker": "AWRE",
+   "betrag": 28965.399999999998,
+   "richtung": "buy",
+   "titel": "Amlani Ajay K (President & CEO): AWRE ($28,965)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
