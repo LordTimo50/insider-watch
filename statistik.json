@@ -5059,6 +5059,17 @@
    "titel": "LEVY JONATHAN A (Director): RNST ($82,120)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T22:15:57Z",
+   "quelle": "SEC",
+   "name": "NIPPON LIFE INSURANCE CO",
+   "ticker": "CRBG",
+   "betrag": 7886206.6967,
+   "richtung": "buy",
+   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($7,886,207) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
