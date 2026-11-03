@@ -5048,6 +5048,17 @@
    "titel": "Noone James (CHIEF EXECUTIVE OFFICER): FINW ($53,440)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T22:01:29Z",
+   "quelle": "SEC",
+   "name": "LEVY JONATHAN A",
+   "ticker": "RNST",
+   "betrag": 82119.8,
+   "richtung": "buy",
+   "titel": "LEVY JONATHAN A (Director): RNST ($82,120)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
