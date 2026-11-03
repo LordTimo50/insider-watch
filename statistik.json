@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-29T20:45:46Z",
-   "quelle": "SEC",
-   "name": "KAMFAR RAMIN",
-   "ticker": "BPRE",
-   "betrag": 812024.514,
-   "richtung": "buy",
-   "titel": "KAMFAR RAMIN (Director): BPRE ($812,025)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T21:01:11Z",
    "quelle": "SEC",
    "name": "Cohen Ryan",
