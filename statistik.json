@@ -5081,6 +5081,17 @@
    "titel": "Deslarzes Jean-Christophe (Director): CSTM ($42,138)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T16:45:54Z",
+   "quelle": "SEC",
+   "name": "Fish James C Jr",
+   "ticker": "CAT",
+   "betrag": 620390.0,
+   "richtung": "buy",
+   "titel": "Fish James C Jr (Director): CAT ($620,390)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
