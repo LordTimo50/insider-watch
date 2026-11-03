@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-29T20:01:10Z",
-   "quelle": "SEC",
-   "name": "Burnham William L",
-   "ticker": "HGBL",
-   "betrag": 399000.0,
-   "richtung": "buy",
-   "titel": "Burnham William L (Director): HGBL ($399,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-29T20:15:55Z",
    "quelle": "SEC",
    "name": "Rossa Alexander William",
