@@ -5037,6 +5037,28 @@
    "titel": "Moritz Robert Edward Jr. (Director): NTRS ($39,901)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T03:01:17Z",
+   "quelle": "SEC",
+   "name": "ARCH Venture Fund X, L.P.",
+   "ticker": "ASPE",
+   "betrag": 19999995.0,
+   "richtung": "buy",
+   "titel": "ARCH Venture Fund X, L.P. (10%-Owner): ASPE ($19,999,995)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T03:01:17Z",
+   "quelle": "SEC",
+   "name": "ARCH Venture Partners XIV, L.P.",
+   "ticker": "ASPE",
+   "betrag": 18000000.0,
+   "richtung": "buy",
+   "titel": "ARCH Venture Partners XIV, L.P. (10%-Owner): ASPE ($18,000,000) | 2 Kaeufer, $38.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
