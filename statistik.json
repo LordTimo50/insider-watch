@@ -5081,6 +5081,17 @@
    "titel": "Cashman Neil (Chief Scientific Officer): PMN ($38,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-03T13:46:26Z",
+   "quelle": "SEC",
+   "name": "Hirsch Jeffrey",
+   "ticker": "STRZ",
+   "betrag": 110650.0,
+   "richtung": "buy",
+   "titel": "Hirsch Jeffrey (President and CEO): STRZ ($110,650)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-02",
