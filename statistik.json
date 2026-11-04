@@ -5070,8 +5070,74 @@
    "titel": "Manley Michael Mark (CEO and Director): AN ($1,031,024)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-04T21:31:01Z",
+   "quelle": "SEC",
+   "name": "ORTALE BUFORD H",
+   "ticker": "FBRT",
+   "betrag": 25743.95,
+   "richtung": "buy",
+   "titel": "ORTALE BUFORD H (Director): FBRT ($25,744)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T21:31:05Z",
+   "quelle": "SEC",
+   "name": "Wooters Rebecca",
+   "ticker": "UPBD",
+   "betrag": 99475.0,
+   "richtung": "buy",
+   "titel": "Wooters Rebecca (EVP, Chief Growth Officer): UPBD ($99,475)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T21:31:06Z",
+   "quelle": "SEC",
+   "name": "Kumar Balaji",
+   "ticker": "UPBD",
+   "betrag": 50094.0,
+   "richtung": "buy",
+   "titel": "Kumar Balaji (EVP, Chief Technology Officer): UPBD ($50,094)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T21:31:07Z",
+   "quelle": "SEC",
+   "name": "BROWN JEFFREY J",
+   "ticker": "UPBD",
+   "betrag": 400012.15,
+   "richtung": "buy",
+   "titel": "BROWN JEFFREY J (Director): UPBD ($400,012)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-04T21:31:07Z",
+   "quelle": "SEC",
+   "name": "LANGENSTEIN MOLLY",
+   "ticker": "UPBD",
+   "betrag": 50081.26,
+   "richtung": "buy",
+   "titel": "LANGENSTEIN MOLLY (Director): UPBD ($50,081)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-04T21:31:12Z",
+   "quelle": "SEC",
+   "name": "HAWKINS JAMES B",
+   "ticker": "AEYE",
+   "betrag": 38300.1,
+   "richtung": "buy",
+   "titel": "HAWKINS JAMES B (Director): AEYE ($38,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-03",
+ "letzter_tagesbericht": "2026-11-04",
  "letzter_wochenbericht": "2026-W44"
 }
