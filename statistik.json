@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-30T15:45:41Z",
-   "quelle": "SEC",
-   "name": "HADEN PATRICK C",
-   "ticker": "TSI",
-   "betrag": 267239.7,
-   "richtung": "buy",
-   "titel": "HADEN PATRICK C (Director): TSI ($267,240)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-30T17:01:10Z",
    "quelle": "SEC",
    "name": "Kencel Kenneth J.",
