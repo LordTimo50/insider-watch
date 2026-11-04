@@ -5224,6 +5224,17 @@
    "titel": "Das Soumen (Director): SCQCU ($2,665,900)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-04T23:45:54Z",
+   "quelle": "SEC",
+   "name": "ORBIMED ADVISORS LLC",
+   "ticker": "ASPE",
+   "betrag": 15000000.0,
+   "richtung": "buy",
+   "titel": "ORBIMED ADVISORS LLC (Director): ASPE ($15,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
