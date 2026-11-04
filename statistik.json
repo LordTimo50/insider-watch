@@ -5081,6 +5081,17 @@
    "titel": "Zhao Bin (Chief Executive Officer): API ($83,006) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T17:31:04Z",
+   "quelle": "SEC",
+   "name": "TAN LIP BU",
+   "ticker": "INTC",
+   "betrag": 9709680.0,
+   "richtung": "buy",
+   "titel": "TAN LIP BU (CEO): INTC ($9,709,680)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
