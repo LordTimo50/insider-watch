@@ -5158,6 +5158,17 @@
    "titel": "Haggart Dylan G. (Director): LRN ($17,573,121)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T02:31:01Z",
+   "quelle": "SEC",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "ticker": "SIRI",
+   "betrag": 26894245.1765,
+   "richtung": "buy",
+   "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): SIRI ($26,894,245)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
