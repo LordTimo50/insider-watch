@@ -5092,6 +5092,28 @@
    "titel": "TAN LIP BU (CEO): INTC ($9,709,680)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T19:45:43Z",
+   "quelle": "SEC",
+   "name": "English Christopher T.",
+   "ticker": "MOALX",
+   "betrag": 29999.99997,
+   "richtung": "buy",
+   "titel": "English Christopher T.: MOALX ($30,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T19:45:44Z",
+   "quelle": "SEC",
+   "name": "Tamer Ford",
+   "ticker": "LSCC",
+   "betrag": 1003689.3342000002,
+   "richtung": "buy",
+   "titel": "Tamer Ford (President & CEO): LSCC ($1,003,689)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
