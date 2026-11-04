@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-30T22:01:06Z",
-   "quelle": "SEC",
-   "name": "Bistricer Jacob",
-   "ticker": "CLPR",
-   "betrag": 246225.0,
-   "richtung": "buy",
-   "titel": "Bistricer Jacob (Chief Operating Officer): CLPR ($246,225)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-01T00:01:08Z",
    "quelle": "SEC",
    "name": "BERKSHIRE HATHAWAY INC",
@@ -5123,6 +5112,17 @@
    "betrag": 49089.600000000006,
    "richtung": "buy",
    "titel": "Gawlick Rainer (Director): PRLB ($49,090)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T22:01:17Z",
+   "quelle": "SEC",
+   "name": "Mittal Nik",
+   "ticker": "JBLU",
+   "betrag": 323843.5,
+   "richtung": "buy",
+   "titel": "Mittal Nik (Director): JBLU ($323,844)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
