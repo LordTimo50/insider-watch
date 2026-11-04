@@ -5147,6 +5147,17 @@
    "titel": "MINGE JOHN C (Director): NPKI ($138,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T01:45:40Z",
+   "quelle": "SEC",
+   "name": "Haggart Dylan G.",
+   "ticker": "LRN",
+   "betrag": 17573121.28,
+   "richtung": "buy",
+   "titel": "Haggart Dylan G. (Director): LRN ($17,573,121)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
