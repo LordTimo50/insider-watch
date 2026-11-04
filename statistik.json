@@ -5136,6 +5136,17 @@
    "titel": "MOLLENKOPF STEVEN M (Director): BA ($510,427) | 2 Kaeufer, $1.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T01:01:16Z",
+   "quelle": "SEC",
+   "name": "MINGE JOHN C",
+   "ticker": "NPKI",
+   "betrag": 138600.0,
+   "richtung": "buy",
+   "titel": "MINGE JOHN C (Director): NPKI ($138,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
