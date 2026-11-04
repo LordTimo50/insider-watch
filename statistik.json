@@ -5125,6 +5125,61 @@
    "titel": "Mittal Nik (Director): JBLU ($323,844)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T22:15:46Z",
+   "quelle": "SEC",
+   "name": "Shepherd Brian A.",
+   "ticker": "LRN",
+   "betrag": 1669736.8,
+   "richtung": "buy",
+   "titel": "Shepherd Brian A. (Director): LRN ($1,669,737)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-04T22:15:47Z",
+   "quelle": "SEC",
+   "name": "Venrock Healthcare Capital Partners III, L.P.",
+   "ticker": "LYCA",
+   "betrag": 223819.75,
+   "richtung": "buy",
+   "titel": "Venrock Healthcare Capital Partners III, L.P. (10%-Owner): LYCA ($223,820)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T22:15:50Z",
+   "quelle": "SEC",
+   "name": "Pale Fire Capital SE",
+   "ticker": "DOLE",
+   "betrag": 12921443.571899999,
+   "richtung": "buy",
+   "titel": "Pale Fire Capital SE (10%-Owner): DOLE ($12,921,444)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-04T22:15:55Z",
+   "quelle": "SEC",
+   "name": "Potter Leonard",
+   "ticker": "HGV",
+   "betrag": 103875.0,
+   "richtung": "buy",
+   "titel": "Potter Leonard (Director): HGV ($103,875)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T22:15:56Z",
+   "quelle": "SEC",
+   "name": "Wang Mark D",
+   "ticker": "HGV",
+   "betrag": 499224.0,
+   "richtung": "buy",
+   "titel": "Wang Mark D (See Remarks): HGV ($499,224)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
