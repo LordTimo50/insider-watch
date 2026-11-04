@@ -5213,6 +5213,17 @@
    "titel": "Zuberbuhler Adolfo Fernando (Chief Financial Officer): PAM ($207,321)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T23:31:02Z",
+   "quelle": "SEC",
+   "name": "Das Soumen",
+   "ticker": "SCQCU",
+   "betrag": 2665900.0,
+   "richtung": "buy",
+   "titel": "Das Soumen (Director): SCQCU ($2,665,900)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
