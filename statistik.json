@@ -5114,6 +5114,28 @@
    "titel": "BLACK DOUG (CEO): SITE ($1,003,684)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T00:45:52Z",
+   "quelle": "SEC",
+   "name": "Buckley Mortimer J",
+   "ticker": "BA",
+   "betrag": 998421.0000000001,
+   "richtung": "buy",
+   "titel": "Buckley Mortimer J (Director): BA ($998,421)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T00:45:53Z",
+   "quelle": "SEC",
+   "name": "MOLLENKOPF STEVEN M",
+   "ticker": "BA",
+   "betrag": 510426.7,
+   "richtung": "buy",
+   "titel": "MOLLENKOPF STEVEN M (Director): BA ($510,427) | 2 Kaeufer, $1.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
