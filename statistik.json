@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-30T12:30:54Z",
-   "quelle": "SEC",
-   "name": "TEACHERS INSURANCE & ANNUITY ASSOCIATION OF AMERICA",
-   "ticker": "NONE",
-   "betrag": 99005.34,
-   "richtung": "buy",
-   "titel": "TEACHERS INSURANCE & ANNUITY ASSOCIATION OF AMERICA: NONE ($99,005) | 19 Kaeufer, $105.6M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-30T15:15:42Z",
    "quelle": "SEC",
    "name": "Nechmad Yair",
@@ -5157,6 +5146,17 @@
    "richtung": "buy",
    "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): SIRI ($26,894,245)",
    "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T12:31:04Z",
+   "quelle": "SEC",
+   "name": "Torres Denice",
+   "ticker": "SPTX",
+   "betrag": 99324.99999999999,
+   "richtung": "buy",
+   "titel": "Torres Denice (Director): SPTX ($99,325)",
+   "gemeldet": false,
    "zurueckgehalten": false
   }
  ],
