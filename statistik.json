@@ -5103,6 +5103,17 @@
    "titel": "RA CAPITAL MANAGEMENT, L.P. (Director): BBTX ($46,639,957) | 3 Kaeufer, $58.6M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T00:01:19Z",
+   "quelle": "SEC",
+   "name": "BLACK DOUG",
+   "ticker": "SITE",
+   "betrag": 1003684.5,
+   "richtung": "buy",
+   "titel": "BLACK DOUG (CEO): SITE ($1,003,684)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
