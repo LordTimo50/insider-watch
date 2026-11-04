@@ -5158,6 +5158,17 @@
    "titel": "Torres Denice (Director): SPTX ($99,325)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-04T14:01:12Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 83005.599,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($83,006) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-03",
