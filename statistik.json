@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-09-30T17:01:10Z",
-   "quelle": "SEC",
-   "name": "Kencel Kenneth J.",
-   "ticker": "NONE",
-   "betrag": 249999.99300000002,
-   "richtung": "buy",
-   "titel": "Kencel Kenneth J. (CEO and President): NONE ($250,000) | 19 Kaeufer, $97.9M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-09-30T20:15:42Z",
    "quelle": "SEC",
    "name": "BROWN BROTHERS HARRIMAN & CO",
