@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T20:01:13Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "MXF",
-   "betrag": 25242.82,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($25,243)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-01T20:15:46Z",
    "quelle": "SEC",
    "name": "NIPPON LIFE INSURANCE CO",
