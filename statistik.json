@@ -5125,6 +5125,17 @@
    "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($2,616,098) | 2 Kaeufer, $2.8M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T19:01:14Z",
+   "quelle": "SEC",
+   "name": "Ali Wajid",
+   "ticker": "TTMI",
+   "betrag": 631541.0,
+   "richtung": "buy",
+   "titel": "Ali Wajid (Director): TTMI ($631,541) | 2 Kaeufer, $2.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
