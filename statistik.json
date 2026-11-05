@@ -4993,6 +4993,28 @@
    "titel": "Siverling John: OACOX ($288,250)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T21:15:49Z",
+   "quelle": "SEC",
+   "name": "Deck Brian A",
+   "ticker": "SPXC",
+   "betrag": 493020.0,
+   "richtung": "buy",
+   "titel": "Deck Brian A (Director): SPXC ($493,020)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T21:16:04Z",
+   "quelle": "SEC",
+   "name": "RICE JOHN G",
+   "ticker": "BKR",
+   "betrag": 531000.0,
+   "richtung": "buy",
+   "titel": "RICE JOHN G (Director): BKR ($531,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
