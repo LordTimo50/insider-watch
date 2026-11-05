@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T13:30:58Z",
-   "quelle": "SEC",
-   "name": "Kelly Thomas Patrick",
-   "ticker": "XENE",
-   "betrag": 559740.0,
-   "richtung": "buy",
-   "titel": "Kelly Thomas Patrick (Chief Financial Officer): XENE ($559,740)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-01T13:30:58Z",
-   "quelle": "SEC",
-   "name": "MORTIMER IAN",
-   "ticker": "XENE",
-   "betrag": 1121400.0,
-   "richtung": "buy",
-   "titel": "MORTIMER IAN (PRESIDENT & CEO): XENE ($1,121,400) | 2 Kaeufer, $1.7M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-01T15:16:06Z",
    "quelle": "SEC",
    "name": "English Christopher T.",
@@ -5178,6 +5156,17 @@
    "betrag": 189260.0,
    "richtung": "buy",
    "titel": "Talbot Siobhan (Director): CRH ($189,260)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T13:31:03Z",
+   "quelle": "SEC",
+   "name": "DONEGAL MUTUAL INSURANCE CO",
+   "ticker": "DGICA",
+   "betrag": 282213.75,
+   "richtung": "buy",
+   "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($282,214)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
