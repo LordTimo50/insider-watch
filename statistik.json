@@ -5169,6 +5169,17 @@
    "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($282,214)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T13:45:50Z",
+   "quelle": "SEC",
+   "name": "Price Teddy Ray",
+   "ticker": "RRBI",
+   "betrag": 112605.50000000001,
+   "richtung": "buy",
+   "titel": "Price Teddy Ray (Director): RRBI ($112,606)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
