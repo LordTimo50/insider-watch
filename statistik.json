@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T21:30:56Z",
-   "quelle": "SEC",
-   "name": "AULT MILTON C III",
-   "ticker": "UUU",
-   "betrag": 92412000.0,
-   "richtung": "buy",
-   "titel": "AULT MILTON C III (Director): UUU ($92,412,000)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-10-01T21:31:06Z",
-   "quelle": "SEC",
-   "name": "SENEFF JAMES M JR",
-   "ticker": "NONE",
-   "betrag": 5000000.0708,
-   "richtung": "buy",
-   "titel": "SENEFF JAMES M JR (10%-Owner): NONE ($5,000,000)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-10-01T21:45:36Z",
    "quelle": "SEC",
    "name": "Smith James Grant",
@@ -5015,8 +4993,41 @@
    "titel": "RICE JOHN G (Director): BKR ($531,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T21:31:26Z",
+   "quelle": "SEC",
+   "name": "Ondrof Thomas Gerard",
+   "ticker": "SYY",
+   "betrag": 191550.0,
+   "richtung": "buy",
+   "titel": "Ondrof Thomas Gerard (Director): SYY ($191,550)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T21:31:29Z",
+   "quelle": "SEC",
+   "name": "Canup Edward G",
+   "ticker": "CBAN",
+   "betrag": 60645.0,
+   "richtung": "buy",
+   "titel": "Canup Edward G (CHIEF BANKING OFFICER): CBAN ($60,645)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T21:31:30Z",
+   "quelle": "SEC",
+   "name": "Prishkolnik Rachel",
+   "ticker": "VRNS",
+   "betrag": 26105.8,
+   "richtung": "buy",
+   "titel": "Prishkolnik Rachel (Director): VRNS ($26,106)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-04",
+ "letzter_tagesbericht": "2026-11-05",
  "letzter_wochenbericht": "2026-W44"
 }
