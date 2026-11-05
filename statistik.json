@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T00:01:08Z",
-   "quelle": "SEC",
-   "name": "BERKSHIRE HATHAWAY INC",
-   "ticker": "LEN",
-   "betrag": 426191.99999999994,
-   "richtung": "buy",
-   "titel": "BERKSHIRE HATHAWAY INC (10%-Owner): LEN ($426,192)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-01T00:15:43Z",
    "quelle": "SEC",
    "name": "UAW Chrysler Retirees Medical Benefits Plan",
@@ -5235,6 +5224,17 @@
    "titel": "ORBIMED ADVISORS LLC (Director): ASPE ($15,000,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-05T00:01:16Z",
+   "quelle": "SEC",
+   "name": "Thompson Peter A.",
+   "ticker": "ASPE",
+   "betrag": 15000000.0,
+   "richtung": "buy",
+   "titel": "Thompson Peter A. (Director): ASPE ($15,000,000) | 4 Kaeufer, $68.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
