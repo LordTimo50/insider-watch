@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T23:01:05Z",
-   "quelle": "SEC",
-   "name": "Finke Thomas M",
-   "ticker": "VENU",
-   "betrag": 75900.0,
-   "richtung": "buy",
-   "titel": "Finke Thomas M (Director): VENU ($75,900)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-01T23:15:41Z",
    "quelle": "SEC",
    "name": "Thomas William R III",
@@ -5079,6 +5068,17 @@
    "betrag": 24999991.74,
    "richtung": "buy",
    "titel": "ARCH Venture Fund XIII, L.P. (10%-Owner): LYEL ($24,999,992)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-05T23:01:22Z",
+   "quelle": "SEC",
+   "name": "GORDON CARL L",
+   "ticker": "ETRA",
+   "betrag": 3605116.3899999997,
+   "richtung": "buy",
+   "titel": "GORDON CARL L (Director): ETRA ($3,605,116)",
    "gemeldet": false,
    "zurueckgehalten": true
   }
