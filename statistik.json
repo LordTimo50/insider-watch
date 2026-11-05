@@ -5169,6 +5169,17 @@
    "titel": "Thompson Peter A. (Director): ASPE ($15,000,000) | 4 Kaeufer, $68.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T12:45:46Z",
+   "quelle": "SEC",
+   "name": "Talbot Siobhan",
+   "ticker": "CRH",
+   "betrag": 189260.0,
+   "richtung": "buy",
+   "titel": "Talbot Siobhan (Director): CRH ($189,260)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
