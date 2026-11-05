@@ -1,50 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T22:01:11Z",
-   "quelle": "SEC",
-   "name": "GEORGE W WHITNEY",
-   "ticker": "FUND",
-   "betrag": 1827220.65,
-   "richtung": "buy",
-   "titel": "GEORGE W WHITNEY (Director): FUND ($1,827,221)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-10-01T22:01:12Z",
-   "quelle": "SEC",
-   "name": "Ryan Robert John Andrew",
-   "ticker": "ASPI",
-   "betrag": 40200.0,
-   "richtung": "buy",
-   "titel": "Ryan Robert John Andrew (Director): ASPI ($40,200)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-01T22:01:13Z",
-   "quelle": "SEC",
-   "name": "SARAFA JOSEPH D",
-   "ticker": "PRHI",
-   "betrag": 74246.7,
-   "richtung": "buy",
-   "titel": "SARAFA JOSEPH D (Director): PRHI ($74,247)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-10-01T22:01:13Z",
-   "quelle": "SEC",
-   "name": "O'Hanlon Isolde",
-   "ticker": "PRHI",
-   "betrag": 48935.325,
-   "richtung": "buy",
-   "titel": "O'Hanlon Isolde (Director): PRHI ($48,935)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-10-01T23:01:05Z",
    "quelle": "SEC",
    "name": "Finke Thomas M",
@@ -4992,6 +4948,28 @@
    "richtung": "buy",
    "titel": "Chaikof David (Director): BB ($40,900)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T22:01:21Z",
+   "quelle": "SEC",
+   "name": "Amlani Ajay K",
+   "ticker": "AWRE",
+   "betrag": 32425.67,
+   "richtung": "buy",
+   "titel": "Amlani Ajay K (President & CEO): AWRE ($32,426)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T22:01:26Z",
+   "quelle": "SEC",
+   "name": "Novogratz Michael",
+   "ticker": "GLXY",
+   "betrag": 9864345.934,
+   "richtung": "buy",
+   "titel": "Novogratz Michael (Chief Executive Officer): GLXY ($9,864,346)",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
