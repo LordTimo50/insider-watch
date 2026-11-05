@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T18:15:42Z",
-   "quelle": "SEC",
-   "name": "AMG New York Holdings Corp.",
-   "ticker": "BBASX",
-   "betrag": 3199999.9956000005,
-   "richtung": "buy",
-   "titel": "AMG New York Holdings Corp. (10%-Owner): BBASX ($3,200,000) | 2 Kaeufer, $4.0M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-01T18:15:44Z",
-   "quelle": "SEC",
-   "name": "Happe Michael J",
-   "ticker": "FUL",
-   "betrag": 99250.0,
-   "richtung": "buy",
-   "titel": "Happe Michael J (Director): FUL ($99,250)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-10-01T18:30:58Z",
    "quelle": "SEC",
    "name": "Manufacturers Life Reinsurance Ltd",
@@ -5201,6 +5179,17 @@
    "richtung": "buy",
    "titel": "MOORE JOHN A (Chairman of the Board): SCND ($33,280)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T18:15:44Z",
+   "quelle": "SEC",
+   "name": "Mindlin Damian Miguel",
+   "ticker": "PAM",
+   "betrag": 2616097.8600000003,
+   "richtung": "buy",
+   "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($2,616,098) | 2 Kaeufer, $2.8M in 14T",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
