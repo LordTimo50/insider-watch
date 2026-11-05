@@ -5191,6 +5191,17 @@
    "titel": "FRIES MICHAEL T (President & CEO): LBTY ($1,030,172) | 2 Kaeufer, $3.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T17:15:58Z",
+   "quelle": "SEC",
+   "name": "MOORE JOHN A",
+   "ticker": "SCND",
+   "betrag": 33280.0,
+   "richtung": "buy",
+   "titel": "MOORE JOHN A (Chairman of the Board): SCND ($33,280)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
