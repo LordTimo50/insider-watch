@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T21:01:16Z",
-   "quelle": "SEC",
-   "name": "Barnes Matthew",
-   "ticker": "DKS",
-   "betrag": 499868.98350000003,
-   "richtung": "buy",
-   "titel": "Barnes Matthew (President - Foot Locker Intl): DKS ($499,869)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-10-01T21:30:56Z",
    "quelle": "SEC",
    "name": "AULT MILTON C III",
@@ -4992,6 +4981,17 @@
    "richtung": "buy",
    "titel": "Ali Wajid (Director): TTMI ($631,541) | 2 Kaeufer, $2.0M in 14T",
    "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T21:01:16Z",
+   "quelle": "SEC",
+   "name": "Siverling John",
+   "ticker": "OACOX",
+   "betrag": 288250.0,
+   "richtung": "buy",
+   "titel": "Siverling John: OACOX ($288,250)",
+   "gemeldet": false,
    "zurueckgehalten": false
   }
  ],
