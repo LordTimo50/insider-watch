@@ -5015,6 +5015,72 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($314,480)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T22:45:46Z",
+   "quelle": "SEC",
+   "name": "NASSAU HENRY N",
+   "ticker": "BXMT",
+   "betrag": 114291.0,
+   "richtung": "buy",
+   "titel": "NASSAU HENRY N (Director): BXMT ($114,291)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T22:45:46Z",
+   "quelle": "SEC",
+   "name": "Johnson Timothy Steven",
+   "ticker": "BXMT",
+   "betrag": 1035351.0,
+   "richtung": "buy",
+   "titel": "Johnson Timothy Steven (Chief Executive Officer): BXMT ($1,035,351)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-05T22:45:50Z",
+   "quelle": "SEC",
+   "name": "ORBIMED ADVISORS LLC",
+   "ticker": "ETRA",
+   "betrag": 3605116.3899999997,
+   "richtung": "buy",
+   "titel": "ORBIMED ADVISORS LLC (Director): ETRA ($3,605,116)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-05T22:45:53Z",
+   "quelle": "SEC",
+   "name": "Carey Thomas D.",
+   "ticker": "LAB",
+   "betrag": 46897.5,
+   "richtung": "buy",
+   "titel": "Carey Thomas D. (Director): LAB ($46,898)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T22:45:54Z",
+   "quelle": "SEC",
+   "name": "ARCH Venture Partners IX, LLC",
+   "ticker": "LYEL",
+   "betrag": 24999991.74,
+   "richtung": "buy",
+   "titel": "ARCH Venture Partners IX, LLC (10%-Owner): LYEL ($24,999,992)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-05T22:45:54Z",
+   "quelle": "SEC",
+   "name": "ARCH Venture Fund XIII, L.P.",
+   "ticker": "LYEL",
+   "betrag": 24999991.74,
+   "richtung": "buy",
+   "titel": "ARCH Venture Fund XIII, L.P. (10%-Owner): LYEL ($24,999,992)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
