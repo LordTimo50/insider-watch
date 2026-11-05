@@ -5180,6 +5180,28 @@
    "titel": "Price Teddy Ray (Director): RRBI ($112,606)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T14:31:03Z",
+   "quelle": "SEC",
+   "name": "Rodriguez Enrique",
+   "ticker": "LBTY",
+   "betrag": 1995978.0728000002,
+   "richtung": "buy",
+   "titel": "Rodriguez Enrique (EVP, Chief Technology Officer): LBTY ($1,995,978)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-05T14:31:03Z",
+   "quelle": "SEC",
+   "name": "FRIES MICHAEL T",
+   "ticker": "LBTY",
+   "betrag": 1030172.0,
+   "richtung": "buy",
+   "titel": "FRIES MICHAEL T (President & CEO): LBTY ($1,030,172) | 2 Kaeufer, $3.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-04",
