@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-01T15:16:06Z",
-   "quelle": "SEC",
-   "name": "English Christopher T.",
-   "ticker": "MOALX",
-   "betrag": 49999.99676,
-   "richtung": "buy",
-   "titel": "English Christopher T.: MOALX ($50,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-01T18:15:42Z",
    "quelle": "SEC",
    "name": "AMG New York Holdings Corp.",
