@@ -5081,6 +5081,28 @@
    "titel": "TANG KEVIN (10%-Owner): BOLD ($26,789)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T00:01:14Z",
+   "quelle": "SEC",
+   "name": "Colodney Benjamin T",
+   "ticker": "MTDR",
+   "betrag": 25760.0,
+   "richtung": "buy",
+   "titel": "Colodney Benjamin T (SVP & Chief Accounting Officer): MTDR ($25,760)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T00:01:15Z",
+   "quelle": "SEC",
+   "name": "Calvert Christopher P",
+   "ticker": "MTDR",
+   "betrag": 105140.0,
+   "richtung": "buy",
+   "titel": "Calvert Christopher P (EVP and CFO): MTDR ($105,140)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
