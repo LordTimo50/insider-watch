@@ -5180,6 +5180,17 @@
    "titel": "Francos Guillermo Alberto (Director): YPF ($356,341)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T16:31:00Z",
+   "quelle": "SEC",
+   "name": "Kleiser Kirk E.",
+   "ticker": "CLST",
+   "betrag": 30254.52,
+   "richtung": "buy",
+   "titel": "Kleiser Kirk E. (Director): CLST ($30,255)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
