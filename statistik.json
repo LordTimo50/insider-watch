@@ -5147,6 +5147,17 @@
    "titel": "Williams Eugene (Director): PMN ($90,895)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T15:01:18Z",
+   "quelle": "SEC",
+   "name": "GOVE SUE",
+   "ticker": "LKQ",
+   "betrag": 201085.473,
+   "richtung": "buy",
+   "titel": "GOVE SUE (Director): LKQ ($201,085) | 3 Kaeufer, $793K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
