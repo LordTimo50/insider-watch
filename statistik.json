@@ -5246,6 +5246,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($87,851)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T22:01:12Z",
+   "quelle": "SEC",
+   "name": "BAKER BROS. ADVISORS LP",
+   "ticker": "KOD",
+   "betrag": 24340835.9,
+   "richtung": "buy",
+   "titel": "BAKER BROS. ADVISORS LP (Director): KOD ($24,340,836)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-06T22:01:17Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 499662.8,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($499,663)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-06",
