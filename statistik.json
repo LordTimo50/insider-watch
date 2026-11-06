@@ -5092,6 +5092,17 @@
    "titel": "Liu Shaoren (CEO and CFO): TRAD ($2,089,710)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T02:01:19Z",
+   "quelle": "SEC",
+   "name": "RICE RONALD A",
+   "ticker": "MTUS",
+   "betrag": 166100.0,
+   "richtung": "buy",
+   "titel": "RICE RONALD A (Director): MTUS ($166,100)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
