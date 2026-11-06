@@ -5059,6 +5059,17 @@
    "titel": "Calvert Christopher P (EVP and CFO): MTDR ($105,140)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T01:30:56Z",
+   "quelle": "SEC",
+   "name": "Fairbanks Jonathan B.",
+   "ticker": "FLOC",
+   "betrag": 292924.178,
+   "richtung": "buy",
+   "titel": "Fairbanks Jonathan B. (Director): FLOC ($292,924)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
