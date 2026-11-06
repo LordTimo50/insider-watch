@@ -5158,6 +5158,28 @@
    "titel": "GOVE SUE (Director): LKQ ($201,085) | 3 Kaeufer, $793K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T15:15:44Z",
+   "quelle": "SEC",
+   "name": "Adler Bo Niclas",
+   "ticker": "VISM",
+   "betrag": 108000.0,
+   "richtung": "buy",
+   "titel": "Adler Bo Niclas (10%-Owner): VISM ($108,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T15:15:44Z",
+   "quelle": "SEC",
+   "name": "Francos Guillermo Alberto",
+   "ticker": "YPF",
+   "betrag": 356340.60000000003,
+   "richtung": "buy",
+   "titel": "Francos Guillermo Alberto (Director): YPF ($356,341)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
