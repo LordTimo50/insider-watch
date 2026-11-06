@@ -5290,6 +5290,17 @@
    "titel": "BAKER BROS. ADVISORS LP (Director): MDGL ($35,023,032)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-06T23:15:44Z",
+   "quelle": "SEC",
+   "name": "MOORTHY GANESH",
+   "ticker": "GFS",
+   "betrag": 93687.5,
+   "richtung": "buy",
+   "titel": "MOORTHY GANESH (Director): GFS ($93,688)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-06",
