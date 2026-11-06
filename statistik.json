@@ -5070,6 +5070,28 @@
    "titel": "Fairbanks Jonathan B. (Director): FLOC ($292,924)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T01:45:44Z",
+   "quelle": "SEC",
+   "name": "Liu Shaoren",
+   "ticker": "TRAD",
+   "betrag": 30290.0,
+   "richtung": "buy",
+   "titel": "Liu Shaoren (CEO and CFO): TRAD ($30,290)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T01:45:44Z",
+   "quelle": "SEC",
+   "name": "Liu Shaoren",
+   "ticker": "TRAD",
+   "betrag": 2089710.0,
+   "richtung": "buy",
+   "titel": "Liu Shaoren (CEO and CFO): TRAD ($2,089,710)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
