@@ -5191,6 +5191,17 @@
    "titel": "Baker James C (President): KYN ($331,085) | 2 Kaeufer, $383K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T21:15:50Z",
+   "quelle": "SEC",
+   "name": "Mudick Stephanie B",
+   "ticker": "TBBK",
+   "betrag": 47495.0,
+   "richtung": "buy",
+   "titel": "Mudick Stephanie B (Director): TBBK ($47,495)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
