@@ -5279,6 +5279,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($299,287)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T22:45:55Z",
+   "quelle": "SEC",
+   "name": "BAKER BROS. ADVISORS LP",
+   "ticker": "MDGL",
+   "betrag": 35023032.1012,
+   "richtung": "buy",
+   "titel": "BAKER BROS. ADVISORS LP (Director): MDGL ($35,023,032)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-06",
