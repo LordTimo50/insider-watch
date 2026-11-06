@@ -5114,6 +5114,17 @@
    "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($33,019)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T11:31:03Z",
+   "quelle": "SEC",
+   "name": "Adler Bo Niclas",
+   "ticker": "VISM",
+   "betrag": 350000.0,
+   "richtung": "buy",
+   "titel": "Adler Bo Niclas (10%-Owner): VISM ($350,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
