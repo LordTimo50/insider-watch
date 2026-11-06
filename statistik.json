@@ -5147,6 +5147,17 @@
    "titel": "Elsener William Thomas (EVP, Reservoir Engineering): MTDR ($46,332) | 4 Kaeufer, $224K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T13:15:51Z",
+   "quelle": "SEC",
+   "name": "Williams Eugene",
+   "ticker": "PMN",
+   "betrag": 90895.0,
+   "richtung": "buy",
+   "titel": "Williams Eugene (Director): PMN ($90,895)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
