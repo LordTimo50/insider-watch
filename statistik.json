@@ -5136,6 +5136,17 @@
    "titel": "Epstein David R (Director): AGMB ($103,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T12:31:06Z",
+   "quelle": "SEC",
+   "name": "Erman Bryan A",
+   "ticker": "MTDR",
+   "betrag": 46472.85,
+   "richtung": "buy",
+   "titel": "Erman Bryan A (President): MTDR ($46,473) | 3 Kaeufer, $177K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
