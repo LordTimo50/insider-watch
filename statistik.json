@@ -5125,6 +5125,17 @@
    "titel": "Adler Bo Niclas (10%-Owner): VISM ($350,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T11:45:44Z",
+   "quelle": "SEC",
+   "name": "Epstein David R",
+   "ticker": "AGMB",
+   "betrag": 103500.0,
+   "richtung": "buy",
+   "titel": "Epstein David R (Director): AGMB ($103,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
