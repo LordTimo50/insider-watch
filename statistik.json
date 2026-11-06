@@ -5202,6 +5202,28 @@
    "titel": "Chowbey Sanjay (President and CEO): KMT ($165,368)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T18:15:45Z",
+   "quelle": "SEC",
+   "name": "Little Harrison James",
+   "ticker": "KYN",
+   "betrag": 51538.5,
+   "richtung": "buy",
+   "titel": "Little Harrison James (Executive Vice President): KYN ($51,538)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T18:15:48Z",
+   "quelle": "SEC",
+   "name": "Baker James C",
+   "ticker": "KYN",
+   "betrag": 331085.0,
+   "richtung": "buy",
+   "titel": "Baker James C (President): KYN ($331,085) | 2 Kaeufer, $383K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
