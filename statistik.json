@@ -5224,6 +5224,28 @@
    "titel": "IRICK JAIME A (President and CEO): TRNS ($230,366)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T21:45:47Z",
+   "quelle": "SEC",
+   "name": "Shah Prem S",
+   "ticker": "CVS",
+   "betrag": 2001315.2249999999,
+   "richtung": "buy",
+   "titel": "Shah Prem S (EVP and Group President): CVS ($2,001,315)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T21:46:04Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "ECF",
+   "betrag": 87850.98,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($87,851)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-06",
