@@ -5103,6 +5103,17 @@
    "titel": "RICE RONALD A (Director): MTUS ($166,100)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-06T02:15:49Z",
+   "quelle": "SEC",
+   "name": "Opaleye Management Inc.",
+   "ticker": "GRCE",
+   "betrag": 33019.275499999996,
+   "richtung": "buy",
+   "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($33,019)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-05",
