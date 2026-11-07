@@ -5301,6 +5301,17 @@
    "titel": "MOORTHY GANESH (Director): GFS ($93,688)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-07T00:01:13Z",
+   "quelle": "SEC",
+   "name": "KINDER RICHARD D",
+   "ticker": "KMI",
+   "betrag": 14994200.0,
+   "richtung": "buy",
+   "titel": "KINDER RICHARD D (Executive Chairman): KMI ($14,994,200)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-06",
