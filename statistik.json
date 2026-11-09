@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T21:20:53Z",
-   "quelle": "SEC",
-   "name": "Williams Donald Allen",
-   "ticker": "PALI",
-   "betrag": 28800.0,
-   "richtung": "buy",
-   "titel": "Williams Donald Allen (Director): PALI ($28,800)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-05T21:20:56Z",
-   "quelle": "SEC",
-   "name": "Johnson Chris A",
-   "ticker": "GGROU",
-   "betrag": 50000.0,
-   "richtung": "buy",
-   "titel": "Johnson Chris A (Director): GGROU ($50,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-05T22:01:09Z",
    "quelle": "SEC",
    "name": "MacDonald Ryan S",
@@ -5499,8 +5477,30 @@
    "titel": "Muken Ross (Chief Executive Officer): SOPH ($137,188)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:30:59Z",
+   "quelle": "SEC",
+   "name": "Karam Fahmi",
+   "ticker": "UPBD",
+   "betrag": 299988.9,
+   "richtung": "buy",
+   "titel": "Karam Fahmi (Chief Executive Officer): UPBD ($299,989)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-09T21:31:10Z",
+   "quelle": "SEC",
+   "name": "Johnson Kathleen E",
+   "ticker": "LUMN",
+   "betrag": 396890.0,
+   "richtung": "buy",
+   "titel": "Johnson Kathleen E (Chief Executive Officer): LUMN ($396,890)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-08",
+ "letzter_tagesbericht": "2026-11-09",
  "letzter_wochenbericht": "2026-W45"
 }
