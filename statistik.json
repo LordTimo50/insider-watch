@@ -5587,6 +5587,39 @@
    "titel": "Dev Indraneel (EVP & CFO): WCC ($503,527)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-09T22:31:05Z",
+   "quelle": "SEC",
+   "name": "LAZAR JACK R",
+   "ticker": "GFS",
+   "betrag": 380000.0,
+   "richtung": "buy",
+   "titel": "LAZAR JACK R (Director): GFS ($380,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T22:31:05Z",
+   "quelle": "SEC",
+   "name": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
+   "ticker": "NATR",
+   "betrag": 2849810.84,
+   "richtung": "buy",
+   "titel": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C. (10%-Owner): NATR ($2,849,811)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-09T22:31:06Z",
+   "quelle": "SEC",
+   "name": "Stetson Glenn W",
+   "ticker": "MTDR",
+   "betrag": 50800.0,
+   "richtung": "buy",
+   "titel": "Stetson Glenn W (EVP and COO): MTDR ($50,800)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
