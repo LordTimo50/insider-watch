@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T23:01:15Z",
-   "quelle": "SEC",
-   "name": "Opaleye Management Inc.",
-   "ticker": "GRCE",
-   "betrag": 123819.1388,
-   "richtung": "buy",
-   "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($123,819)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-05T23:15:40Z",
    "quelle": "SEC",
    "name": "Mitin Yury",
@@ -5629,6 +5618,28 @@
    "betrag": 8102077.109999999,
    "richtung": "buy",
    "titel": "Haggart Dylan G. (Director): LRN ($8,102,077)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-09T23:01:16Z",
+   "quelle": "SEC",
+   "name": "MILLIGAN GEORGE D",
+   "ticker": "UFCS",
+   "betrag": 237049.99999999997,
+   "richtung": "buy",
+   "titel": "MILLIGAN GEORGE D (Director): UFCS ($237,050)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T23:01:19Z",
+   "quelle": "SEC",
+   "name": "Moret Blake D.",
+   "ticker": "ROK",
+   "betrag": 1545449.5356,
+   "richtung": "buy",
+   "titel": "Moret Blake D. (President and CEO): ROK ($1,545,450)",
    "gemeldet": false,
    "zurueckgehalten": true
   }
