@@ -5499,6 +5499,61 @@
    "titel": "Johnson Kathleen E (Chief Executive Officer): LUMN ($396,890)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:45:45Z",
+   "quelle": "SEC",
+   "name": "Smith Edgar R. III",
+   "ticker": "FGBI",
+   "betrag": 59000.0,
+   "richtung": "buy",
+   "titel": "Smith Edgar R. III (Director): FGBI ($59,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:45:47Z",
+   "quelle": "SEC",
+   "name": "Bennett Christopher Lawrence",
+   "ticker": "FUN",
+   "betrag": 46600.0,
+   "richtung": "buy",
+   "titel": "Bennett Christopher Lawrence (Chief Legal Officer): FUN ($46,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:45:47Z",
+   "quelle": "SEC",
+   "name": "Fain Eric S",
+   "ticker": "OBIO",
+   "betrag": 100000.0,
+   "richtung": "buy",
+   "titel": "Fain Eric S (Director): OBIO ($100,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:45:49Z",
+   "quelle": "SEC",
+   "name": "Pacitti David",
+   "ticker": "OBIO",
+   "betrag": 100000.0,
+   "richtung": "buy",
+   "titel": "Pacitti David (Director): OBIO ($100,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:45:51Z",
+   "quelle": "SEC",
+   "name": "Hochman David P",
+   "ticker": "OBIO",
+   "betrag": 25000.0,
+   "richtung": "buy",
+   "titel": "Hochman David P (See Remarks): OBIO ($25,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
