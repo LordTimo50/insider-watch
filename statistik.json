@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T22:15:53Z",
-   "quelle": "SEC",
-   "name": "KAMFAR RAMIN",
-   "ticker": "BPRE",
-   "betrag": 3408193.2743,
-   "richtung": "buy",
-   "titel": "KAMFAR RAMIN (Director): BPRE ($3,408,193) | 3 Kaeufer, $8.0M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-05T22:15:59Z",
-   "quelle": "SEC",
-   "name": "MAROONE MICHAEL E",
-   "ticker": "CVNA",
-   "betrag": 1544981.37,
-   "richtung": "buy",
-   "titel": "MAROONE MICHAEL E (Director): CVNA ($1,544,981)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-05T23:01:15Z",
    "quelle": "SEC",
    "name": "Opaleye Management Inc.",
@@ -5543,6 +5521,72 @@
    "titel": "Hochman David P (See Remarks): OBIO ($25,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T22:15:41Z",
+   "quelle": "SEC",
+   "name": "Appel Shelley F",
+   "ticker": "MTDR",
+   "betrag": 67521.25,
+   "richtung": "buy",
+   "titel": "Appel Shelley F (Director): MTDR ($67,521)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-09T22:15:42Z",
+   "quelle": "SEC",
+   "name": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG",
+   "betrag": 56980.0,
+   "richtung": "buy",
+   "titel": "TANNENBAUM LEONARD M (Director): AFCG ($56,980)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T22:15:43Z",
+   "quelle": "SEC",
+   "name": "Tannenbaum Robyn",
+   "ticker": "AFCG",
+   "betrag": 30900.0,
+   "richtung": "buy",
+   "titel": "Tannenbaum Robyn (President and CIO): AFCG ($30,900)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T22:15:47Z",
+   "quelle": "SEC",
+   "name": "Marino Anthony S",
+   "ticker": "WCC",
+   "betrag": 99902.77,
+   "richtung": "buy",
+   "titel": "Marino Anthony S (EVP & CHRO): WCC ($99,903)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T22:15:49Z",
+   "quelle": "SEC",
+   "name": "McAtee David R II",
+   "ticker": "ADM",
+   "betrag": 196756.0,
+   "richtung": "buy",
+   "titel": "McAtee David R II (Director): ADM ($196,756)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T22:15:51Z",
+   "quelle": "SEC",
+   "name": "Dev Indraneel",
+   "ticker": "WCC",
+   "betrag": 503527.49999999994,
+   "richtung": "buy",
+   "titel": "Dev Indraneel (EVP & CFO): WCC ($503,527)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
