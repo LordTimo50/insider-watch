@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T13:03:22Z",
-   "quelle": "SEC",
-   "name": "Pittas Aristeidis P",
-   "ticker": "ESEA",
-   "betrag": 74625.705,
-   "richtung": "buy",
-   "titel": "Pittas Aristeidis P (Director): ESEA ($74,626)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-05T13:15:46Z",
-   "quelle": "SEC",
-   "name": "Gonzalez Francisco",
-   "ticker": "SKYH",
-   "betrag": 35612.5,
-   "richtung": "buy",
-   "titel": "Gonzalez Francisco (Chief Financial Officer): SKYH ($35,612)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-05T14:30:59Z",
    "quelle": "SEC",
    "name": "Alvarez Denise Aguiar",
@@ -5354,6 +5332,17 @@
    "betrag": 126139.6202,
    "richtung": "buy",
    "titel": "ADLERSBERG SHABTAI (President and CEO): AUDC ($126,140)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T13:15:42Z",
+   "quelle": "SEC",
+   "name": "Exton Michael",
+   "ticker": "LXRX",
+   "betrag": 49999.4384,
+   "richtung": "buy",
+   "titel": "Exton Michael (Chief Executive Officer): LXRX ($49,999)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
