@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T23:15:40Z",
-   "quelle": "SEC",
-   "name": "Mitin Yury",
-   "ticker": "ALP",
-   "betrag": 51482.64,
-   "richtung": "buy",
-   "titel": "Mitin Yury (See Remarks): ALP ($51,483)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-05T23:30:57Z",
    "quelle": "SEC",
    "name": "Leonard Braden Michael",
@@ -5642,6 +5631,17 @@
    "titel": "Moret Blake D. (President and CEO): ROK ($1,545,450)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-09T23:15:45Z",
+   "quelle": "SEC",
+   "name": "Wall William P",
+   "ticker": "ECHO",
+   "betrag": 90410.0,
+   "richtung": "buy",
+   "titel": "Wall William P (Director): ECHO ($90,410)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
