@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T17:15:43Z",
-   "quelle": "SEC",
-   "name": "Hattersley Gavin",
-   "ticker": "MKC",
-   "betrag": 44610.0,
-   "richtung": "buy",
-   "titel": "Hattersley Gavin (Director): MKC ($44,610)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-05T20:56:10Z",
    "quelle": "SEC",
    "name": "NIPPON LIFE INSURANCE CO",
