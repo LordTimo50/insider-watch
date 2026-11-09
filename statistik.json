@@ -5334,6 +5334,17 @@
    "titel": "FRANKLIN PHILIP G (Director): TTMI ($309,600) | 3 Kaeufer, $2.3M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T16:45:45Z",
+   "quelle": "SEC",
+   "name": "BARTELS ROBERT E JR",
+   "ticker": "LKFN",
+   "betrag": 117176.5658,
+   "richtung": "buy",
+   "titel": "BARTELS ROBERT E JR (Director): LKFN ($117,177)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
