@@ -5378,6 +5378,39 @@
    "titel": "Potter Leonard (Director): NSLR ($115,200)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T19:45:43Z",
+   "quelle": "SEC",
+   "name": "Hamble International Inc.",
+   "ticker": "VDTA",
+   "betrag": 999882.0,
+   "richtung": "buy",
+   "titel": "Hamble International Inc. (10%-Owner): VDTA ($999,882)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T19:45:43Z",
+   "quelle": "SEC",
+   "name": "Cooper Arthur S.",
+   "ticker": "GOOD",
+   "betrag": 99999.07145259,
+   "richtung": "buy",
+   "titel": "Cooper Arthur S. (CEO & President): GOOD ($99,999)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T19:45:44Z",
+   "quelle": "SEC",
+   "name": "Pilecki Derek Steven",
+   "ticker": "GROW",
+   "betrag": 82690.70880000001,
+   "richtung": "buy",
+   "titel": "Pilecki Derek Steven: GROW ($82,691)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
