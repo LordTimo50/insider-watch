@@ -5422,6 +5422,28 @@
    "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($1,287,400) | 2 Kaeufer, $4.1M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T20:31:03Z",
+   "quelle": "SEC",
+   "name": "Rocco Steven F",
+   "ticker": "LCRDX",
+   "betrag": 199999.99773,
+   "richtung": "buy",
+   "titel": "Rocco Steven F (Director): LCRDX ($200,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T20:31:03Z",
+   "quelle": "SEC",
+   "name": "Harrison Street Real Assets Fund LLC",
+   "ticker": "NFRX",
+   "betrag": 45199994.4,
+   "richtung": "buy",
+   "titel": "Harrison Street Real Assets Fund LLC (10%-Owner): NFRX ($45,199,994)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
