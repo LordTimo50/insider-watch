@@ -5334,6 +5334,17 @@
    "titel": "BARTELS ROBERT E JR (Director): LKFN ($117,177)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T17:31:05Z",
+   "quelle": "SEC",
+   "name": "McAtee David R II",
+   "ticker": "ADM",
+   "betrag": 486720.0,
+   "richtung": "buy",
+   "titel": "McAtee David R II (Director): ADM ($486,720)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
