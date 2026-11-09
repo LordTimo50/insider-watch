@@ -5334,6 +5334,28 @@
    "titel": "Foran Joseph Wm (Chairman and CEO): MTDR ($256,800) | 6 Kaeufer, $507K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T13:01:14Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 123109.37109999999,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($123,109) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T13:01:14Z",
+   "quelle": "SEC",
+   "name": "ADLERSBERG SHABTAI",
+   "ticker": "AUDC",
+   "betrag": 126139.6202,
+   "richtung": "buy",
+   "titel": "ADLERSBERG SHABTAI (President and CEO): AUDC ($126,140)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
