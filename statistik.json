@@ -5620,6 +5620,17 @@
    "titel": "Stetson Glenn W (EVP and COO): MTDR ($50,800)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-09T22:45:45Z",
+   "quelle": "SEC",
+   "name": "Haggart Dylan G.",
+   "ticker": "LRN",
+   "betrag": 8102077.109999999,
+   "richtung": "buy",
+   "titel": "Haggart Dylan G. (Director): LRN ($8,102,077)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
