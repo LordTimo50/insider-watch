@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T23:45:44Z",
-   "quelle": "SEC",
-   "name": "McGraner Matt",
-   "ticker": "NXRT",
-   "betrag": 201049.2,
-   "richtung": "buy",
-   "titel": "McGraner Matt (See Remarks): NXRT ($201,049)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-06T01:15:44Z",
    "quelle": "SEC",
    "name": "BERKSHIRE HATHAWAY INC",
@@ -5629,6 +5618,28 @@
    "betrag": 90410.0,
    "richtung": "buy",
    "titel": "Wall William P (Director): ECHO ($90,410)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T23:45:41Z",
+   "quelle": "SEC",
+   "name": "Young John Alan",
+   "ticker": "LUCK",
+   "betrag": 56990.2,
+   "richtung": "buy",
+   "titel": "Young John Alan (Director): LUCK ($56,990)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T23:45:41Z",
+   "quelle": "SEC",
+   "name": "Energy Evolution Master Fund, Ltd.",
+   "ticker": "EP",
+   "betrag": 203811.5431,
+   "richtung": "buy",
+   "titel": "Energy Evolution Master Fund, Ltd. (10%-Owner): EP ($203,812)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
