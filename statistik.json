@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-05T10:15:43Z",
-   "quelle": "SEC",
-   "name": "HOO VOON HIM",
-   "ticker": "VCIG",
-   "betrag": 313225.38,
-   "richtung": "buy",
-   "titel": "HOO VOON HIM (CEO and Director): VCIG ($313,225)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-05T13:03:22Z",
    "quelle": "SEC",
    "name": "Pittas Aristeidis P",
