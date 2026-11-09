@@ -5411,6 +5411,17 @@
    "titel": "Pilecki Derek Steven: GROW ($82,691)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T20:15:48Z",
+   "quelle": "SEC",
+   "name": "Mindlin Damian Miguel",
+   "ticker": "PAM",
+   "betrag": 1287400.0,
+   "richtung": "buy",
+   "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($1,287,400) | 2 Kaeufer, $4.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
