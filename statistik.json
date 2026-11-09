@@ -5345,6 +5345,17 @@
    "titel": "McAtee David R II (Director): ADM ($486,720)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T18:31:01Z",
+   "quelle": "SEC",
+   "name": "Watson Patrick S",
+   "ticker": "KMT",
+   "betrag": 47000.0,
+   "richtung": "buy",
+   "titel": "Watson Patrick S (Vice President and CFO): KMT ($47,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
