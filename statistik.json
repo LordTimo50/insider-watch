@@ -5356,6 +5356,17 @@
    "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($621,506)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T14:15:47Z",
+   "quelle": "SEC",
+   "name": "Leon Francisco",
+   "ticker": "CRC",
+   "betrag": 37307.84,
+   "richtung": "buy",
+   "titel": "Leon Francisco (President and CEO): CRC ($37,308)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
