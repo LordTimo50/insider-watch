@@ -5334,6 +5334,17 @@
    "titel": "Leon Francisco (President and CEO): CRC ($37,308)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T16:01:13Z",
+   "quelle": "SEC",
+   "name": "FRANKLIN PHILIP G",
+   "ticker": "TTMI",
+   "betrag": 309600.0,
+   "richtung": "buy",
+   "titel": "FRANKLIN PHILIP G (Director): TTMI ($309,600) | 3 Kaeufer, $2.3M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
