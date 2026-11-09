@@ -5290,6 +5290,28 @@
    "titel": "KINDER RICHARD D (Executive Chairman): KMI ($14,994,200)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T11:15:45Z",
+   "quelle": "SEC",
+   "name": "SPLINTER MICHAEL R",
+   "ticker": "TSM",
+   "betrag": 299880.0,
+   "richtung": "buy",
+   "titel": "SPLINTER MICHAEL R (Director): TSM ($299,880)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T11:15:46Z",
+   "quelle": "SEC",
+   "name": "Heshmatpour Amir F",
+   "ticker": "NTHI",
+   "betrag": 230510.0,
+   "richtung": "buy",
+   "titel": "Heshmatpour Amir F (CEO, President): NTHI ($230,510)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
