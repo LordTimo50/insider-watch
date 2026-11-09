@@ -5312,6 +5312,28 @@
    "titel": "Heshmatpour Amir F (CEO, President): NTHI ($230,510)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T12:45:44Z",
+   "quelle": "SEC",
+   "name": "Harvey Paul W",
+   "ticker": "MTDR",
+   "betrag": 26360.0,
+   "richtung": "buy",
+   "titel": "Harvey Paul W (Director): MTDR ($26,360)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T12:45:45Z",
+   "quelle": "SEC",
+   "name": "Foran Joseph Wm",
+   "ticker": "MTDR",
+   "betrag": 256800.0,
+   "richtung": "buy",
+   "titel": "Foran Joseph Wm (Chairman and CEO): MTDR ($256,800) | 6 Kaeufer, $507K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
