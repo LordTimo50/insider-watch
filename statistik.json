@@ -5356,6 +5356,28 @@
    "titel": "Watson Patrick S (Vice President and CFO): KMT ($47,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T19:31:06Z",
+   "quelle": "SEC",
+   "name": "Shivaram Sachin M",
+   "ticker": "EAF",
+   "betrag": 50000.0,
+   "richtung": "buy",
+   "titel": "Shivaram Sachin M (Director): EAF ($50,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T19:31:06Z",
+   "quelle": "SEC",
+   "name": "Potter Leonard",
+   "ticker": "NSLR",
+   "betrag": 115200.0,
+   "richtung": "buy",
+   "titel": "Potter Leonard (Director): NSLR ($115,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
