@@ -5444,6 +5444,61 @@
    "titel": "Wilson David J. (President & CEO): CMCO ($551,349)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:15:46Z",
+   "quelle": "SEC",
+   "name": "Ellingson Alan Wayne",
+   "ticker": "DKNG",
+   "betrag": 349987.08,
+   "richtung": "buy",
+   "titel": "Ellingson Alan Wayne (Chief Financial Officer): DKNG ($349,987)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:15:52Z",
+   "quelle": "SEC",
+   "name": "Szlosek Thomas A",
+   "ticker": "AN",
+   "betrag": 199799.88,
+   "richtung": "buy",
+   "titel": "Szlosek Thomas A (EVP & CFO): AN ($199,800) | 3 Kaeufer, $1.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:15:53Z",
+   "quelle": "SEC",
+   "name": "TRAVISANO JACQUELINE A",
+   "ticker": "AN",
+   "betrag": 98203.7,
+   "richtung": "buy",
+   "titel": "TRAVISANO JACQUELINE A (Director): AN ($98,204) | 4 Kaeufer, $1.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:15:56Z",
+   "quelle": "SEC",
+   "name": "CARDOZA GEORGE",
+   "ticker": "SOPH",
+   "betrag": 141200.0,
+   "richtung": "buy",
+   "titel": "CARDOZA GEORGE (Chief Financial Officer): SOPH ($141,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-09T21:15:57Z",
+   "quelle": "SEC",
+   "name": "Muken Ross",
+   "ticker": "SOPH",
+   "betrag": 137188.0,
+   "richtung": "buy",
+   "titel": "Muken Ross (Chief Executive Officer): SOPH ($137,188)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-08",
