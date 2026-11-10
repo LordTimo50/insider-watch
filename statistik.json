@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-06T22:15:48Z",
-   "quelle": "SEC",
-   "name": "Batista de Lima Filho Pedro",
-   "ticker": "AXIA3",
-   "betrag": 5295819.0,
-   "richtung": "buy",
-   "titel": "Batista de Lima Filho Pedro (Director): AXIA3 ($5,295,819)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-10-06T23:01:05Z",
    "quelle": "SEC",
    "name": "CRIST EUGENE SCOTT",
@@ -5895,6 +5884,39 @@
    "titel": "SIMPSON BOB R (Director): TXO ($3,078,749)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-10T22:15:50Z",
+   "quelle": "SEC",
+   "name": "Green Ira Harris Jr",
+   "ticker": "DTI",
+   "betrag": 40636.0,
+   "richtung": "buy",
+   "titel": "Green Ira Harris Jr (Director): DTI ($40,636)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T22:15:53Z",
+   "quelle": "SEC",
+   "name": "Newell Eric R",
+   "ticker": "EGBN",
+   "betrag": 49847.7,
+   "richtung": "buy",
+   "titel": "Newell Eric R (Senior EVP, CFO): EGBN ($49,848)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T22:15:56Z",
+   "quelle": "SEC",
+   "name": "Prejean Robert Wayne",
+   "ticker": "DTI",
+   "betrag": 164300.0,
+   "richtung": "buy",
+   "titel": "Prejean Robert Wayne (Chief Executive Officer): DTI ($164,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
