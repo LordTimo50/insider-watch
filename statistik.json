@@ -5719,6 +5719,17 @@
    "titel": "Coastlands Capital LP (10%-Owner): BOLT ($319,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T20:45:46Z",
+   "quelle": "SEC",
+   "name": "Intelligent Fanatics Capital Management LLC",
+   "ticker": "KLNG",
+   "betrag": 46700.0,
+   "richtung": "buy",
+   "titel": "Intelligent Fanatics Capital Management LLC (10%-Owner): KLNG ($46,700)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
