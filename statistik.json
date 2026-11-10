@@ -5730,6 +5730,28 @@
    "titel": "Intelligent Fanatics Capital Management LLC (10%-Owner): KLNG ($46,700)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:15:51Z",
+   "quelle": "SEC",
+   "name": "Deck Brian A",
+   "ticker": "SPXC",
+   "betrag": 140750.0,
+   "richtung": "buy",
+   "titel": "Deck Brian A (Director): SPXC ($140,750)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:16:00Z",
+   "quelle": "SEC",
+   "name": "Zafirovski Matthew David",
+   "ticker": "CNXN",
+   "betrag": 199698.0,
+   "richtung": "buy",
+   "titel": "Zafirovski Matthew David (President & COO): CNXN ($199,698)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
