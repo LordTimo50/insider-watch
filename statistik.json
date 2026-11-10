@@ -5752,8 +5752,74 @@
    "titel": "Zafirovski Matthew David (President & COO): CNXN ($199,698)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:31:00Z",
+   "quelle": "SEC",
+   "name": "Young Scott A.",
+   "ticker": "UPBD",
+   "betrag": 150074.25,
+   "richtung": "buy",
+   "titel": "Young Scott A. (EVP, Chief Operating Officer): UPBD ($150,074) | 6 Kaeufer, $1.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:31:01Z",
+   "quelle": "SEC",
+   "name": "Pinkus Gary S",
+   "ticker": "WD",
+   "betrag": 200525.67500000002,
+   "richtung": "buy",
+   "titel": "Pinkus Gary S (Director): WD ($200,526)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:31:05Z",
+   "quelle": "SEC",
+   "name": "Braunegg George Gwyer",
+   "ticker": "MCY",
+   "betrag": 49989.9,
+   "richtung": "buy",
+   "titel": "Braunegg George Gwyer (Director): MCY ($49,990)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:31:06Z",
+   "quelle": "SEC",
+   "name": "MOREL DONALD E JR",
+   "ticker": "STVN",
+   "betrag": 326750.0,
+   "richtung": "buy",
+   "titel": "MOREL DONALD E JR (Director): STVN ($326,750)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:31:07Z",
+   "quelle": "SEC",
+   "name": "Skidmore David K",
+   "ticker": "SUNC",
+   "betrag": 94132.20000000001,
+   "richtung": "buy",
+   "titel": "Skidmore David K (Director): SUNC ($94,132)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:31:08Z",
+   "quelle": "SEC",
+   "name": "Skidmore David K",
+   "ticker": "SUN",
+   "betrag": 92289.6,
+   "richtung": "buy",
+   "titel": "Skidmore David K (Director): SUN ($92,290)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-09",
+ "letzter_tagesbericht": "2026-11-10",
  "letzter_wochenbericht": "2026-W45"
 }
