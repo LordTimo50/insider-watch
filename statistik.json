@@ -5719,6 +5719,17 @@
    "titel": "Harrison Street Real Assets Fund LLC (10%-Owner): NFRX ($24,462,564)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T19:31:02Z",
+   "quelle": "SEC",
+   "name": "Crotwell Jim",
+   "ticker": "OBK",
+   "betrag": 107160.0,
+   "richtung": "buy",
+   "titel": "Crotwell Jim (Chief Risk Officer): OBK ($107,160)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
