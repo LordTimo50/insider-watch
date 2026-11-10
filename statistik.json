@@ -5917,6 +5917,17 @@
    "titel": "Prejean Robert Wayne (Chief Executive Officer): DTI ($164,300)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T22:45:43Z",
+   "quelle": "SEC",
+   "name": "JAFFER REHAN",
+   "ticker": "FUN",
+   "betrag": 14929000.0,
+   "richtung": "buy",
+   "titel": "JAFFER REHAN (Director): FUN ($14,929,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
