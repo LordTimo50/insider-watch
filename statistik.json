@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-06T23:01:05Z",
-   "quelle": "SEC",
-   "name": "CRIST EUGENE SCOTT",
-   "ticker": "ARBE",
-   "betrag": 30250.0,
-   "richtung": "buy",
-   "titel": "CRIST EUGENE SCOTT (Director): ARBE ($30,250)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-06T23:15:39Z",
    "quelle": "SEC",
    "name": "Rusnak Paul P.",
@@ -5928,6 +5917,28 @@
    "titel": "JAFFER REHAN (Director): FUN ($14,929,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-10T23:01:31Z",
+   "quelle": "SEC",
+   "name": "BYE STEPHEN J",
+   "ticker": "WW",
+   "betrag": 137625.0,
+   "richtung": "buy",
+   "titel": "BYE STEPHEN J (President and CEO): WW ($137,625)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T23:01:31Z",
+   "quelle": "SEC",
+   "name": "Gavales Lisa A",
+   "ticker": "WW",
+   "betrag": 55125.0,
+   "richtung": "buy",
+   "titel": "Gavales Lisa A (Director): WW ($55,125)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
