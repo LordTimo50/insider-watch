@@ -5697,6 +5697,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($2,533,528)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T17:15:50Z",
+   "quelle": "SEC",
+   "name": "Faison Ralph E",
+   "ticker": "ARLO",
+   "betrag": 100401.675,
+   "richtung": "buy",
+   "titel": "Faison Ralph E (Director): ARLO ($100,402)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
