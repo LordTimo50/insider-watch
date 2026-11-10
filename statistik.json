@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-06T22:01:05Z",
-   "quelle": "SEC",
-   "name": "ISRAEL RYAN",
-   "ticker": "PSUS",
-   "betrag": 9615215.5843,
-   "richtung": "buy",
-   "titel": "ISRAEL RYAN (Chief Investment Officer): PSUS ($9,615,216)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
    "zeit": "2026-10-06T22:15:48Z",
    "quelle": "SEC",
    "name": "Batista de Lima Filho Pedro",
@@ -5895,6 +5884,17 @@
    "titel": "Angel Scott (Director): SMCI ($49,941)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T22:01:11Z",
+   "quelle": "SEC",
+   "name": "SIMPSON BOB R",
+   "ticker": "TXO",
+   "betrag": 3078748.6662999997,
+   "richtung": "buy",
+   "titel": "SIMPSON BOB R (Director): TXO ($3,078,749)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
