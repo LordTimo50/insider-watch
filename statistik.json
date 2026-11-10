@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-06T18:45:42Z",
-   "quelle": "SEC",
-   "name": "Rusnak Paul P.",
-   "ticker": "SAH",
-   "betrag": 1287877.5,
-   "richtung": "buy",
-   "titel": "Rusnak Paul P. (10%-Owner): SAH ($1,287,878)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-06T20:15:42Z",
    "quelle": "SEC",
    "name": "Posner Brian S",
@@ -5718,6 +5707,17 @@
    "richtung": "buy",
    "titel": "Thawley Michael (Director): STRA ($98,368)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T18:45:47Z",
+   "quelle": "SEC",
+   "name": "Harrison Street Real Assets Fund LLC",
+   "ticker": "NFRX",
+   "betrag": 24462563.6423,
+   "richtung": "buy",
+   "titel": "Harrison Street Real Assets Fund LLC (10%-Owner): NFRX ($24,462,564)",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
