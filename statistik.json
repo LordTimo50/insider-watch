@@ -5642,6 +5642,28 @@
    "titel": "MALONE JOHN C (10%-Owner): LBTY ($1,460,150) | 3 Kaeufer, $4.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T12:45:48Z",
+   "quelle": "SEC",
+   "name": "FEARON RICHARD H",
+   "ticker": "CRH",
+   "betrag": 569700.0,
+   "richtung": "buy",
+   "titel": "FEARON RICHARD H (Director): CRH ($569,700) | 2 Kaeufer, $759K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T12:45:49Z",
+   "quelle": "SEC",
+   "name": "Johnston Peter",
+   "ticker": "TROX",
+   "betrag": 52600.0,
+   "richtung": "buy",
+   "titel": "Johnston Peter (Director): TROX ($52,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
