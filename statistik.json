@@ -5939,6 +5939,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($470,614)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T23:45:48Z",
+   "quelle": "SEC",
+   "name": "Chernett Jorey",
+   "ticker": "STLN",
+   "betrag": 176273.1,
+   "richtung": "buy",
+   "titel": "Chernett Jorey (10%-Owner): STLN ($176,273)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
