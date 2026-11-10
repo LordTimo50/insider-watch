@@ -5675,6 +5675,17 @@
    "titel": "EDWARDS JOSEPH R (President and CEO): FLOC ($389,732) | 2 Kaeufer, $683K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T15:01:19Z",
+   "quelle": "SEC",
+   "name": "Gerson Gary",
+   "ticker": "GOOD",
+   "betrag": 86264.37,
+   "richtung": "buy",
+   "titel": "Gerson Gary (Chief Financial Officer): GOOD ($86,264)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
