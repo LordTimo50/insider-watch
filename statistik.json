@@ -5664,6 +5664,17 @@
    "titel": "Johnston Peter (Director): TROX ($52,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T14:31:05Z",
+   "quelle": "SEC",
+   "name": "EDWARDS JOSEPH R",
+   "ticker": "FLOC",
+   "betrag": 389732.0,
+   "richtung": "buy",
+   "titel": "EDWARDS JOSEPH R (President and CEO): FLOC ($389,732) | 2 Kaeufer, $683K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
