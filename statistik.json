@@ -5686,6 +5686,17 @@
    "titel": "Gerson Gary (Chief Financial Officer): GOOD ($86,264)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T16:45:45Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 2533527.55,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($2,533,528)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
