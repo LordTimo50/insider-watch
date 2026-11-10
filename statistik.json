@@ -5818,6 +5818,83 @@
    "titel": "Skidmore David K (Director): SUN ($92,290)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:45:50Z",
+   "quelle": "SEC",
+   "name": "HADDRILL RICHARD M",
+   "ticker": "FUN",
+   "betrag": 90720.0,
+   "richtung": "buy",
+   "titel": "HADDRILL RICHARD M (Executive Chair): FUN ($90,720)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:45:50Z",
+   "quelle": "SEC",
+   "name": "Weldon Raymond F",
+   "ticker": "SLQT",
+   "betrag": 200819.63999999998,
+   "richtung": "buy",
+   "titel": "Weldon Raymond F (Director): SLQT ($200,820)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:45:51Z",
+   "quelle": "SEC",
+   "name": "Grant William Thomas III",
+   "ticker": "SLQT",
+   "betrag": 40198.0,
+   "richtung": "buy",
+   "titel": "Grant William Thomas III (CHIEF OPERATING OFFICER): SLQT ($40,198)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T21:45:51Z",
+   "quelle": "SEC",
+   "name": "Hawks Donald L III",
+   "ticker": "SLQT",
+   "betrag": 114218.04000000001,
+   "richtung": "buy",
+   "titel": "Hawks Donald L III (Director): SLQT ($114,218)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-10T21:45:52Z",
+   "quelle": "SEC",
+   "name": "Danker Timothy Robert",
+   "ticker": "SLQT",
+   "betrag": 50736.672,
+   "richtung": "buy",
+   "titel": "Danker Timothy Robert (CHIEF EXECUTIVE OFFICER): SLQT ($50,737)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-10T21:45:53Z",
+   "quelle": "SEC",
+   "name": "Grant Robert Clay",
+   "ticker": "SLQT",
+   "betrag": 40299.505,
+   "richtung": "buy",
+   "titel": "Grant Robert Clay (PRESIDENT): SLQT ($40,300)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-10T21:45:55Z",
+   "quelle": "SEC",
+   "name": "Angel Scott",
+   "ticker": "SMCI",
+   "betrag": 49940.6285,
+   "richtung": "buy",
+   "titel": "Angel Scott (Director): SMCI ($49,941)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
