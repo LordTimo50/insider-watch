@@ -5620,6 +5620,28 @@
    "titel": "ADAR1 Capital Management, LLC (10%-Owner): MTRI ($34,572)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T02:31:03Z",
+   "quelle": "SEC",
+   "name": "McGraner Matt",
+   "ticker": "NXRT",
+   "betrag": 199265.75999999998,
+   "richtung": "buy",
+   "titel": "McGraner Matt (See Remarks): NXRT ($199,266)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T02:31:03Z",
+   "quelle": "SEC",
+   "name": "Richards Paul",
+   "ticker": "NXRT",
+   "betrag": 103053.0,
+   "richtung": "buy",
+   "titel": "Richards Paul (See Remarks): NXRT ($103,053)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
