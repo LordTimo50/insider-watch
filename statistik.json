@@ -5741,6 +5741,17 @@
    "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($1,194,158)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T20:01:13Z",
+   "quelle": "SEC",
+   "name": "Coastlands Capital LP",
+   "ticker": "BOLT",
+   "betrag": 319000.0,
+   "richtung": "buy",
+   "titel": "Coastlands Capital LP (10%-Owner): BOLT ($319,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
