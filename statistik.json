@@ -5642,6 +5642,39 @@
    "titel": "Energy Evolution Master Fund, Ltd. (10%-Owner): EP ($203,812)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T00:01:15Z",
+   "quelle": "SEC",
+   "name": "Heshmatpour Amir F",
+   "ticker": "NTHI",
+   "betrag": 38600.0,
+   "richtung": "buy",
+   "titel": "Heshmatpour Amir F (CEO, President): NTHI ($38,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T00:01:16Z",
+   "quelle": "SEC",
+   "name": "Santo Timothy P",
+   "ticker": "ADTN",
+   "betrag": 74188.224,
+   "richtung": "buy",
+   "titel": "Santo Timothy P (SVP of Finance; CFO): ADTN ($74,188)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T00:01:17Z",
+   "quelle": "SEC",
+   "name": "STANTON THOMAS R",
+   "ticker": "ADTN",
+   "betrag": 600900.0,
+   "richtung": "buy",
+   "titel": "STANTON THOMAS R (Chairman & CEO): ADTN ($600,900) | 2 Kaeufer, $675K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
