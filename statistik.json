@@ -5631,6 +5631,28 @@
    "titel": "Richards Paul (See Remarks): NXRT ($103,053)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T11:15:47Z",
+   "quelle": "SEC",
+   "name": "LEE CHAE",
+   "ticker": "MX",
+   "betrag": 155360.0,
+   "richtung": "buy",
+   "titel": "LEE CHAE (Chief Executive Officer): MX ($155,360)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T11:15:49Z",
+   "quelle": "SEC",
+   "name": "MALONE JOHN C",
+   "ticker": "LBTY",
+   "betrag": 1460150.0784,
+   "richtung": "buy",
+   "titel": "MALONE JOHN C (10%-Owner): LBTY ($1,460,150) | 3 Kaeufer, $4.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
