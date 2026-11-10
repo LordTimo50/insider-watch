@@ -5697,6 +5697,28 @@
    "titel": "Faison Ralph E (Director): ARLO ($100,402)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T18:15:44Z",
+   "quelle": "SEC",
+   "name": "Slocum William J",
+   "ticker": "STRA",
+   "betrag": 64750.0,
+   "richtung": "buy",
+   "titel": "Slocum William J (Director): STRA ($64,750)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-10T18:15:44Z",
+   "quelle": "SEC",
+   "name": "Thawley Michael",
+   "ticker": "STRA",
+   "betrag": 98368.2,
+   "richtung": "buy",
+   "titel": "Thawley Michael (Director): STRA ($98,368)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-09",
