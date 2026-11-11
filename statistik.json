@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-07T20:30:59Z",
-   "quelle": "SEC",
-   "name": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG",
-   "betrag": 2283647.8118999996,
-   "richtung": "buy",
-   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($2,283,648) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-07T21:15:55Z",
    "quelle": "SEC",
    "name": "Brockman Ivan",
