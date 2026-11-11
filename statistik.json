@@ -5939,6 +5939,28 @@
    "titel": "Chernett Jorey (10%-Owner): STLN ($176,273)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-11T01:01:12Z",
+   "quelle": "SEC",
+   "name": "Wienbar Sharon L",
+   "ticker": "ENOV",
+   "betrag": 49917.37,
+   "richtung": "buy",
+   "titel": "Wienbar Sharon L (Director): ENOV ($49,917)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-11T01:01:12Z",
+   "quelle": "SEC",
+   "name": "Valentine Keith",
+   "ticker": "ATEC",
+   "betrag": 242550.0,
+   "richtung": "buy",
+   "titel": "Valentine Keith (Director): ATEC ($242,550)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
