@@ -5961,6 +5961,39 @@
    "titel": "Valentine Keith (Director): ATEC ($242,550)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-11T01:15:44Z",
+   "quelle": "SEC",
+   "name": "GORDON CARL L",
+   "ticker": "ETRA",
+   "betrag": 744530.6,
+   "richtung": "buy",
+   "titel": "GORDON CARL L (Director): ETRA ($744,531) | 2 Kaeufer, $8.0M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-11T01:15:45Z",
+   "quelle": "SEC",
+   "name": "ORBIMED ADVISORS LLC",
+   "ticker": "ETRA",
+   "betrag": 744530.6,
+   "richtung": "buy",
+   "titel": "ORBIMED ADVISORS LLC (Director): ETRA ($744,531) | 2 Kaeufer, $8.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-11T01:15:46Z",
+   "quelle": "SEC",
+   "name": "Chernett Jorey",
+   "ticker": "XGN",
+   "betrag": 91242.1,
+   "richtung": "buy",
+   "titel": "Chernett Jorey (10%-Owner): XGN ($91,242)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
