@@ -5994,6 +5994,17 @@
    "titel": "Chernett Jorey (10%-Owner): XGN ($91,242)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-11T01:31:01Z",
+   "quelle": "SEC",
+   "name": "Amoruso Cristiano",
+   "ticker": "MX",
+   "betrag": 1371146.0274,
+   "richtung": "buy",
+   "titel": "Amoruso Cristiano (Director): MX ($1,371,146) | 2 Kaeufer, $1.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-10",
