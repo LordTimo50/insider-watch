@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-07T12:01:14Z",
-   "quelle": "SEC",
-   "name": "Troim Tor Olav",
-   "ticker": "BORR",
-   "betrag": 6364200.0,
-   "richtung": "buy",
-   "titel": "Troim Tor Olav (Director): BORR ($6,364,200)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-07T12:15:42Z",
    "quelle": "SEC",
    "name": "Knotnerus Tim Jasper",
