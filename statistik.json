@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-07T00:45:43Z",
-   "quelle": "SEC",
-   "name": "Divisadero Street Capital Management, LP",
-   "ticker": "LWAY",
-   "betrag": 2169394.3932,
-   "richtung": "buy",
-   "titel": "Divisadero Street Capital Management, LP (10%-Owner): LWAY ($2,169,394)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-07T10:15:40Z",
    "quelle": "SEC",
    "name": "Lin Shih-Yao David",
