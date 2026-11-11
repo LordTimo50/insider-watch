@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-07T12:15:42Z",
-   "quelle": "SEC",
-   "name": "Knotnerus Tim Jasper",
-   "ticker": "AGMB",
-   "betrag": 94380.0,
-   "richtung": "buy",
-   "titel": "Knotnerus Tim Jasper (Chief Executive Officer): AGMB ($94,380)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-07T13:01:11Z",
    "quelle": "SEC",
    "name": "Epstein David R",
