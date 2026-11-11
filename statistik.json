@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-07T21:15:55Z",
-   "quelle": "SEC",
-   "name": "Brockman Ivan",
-   "ticker": "VRA",
-   "betrag": 50199.99999999999,
-   "richtung": "buy",
-   "titel": "Brockman Ivan (Director): VRA ($50,200)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-08T00:01:05Z",
    "quelle": "SEC",
    "name": "Tourism & Entertainment Group, LLC",
