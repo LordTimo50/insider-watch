@@ -6104,6 +6104,61 @@
    "titel": "Curley Stephen Russell (President/CEO): EGBN ($149,582)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:16:37Z",
+   "quelle": "SEC",
+   "name": "Young John Alan",
+   "ticker": "LUCK",
+   "betrag": 39004.11,
+   "richtung": "buy",
+   "titel": "Young John Alan (Director): LUCK ($39,004)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:16:43Z",
+   "quelle": "SEC",
+   "name": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG",
+   "betrag": 100827.36,
+   "richtung": "buy",
+   "titel": "TANNENBAUM LEONARD M (Director): AFCG ($100,827)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:16:51Z",
+   "quelle": "SEC",
+   "name": "DE ANGOITIA ALFONSO",
+   "ticker": "LILA",
+   "betrag": 5061968.5348000005,
+   "richtung": "buy",
+   "titel": "DE ANGOITIA ALFONSO (Director): LILA ($5,061,969)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-12T21:16:52Z",
+   "quelle": "SEC",
+   "name": "Collard Sylvain",
+   "ticker": "ELVR",
+   "betrag": 74778.0,
+   "richtung": "buy",
+   "titel": "Collard Sylvain (President Canada & Group COO): ELVR ($74,778)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:16:58Z",
+   "quelle": "SEC",
+   "name": "CORRIGAN JACK E",
+   "ticker": "AMH",
+   "betrag": 105366.0,
+   "richtung": "buy",
+   "titel": "CORRIGAN JACK E (Director): AMH ($105,366)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
