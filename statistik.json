@@ -5950,6 +5950,17 @@
    "titel": "Corbett Ryan (Chief Financial Officer): MP ($198,516) | 2 Kaeufer, $2.2M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T12:01:13Z",
+   "quelle": "SEC",
+   "name": "Rosenthal Michael Stuart",
+   "ticker": "MP",
+   "betrag": 1175090.0,
+   "richtung": "buy",
+   "titel": "Rosenthal Michael Stuart (Chief Operating Officer): MP ($1,175,090) | 3 Kaeufer, $3.4M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
