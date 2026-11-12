@@ -6324,6 +6324,39 @@
    "titel": "Energy Evolution Master Fund, Ltd. (10%-Owner): EP ($49,216)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T23:01:11Z",
+   "quelle": "SEC",
+   "name": "Harlow John B. Jr.",
+   "ticker": "LRMR",
+   "betrag": 49918.32,
+   "richtung": "buy",
+   "titel": "Harlow John B. Jr. (President and COO): LRMR ($49,918)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T23:01:11Z",
+   "quelle": "SEC",
+   "name": "JOBSON CHARLES E",
+   "ticker": "JYNT",
+   "betrag": 1570171.4000000001,
+   "richtung": "buy",
+   "titel": "JOBSON CHARLES E (10%-Owner): JYNT ($1,570,171)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T23:01:17Z",
+   "quelle": "SEC",
+   "name": "Celano Michael",
+   "ticker": "LRMR",
+   "betrag": 49991.526,
+   "richtung": "buy",
+   "titel": "Celano Michael (Chief Financial Officer): LRMR ($49,992)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
