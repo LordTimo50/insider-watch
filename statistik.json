@@ -5961,6 +5961,28 @@
    "titel": "Rosenthal Michael Stuart (Chief Operating Officer): MP ($1,175,090) | 3 Kaeufer, $3.4M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T12:15:46Z",
+   "quelle": "SEC",
+   "name": "Nicholson Kenneth J.",
+   "ticker": "FIP",
+   "betrag": 1530000.0,
+   "richtung": "buy",
+   "titel": "Nicholson Kenneth J. (CEO and President): FIP ($1,530,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T12:15:47Z",
+   "quelle": "SEC",
+   "name": "BRC Group Holdings, Inc.",
+   "ticker": "BW",
+   "betrag": 647592.5,
+   "richtung": "buy",
+   "titel": "BRC Group Holdings, Inc. (10%-Owner): BW ($647,592)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
