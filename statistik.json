@@ -6005,6 +6005,28 @@
    "titel": "HORNBECK TODD M (PRESIDENT & CEO): HOS ($1,500,009)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T13:30:59Z",
+   "quelle": "SEC",
+   "name": "Spoor Johan M.",
+   "ticker": "CATX",
+   "betrag": 37943.1,
+   "richtung": "buy",
+   "titel": "Spoor Johan M. (Chief Executive Officer): CATX ($37,943)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T13:31:01Z",
+   "quelle": "SEC",
+   "name": "Chernett Jorey",
+   "ticker": "XGN",
+   "betrag": 372977.45,
+   "richtung": "buy",
+   "titel": "Chernett Jorey (10%-Owner): XGN ($372,977)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
