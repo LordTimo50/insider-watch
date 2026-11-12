@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-08T22:01:09Z",
-   "quelle": "SEC",
-   "name": "Martins Fernando Matt Borges",
-   "ticker": "CINT",
-   "betrag": 49323.270000000004,
-   "richtung": "buy",
-   "titel": "Martins Fernando Matt Borges (Director): CINT ($49,323)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-08T22:15:44Z",
    "quelle": "SEC",
    "name": "Singer Eric",
@@ -6223,6 +6212,28 @@
    "betrag": 99140.78,
    "richtung": "buy",
    "titel": "Baker John D. III (CEO): FRPH ($99,141) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T22:01:26Z",
+   "quelle": "SEC",
+   "name": "Kelley Philip M",
+   "ticker": "CSQR",
+   "betrag": 172399.99999999997,
+   "richtung": "buy",
+   "titel": "Kelley Philip M (Director): CSQR ($172,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T22:01:30Z",
+   "quelle": "SEC",
+   "name": "Watkins James M",
+   "ticker": "BOOT",
+   "betrag": 270740.0,
+   "richtung": "buy",
+   "titel": "Watkins James M (CFO & SECRETARY): BOOT ($270,740)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
