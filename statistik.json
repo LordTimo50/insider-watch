@@ -5884,6 +5884,28 @@
    "titel": "OLIVER ERIC L (10%-Owner): SJT ($1,404,987)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:30:56Z",
+   "quelle": "SEC",
+   "name": "Zacharatos Konstantinos",
+   "ticker": "CMRE",
+   "betrag": 31059.0,
+   "richtung": "buy",
+   "titel": "Zacharatos Konstantinos (Director): CMRE ($31,059)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:30:57Z",
+   "quelle": "SEC",
+   "name": "AC Nordic ApS",
+   "ticker": "NORD",
+   "betrag": 40000.0,
+   "richtung": "buy",
+   "titel": "AC Nordic ApS (Director): NORD ($40,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
