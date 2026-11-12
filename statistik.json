@@ -6203,6 +6203,28 @@
    "titel": "GOULD MATTHEW J (CHAIRMAN OF THE BOARD): BRT ($39,420)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:45:50Z",
+   "quelle": "SEC",
+   "name": "MacLennan David",
+   "ticker": "ECL",
+   "betrag": 184875.0,
+   "richtung": "buy",
+   "titel": "MacLennan David (Director): ECL ($184,875)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:46:12Z",
+   "quelle": "SEC",
+   "name": "Baker John D. III",
+   "ticker": "FRPH",
+   "betrag": 99140.78,
+   "richtung": "buy",
+   "titel": "Baker John D. III (CEO): FRPH ($99,141) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
