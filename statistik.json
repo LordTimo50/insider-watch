@@ -6126,6 +6126,17 @@
    "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($1,300,012)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-12T19:30:57Z",
+   "quelle": "SEC",
+   "name": "Curley Stephen Russell",
+   "ticker": "EGBN",
+   "betrag": 149581.65,
+   "richtung": "buy",
+   "titel": "Curley Stephen Russell (President/CEO): EGBN ($149,582)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
