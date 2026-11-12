@@ -5906,6 +5906,50 @@
    "titel": "AC Nordic ApS (Director): NORD ($40,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:45:42Z",
+   "quelle": "SEC",
+   "name": "Archer James Bradley",
+   "ticker": "TH",
+   "betrag": 312675.0,
+   "richtung": "buy",
+   "titel": "Archer James Bradley (Director and CEO and President): TH ($312,675)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:45:43Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 116831.542,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($116,832) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:45:43Z",
+   "quelle": "SEC",
+   "name": "WEISENBURGER RANDALL J",
+   "ticker": "MP",
+   "betrag": 1980000.0,
+   "richtung": "buy",
+   "titel": "WEISENBURGER RANDALL J (Director): MP ($1,980,000)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:45:44Z",
+   "quelle": "SEC",
+   "name": "Corbett Ryan",
+   "ticker": "MP",
+   "betrag": 198515.68,
+   "richtung": "buy",
+   "titel": "Corbett Ryan (Chief Financial Officer): MP ($198,516) | 2 Kaeufer, $2.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
