@@ -5983,6 +5983,17 @@
    "titel": "BRC Group Holdings, Inc. (10%-Owner): BW ($647,592)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T13:01:14Z",
+   "quelle": "SEC",
+   "name": "ADLERSBERG SHABTAI",
+   "ticker": "AUDC",
+   "betrag": 143408.6,
+   "richtung": "buy",
+   "titel": "ADLERSBERG SHABTAI (President and CEO): AUDC ($143,409)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
