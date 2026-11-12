@@ -6280,6 +6280,50 @@
    "titel": "Walle Jade (VICE PRESIDENT FINANCE): URG ($109,999)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T22:45:41Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 755308.44,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($755,308)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T22:45:42Z",
+   "quelle": "SEC",
+   "name": "Montana Margaret C",
+   "ticker": "KGS",
+   "betrag": 44260.0,
+   "richtung": "buy",
+   "titel": "Montana Margaret C (Director): KGS ($44,260)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T22:45:45Z",
+   "quelle": "SEC",
+   "name": "Juniper Investment Company, LLC",
+   "ticker": "OFIX",
+   "betrag": 5106708.5806,
+   "richtung": "buy",
+   "titel": "Juniper Investment Company, LLC (10%-Owner): OFIX ($5,106,709)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-12T22:45:50Z",
+   "quelle": "SEC",
+   "name": "Energy Evolution Master Fund, Ltd.",
+   "ticker": "EP",
+   "betrag": 49215.537,
+   "richtung": "buy",
+   "titel": "Energy Evolution Master Fund, Ltd. (10%-Owner): EP ($49,216)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
