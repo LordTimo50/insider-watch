@@ -6159,8 +6159,52 @@
    "titel": "CORRIGAN JACK E (Director): AMH ($105,366)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:30:58Z",
+   "quelle": "SEC",
+   "name": "FEDERICI WILLIAM J",
+   "ticker": "STVN",
+   "betrag": 274400.0,
+   "richtung": "buy",
+   "titel": "FEDERICI WILLIAM J (Director): STVN ($274,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:31:06Z",
+   "quelle": "SEC",
+   "name": "TEAGUE AJ",
+   "ticker": "SEI",
+   "betrag": 40717.0,
+   "richtung": "buy",
+   "titel": "TEAGUE AJ (Director): SEI ($40,717)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T21:31:10Z",
+   "quelle": "SEC",
+   "name": "RTW INVESTMENTS, LP",
+   "ticker": "OBIO",
+   "betrag": 6000000.0,
+   "richtung": "buy",
+   "titel": "RTW INVESTMENTS, LP (10%-Owner): OBIO ($6,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-12T21:31:13Z",
+   "quelle": "SEC",
+   "name": "GOULD MATTHEW J",
+   "ticker": "BRT",
+   "betrag": 39420.0,
+   "richtung": "buy",
+   "titel": "GOULD MATTHEW J (CHAIRMAN OF THE BOARD): BRT ($39,420)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-11",
+ "letzter_tagesbericht": "2026-11-12",
  "letzter_wochenbericht": "2026-W45"
 }
