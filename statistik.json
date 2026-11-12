@@ -6049,6 +6049,50 @@
    "titel": "Wendt Gregory Westin (Director): DKNG ($98,800)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T14:30:58Z",
+   "quelle": "SEC",
+   "name": "SCHULER JACK W",
+   "ticker": "BDSX",
+   "betrag": 1001990.0,
+   "richtung": "buy",
+   "titel": "SCHULER JACK W (10%-Owner): BDSX ($1,001,990)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T14:31:00Z",
+   "quelle": "SEC",
+   "name": "Parker, Jr. Elton C.",
+   "ticker": "ITIC",
+   "betrag": 133000.0,
+   "richtung": "buy",
+   "titel": "Parker, Jr. Elton C. (Director): ITIC ($133,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T14:31:00Z",
+   "quelle": "SEC",
+   "name": "Chan Chun Sing",
+   "ticker": "CLIK",
+   "betrag": 28568.0,
+   "richtung": "buy",
+   "titel": "Chan Chun Sing (Chief Executive Officer): CLIK ($28,568)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T14:31:01Z",
+   "quelle": "SEC",
+   "name": "Bouthillette Max",
+   "ticker": "KLXE",
+   "betrag": 30600.0,
+   "richtung": "buy",
+   "titel": "Bouthillette Max (See Remarks): KLXE ($30,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
