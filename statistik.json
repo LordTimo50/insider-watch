@@ -5851,6 +5851,39 @@
    "titel": "Amoruso Cristiano (Director): MX ($1,371,146) | 2 Kaeufer, $1.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:15:47Z",
+   "quelle": "SEC",
+   "name": "WARD TOM L.",
+   "ticker": "MNR",
+   "betrag": 1008700.0000000001,
+   "richtung": "buy",
+   "titel": "WARD TOM L. (See Remarks): MNR ($1,008,700)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:15:48Z",
+   "quelle": "SEC",
+   "name": "Heshmatpour Amir F",
+   "ticker": "NTHI",
+   "betrag": 294500.0,
+   "richtung": "buy",
+   "titel": "Heshmatpour Amir F (CEO, President): NTHI ($294,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T11:15:48Z",
+   "quelle": "SEC",
+   "name": "OLIVER ERIC L",
+   "ticker": "SJT",
+   "betrag": 1404986.74,
+   "richtung": "buy",
+   "titel": "OLIVER ERIC L (10%-Owner): SJT ($1,404,987)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
