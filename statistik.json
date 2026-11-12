@@ -6093,6 +6093,17 @@
    "titel": "Fawcett John J. (Director): BFH ($226,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T17:01:13Z",
+   "quelle": "SEC",
+   "name": "Daly Richard J",
+   "ticker": "AQST",
+   "betrag": 99330.625,
+   "richtung": "buy",
+   "titel": "Daly Richard J (Director): AQST ($99,331)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
