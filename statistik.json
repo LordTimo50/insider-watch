@@ -6027,6 +6027,17 @@
    "titel": "Chernett Jorey (10%-Owner): XGN ($372,977)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T13:45:46Z",
+   "quelle": "SEC",
+   "name": "DONEGAL MUTUAL INSURANCE CO",
+   "ticker": "DGICA",
+   "betrag": 424497.0,
+   "richtung": "buy",
+   "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($424,497)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
