@@ -6368,6 +6368,28 @@
    "titel": "BEN-MAIMON CAROLE (President and CEO): LRMR ($49,953)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-12T23:31:02Z",
+   "quelle": "SEC",
+   "name": "WINKLE C CHRISTIAN",
+   "ticker": "BKD",
+   "betrag": 358068.0,
+   "richtung": "buy",
+   "titel": "WINKLE C CHRISTIAN (Director): BKD ($358,068)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T23:31:07Z",
+   "quelle": "SEC",
+   "name": "Spanos Mike",
+   "ticker": "BLMN",
+   "betrag": 501999.99999999994,
+   "richtung": "buy",
+   "titel": "Spanos Mike (CEO): BLMN ($502,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
