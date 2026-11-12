@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-08T23:15:40Z",
-   "quelle": "SEC",
-   "name": "L1 Capital Pty Ltd",
-   "ticker": "AVR",
-   "betrag": 1957950.0999999999,
-   "richtung": "buy",
-   "titel": "L1 Capital Pty Ltd (10%-Owner): AVR ($1,957,950)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T10:30:54Z",
    "quelle": "SEC",
    "name": "Yin Chung-Yao",
@@ -6357,6 +6346,28 @@
    "titel": "Celano Michael (Chief Financial Officer): LRMR ($49,992)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T23:15:47Z",
+   "quelle": "SEC",
+   "name": "Foran Joseph Wm",
+   "ticker": "MTDR",
+   "betrag": 123225.0,
+   "richtung": "buy",
+   "titel": "Foran Joseph Wm (Chairman and CEO): MTDR ($123,225)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-12T23:15:49Z",
+   "quelle": "SEC",
+   "name": "BEN-MAIMON CAROLE",
+   "ticker": "LRMR",
+   "betrag": 49953.375,
+   "richtung": "buy",
+   "titel": "BEN-MAIMON CAROLE (President and CEO): LRMR ($49,953)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
