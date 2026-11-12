@@ -6049,6 +6049,17 @@
    "titel": "MacDonald John Anthony (Director): DOX ($41,630)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T16:15:47Z",
+   "quelle": "SEC",
+   "name": "Kanouff Yvette",
+   "ticker": "DOX",
+   "betrag": 100800.0,
+   "richtung": "buy",
+   "titel": "Kanouff Yvette (Director): DOX ($100,800) | 4 Kaeufer, $327K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
