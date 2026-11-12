@@ -6104,6 +6104,17 @@
    "titel": "Daly Richard J (Director): AQST ($99,331)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T18:15:46Z",
+   "quelle": "SEC",
+   "name": "Thermopylae Holdings Ltd.",
+   "ticker": "ABCL",
+   "betrag": 698920.1,
+   "richtung": "buy",
+   "titel": "Thermopylae Holdings Ltd. (10%-Owner): ABCL ($698,920)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
