@@ -5994,6 +5994,17 @@
    "titel": "ADLERSBERG SHABTAI (President and CEO): AUDC ($143,409)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T13:15:47Z",
+   "quelle": "SEC",
+   "name": "HORNBECK TODD M",
+   "ticker": "HOS",
+   "betrag": 1500009.1398190001,
+   "richtung": "buy",
+   "titel": "HORNBECK TODD M (PRESIDENT & CEO): HOS ($1,500,009)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
