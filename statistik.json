@@ -6115,6 +6115,17 @@
    "titel": "Thermopylae Holdings Ltd. (10%-Owner): ABCL ($698,920)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T19:01:13Z",
+   "quelle": "SEC",
+   "name": "Mindlin Damian Miguel",
+   "ticker": "PAM",
+   "betrag": 1300012.244,
+   "richtung": "buy",
+   "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($1,300,012)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
