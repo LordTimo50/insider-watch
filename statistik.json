@@ -6390,6 +6390,17 @@
    "titel": "Spanos Mike (CEO): BLMN ($502,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T23:45:51Z",
+   "quelle": "SEC",
+   "name": "Schlacks Jabbok",
+   "ticker": "EQPT",
+   "betrag": 249989.04,
+   "richtung": "buy",
+   "titel": "Schlacks Jabbok (Founder & CEO): EQPT ($249,989)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
