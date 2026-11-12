@@ -6060,6 +6060,39 @@
    "titel": "Kanouff Yvette (Director): DOX ($100,800) | 4 Kaeufer, $327K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T16:45:45Z",
+   "quelle": "SEC",
+   "name": "Mazur Marc",
+   "ticker": "NSLR",
+   "betrag": 30500.0,
+   "richtung": "buy",
+   "titel": "Mazur Marc (Director): NSLR ($30,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T16:45:48Z",
+   "quelle": "SEC",
+   "name": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+   "ticker": "RM",
+   "betrag": 359107.66000000003,
+   "richtung": "buy",
+   "titel": "BASSWOOD CAPITAL MANAGEMENT, L.L.C. (Director): RM ($359,108)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T16:45:52Z",
+   "quelle": "SEC",
+   "name": "Fawcett John J.",
+   "ticker": "BFH",
+   "betrag": 226000.0,
+   "richtung": "buy",
+   "titel": "Fawcett John J. (Director): BFH ($226,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
