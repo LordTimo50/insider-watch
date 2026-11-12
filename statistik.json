@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-08T16:01:10Z",
-   "quelle": "SEC",
-   "name": "Boulette David",
-   "ticker": "GOAI",
-   "betrag": 39797.99999999999,
-   "richtung": "buy",
-   "titel": "Boulette David (Chief Executive Officer): GOAI ($39,798)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-08T20:15:54Z",
    "quelle": "SEC",
    "name": "FLATTUM DAVID C",
@@ -6025,6 +6014,39 @@
    "betrag": 30600.0,
    "richtung": "buy",
    "titel": "Bouthillette Max (See Remarks): KLXE ($30,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T16:01:10Z",
+   "quelle": "SEC",
+   "name": "Genish Amos",
+   "ticker": "DOX",
+   "betrag": 149730.0,
+   "richtung": "buy",
+   "titel": "Genish Amos (Director): DOX ($149,730)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T16:01:16Z",
+   "quelle": "SEC",
+   "name": "Davis Sarah R.",
+   "ticker": "DOX",
+   "betrag": 35127.430199999995,
+   "richtung": "buy",
+   "titel": "Davis Sarah R. (Director): DOX ($35,127)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T16:01:18Z",
+   "quelle": "SEC",
+   "name": "MacDonald John Anthony",
+   "ticker": "DOX",
+   "betrag": 41629.5,
+   "richtung": "buy",
+   "titel": "MacDonald John Anthony (Director): DOX ($41,630)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
