@@ -6038,6 +6038,17 @@
    "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($424,497)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-12T14:01:10Z",
+   "quelle": "SEC",
+   "name": "Wendt Gregory Westin",
+   "ticker": "DKNG",
+   "betrag": 98800.00000000001,
+   "richtung": "buy",
+   "titel": "Wendt Gregory Westin (Director): DKNG ($98,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-11",
