@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-08T14:45:41Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "GF",
-   "betrag": 57553.590000000004,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($57,554)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-08T14:45:42Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "GRX",
-   "betrag": 41770.99,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): GRX ($41,771)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-08T15:15:43Z",
    "quelle": "SEC",
    "name": "Troim Tor Olav",
