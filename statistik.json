@@ -6467,6 +6467,17 @@
    "titel": "Lalor Angela S (Director): ENOV ($50,193)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T01:15:44Z",
+   "quelle": "SEC",
+   "name": "Watts Claudius E. IV",
+   "ticker": "VISN",
+   "betrag": 831060.0000000001,
+   "richtung": "buy",
+   "titel": "Watts Claudius E. IV (Director): VISN ($831,060)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
