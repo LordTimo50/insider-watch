@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T20:31:18Z",
-   "quelle": "SEC",
-   "name": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG",
-   "betrag": 20880079.065599997,
-   "richtung": "buy",
-   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($20,880,079) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T20:45:42Z",
    "quelle": "SEC",
    "name": "SUBIN NEIL S",
@@ -6542,6 +6531,39 @@
    "betrag": 82690.70880000001,
    "richtung": "buy",
    "titel": "Gator Capital Management, LLC (10%-Owner): GROW ($82,691)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T20:31:00Z",
+   "quelle": "SEC",
+   "name": "BECKWITT RICHARD",
+   "ticker": "WY",
+   "betrag": 306600.0,
+   "richtung": "buy",
+   "titel": "BECKWITT RICHARD (Director): WY ($306,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T20:31:01Z",
+   "quelle": "SEC",
+   "name": "Patel Mahesh V.",
+   "ticker": "LPCN",
+   "betrag": 79487.5,
+   "richtung": "buy",
+   "titel": "Patel Mahesh V. (Chief Executive Officer): LPCN ($79,488)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T20:31:03Z",
+   "quelle": "SEC",
+   "name": "JACKSON JOHN EARL",
+   "ticker": "NGS",
+   "betrag": 57790.0,
+   "richtung": "buy",
+   "titel": "JACKSON JOHN EARL (Director): NGS ($57,790)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
