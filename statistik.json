@@ -6489,6 +6489,28 @@
    "titel": "Watts Claudius E. IV (Director): VISN ($198,195)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T01:45:46Z",
+   "quelle": "SEC",
+   "name": "BORTZ JON E",
+   "ticker": "HPP",
+   "betrag": 680112.3,
+   "richtung": "buy",
+   "titel": "BORTZ JON E (Director): HPP ($680,112)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T01:45:46Z",
+   "quelle": "SEC",
+   "name": "COLEMAN VICTOR J",
+   "ticker": "HPP",
+   "betrag": 182000.0,
+   "richtung": "buy",
+   "titel": "COLEMAN VICTOR J (Chief Executive Officer): HPP ($182,000) | 2 Kaeufer, $862K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
