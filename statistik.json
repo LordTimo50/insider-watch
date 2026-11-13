@@ -6533,6 +6533,28 @@
    "titel": "Cook Steven R. E. (Chief Financial Officer): CSQR ($35,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T13:31:01Z",
+   "quelle": "SEC",
+   "name": "Puhlmann Markus",
+   "ticker": "CATX",
+   "betrag": 34544.5,
+   "richtung": "buy",
+   "titel": "Puhlmann Markus (Chief Medical Officer): CATX ($34,544)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T13:31:02Z",
+   "quelle": "SEC",
+   "name": "Barry John F",
+   "ticker": "PSEC",
+   "betrag": 6054559.3225,
+   "richtung": "buy",
+   "titel": "Barry John F (CHIEF EXECUTIVE OFFICER): PSEC ($6,054,559)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
