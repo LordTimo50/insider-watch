@@ -6511,6 +6511,28 @@
    "titel": "COLEMAN VICTOR J (Chief Executive Officer): HPP ($182,000) | 2 Kaeufer, $862K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T02:45:43Z",
+   "quelle": "SEC",
+   "name": "Perez Anton Jose Antonio",
+   "ticker": "ASR",
+   "betrag": 497649.75,
+   "richtung": "buy",
+   "titel": "Perez Anton Jose Antonio (Director): ASR ($497,650)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T02:45:44Z",
+   "quelle": "SEC",
+   "name": "Hamilton Thomas Edward",
+   "ticker": "LRMR",
+   "betrag": 187082.0,
+   "richtung": "buy",
+   "titel": "Hamilton Thomas Edward (Director): LRMR ($187,082) | 4 Kaeufer, $337K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
