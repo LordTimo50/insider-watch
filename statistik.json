@@ -6522,6 +6522,17 @@
    "titel": "Shen Ziyu (Chief Executive Officer): ECX ($233,670)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T13:01:11Z",
+   "quelle": "SEC",
+   "name": "Cook Steven R. E.",
+   "ticker": "CSQR",
+   "betrag": 34999.919478,
+   "richtung": "buy",
+   "titel": "Cook Steven R. E. (Chief Financial Officer): CSQR ($35,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
