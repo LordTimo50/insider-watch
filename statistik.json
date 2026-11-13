@@ -6544,6 +6544,61 @@
    "titel": "SIMARD JOHN (Director): XBIT ($143,409)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:15:52Z",
+   "quelle": "SEC",
+   "name": "Polet Roeland",
+   "ticker": "FF",
+   "betrag": 136066.4,
+   "richtung": "buy",
+   "titel": "Polet Roeland (Chief Executive Officer): FF ($136,066)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:15:53Z",
+   "quelle": "SEC",
+   "name": "Holloway Gretchen Lynn",
+   "ticker": "KGS",
+   "betrag": 49955.204999999994,
+   "richtung": "buy",
+   "titel": "Holloway Gretchen Lynn (Director): KGS ($49,955)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:15:55Z",
+   "quelle": "SEC",
+   "name": "SPARKS ROSE",
+   "ticker": "FF",
+   "betrag": 30315.0,
+   "richtung": "buy",
+   "titel": "SPARKS ROSE (Chief Financial Officer): FF ($30,315)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:15:59Z",
+   "quelle": "SEC",
+   "name": "Darden Alexander Newsom",
+   "ticker": "KGS",
+   "betrag": 449900.0,
+   "richtung": "buy",
+   "titel": "Darden Alexander Newsom (Director): KGS ($449,900) | 3 Kaeufer, $544K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:16:04Z",
+   "quelle": "SEC",
+   "name": "Smith Michael Bradley",
+   "ticker": "TRTX",
+   "betrag": 64600.0,
+   "richtung": "buy",
+   "titel": "Smith Michael Bradley (Director): TRTX ($64,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
