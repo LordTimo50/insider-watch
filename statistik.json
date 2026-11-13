@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T19:15:41Z",
-   "quelle": "SEC",
-   "name": "Leverton Jaime",
-   "ticker": "VDTA",
-   "betrag": 255000.0,
-   "richtung": "buy",
-   "titel": "Leverton Jaime (Director): VDTA ($255,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T20:01:08Z",
    "quelle": "SEC",
    "name": "Hamilton Michael S.",
@@ -6542,6 +6531,17 @@
    "betrag": 89000.0,
    "richtung": "buy",
    "titel": "Elsztain Alejandro Gustavo (Director): CRESY ($89,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T19:15:45Z",
+   "quelle": "SEC",
+   "name": "Young Kenneth M",
+   "ticker": "BW",
+   "betrag": 43500.0,
+   "richtung": "buy",
+   "titel": "Young Kenneth M (Chief Executive Officer): BW ($43,500)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
