@@ -6533,6 +6533,17 @@
    "titel": "DIMITRIEF ALEXANDER (Director): EOSE ($46,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T14:30:57Z",
+   "quelle": "SEC",
+   "name": "MARIUCCI ANNE L",
+   "ticker": "CTRI",
+   "betrag": 99990.0,
+   "richtung": "buy",
+   "titel": "MARIUCCI ANNE L (Director): CTRI ($99,990)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
