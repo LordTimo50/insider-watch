@@ -6654,6 +6654,39 @@
    "titel": "OLIVER ERIC L (10%-Owner): SJT ($2,012,408)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-13T22:45:50Z",
+   "quelle": "SEC",
+   "name": "Gu Paul",
+   "ticker": "UPST",
+   "betrag": 1028400.0000000001,
+   "richtung": "buy",
+   "titel": "Gu Paul (Chief Executive Officer): UPST ($1,028,400)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-13T22:45:56Z",
+   "quelle": "SEC",
+   "name": "Heshmatpour Amir F",
+   "ticker": "NTHI",
+   "betrag": 150501.0,
+   "richtung": "buy",
+   "titel": "Heshmatpour Amir F (CEO, President): NTHI ($150,501)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T22:45:57Z",
+   "quelle": "SEC",
+   "name": "Global GP LLC",
+   "ticker": "GLP",
+   "betrag": 442475.0,
+   "richtung": "buy",
+   "titel": "Global GP LLC: GLP ($442,475)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-13",
