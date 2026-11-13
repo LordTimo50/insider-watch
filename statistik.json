@@ -6522,6 +6522,17 @@
    "titel": "MARIUCCI ANNE L (Director): CTRI ($99,990)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T17:45:47Z",
+   "quelle": "SEC",
+   "name": "Booth Andrew",
+   "ticker": "ABCL",
+   "betrag": 97438.0,
+   "richtung": "buy",
+   "titel": "Booth Andrew (Chief Financial Officer): ABCL ($97,438)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
