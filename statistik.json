@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T13:45:45Z",
-   "quelle": "SEC",
-   "name": "SCULLY WILLIAM P",
-   "ticker": "PRTA",
-   "betrag": 1821054.0,
-   "richtung": "buy",
-   "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($1,821,054)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T14:01:11Z",
    "quelle": "SEC",
    "name": "Alvarez Rubens Aguiar",
