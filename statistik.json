@@ -6533,6 +6533,17 @@
    "titel": "JACKSON JOHN EARL (Director): NGS ($57,790)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:01:14Z",
+   "quelle": "SEC",
+   "name": "SIMARD JOHN",
+   "ticker": "XBIT",
+   "betrag": 143409.0,
+   "richtung": "buy",
+   "titel": "SIMARD JOHN (Director): XBIT ($143,409)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
