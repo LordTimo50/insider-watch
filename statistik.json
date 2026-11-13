@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T16:15:47Z",
-   "quelle": "SEC",
-   "name": "Aksia LLC",
-   "ticker": "N.A.",
-   "betrag": 909653.1728999999,
-   "richtung": "buy",
-   "titel": "Aksia LLC: N.A. ($909,653)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T19:15:41Z",
    "quelle": "SEC",
    "name": "Leverton Jaime",
