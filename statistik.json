@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T21:45:40Z",
-   "quelle": "SEC",
-   "name": "Healy Brian C.",
-   "ticker": "MWA",
-   "betrag": 29927.4496,
-   "richtung": "buy",
-   "titel": "Healy Brian C. (Director): MWA ($29,927) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T23:01:07Z",
    "quelle": "SEC",
    "name": "Bastion Trading Ltd",
@@ -6632,6 +6621,39 @@
    "titel": "LEIGHTON F THOMSON (Chief Executive Officer): AKAM ($2,552,400)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:45:49Z",
+   "quelle": "SEC",
+   "name": "JAFFER REHAN",
+   "ticker": "FUN",
+   "betrag": 9246000.0,
+   "richtung": "buy",
+   "titel": "JAFFER REHAN (Director): FUN ($9,246,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-13T21:45:53Z",
+   "quelle": "SEC",
+   "name": "McGraner Matt",
+   "ticker": "NXRT",
+   "betrag": 99930.5,
+   "richtung": "buy",
+   "titel": "McGraner Matt (See Remarks): NXRT ($99,930)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:45:59Z",
+   "quelle": "SEC",
+   "name": "OLIVER ERIC L",
+   "ticker": "SJT",
+   "betrag": 2012408.0299999998,
+   "richtung": "buy",
+   "titel": "OLIVER ERIC L (10%-Owner): SJT ($2,012,408)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-13",
