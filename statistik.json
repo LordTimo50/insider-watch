@@ -6401,6 +6401,39 @@
    "titel": "Schlacks Jabbok (Founder & CEO): EQPT ($249,989)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T00:01:11Z",
+   "quelle": "SEC",
+   "name": "Endeavor Blockchain, LLC",
+   "ticker": "BGDE",
+   "betrag": 68825.20999999999,
+   "richtung": "buy",
+   "titel": "Endeavor Blockchain, LLC (10%-Owner): BGDE ($68,825)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T00:01:12Z",
+   "quelle": "SEC",
+   "name": "McLaughlin Steven J.",
+   "ticker": "EXFY",
+   "betrag": 988745.612,
+   "richtung": "buy",
+   "titel": "McLaughlin Steven J. (10%-Owner): EXFY ($988,746)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T00:01:13Z",
+   "quelle": "SEC",
+   "name": "Segal Jonathan",
+   "ticker": "STKS",
+   "betrag": 39221.0,
+   "richtung": "buy",
+   "titel": "Segal Jonathan (Director): STKS ($39,221)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
