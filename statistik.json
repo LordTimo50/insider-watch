@@ -6434,6 +6434,17 @@
    "titel": "Segal Jonathan (Director): STKS ($39,221)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T00:30:59Z",
+   "quelle": "SEC",
+   "name": "PARRETTE LESLIE J",
+   "ticker": "IOSP",
+   "betrag": 27493.05,
+   "richtung": "buy",
+   "titel": "PARRETTE LESLIE J (Director): IOSP ($27,493)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
