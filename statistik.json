@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T21:31:00Z",
-   "quelle": "SEC",
-   "name": "Gon Cesar Nivaldo",
-   "ticker": "CINT",
-   "betrag": 25530.760000000002,
-   "richtung": "buy",
-   "titel": "Gon Cesar Nivaldo (Chief Executive Officer): CINT ($25,531)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T21:45:40Z",
    "quelle": "SEC",
    "name": "Healy Brian C.",
@@ -6599,8 +6588,52 @@
    "titel": "Smith Michael Bradley (Director): TRTX ($64,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:30:58Z",
+   "quelle": "SEC",
+   "name": "Lenehan William H",
+   "ticker": "FCPT",
+   "betrag": 149992.2732,
+   "richtung": "buy",
+   "titel": "Lenehan William H (President and CEO): FCPT ($149,992)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:31:10Z",
+   "quelle": "SEC",
+   "name": "DOUGLAS RICHARD",
+   "ticker": "ALDX",
+   "betrag": 128899.99999999999,
+   "richtung": "buy",
+   "titel": "DOUGLAS RICHARD (Director): ALDX ($128,900)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:31:12Z",
+   "quelle": "SEC",
+   "name": "Durso Jerome Benedict",
+   "ticker": "ALT",
+   "betrag": 49694.090000000004,
+   "richtung": "buy",
+   "titel": "Durso Jerome Benedict (President and CEO): ALT ($49,694)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T21:31:16Z",
+   "quelle": "SEC",
+   "name": "LEIGHTON F THOMSON",
+   "ticker": "AKAM",
+   "betrag": 2552400.0,
+   "richtung": "buy",
+   "titel": "LEIGHTON F THOMSON (Chief Executive Officer): AKAM ($2,552,400)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-12",
+ "letzter_tagesbericht": "2026-11-13",
  "letzter_wochenbericht": "2026-W45"
 }
