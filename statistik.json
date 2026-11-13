@@ -6478,6 +6478,17 @@
    "titel": "Watts Claudius E. IV (Director): VISN ($831,060)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T01:31:03Z",
+   "quelle": "SEC",
+   "name": "Watts Claudius E. IV",
+   "ticker": "VISN",
+   "betrag": 198195.0,
+   "richtung": "buy",
+   "titel": "Watts Claudius E. IV (Director): VISN ($198,195)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
