@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T14:15:44Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "GRX",
-   "betrag": 27865.649999999998,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): GRX ($27,866)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-09T15:30:56Z",
    "quelle": "SEC",
    "name": "Ben-Noon Dagi Shahar",
@@ -6521,6 +6510,28 @@
    "richtung": "buy",
    "titel": "Barry John F (CHIEF EXECUTIVE OFFICER): PSEC ($6,054,559)",
    "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T14:15:45Z",
+   "quelle": "SEC",
+   "name": "BIGLARI, SARDAR",
+   "ticker": "BH",
+   "betrag": 5537124.529999999,
+   "richtung": "buy",
+   "titel": "BIGLARI, SARDAR (Chairman and CEO): BH ($5,537,125)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T14:15:46Z",
+   "quelle": "SEC",
+   "name": "DIMITRIEF ALEXANDER",
+   "ticker": "EOSE",
+   "betrag": 46500.0,
+   "richtung": "buy",
+   "titel": "DIMITRIEF ALEXANDER (Director): EOSE ($46,500)",
+   "gemeldet": false,
    "zurueckgehalten": false
   }
  ],
