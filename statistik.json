@@ -6445,6 +6445,28 @@
    "titel": "PARRETTE LESLIE J (Director): IOSP ($27,493)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T01:01:07Z",
+   "quelle": "SEC",
+   "name": "Wienbar Sharon L",
+   "ticker": "ENOV",
+   "betrag": 49831.82,
+   "richtung": "buy",
+   "titel": "Wienbar Sharon L (Director): ENOV ($49,832)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T01:01:07Z",
+   "quelle": "SEC",
+   "name": "Lalor Angela S",
+   "ticker": "ENOV",
+   "betrag": 50192.56,
+   "richtung": "buy",
+   "titel": "Lalor Angela S (Director): ENOV ($50,193)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
