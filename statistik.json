@@ -6533,6 +6533,17 @@
    "titel": "Young Kenneth M (Chief Executive Officer): BW ($43,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T20:15:52Z",
+   "quelle": "SEC",
+   "name": "Gator Capital Management, LLC",
+   "ticker": "GROW",
+   "betrag": 82690.70880000001,
+   "richtung": "buy",
+   "titel": "Gator Capital Management, LLC (10%-Owner): GROW ($82,691)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
