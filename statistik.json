@@ -6522,6 +6522,17 @@
    "titel": "Hamilton Thomas Edward (Director): LRMR ($187,082) | 4 Kaeufer, $337K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T11:31:05Z",
+   "quelle": "SEC",
+   "name": "Shen Ziyu",
+   "ticker": "ECX",
+   "betrag": 233670.0,
+   "richtung": "buy",
+   "titel": "Shen Ziyu (Chief Executive Officer): ECX ($233,670)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
