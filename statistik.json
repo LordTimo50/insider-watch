@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-09T23:01:07Z",
-   "quelle": "SEC",
-   "name": "Bastion Trading Ltd",
-   "ticker": "SKYA",
-   "betrag": 78262.8,
-   "richtung": "buy",
-   "titel": "Bastion Trading Ltd (10%-Owner): SKYA ($78,263) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-10T01:15:43Z",
    "quelle": "SEC",
    "name": "KAMFAR RAMIN",
@@ -6685,6 +6674,39 @@
    "betrag": 442475.0,
    "richtung": "buy",
    "titel": "Global GP LLC: GLP ($442,475)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T23:01:18Z",
+   "quelle": "SEC",
+   "name": "Arcara Jeffrey",
+   "ticker": "CRVS",
+   "betrag": 50475.215,
+   "richtung": "buy",
+   "titel": "Arcara Jeffrey (Chief Business Officer): CRVS ($50,475)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T23:01:20Z",
+   "quelle": "SEC",
+   "name": "GAYNOR RICHARD",
+   "ticker": "ZLAB",
+   "betrag": 33389.32,
+   "richtung": "buy",
+   "titel": "GAYNOR RICHARD (Director): ZLAB ($33,389) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T23:01:21Z",
+   "quelle": "SEC",
+   "name": "Dalton Travis",
+   "ticker": "CTEV",
+   "betrag": 149927.4,
+   "richtung": "buy",
+   "titel": "Dalton Travis (Pres., CEO & Executive Chair): CTEV ($149,927)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
