@@ -6533,6 +6533,17 @@
    "titel": "Booth Andrew (Chief Financial Officer): ABCL ($97,438)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-13T18:45:44Z",
+   "quelle": "SEC",
+   "name": "Elsztain Alejandro Gustavo",
+   "ticker": "CRESY",
+   "betrag": 89000.0,
+   "richtung": "buy",
+   "titel": "Elsztain Alejandro Gustavo (Director): CRESY ($89,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-12",
