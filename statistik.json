@@ -6731,6 +6731,17 @@
    "titel": "STERNLICHT BARRY S (CEO, Chairman of the Board): STWD ($14,697,682) | 2 Kaeufer, $16.7M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T02:45:41Z",
+   "quelle": "SEC",
+   "name": "Chernett Jorey",
+   "ticker": "STIM",
+   "betrag": 79600.0,
+   "richtung": "buy",
+   "titel": "Chernett Jorey (10%-Owner): STIM ($79,600)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-13",
