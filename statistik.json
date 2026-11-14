@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-10T01:15:43Z",
-   "quelle": "SEC",
-   "name": "KAMFAR RAMIN",
-   "ticker": "BPRE",
-   "betrag": 8501526.6013,
-   "richtung": "buy",
-   "titel": "KAMFAR RAMIN (Director): BPRE ($8,501,527) | 3 Kaeufer, $16.4M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-10T01:30:59Z",
    "quelle": "SEC",
    "name": "Allen Zipporah",
@@ -6729,6 +6718,17 @@
    "betrag": 249920.0,
    "richtung": "buy",
    "titel": "Patton Charles R. (Director): CTRI ($249,920)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T01:15:41Z",
+   "quelle": "SEC",
+   "name": "ALDRICH DAVID J",
+   "ticker": "INDI",
+   "betrag": 299000.0,
+   "richtung": "buy",
+   "titel": "ALDRICH DAVID J (Director): INDI ($299,000)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
