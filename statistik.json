@@ -6709,6 +6709,28 @@
    "titel": "ALDRICH DAVID J (Director): INDI ($299,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T02:30:57Z",
+   "quelle": "SEC",
+   "name": "Pollack Jonathan Lee",
+   "ticker": "STWD",
+   "betrag": 2013450.1,
+   "richtung": "buy",
+   "titel": "Pollack Jonathan Lee (Director): STWD ($2,013,450)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T02:30:58Z",
+   "quelle": "SEC",
+   "name": "STERNLICHT BARRY S",
+   "ticker": "STWD",
+   "betrag": 14697681.5,
+   "richtung": "buy",
+   "titel": "STERNLICHT BARRY S (CEO, Chairman of the Board): STWD ($14,697,682) | 2 Kaeufer, $16.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-13",
