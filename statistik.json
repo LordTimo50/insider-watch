@@ -6742,6 +6742,28 @@
    "titel": "Chernett Jorey (10%-Owner): STIM ($79,600)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T03:01:11Z",
+   "quelle": "SEC",
+   "name": "Kieser Brian Joseph",
+   "ticker": "NXGL",
+   "betrag": 732688.0,
+   "richtung": "buy",
+   "titel": "Kieser Brian Joseph (Interim CEO): NXGL ($732,688)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T03:01:13Z",
+   "quelle": "SEC",
+   "name": "glassman steven mark",
+   "ticker": "NXGL",
+   "betrag": 25003.0,
+   "richtung": "buy",
+   "titel": "glassman steven mark (Director): NXGL ($25,003)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-13",
