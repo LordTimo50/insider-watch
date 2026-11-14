@@ -6709,6 +6709,17 @@
    "titel": "Dalton Travis (Pres., CEO & Executive Chair): CTEV ($149,927)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T00:01:23Z",
+   "quelle": "SEC",
+   "name": "Abbate Michael",
+   "ticker": "IOND",
+   "betrag": 1291578.62,
+   "richtung": "buy",
+   "titel": "Abbate Michael (Director): IOND ($1,291,579)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-13",
