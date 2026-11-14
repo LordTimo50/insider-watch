@@ -6720,6 +6720,17 @@
    "titel": "Abbate Michael (Director): IOND ($1,291,579)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-14T00:31:06Z",
+   "quelle": "SEC",
+   "name": "Patton Charles R.",
+   "ticker": "CTRI",
+   "betrag": 249920.0,
+   "richtung": "buy",
+   "titel": "Patton Charles R. (Director): CTRI ($249,920)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-13",
