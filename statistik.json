@@ -6797,6 +6797,39 @@
    "titel": "Gelman Eliahu Meir (Director): DOX ($104,300) | 5 Kaeufer, $432K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T11:31:00Z",
+   "quelle": "SEC",
+   "name": "Zhao Bin",
+   "ticker": "API",
+   "betrag": 78292.4356,
+   "richtung": "buy",
+   "titel": "Zhao Bin (Chief Executive Officer): API ($78,292) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T11:31:01Z",
+   "quelle": "SEC",
+   "name": "Shen Ziyu",
+   "ticker": "ECX",
+   "betrag": 147650.52,
+   "richtung": "buy",
+   "titel": "Shen Ziyu (Chief Executive Officer): ECX ($147,651)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T11:31:02Z",
+   "quelle": "SEC",
+   "name": "DIMITRIEF ALEXANDER",
+   "ticker": "YUMC",
+   "betrag": 247500.0,
+   "richtung": "buy",
+   "titel": "DIMITRIEF ALEXANDER (Director): YUMC ($247,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
