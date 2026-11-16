@@ -6940,6 +6940,50 @@
    "titel": "Kelley Philip M (Director): CSQR ($172,400) | 3 Kaeufer, $414K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:31:08Z",
+   "quelle": "SEC",
+   "name": "Musa Fernando",
+   "ticker": "PCT",
+   "betrag": 98496.0,
+   "richtung": "buy",
+   "titel": "Musa Fernando (Executive Chairman): PCT ($98,496)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:31:09Z",
+   "quelle": "SEC",
+   "name": "BOSTON BYRON L",
+   "ticker": "DX",
+   "betrag": 49997.55,
+   "richtung": "buy",
+   "titel": "BOSTON BYRON L (Co-CEO & Chairman of the Board): DX ($49,998)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:31:10Z",
+   "quelle": "SEC",
+   "name": "Wahlstrom Mats",
+   "ticker": "TLSI",
+   "betrag": 112000.00000000001,
+   "richtung": "buy",
+   "titel": "Wahlstrom Mats (Director): TLSI ($112,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:31:10Z",
+   "quelle": "SEC",
+   "name": "Popenoe Smriti Laxman",
+   "ticker": "DX",
+   "betrag": 25740.0,
+   "richtung": "buy",
+   "titel": "Popenoe Smriti Laxman (Co-CEO and President): DX ($25,740)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
