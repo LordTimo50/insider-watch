@@ -6764,6 +6764,39 @@
    "titel": "glassman steven mark (Director): NXGL ($25,003)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T11:15:52Z",
+   "quelle": "SEC",
+   "name": "Errico Thomas J.",
+   "ticker": "ECOR",
+   "betrag": 54400.00000000001,
+   "richtung": "buy",
+   "titel": "Errico Thomas J. (Director): ECOR ($54,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T11:15:53Z",
+   "quelle": "SEC",
+   "name": "HO LAWRENCE YAU LUNG",
+   "ticker": "MSC",
+   "betrag": 30904.1544,
+   "richtung": "buy",
+   "titel": "HO LAWRENCE YAU LUNG (Director): MSC ($30,904)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T11:15:54Z",
+   "quelle": "SEC",
+   "name": "Gelman Eliahu Meir",
+   "ticker": "DOX",
+   "betrag": 104300.5,
+   "richtung": "buy",
+   "titel": "Gelman Eliahu Meir (Director): DOX ($104,300) | 5 Kaeufer, $432K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
