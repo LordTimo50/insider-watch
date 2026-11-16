@@ -6863,6 +6863,28 @@
    "titel": "Schrenk Troy C. (Chief Commercial Officer): TH ($250,006)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T12:31:02Z",
+   "quelle": "SEC",
+   "name": "Todisco Joseph",
+   "ticker": "CRMD",
+   "betrag": 391200.0,
+   "richtung": "buy",
+   "titel": "Todisco Joseph (Chief Executive Officer): CRMD ($391,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T12:31:02Z",
+   "quelle": "SEC",
+   "name": "DE LA VEGA RAFAEL",
+   "ticker": "DOX",
+   "betrag": 102227.985,
+   "richtung": "buy",
+   "titel": "DE LA VEGA RAFAEL (Director): DOX ($102,228) | 6 Kaeufer, $534K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
