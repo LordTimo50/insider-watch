@@ -6918,6 +6918,28 @@
    "titel": "Halligan Brian (Chief Executive Officer): HUBS ($4,997,858)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:15:45Z",
+   "quelle": "SEC",
+   "name": "PIZZUTO TERRI",
+   "ticker": "CSQR",
+   "betrag": 33920.0,
+   "richtung": "buy",
+   "titel": "PIZZUTO TERRI (Director): CSQR ($33,920)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:15:46Z",
+   "quelle": "SEC",
+   "name": "Kelley Philip M",
+   "ticker": "CSQR",
+   "betrag": 172399.99999999997,
+   "richtung": "buy",
+   "titel": "Kelley Philip M (Director): CSQR ($172,400) | 3 Kaeufer, $414K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
