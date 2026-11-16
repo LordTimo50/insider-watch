@@ -7006,6 +7006,17 @@
    "titel": "Kennedy Joseph Jude (Director): SONO ($1,871,497)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T16:16:00Z",
+   "quelle": "SEC",
+   "name": "Cooper Arthur S.",
+   "ticker": "GOOD",
+   "betrag": 99999.99946199999,
+   "richtung": "buy",
+   "titel": "Cooper Arthur S. (CEO & President): GOOD ($100,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
