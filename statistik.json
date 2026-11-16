@@ -6841,6 +6841,28 @@
    "titel": "Epstein David R (Director): AGMB ($88,679)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T12:01:13Z",
+   "quelle": "SEC",
+   "name": "HORNBECK TODD M",
+   "ticker": "HOS",
+   "betrag": 500000.94239089993,
+   "richtung": "buy",
+   "titel": "HORNBECK TODD M (PRESIDENT & CEO): HOS ($500,001)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T12:01:15Z",
+   "quelle": "SEC",
+   "name": "Schrenk Troy C.",
+   "ticker": "TH",
+   "betrag": 250005.56,
+   "richtung": "buy",
+   "titel": "Schrenk Troy C. (Chief Commercial Officer): TH ($250,006)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
