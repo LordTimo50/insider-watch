@@ -7017,6 +7017,17 @@
    "titel": "Cooper Arthur S. (CEO & President): GOOD ($100,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T19:01:14Z",
+   "quelle": "SEC",
+   "name": "Trabelsi Arie",
+   "ticker": "SPCB",
+   "betrag": 126940.0,
+   "richtung": "buy",
+   "titel": "Trabelsi Arie (Director): SPCB ($126,940)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
