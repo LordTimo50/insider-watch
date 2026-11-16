@@ -7028,6 +7028,17 @@
    "titel": "Trabelsi Arie (Director): SPCB ($126,940)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T20:46:11Z",
+   "quelle": "SEC",
+   "name": "PRUDENTIAL FINANCIAL INC",
+   "ticker": "EMO",
+   "betrag": 35000000.0,
+   "richtung": "buy",
+   "titel": "PRUDENTIAL FINANCIAL INC (10%-Owner): EMO ($35,000,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
