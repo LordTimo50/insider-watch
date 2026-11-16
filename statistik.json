@@ -7039,6 +7039,127 @@
    "titel": "PRUDENTIAL FINANCIAL INC (10%-Owner): EMO ($35,000,000)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-16T23:45:44Z",
+   "quelle": "SEC",
+   "name": "Red Oak Partners, LLC",
+   "ticker": "DAIO",
+   "betrag": 65226.71700000001,
+   "richtung": "buy",
+   "titel": "Red Oak Partners, LLC (10%-Owner): DAIO ($65,227)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:45:49Z",
+   "quelle": "SEC",
+   "name": "Carlet Michael",
+   "ticker": "ADIG",
+   "betrag": 99896.48000000001,
+   "richtung": "buy",
+   "titel": "Carlet Michael (Executive VP, CFO): ADIG ($99,896)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:45:51Z",
+   "quelle": "SEC",
+   "name": "Cardazzi Marco",
+   "ticker": "ADIG",
+   "betrag": 25080.0,
+   "richtung": "buy",
+   "titel": "Cardazzi Marco (Executive VP and CMO): ADIG ($25,080)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:45:52Z",
+   "quelle": "SEC",
+   "name": "Lane Jeannine J",
+   "ticker": "ADIG",
+   "betrag": 50051.55,
+   "richtung": "buy",
+   "titel": "Lane Jeannine J (Exec. VP, GC, Corp. Sec. & CCO): ADIG ($50,052)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:45:54Z",
+   "quelle": "SEC",
+   "name": "Aarnes Robert B",
+   "ticker": "ADIG",
+   "betrag": 100024.89,
+   "richtung": "buy",
+   "titel": "Aarnes Robert B (President and CEO): ADIG ($100,025)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-16T23:45:56Z",
+   "quelle": "SEC",
+   "name": "Energy Evolution Master Fund, Ltd.",
+   "ticker": "EP",
+   "betrag": 27112.794800000003,
+   "richtung": "buy",
+   "titel": "Energy Evolution Master Fund, Ltd. (10%-Owner): EP ($27,113)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:45:58Z",
+   "quelle": "SEC",
+   "name": "Andres Dale",
+   "ticker": "HL",
+   "betrag": 125000.0,
+   "richtung": "buy",
+   "titel": "Andres Dale (Director): HL ($125,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:45:58Z",
+   "quelle": "SEC",
+   "name": "Copeland Alicia Crispin",
+   "ticker": "ADIG",
+   "betrag": 50550.0,
+   "richtung": "buy",
+   "titel": "Copeland Alicia Crispin (Executive VP and COO): ADIG ($50,550)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-16T23:46:00Z",
+   "quelle": "SEC",
+   "name": "Hottinger Tyson",
+   "ticker": "FPS",
+   "betrag": 244956.2,
+   "richtung": "buy",
+   "titel": "Hottinger Tyson (Chief Legal Officer): FPS ($244,956)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:46:01Z",
+   "quelle": "SEC",
+   "name": "Howie John K",
+   "ticker": "PED",
+   "betrag": 53000.0,
+   "richtung": "buy",
+   "titel": "Howie John K (Director): PED ($53,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T23:46:02Z",
+   "quelle": "SEC",
+   "name": "O'Sullivan Michael J.",
+   "ticker": "BRK.B",
+   "betrag": 250207.3,
+   "richtung": "buy",
+   "titel": "O'Sullivan Michael J. (See Remarks): BRK.B ($250,207)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
