@@ -6995,6 +6995,17 @@
    "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($284,629)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T14:31:00Z",
+   "quelle": "SEC",
+   "name": "Kennedy Joseph Jude",
+   "ticker": "SONO",
+   "betrag": 1871497.4,
+   "richtung": "buy",
+   "titel": "Kennedy Joseph Jude (Director): SONO ($1,871,497)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
