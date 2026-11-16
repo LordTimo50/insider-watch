@@ -6885,6 +6885,39 @@
    "titel": "DE LA VEGA RAFAEL (Director): DOX ($102,228) | 6 Kaeufer, $534K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:01:40Z",
+   "quelle": "SEC",
+   "name": "Charles Faith L.",
+   "ticker": "ABEO",
+   "betrag": 34348.5,
+   "richtung": "buy",
+   "titel": "Charles Faith L. (Director): ABEO ($34,348)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:01:40Z",
+   "quelle": "SEC",
+   "name": "Williams Gregg",
+   "ticker": "VANI",
+   "betrag": 47763.3,
+   "richtung": "buy",
+   "titel": "Williams Gregg (Director): VANI ($47,763)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-16T13:01:41Z",
+   "quelle": "SEC",
+   "name": "Halligan Brian",
+   "ticker": "HUBS",
+   "betrag": 4997858.4,
+   "richtung": "buy",
+   "titel": "Halligan Brian (Chief Executive Officer): HUBS ($4,997,858)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-15",
