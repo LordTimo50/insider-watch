@@ -7193,6 +7193,39 @@
    "titel": "Harrison Street Real Assets Fund LLC (10%-Owner): NFRX ($10,799,987)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-17T20:45:46Z",
+   "quelle": "SEC",
+   "name": "Mariani Gustavo",
+   "ticker": "PAM",
+   "betrag": 169316.133,
+   "richtung": "buy",
+   "titel": "Mariani Gustavo (Vicepresident): PAM ($169,316)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-17T20:45:47Z",
+   "quelle": "SEC",
+   "name": "Real Jorge Luis",
+   "ticker": "BLX",
+   "betrag": 124987.5,
+   "richtung": "buy",
+   "titel": "Real Jorge Luis (Chief Legal Officer): BLX ($124,988)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T20:45:49Z",
+   "quelle": "SEC",
+   "name": "Mindlin Marcos Marcelo",
+   "ticker": "PAM",
+   "betrag": 541018.88,
+   "richtung": "buy",
+   "titel": "Mindlin Marcos Marcelo (Director): PAM ($541,019)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
