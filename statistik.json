@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-13T20:16:00Z",
-   "quelle": "SEC",
-   "name": "Cohen Ryan",
-   "ticker": "GME",
-   "betrag": 22774727.5,
-   "richtung": "buy",
-   "titel": "Cohen Ryan (President, CEO and Chairman): GME ($22,774,728)",
-   "gemeldet": false,
-   "zurueckgehalten": true
-  },
-  {
-   "zeit": "2026-10-13T20:16:04Z",
-   "quelle": "SEC",
-   "name": "GOLDSTEIN PHILLIP",
-   "ticker": "SWZ",
-   "betrag": 28637.0,
-   "richtung": "buy",
-   "titel": "GOLDSTEIN PHILLIP (Secretary): SWZ ($28,637)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-13T20:30:56Z",
    "quelle": "SEC",
    "name": "NIPPON LIFE INSURANCE CO",
