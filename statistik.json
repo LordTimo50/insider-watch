@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-13T12:30:56Z",
-   "quelle": "SEC",
-   "name": "Oberbeck Christian L",
-   "ticker": "SAR",
-   "betrag": 445800.0,
-   "richtung": "buy",
-   "titel": "Oberbeck Christian L (CEO and Director): SAR ($445,800)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-13T12:30:57Z",
-   "quelle": "SEC",
-   "name": "Troim Tor Olav",
-   "ticker": "BORR",
-   "betrag": 11843500.0,
-   "richtung": "buy",
-   "titel": "Troim Tor Olav (Director): BORR ($11,843,500)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-13T14:15:49Z",
    "quelle": "SEC",
    "name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
