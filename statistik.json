@@ -7281,6 +7281,39 @@
    "titel": "AFRICK ANDREW (Director): CVV ($470,502)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T22:31:08Z",
+   "quelle": "SEC",
+   "name": "Cannon-Brookes Michael",
+   "ticker": "TEAM",
+   "betrag": 1998766.7318000002,
+   "richtung": "buy",
+   "titel": "Cannon-Brookes Michael (CEO, Co-Founder): TEAM ($1,998,767) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-17T22:31:13Z",
+   "quelle": "SEC",
+   "name": "FREDRICKSON STEVEN D",
+   "ticker": "PRAA",
+   "betrag": 295000.0,
+   "richtung": "buy",
+   "titel": "FREDRICKSON STEVEN D (Director): PRAA ($295,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T22:31:20Z",
+   "quelle": "SEC",
+   "name": "TANG KEVIN",
+   "ticker": "BOLD",
+   "betrag": 33148.8,
+   "richtung": "buy",
+   "titel": "TANG KEVIN (10%-Owner): BOLD ($33,149)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
