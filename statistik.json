@@ -7325,6 +7325,17 @@
    "titel": "Cardinale Gerald J. (Director): SKYD ($1,000,637)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T03:01:22Z",
+   "quelle": "SEC",
+   "name": "LEE CHAE",
+   "ticker": "MX",
+   "betrag": 218483.0,
+   "richtung": "buy",
+   "titel": "LEE CHAE (Chief Executive Officer): MX ($218,483) | 2 Kaeufer, $1.7M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
