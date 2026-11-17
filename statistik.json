@@ -7281,6 +7281,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($795,684)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T02:01:09Z",
+   "quelle": "SEC",
+   "name": "Lalor Angela S",
+   "ticker": "ENOV",
+   "betrag": 49386.14,
+   "richtung": "buy",
+   "titel": "Lalor Angela S (Director): ENOV ($49,386)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T02:01:09Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 183623.03999999998,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($183,623)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
