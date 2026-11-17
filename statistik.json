@@ -7292,6 +7292,17 @@
    "titel": "Jacobs Justin (Chief Executive Officer): NGS ($85,806) | 3 Kaeufer, $193K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T19:01:17Z",
+   "quelle": "SEC",
+   "name": "Wesley Charles Ray IV",
+   "ticker": "HRNG",
+   "betrag": 1069710.0,
+   "richtung": "buy",
+   "titel": "Wesley Charles Ray IV (Director): HRNG ($1,069,710)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
