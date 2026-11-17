@@ -7314,6 +7314,28 @@
    "titel": "LEE CHAE (Chief Executive Officer): MX ($218,483) | 2 Kaeufer, $1.7M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T11:31:03Z",
+   "quelle": "SEC",
+   "name": "Agah Ramtin",
+   "ticker": "RNXT",
+   "betrag": 46485.0,
+   "richtung": "buy",
+   "titel": "Agah Ramtin (Executive Chairman and CMO): RNXT ($46,485)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T11:31:03Z",
+   "quelle": "SEC",
+   "name": "BRC Group Holdings, Inc.",
+   "ticker": "BW",
+   "betrag": 212000.0,
+   "richtung": "buy",
+   "titel": "BRC Group Holdings, Inc. (10%-Owner): BW ($212,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
