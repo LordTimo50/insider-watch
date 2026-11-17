@@ -7182,6 +7182,17 @@
    "titel": "ARES MANAGEMENT LLC (10%-Owner): CTEV ($390,403)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T00:45:42Z",
+   "quelle": "SEC",
+   "name": "Endeavor Blockchain, LLC",
+   "ticker": "BGDE",
+   "betrag": 182058.0,
+   "richtung": "buy",
+   "titel": "Endeavor Blockchain, LLC (10%-Owner): BGDE ($182,058)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
