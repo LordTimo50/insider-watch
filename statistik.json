@@ -7226,6 +7226,17 @@
    "titel": "Mindlin Marcos Marcelo (Director): PAM ($541,019)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-17T21:01:14Z",
+   "quelle": "SEC",
+   "name": "HIRSCH MATTHEW I",
+   "ticker": "UMH",
+   "betrag": 41910.0,
+   "richtung": "buy",
+   "titel": "HIRSCH MATTHEW I (Director): UMH ($41,910)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
