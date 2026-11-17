@@ -7347,6 +7347,39 @@
    "titel": "Muller Richard (Chief Technology Officer): FISN ($31,697)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T23:45:43Z",
+   "quelle": "SEC",
+   "name": "Onorio Kenneth P.",
+   "ticker": "ECC",
+   "betrag": 103950.0,
+   "richtung": "buy",
+   "titel": "Onorio Kenneth P. (CFO / COO): ECC ($103,950)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T23:45:47Z",
+   "quelle": "SEC",
+   "name": "Bhargava Sameer",
+   "ticker": "STUB",
+   "betrag": 1499171.0,
+   "richtung": "buy",
+   "titel": "Bhargava Sameer (Director): STUB ($1,499,171)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T23:45:49Z",
+   "quelle": "SEC",
+   "name": "Raab Andrew John",
+   "ticker": "STUB",
+   "betrag": 2048600.0,
+   "richtung": "buy",
+   "titel": "Raab Andrew John (Director): STUB ($2,048,600)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
