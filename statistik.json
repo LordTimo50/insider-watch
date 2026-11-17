@@ -7248,6 +7248,39 @@
    "titel": "Corbett Ryan (Chief Financial Officer): MP ($128,625) | 3 Kaeufer, $3.5M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:31:00Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "JOF",
+   "betrag": 73304.0,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($73,304)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:31:02Z",
+   "quelle": "SEC",
+   "name": "King David Arnold",
+   "ticker": "KTOS",
+   "betrag": 201091.2,
+   "richtung": "buy",
+   "titel": "King David Arnold (Director): KTOS ($201,091)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:31:04Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "LEO",
+   "betrag": 795683.88,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($795,684)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
