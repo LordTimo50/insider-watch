@@ -1,39 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-13T22:15:46Z",
-   "quelle": "SEC",
-   "name": "AJB Investment Fund II, LP",
-   "ticker": "JCTC",
-   "betrag": 35619.30099999999,
-   "richtung": "buy",
-   "titel": "AJB Investment Fund II, LP (10%-Owner): JCTC ($35,619)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-13T22:15:50Z",
-   "quelle": "SEC",
-   "name": "Keller Eric L.",
-   "ticker": "RTSN",
-   "betrag": 249600.0,
-   "richtung": "buy",
-   "titel": "Keller Eric L. (CHIEF EXECUTIVE OFFICER): RTSN ($249,600)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-13T22:15:55Z",
-   "quelle": "SEC",
-   "name": "BERGER FRANKLIN M",
-   "ticker": "RTSN",
-   "betrag": 120000.0,
-   "richtung": "buy",
-   "titel": "BERGER FRANKLIN M (Director): RTSN ($120,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-13T23:30:57Z",
    "quelle": "SEC",
    "name": "Liu Huan",
@@ -7281,6 +7248,39 @@
    "titel": "Brooks Michael George (Director): ITG ($505,800)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-17T22:15:54Z",
+   "quelle": "SEC",
+   "name": "Williams Patrick F.",
+   "ticker": "NPCE",
+   "betrag": 99148.34710000001,
+   "richtung": "buy",
+   "titel": "Williams Patrick F. (Chief Financial Officer): NPCE ($99,148)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T22:15:58Z",
+   "quelle": "SEC",
+   "name": "Becker Joel",
+   "ticker": "NPCE",
+   "betrag": 99293.41730000002,
+   "richtung": "buy",
+   "titel": "Becker Joel (CHIEF EXECUTIVE OFFICER): NPCE ($99,293)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T22:16:04Z",
+   "quelle": "SEC",
+   "name": "AFRICK ANDREW",
+   "ticker": "CVV",
+   "betrag": 470502.45,
+   "richtung": "buy",
+   "titel": "AFRICK ANDREW (Director): CVV ($470,502)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
