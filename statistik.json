@@ -7248,8 +7248,19 @@
    "titel": "DEASON DOUGLAS R (Director): GLXY ($200,850)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-17T21:31:26Z",
+   "quelle": "SEC",
+   "name": "Sardano Joseph C",
+   "ticker": "SRTS",
+   "betrag": 72108.0,
+   "richtung": "buy",
+   "titel": "Sardano Joseph C (CHIEF EXECUTIVE OFFICER): SRTS ($72,108)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-16",
+ "letzter_tagesbericht": "2026-11-17",
  "letzter_wochenbericht": "2026-W46"
 }
