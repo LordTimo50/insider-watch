@@ -7215,6 +7215,28 @@
    "titel": "Wentworth William O. (President): DAIO ($50,798)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T20:01:20Z",
+   "quelle": "SEC",
+   "name": "STEINBERG JOSEPH S",
+   "ticker": "CWGL",
+   "betrag": 100680.05,
+   "richtung": "buy",
+   "titel": "STEINBERG JOSEPH S (Director): CWGL ($100,680)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T20:01:20Z",
+   "quelle": "SEC",
+   "name": "Cumming John D.",
+   "ticker": "CWGL",
+   "betrag": 100676.2,
+   "richtung": "buy",
+   "titel": "Cumming John D. (Director): CWGL ($100,676)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
