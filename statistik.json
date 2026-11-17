@@ -7303,6 +7303,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($183,623)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T02:16:09Z",
+   "quelle": "SEC",
+   "name": "Schlacks Jabbok",
+   "ticker": "EQPT",
+   "betrag": 62565.840000000004,
+   "richtung": "buy",
+   "titel": "Schlacks Jabbok (Founder & CEO): EQPT ($62,566)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T02:16:10Z",
+   "quelle": "SEC",
+   "name": "Cardinale Gerald J.",
+   "ticker": "SKYD",
+   "betrag": 1000637.145,
+   "richtung": "buy",
+   "titel": "Cardinale Gerald J. (Director): SKYD ($1,000,637)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
