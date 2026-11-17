@@ -7292,6 +7292,17 @@
    "titel": "TRINGALI DONALD J (Director): NGS ($49,366)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T16:15:52Z",
+   "quelle": "SEC",
+   "name": "Jacobs Justin",
+   "ticker": "NGS",
+   "betrag": 85806.0,
+   "richtung": "buy",
+   "titel": "Jacobs Justin (Chief Executive Officer): NGS ($85,806) | 3 Kaeufer, $193K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
