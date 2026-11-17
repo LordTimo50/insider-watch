@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-13T23:30:57Z",
-   "quelle": "SEC",
-   "name": "Liu Huan",
-   "ticker": "CTNT",
-   "betrag": 330000.0,
-   "richtung": "buy",
-   "titel": "Liu Huan (See Remarks): CTNT ($330,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T00:31:05Z",
    "quelle": "SEC",
    "name": "Hassen Tyler Lewis",
@@ -7345,6 +7334,17 @@
    "betrag": 241990.0,
    "richtung": "buy",
    "titel": "HAMILTON DANA (Director): OPEN ($241,990)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T23:31:03Z",
+   "quelle": "SEC",
+   "name": "Muller Richard",
+   "ticker": "FISN",
+   "betrag": 31696.500000000004,
+   "richtung": "buy",
+   "titel": "Muller Richard (Chief Technology Officer): FISN ($31,697)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
