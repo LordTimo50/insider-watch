@@ -7237,6 +7237,17 @@
    "titel": "HIRSCH MATTHEW I (Director): UMH ($41,910)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T21:16:02Z",
+   "quelle": "SEC",
+   "name": "DEASON DOUGLAS R",
+   "ticker": "GLXY",
+   "betrag": 200850.0,
+   "richtung": "buy",
+   "titel": "DEASON DOUGLAS R (Director): GLXY ($200,850)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
