@@ -7226,6 +7226,28 @@
    "titel": "WILSON TROY EDWARD (President and CEO): KURA ($1,504,765)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:15:47Z",
+   "quelle": "SEC",
+   "name": "Mazzei Michael",
+   "ticker": "BRSP",
+   "betrag": 1000180.1399999999,
+   "richtung": "buy",
+   "titel": "Mazzei Michael (CEO): BRSP ($1,000,180)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:15:49Z",
+   "quelle": "SEC",
+   "name": "Corbett Ryan",
+   "ticker": "MP",
+   "betrag": 128625.0,
+   "richtung": "buy",
+   "titel": "Corbett Ryan (Chief Financial Officer): MP ($128,625) | 3 Kaeufer, $3.5M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
