@@ -7160,6 +7160,28 @@
    "titel": "O'Sullivan Michael J. (See Remarks): BRK.B ($250,207)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T00:15:58Z",
+   "quelle": "SEC",
+   "name": "ARES MANAGEMENT LLC",
+   "ticker": "CTEV",
+   "betrag": 390403.42319999996,
+   "richtung": "buy",
+   "titel": "ARES MANAGEMENT LLC (10%-Owner): CTEV ($390,403)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T00:15:59Z",
+   "quelle": "SEC",
+   "name": "ARES MANAGEMENT LLC",
+   "ticker": "CTEV",
+   "betrag": 390403.42319999996,
+   "richtung": "buy",
+   "titel": "ARES MANAGEMENT LLC (10%-Owner): CTEV ($390,403)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
