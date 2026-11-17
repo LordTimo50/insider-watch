@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-13T21:45:42Z",
-   "quelle": "SEC",
-   "name": "Opaleye Management Inc.",
-   "ticker": "GRCE",
-   "betrag": 29682.8115,
-   "richtung": "buy",
-   "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($29,683)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-13T22:15:46Z",
    "quelle": "SEC",
    "name": "AJB Investment Fund II, LP",
@@ -7257,6 +7246,17 @@
    "betrag": 72108.0,
    "richtung": "buy",
    "titel": "Sardano Joseph C (CHIEF EXECUTIVE OFFICER): SRTS ($72,108)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T21:46:01Z",
+   "quelle": "SEC",
+   "name": "Giacalone Peter",
+   "ticker": "ITG",
+   "betrag": 508500.00000000006,
+   "richtung": "buy",
+   "titel": "Giacalone Peter (Director): ITG ($508,500)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
