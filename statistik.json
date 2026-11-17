@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-13T14:31:06Z",
-   "quelle": "SEC",
-   "name": "Slattery Thomas M.",
-   "ticker": "HBIA.PK",
-   "betrag": 47000.0,
-   "richtung": "buy",
-   "titel": "Slattery Thomas M. (Director): HBIA.PK ($47,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-13T14:45:50Z",
    "quelle": "SEC",
    "name": "Gold Alan D",
