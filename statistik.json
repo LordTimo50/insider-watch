@@ -7193,6 +7193,39 @@
    "titel": "Endeavor Blockchain, LLC (10%-Owner): BGDE ($182,058)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:01:13Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 321227.18,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($321,227)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:01:14Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 25753.9,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($25,754)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T01:01:16Z",
+   "quelle": "SEC",
+   "name": "WILSON TROY EDWARD",
+   "ticker": "KURA",
+   "betrag": 1504765.01,
+   "richtung": "buy",
+   "titel": "WILSON TROY EDWARD (President and CEO): KURA ($1,504,765)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
