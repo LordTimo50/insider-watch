@@ -7314,6 +7314,17 @@
    "titel": "TANG KEVIN (10%-Owner): BOLD ($33,149)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T22:45:56Z",
+   "quelle": "SEC",
+   "name": "Koning John Todd",
+   "ticker": "ATEC",
+   "betrag": 99146.01762099999,
+   "richtung": "buy",
+   "titel": "Koning John Todd (CHIEF FINANCIAL OFFICER): ATEC ($99,146)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
