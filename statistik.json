@@ -7259,6 +7259,28 @@
    "titel": "Giacalone Peter (Director): ITG ($508,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T22:01:21Z",
+   "quelle": "SEC",
+   "name": "Gu Paul",
+   "ticker": "UPST",
+   "betrag": 950000.0,
+   "richtung": "buy",
+   "titel": "Gu Paul (Chief Executive Officer): UPST ($950,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-17T22:01:27Z",
+   "quelle": "SEC",
+   "name": "Brooks Michael George",
+   "ticker": "ITG",
+   "betrag": 505800.0,
+   "richtung": "buy",
+   "titel": "Brooks Michael George (Director): ITG ($505,800)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
