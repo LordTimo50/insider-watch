@@ -7303,6 +7303,17 @@
    "titel": "BRC Group Holdings, Inc. (10%-Owner): BW ($212,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T13:01:24Z",
+   "quelle": "SEC",
+   "name": "Olson Dustin",
+   "ticker": "PCT",
+   "betrag": 371800.0,
+   "richtung": "buy",
+   "titel": "Olson Dustin (Chief Executive Officer): PCT ($371,800) | 2 Kaeufer, $470K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
