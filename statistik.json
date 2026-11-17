@@ -7325,6 +7325,28 @@
    "titel": "Koning John Todd (CHIEF FINANCIAL OFFICER): ATEC ($99,146)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T23:01:30Z",
+   "quelle": "SEC",
+   "name": "JONES CRAIG B",
+   "ticker": "AOMR",
+   "betrag": 29705.499999999996,
+   "richtung": "buy",
+   "titel": "JONES CRAIG B (Director): AOMR ($29,705)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T23:01:31Z",
+   "quelle": "SEC",
+   "name": "HAMILTON DANA",
+   "ticker": "OPEN",
+   "betrag": 241990.0,
+   "richtung": "buy",
+   "titel": "HAMILTON DANA (Director): OPEN ($241,990)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
