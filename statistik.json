@@ -1,39 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-13T20:30:56Z",
-   "quelle": "SEC",
-   "name": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG",
-   "betrag": 8958804.0822,
-   "richtung": "buy",
-   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($8,958,804) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-13T20:30:56Z",
-   "quelle": "SEC",
-   "name": "SVLSF VI, LLC",
-   "ticker": "TRXB",
-   "betrag": 1299998.0,
-   "richtung": "buy",
-   "titel": "SVLSF VI, LLC (10%-Owner): TRXB ($1,299,998)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-13T20:31:03Z",
-   "quelle": "SEC",
-   "name": "Gonzalez Luis A",
-   "ticker": "AVO",
-   "betrag": 594785.36,
-   "richtung": "buy",
-   "titel": "Gonzalez Luis A (Director): AVO ($594,785)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-13T21:45:42Z",
    "quelle": "SEC",
    "name": "Opaleye Management Inc.",
@@ -7215,6 +7182,17 @@
    "titel": "Cumming John D. (Director): CWGL ($100,676)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-17T20:31:16Z",
+   "quelle": "SEC",
+   "name": "Harrison Street Real Assets Fund LLC",
+   "ticker": "NFRX",
+   "betrag": 10799986.65,
+   "richtung": "buy",
+   "titel": "Harrison Street Real Assets Fund LLC (10%-Owner): NFRX ($10,799,987)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-16",
