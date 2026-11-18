@@ -7457,6 +7457,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($369,357)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T03:01:24Z",
+   "quelle": "SEC",
+   "name": "First Finance Ltd.",
+   "ticker": "CLRO",
+   "betrag": 755540.0,
+   "richtung": "buy",
+   "titel": "First Finance Ltd. (10%-Owner): CLRO ($755,540)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
