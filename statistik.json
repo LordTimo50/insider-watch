@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T21:15:45Z",
-   "quelle": "SEC",
-   "name": "GOLDENTREE ASSET MANAGEMENT LP",
-   "ticker": "QVCG",
-   "betrag": 16697200.0,
-   "richtung": "buy",
-   "titel": "GOLDENTREE ASSET MANAGEMENT LP (10%-Owner): QVCG ($16,697,200)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T21:31:00Z",
    "quelle": "SEC",
    "name": "MCCARTHY KENT C",
@@ -7610,6 +7599,28 @@
    "richtung": "buy",
    "titel": "GROSS MICHAEL S (See Remarks): SLRC ($226,135)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T21:15:48Z",
+   "quelle": "SEC",
+   "name": "Barry Richard",
+   "ticker": "FLNA",
+   "betrag": 206896.81999999998,
+   "richtung": "buy",
+   "titel": "Barry Richard (President & CEO): FLNA ($206,897)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T21:15:58Z",
+   "quelle": "SEC",
+   "name": "ZELNICK STRAUSS",
+   "ticker": "STWD",
+   "betrag": 2023102.1118,
+   "richtung": "buy",
+   "titel": "ZELNICK STRAUSS (Director): STWD ($2,023,102) | 3 Kaeufer, $18.7M in 14T",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
