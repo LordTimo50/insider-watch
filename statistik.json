@@ -7556,6 +7556,17 @@
    "titel": "Davis Sally Pope (Director): FFIN ($50,796)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T19:31:14Z",
+   "quelle": "SEC",
+   "name": "Mindlin Marcos Marcelo",
+   "ticker": "PAM",
+   "betrag": 4012171.75,
+   "richtung": "buy",
+   "titel": "Mindlin Marcos Marcelo (Director): PAM ($4,012,172) | 4 Kaeufer, $10.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
