@@ -7402,6 +7402,17 @@
    "titel": "Fleming Ned N III (Director): RMIX ($238,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T00:15:49Z",
+   "quelle": "SEC",
+   "name": "Karp Jason H.",
+   "ticker": "GROV",
+   "betrag": 38381.97,
+   "richtung": "buy",
+   "titel": "Karp Jason H. (Director): GROV ($38,382)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
