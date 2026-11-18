@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T13:31:01Z",
-   "quelle": "SEC",
-   "name": "Irish Simon",
-   "ticker": "IMSR",
-   "betrag": 50818.3,
-   "richtung": "buy",
-   "titel": "Irish Simon (Chief Executive Officer): IMSR ($50,818)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T15:15:52Z",
    "quelle": "SEC",
    "name": "Pimentel Rudy",
@@ -7466,6 +7455,50 @@
    "betrag": 224824.31999999998,
    "richtung": "buy",
    "titel": "Schuster Todd (Director): TRTX ($224,824)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T13:31:04Z",
+   "quelle": "SEC",
+   "name": "Lal Rohit",
+   "ticker": "PAL",
+   "betrag": 179200.0,
+   "richtung": "buy",
+   "titel": "Lal Rohit (Director): PAL ($179,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T13:31:05Z",
+   "quelle": "SEC",
+   "name": "Gattoni James B",
+   "ticker": "PAL",
+   "betrag": 65000.0,
+   "richtung": "buy",
+   "titel": "Gattoni James B (Director): PAL ($65,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T13:31:06Z",
+   "quelle": "SEC",
+   "name": "ADLERSBERG SHABTAI",
+   "ticker": "AUDC",
+   "betrag": 25228.8,
+   "richtung": "buy",
+   "titel": "ADLERSBERG SHABTAI (President and CEO): AUDC ($25,229)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T13:31:07Z",
+   "quelle": "SEC",
+   "name": "Mendelsohn D. Eric",
+   "ticker": "NHI",
+   "betrag": 90795.0,
+   "richtung": "buy",
+   "titel": "Mendelsohn D. Eric (CEO and President): NHI ($90,795)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
