@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T23:01:08Z",
-   "quelle": "SEC",
-   "name": "Lappe Mark",
-   "ticker": "INBX",
-   "betrag": 848976.8365000001,
-   "richtung": "buy",
-   "titel": "Lappe Mark (Chief Executive Officer): INBX ($848,977)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-15T00:15:38Z",
    "quelle": "SEC",
    "name": "Hassen Tyler Lewis",
@@ -7829,6 +7818,39 @@
    "betrag": 311788.34,
    "richtung": "buy",
    "titel": "Global GP LLC: GLP ($311,788)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T23:01:15Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "HFRO",
+   "betrag": 1278546.99,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): HFRO ($1,278,547)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T23:01:16Z",
+   "quelle": "SEC",
+   "name": "Majewski Thomas P.",
+   "ticker": "ECC",
+   "betrag": 118000.0,
+   "richtung": "buy",
+   "titel": "Majewski Thomas P. (Chief Executive Officer): ECC ($118,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T23:01:18Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 142374.6,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($142,375)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
