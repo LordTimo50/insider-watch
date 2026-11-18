@@ -7809,6 +7809,28 @@
    "titel": "Cohn Andrew M. (Director): GWRS ($169,910)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:45:47Z",
+   "quelle": "SEC",
+   "name": "JOHRI AKHIL",
+   "ticker": "BA",
+   "betrag": 500067.0,
+   "richtung": "buy",
+   "titel": "JOHRI AKHIL (Director): BA ($500,067)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:45:48Z",
+   "quelle": "SEC",
+   "name": "Global GP LLC",
+   "ticker": "GLP",
+   "betrag": 311788.34,
+   "richtung": "buy",
+   "titel": "Global GP LLC: GLP ($311,788)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
