@@ -7446,6 +7446,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($319,056)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T02:45:43Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 369357.2,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($369,357)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
