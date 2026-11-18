@@ -7567,6 +7567,17 @@
    "titel": "Mindlin Marcos Marcelo (Director): PAM ($4,012,172) | 4 Kaeufer, $10.1M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T19:45:48Z",
+   "quelle": "SEC",
+   "name": "Mindlin Damian Miguel",
+   "ticker": "PAM",
+   "betrag": 1456231.954,
+   "richtung": "buy",
+   "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($1,456,232) | 4 Kaeufer, $11.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
