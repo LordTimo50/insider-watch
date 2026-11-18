@@ -7457,6 +7457,17 @@
    "titel": "First Finance Ltd. (10%-Owner): CLRO ($755,540)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T11:15:47Z",
+   "quelle": "SEC",
+   "name": "BURNS URSULA M",
+   "ticker": "TSM",
+   "betrag": 500039.375,
+   "richtung": "buy",
+   "titel": "BURNS URSULA M (Director): TSM ($500,039) | 2 Kaeufer, $800K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
