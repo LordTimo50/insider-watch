@@ -7534,6 +7534,17 @@
    "titel": "Lynch Mark T (Director): NTB ($164,850)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T17:45:45Z",
+   "quelle": "SEC",
+   "name": "Hill Gary L.",
+   "ticker": "TISI",
+   "betrag": 96096.0,
+   "richtung": "buy",
+   "titel": "Hill Gary L. (Chief Executive Officer): TISI ($96,096)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
