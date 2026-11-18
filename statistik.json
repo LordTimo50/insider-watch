@@ -7380,6 +7380,28 @@
    "titel": "Raab Andrew John (Director): STUB ($2,048,600)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T00:01:26Z",
+   "quelle": "SEC",
+   "name": "Docler Holding S.a r.l.",
+   "ticker": "PLBY",
+   "betrag": 368463.2732,
+   "richtung": "buy",
+   "titel": "Docler Holding S.a r.l. (Director): PLBY ($368,463)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T00:01:34Z",
+   "quelle": "SEC",
+   "name": "Fleming Ned N III",
+   "ticker": "RMIX",
+   "betrag": 238000.0,
+   "richtung": "buy",
+   "titel": "Fleming Ned N III (Director): RMIX ($238,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
