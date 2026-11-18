@@ -7666,6 +7666,17 @@
    "titel": "Masoud Maher (President and CEO): MXCT ($120,780)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:01:33Z",
+   "quelle": "SEC",
+   "name": "RA CAPITAL MANAGEMENT, L.P.",
+   "ticker": "SGP",
+   "betrag": 32430.0,
+   "richtung": "buy",
+   "titel": "RA CAPITAL MANAGEMENT, L.P. (Director): SGP ($32,430)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
