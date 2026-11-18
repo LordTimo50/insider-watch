@@ -7875,6 +7875,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($114,856)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T23:45:43Z",
+   "quelle": "SEC",
+   "name": "Finelli Francis Alphonse",
+   "ticker": "HAWK",
+   "betrag": 49194.0,
+   "richtung": "buy",
+   "titel": "Finelli Francis Alphonse (Director): HAWK ($49,194)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T23:45:45Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "LEO",
+   "betrag": 204142.59999999998,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($204,143)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
