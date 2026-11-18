@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T15:15:52Z",
-   "quelle": "SEC",
-   "name": "Pimentel Rudy",
-   "ticker": "KIO",
-   "betrag": 40890.0,
-   "richtung": "buy",
-   "titel": "Pimentel Rudy (President): KIO ($40,890)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-14T15:15:52Z",
-   "quelle": "SEC",
-   "name": "Seto Wai Yue",
-   "ticker": "TDIC",
-   "betrag": 600000.0,
-   "richtung": "buy",
-   "titel": "Seto Wai Yue (Chief Executive Officer): TDIC ($600,000)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T16:30:58Z",
    "quelle": "SEC",
    "name": "Troim Tor Olav",
@@ -7510,6 +7488,28 @@
    "betrag": 263297.3367,
    "richtung": "buy",
    "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($263,297)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T15:15:48Z",
+   "quelle": "SEC",
+   "name": "Penn Laurence",
+   "ticker": "EFC",
+   "betrag": 106540.0,
+   "richtung": "buy",
+   "titel": "Penn Laurence (CEO and President): EFC ($106,540)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T15:15:49Z",
+   "quelle": "SEC",
+   "name": "RILEY BRYANT R",
+   "ticker": "RILY",
+   "betrag": 116767.2,
+   "richtung": "buy",
+   "titel": "RILEY BRYANT R (Chairman and Co-CEO): RILY ($116,767)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
