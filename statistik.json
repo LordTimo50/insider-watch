@@ -7589,6 +7589,28 @@
    "titel": "Jones Cecil W. (Director): OBK ($199,690)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T21:01:25Z",
+   "quelle": "SEC",
+   "name": "Graffam Fred",
+   "ticker": "LWLG",
+   "betrag": 28700.0,
+   "richtung": "buy",
+   "titel": "Graffam Fred (Chief Financial Officer): LWLG ($28,700)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T21:01:27Z",
+   "quelle": "SEC",
+   "name": "GROSS MICHAEL S",
+   "ticker": "SLRC",
+   "betrag": 226135.0,
+   "richtung": "buy",
+   "titel": "GROSS MICHAEL S (See Remarks): SLRC ($226,135)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
