@@ -7402,6 +7402,39 @@
    "titel": "Corbett Ryan (Chief Financial Officer): MP ($91,577) | 3 Kaeufer, $3.6M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T01:45:41Z",
+   "quelle": "SEC",
+   "name": "Coastlands Capital LP",
+   "ticker": "BOLT",
+   "betrag": 309921.66000000003,
+   "richtung": "buy",
+   "titel": "Coastlands Capital LP (10%-Owner): BOLT ($309,922)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T01:45:42Z",
+   "quelle": "SEC",
+   "name": "Coastlands Capital LP",
+   "ticker": "KTTA",
+   "betrag": 805944.1122999999,
+   "richtung": "buy",
+   "titel": "Coastlands Capital LP (10%-Owner): KTTA ($805,944)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T01:45:42Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "LEO",
+   "betrag": 272216.85,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($272,217)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
