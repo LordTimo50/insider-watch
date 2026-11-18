@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T21:31:00Z",
-   "quelle": "SEC",
-   "name": "MCCARTHY KENT C",
-   "ticker": "NUAI",
-   "betrag": 1192350.0,
-   "richtung": "buy",
-   "titel": "MCCARTHY KENT C (10%-Owner): NUAI ($1,192,350)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T21:45:46Z",
    "quelle": "SEC",
    "name": "OLIVER ERIC L",
@@ -7622,8 +7611,63 @@
    "titel": "ZELNICK STRAUSS (Director): STWD ($2,023,102) | 3 Kaeufer, $18.7M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T21:31:15Z",
+   "quelle": "SEC",
+   "name": "ORTALE BUFORD H",
+   "ticker": "FBRT",
+   "betrag": 121891.56999999998,
+   "richtung": "buy",
+   "titel": "ORTALE BUFORD H (Director): FBRT ($121,892)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T21:31:17Z",
+   "quelle": "SEC",
+   "name": "Stampacchia Otello",
+   "ticker": "WWB",
+   "betrag": 29750000.0,
+   "richtung": "buy",
+   "titel": "Stampacchia Otello (Director): WWB ($29,750,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T21:31:18Z",
+   "quelle": "SEC",
+   "name": "Kuan Arthur",
+   "ticker": "CGON",
+   "betrag": 2366425.2416,
+   "richtung": "buy",
+   "titel": "Kuan Arthur (Chief Executive Officer): CGON ($2,366,425)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T21:31:19Z",
+   "quelle": "SEC",
+   "name": "Kalofonos Isabel",
+   "ticker": "CGON",
+   "betrag": 299161.005,
+   "richtung": "buy",
+   "titel": "Kalofonos Isabel (Chief Commercial Officer): CGON ($299,161)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T21:31:28Z",
+   "quelle": "SEC",
+   "name": "KEVER JIM D",
+   "ticker": "DDD",
+   "betrag": 572000.0,
+   "richtung": "buy",
+   "titel": "KEVER JIM D (Director): DDD ($572,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-17",
+ "letzter_tagesbericht": "2026-11-18",
  "letzter_wochenbericht": "2026-W46"
 }
