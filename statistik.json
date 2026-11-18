@@ -7457,6 +7457,17 @@
    "titel": "BURNS URSULA M (Director): TSM ($500,039) | 2 Kaeufer, $800K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T13:01:15Z",
+   "quelle": "SEC",
+   "name": "Schuster Todd",
+   "ticker": "TRTX",
+   "betrag": 224824.31999999998,
+   "richtung": "buy",
+   "titel": "Schuster Todd (Director): TRTX ($224,824)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
