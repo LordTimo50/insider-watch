@@ -7677,6 +7677,72 @@
    "titel": "RA CAPITAL MANAGEMENT, L.P. (Director): SGP ($32,430)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:15:51Z",
+   "quelle": "SEC",
+   "name": "Bonita David P",
+   "ticker": "WWB",
+   "betrag": 20000007.0,
+   "richtung": "buy",
+   "titel": "Bonita David P (Director): WWB ($20,000,007)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T22:15:52Z",
+   "quelle": "SEC",
+   "name": "BAKER JOHN D II",
+   "ticker": "FRPH",
+   "betrag": 96349.70000000001,
+   "richtung": "buy",
+   "titel": "BAKER JOHN D II (Director): FRPH ($96,350) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:15:53Z",
+   "quelle": "SEC",
+   "name": "Huennekens R Scott",
+   "ticker": "NPCE",
+   "betrag": 103661.25,
+   "richtung": "buy",
+   "titel": "Huennekens R Scott (Director): NPCE ($103,661)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T22:15:54Z",
+   "quelle": "SEC",
+   "name": "ORBIMED ADVISORS LLC",
+   "ticker": "WWB",
+   "betrag": 20000007.0,
+   "richtung": "buy",
+   "titel": "ORBIMED ADVISORS LLC (Director): WWB ($20,000,007)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T22:15:57Z",
+   "quelle": "SEC",
+   "name": "Cannon-Brookes Michael",
+   "ticker": "TEAM",
+   "betrag": 1960527.446,
+   "richtung": "buy",
+   "titel": "Cannon-Brookes Michael (CEO, Co-Founder): TEAM ($1,960,527) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:16:01Z",
+   "quelle": "SEC",
+   "name": "Klein Randal T",
+   "ticker": "XBP",
+   "betrag": 57260.0,
+   "richtung": "buy",
+   "titel": "Klein Randal T (Director): XBP ($57,260)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
