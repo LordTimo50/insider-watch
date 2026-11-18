@@ -7523,6 +7523,17 @@
    "titel": "Pittas Aristeidis P (Director): EDRY ($43,068)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T16:45:46Z",
+   "quelle": "SEC",
+   "name": "Lynch Mark T",
+   "ticker": "NTB",
+   "betrag": 164850.0,
+   "richtung": "buy",
+   "titel": "Lynch Mark T (Director): NTB ($164,850)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
