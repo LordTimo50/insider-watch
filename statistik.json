@@ -7391,6 +7391,17 @@
    "titel": "Quinlan Shane Kevin (Director): STEW ($99,787)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T01:15:54Z",
+   "quelle": "SEC",
+   "name": "Corbett Ryan",
+   "ticker": "MP",
+   "betrag": 91577.22,
+   "richtung": "buy",
+   "titel": "Corbett Ryan (Chief Financial Officer): MP ($91,577) | 3 Kaeufer, $3.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
