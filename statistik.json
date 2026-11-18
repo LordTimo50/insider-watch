@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T20:01:15Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "GF",
-   "betrag": 38005.8,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($38,006)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T20:15:54Z",
    "quelle": "SEC",
    "name": "Saba Capital Management, L.P.",
@@ -7576,6 +7565,39 @@
    "betrag": 1456231.954,
    "richtung": "buy",
    "titel": "Mindlin Damian Miguel (Vicepresident): PAM ($1,456,232) | 4 Kaeufer, $11.6M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T20:01:16Z",
+   "quelle": "SEC",
+   "name": "Gil Benavides Jesus Salvador",
+   "ticker": "RAIL",
+   "betrag": 227790.0,
+   "richtung": "buy",
+   "titel": "Gil Benavides Jesus Salvador (Director): RAIL ($227,790)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T20:01:17Z",
+   "quelle": "SEC",
+   "name": "GRIMES THOMAS MICHAEL",
+   "ticker": "UTG",
+   "betrag": 240825.00000000003,
+   "richtung": "buy",
+   "titel": "GRIMES THOMAS MICHAEL: UTG ($240,825)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T20:01:35Z",
+   "quelle": "SEC",
+   "name": "Mariani Gustavo",
+   "ticker": "PAM",
+   "betrag": 1448196.496,
+   "richtung": "buy",
+   "titel": "Mariani Gustavo (Vice President): PAM ($1,448,196) | 4 Kaeufer, $13.0M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
   }
