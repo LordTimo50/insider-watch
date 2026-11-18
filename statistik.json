@@ -7853,6 +7853,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($142,375)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T23:15:46Z",
+   "quelle": "SEC",
+   "name": "Energy Evolution Master Fund, Ltd.",
+   "ticker": "EP",
+   "betrag": 85169.2264,
+   "richtung": "buy",
+   "titel": "Energy Evolution Master Fund, Ltd. (10%-Owner): EP ($85,169)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
