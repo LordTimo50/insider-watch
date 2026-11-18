@@ -7501,6 +7501,17 @@
    "titel": "Mendelsohn D. Eric (CEO and President): NHI ($90,795)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T13:45:46Z",
+   "quelle": "SEC",
+   "name": "DONEGAL MUTUAL INSURANCE CO",
+   "ticker": "DGICA",
+   "betrag": 263297.3367,
+   "richtung": "buy",
+   "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($263,297)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
