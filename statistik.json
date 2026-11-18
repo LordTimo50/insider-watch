@@ -7545,6 +7545,17 @@
    "titel": "Hill Gary L. (Chief Executive Officer): TISI ($96,096)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T19:16:10Z",
+   "quelle": "SEC",
+   "name": "Davis Sally Pope",
+   "ticker": "FFIN",
+   "betrag": 50796.0,
+   "richtung": "buy",
+   "titel": "Davis Sally Pope (Director): FFIN ($50,796)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
