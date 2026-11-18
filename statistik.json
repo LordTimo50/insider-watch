@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T20:31:07Z",
-   "quelle": "SEC",
-   "name": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG",
-   "betrag": 16412296.713,
-   "richtung": "buy",
-   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($16,412,297) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T21:15:45Z",
    "quelle": "SEC",
    "name": "GOLDENTREE ASSET MANAGEMENT LP",
