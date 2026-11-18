@@ -7512,6 +7512,28 @@
    "titel": "RILEY BRYANT R (Chairman and Co-CEO): RILY ($116,767)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T15:45:46Z",
+   "quelle": "SEC",
+   "name": "Chin Kevin",
+   "ticker": "VIVO",
+   "betrag": 553910.0,
+   "richtung": "buy",
+   "titel": "Chin Kevin (Chairman & CEO): VIVO ($553,910)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T15:45:50Z",
+   "quelle": "SEC",
+   "name": "Pittas Aristeidis P",
+   "ticker": "EDRY",
+   "betrag": 43068.305,
+   "richtung": "buy",
+   "titel": "Pittas Aristeidis P (Director): EDRY ($43,068)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
