@@ -7402,6 +7402,17 @@
    "titel": "Karp Jason H. (Director): GROV ($38,382)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T00:45:53Z",
+   "quelle": "SEC",
+   "name": "Quinlan Shane Kevin",
+   "ticker": "STEW",
+   "betrag": 99787.34,
+   "richtung": "buy",
+   "titel": "Quinlan Shane Kevin (Director): STEW ($99,787)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-17",
