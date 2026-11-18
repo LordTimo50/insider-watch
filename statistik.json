@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-14T22:30:56Z",
-   "quelle": "SEC",
-   "name": "KAMFAR RAMIN",
-   "ticker": "BPRE",
-   "betrag": 5477974.6811999995,
-   "richtung": "buy",
-   "titel": "KAMFAR RAMIN (Director): BPRE ($5,477,975) | 3 Kaeufer, $19.2M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-14T23:01:08Z",
    "quelle": "SEC",
    "name": "Lappe Mark",
@@ -7741,6 +7730,83 @@
    "betrag": 57260.0,
    "richtung": "buy",
    "titel": "Klein Randal T (Director): XBP ($57,260)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:31:18Z",
+   "quelle": "SEC",
+   "name": "Lund Inez",
+   "ticker": "FPS",
+   "betrag": 64980.0,
+   "richtung": "buy",
+   "titel": "Lund Inez (Chief Accounting Officer): FPS ($64,980)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:31:20Z",
+   "quelle": "SEC",
+   "name": "HOGAN RANDALL J",
+   "ticker": "KGS",
+   "betrag": 493961.80000000005,
+   "richtung": "buy",
+   "titel": "HOGAN RANDALL J (Director): KGS ($493,962)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T22:31:25Z",
+   "quelle": "SEC",
+   "name": "Wiens David Victor",
+   "ticker": "THM",
+   "betrag": 73800.0,
+   "richtung": "buy",
+   "titel": "Wiens David Victor (Chief Executive Officer): THM ($73,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:31:29Z",
+   "quelle": "SEC",
+   "name": "Kaplan Myron",
+   "ticker": "CRMD",
+   "betrag": 122000.0,
+   "richtung": "buy",
+   "titel": "Kaplan Myron (Director): CRMD ($122,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:31:29Z",
+   "quelle": "SEC",
+   "name": "Bremner Andrew B.",
+   "ticker": "CRC",
+   "betrag": 99682.0,
+   "richtung": "buy",
+   "titel": "Bremner Andrew B. (Director): CRC ($99,682)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-18T22:31:32Z",
+   "quelle": "SEC",
+   "name": "JAFFER REHAN",
+   "ticker": "FUN",
+   "betrag": 6354000.0,
+   "richtung": "buy",
+   "titel": "JAFFER REHAN (Director): FUN ($6,354,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-18T22:31:37Z",
+   "quelle": "SEC",
+   "name": "Cohn Andrew M.",
+   "ticker": "GWRS",
+   "betrag": 169910.39,
+   "richtung": "buy",
+   "titel": "Cohn Andrew M. (Director): GWRS ($169,910)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
