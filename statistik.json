@@ -8018,6 +8018,17 @@
    "titel": "BOSTON BYRON L (Co-CEO & Chairman of the Board): DX ($50,003)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T14:31:14Z",
+   "quelle": "SEC",
+   "name": "Vranos Michael W",
+   "ticker": "EFC",
+   "betrag": 2075344.0,
+   "richtung": "buy",
+   "titel": "Vranos Michael W (Co-Chief Investment Officer): EFC ($2,075,344) | 2 Kaeufer, $2.2M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
