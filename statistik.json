@@ -8249,6 +8249,39 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($26,753)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:45:53Z",
+   "quelle": "SEC",
+   "name": "Husby Jonathon B.",
+   "ticker": "LIDR",
+   "betrag": 25058.968,
+   "richtung": "buy",
+   "titel": "Husby Jonathon B. (Director): LIDR ($25,059)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:45:56Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 41988.1,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($41,988)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:46:01Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 344033.32,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($344,033)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
