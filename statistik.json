@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-15T15:15:45Z",
-   "quelle": "SEC",
-   "name": "Setcavage Rebecca",
-   "ticker": "VMO",
-   "betrag": 25920.0,
-   "richtung": "buy",
-   "titel": "Setcavage Rebecca: VMO ($25,920)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-15T15:31:04Z",
    "quelle": "SEC",
    "name": "Elsztain Alejandro Gustavo",
