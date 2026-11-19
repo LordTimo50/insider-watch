@@ -8106,6 +8106,50 @@
    "titel": "TANNENBAUM LEONARD M (Director): AFCG ($298,409)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T22:45:48Z",
+   "quelle": "SEC",
+   "name": "JOBSON CHARLES E",
+   "ticker": "JYNT",
+   "betrag": 378870.45,
+   "richtung": "buy",
+   "titel": "JOBSON CHARLES E (10%-Owner): JYNT ($378,870)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T22:45:48Z",
+   "quelle": "SEC",
+   "name": "HOVDE STEVEN D",
+   "ticker": "CCB",
+   "betrag": 550000.5,
+   "richtung": "buy",
+   "titel": "HOVDE STEVEN D (Director): CCB ($550,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T22:45:52Z",
+   "quelle": "SEC",
+   "name": "Carter Thomas L Jr",
+   "ticker": "BSM",
+   "betrag": 337587.62549999997,
+   "richtung": "buy",
+   "titel": "Carter Thomas L Jr (Executive Chairman): BSM ($337,588)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T22:45:56Z",
+   "quelle": "SEC",
+   "name": "TALWALKAR ABHIJIT Y",
+   "ticker": "IRTC",
+   "betrag": 763706.43,
+   "richtung": "buy",
+   "titel": "TALWALKAR ABHIJIT Y (Director): IRTC ($763,706)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
