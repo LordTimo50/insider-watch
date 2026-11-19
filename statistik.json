@@ -8007,8 +8007,74 @@
    "titel": "Cardinale Gerald J. (Director): SKYD ($494,844)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:31:16Z",
+   "quelle": "SEC",
+   "name": "KELLY ALFRED F JR",
+   "ticker": "PLD",
+   "betrag": 587349.6,
+   "richtung": "buy",
+   "titel": "KELLY ALFRED F JR (Director): PLD ($587,350)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:31:19Z",
+   "quelle": "SEC",
+   "name": "HEYER ANDREW R",
+   "ticker": "APC",
+   "betrag": 279000.0,
+   "richtung": "buy",
+   "titel": "HEYER ANDREW R (Director): APC ($279,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:31:20Z",
+   "quelle": "SEC",
+   "name": "HRT FINANCIAL LP",
+   "ticker": "BIAF",
+   "betrag": 1039670.8142,
+   "richtung": "buy",
+   "titel": "HRT FINANCIAL LP (10%-Owner): BIAF ($1,039,671)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:31:25Z",
+   "quelle": "SEC",
+   "name": "Baltera Robert Jr.",
+   "ticker": "PALI",
+   "betrag": 50285.0,
+   "richtung": "buy",
+   "titel": "Baltera Robert Jr. (Director): PALI ($50,285)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:31:26Z",
+   "quelle": "SEC",
+   "name": "GESSOW ANDREW J",
+   "ticker": "SKYH",
+   "betrag": 56400.0,
+   "richtung": "buy",
+   "titel": "GESSOW ANDREW J (Director): SKYH ($56,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:31:29Z",
+   "quelle": "SEC",
+   "name": "Domino Michael Wayne Jr.",
+   "ticker": "DTI",
+   "betrag": 56595.0,
+   "richtung": "buy",
+   "titel": "Domino Michael Wayne Jr. (President, DTR Division): DTI ($56,595) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-18",
+ "letzter_tagesbericht": "2026-11-19",
  "letzter_wochenbericht": "2026-W46"
 }
