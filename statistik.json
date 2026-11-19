@@ -8073,6 +8073,28 @@
    "titel": "Domino Michael Wayne Jr. (President, DTR Division): DTI ($56,595) [10b5-1-Plan]",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:45:48Z",
+   "quelle": "SEC",
+   "name": "Cannon-Brookes Michael",
+   "ticker": "TEAM",
+   "betrag": 1881887.5394000001,
+   "richtung": "buy",
+   "titel": "Cannon-Brookes Michael (CEO, Co-Founder): TEAM ($1,881,888) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:45:59Z",
+   "quelle": "SEC",
+   "name": "Szela Mary T",
+   "ticker": "TLSI",
+   "betrag": 160205.36,
+   "richtung": "buy",
+   "titel": "Szela Mary T (CEO and President): TLSI ($160,205)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
