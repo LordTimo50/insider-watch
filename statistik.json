@@ -7941,6 +7941,28 @@
    "titel": "Jones Mark Alan (Chief Operating Officer): RMIX ($50,064)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T01:01:10Z",
+   "quelle": "SEC",
+   "name": "SUBIN NEIL S",
+   "ticker": "OPTU",
+   "betrag": 135042.486,
+   "richtung": "buy",
+   "titel": "SUBIN NEIL S (10%-Owner): OPTU ($135,042)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T01:01:10Z",
+   "quelle": "SEC",
+   "name": "DEUTSCH ROBERT V",
+   "ticker": "OIG",
+   "betrag": 105881.49800000002,
+   "richtung": "buy",
+   "titel": "DEUTSCH ROBERT V (Director): OIG ($105,881)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
