@@ -8018,6 +8018,17 @@
    "titel": "Opaleye Management Inc. (10%-Owner): GRCE ($83,435)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T02:01:19Z",
+   "quelle": "SEC",
+   "name": "Evans Allan Thomas",
+   "ticker": "XTIA",
+   "betrag": 86874.3858,
+   "richtung": "buy",
+   "titel": "Evans Allan Thomas (Director): XTIA ($86,874)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
