@@ -7919,6 +7919,28 @@
    "titel": "BIGLARI, SARDAR (Chairman and CEO): BH ($2,152,640)",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T00:31:11Z",
+   "quelle": "SEC",
+   "name": "Matteson Mark R",
+   "ticker": "RMIX",
+   "betrag": 55100.0,
+   "richtung": "buy",
+   "titel": "Matteson Mark R (Director): RMIX ($55,100)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T00:31:12Z",
+   "quelle": "SEC",
+   "name": "Jones Mark Alan",
+   "ticker": "RMIX",
+   "betrag": 50064.0,
+   "richtung": "buy",
+   "titel": "Jones Mark Alan (Chief Operating Officer): RMIX ($50,064)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
