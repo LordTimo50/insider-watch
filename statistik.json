@@ -7897,6 +7897,39 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($204,143)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T00:01:26Z",
+   "quelle": "SEC",
+   "name": "KAMFAR RAMIN",
+   "ticker": "BPRE",
+   "betrag": 3224288.9852,
+   "richtung": "buy",
+   "titel": "KAMFAR RAMIN (Director): BPRE ($3,224,289)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T00:01:27Z",
+   "quelle": "SEC",
+   "name": "EcoR1 Capital, LLC",
+   "ticker": "ANAB",
+   "betrag": 17224592.779799998,
+   "richtung": "buy",
+   "titel": "EcoR1 Capital, LLC (Director): ANAB ($17,224,593)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T00:01:31Z",
+   "quelle": "SEC",
+   "name": "BIGLARI, SARDAR",
+   "ticker": "BH",
+   "betrag": 2152640.2800000003,
+   "richtung": "buy",
+   "titel": "BIGLARI, SARDAR (Chairman and CEO): BH ($2,152,640)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
