@@ -8227,6 +8227,28 @@
    "titel": "COL DOUGLAS L (Director): PAL ($84,300)",
    "gemeldet": false,
    "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-19T23:15:47Z",
+   "quelle": "SEC",
+   "name": "Hoffmann David Henry",
+   "ticker": "LEE",
+   "betrag": 120551.29000000001,
+   "richtung": "buy",
+   "titel": "Hoffmann David Henry (Director): LEE ($120,551) [10b5-1-Plan]",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:15:48Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "GF",
+   "betrag": 26752.6,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($26,753)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
