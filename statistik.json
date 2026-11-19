@@ -7963,6 +7963,50 @@
    "titel": "O'Neill Stephen Andrew: RIV ($95,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:15:47Z",
+   "quelle": "SEC",
+   "name": "ULM SCOTT",
+   "ticker": "ARR",
+   "betrag": 52248.5,
+   "richtung": "buy",
+   "titel": "ULM SCOTT (CEO): ARR ($52,248)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:15:49Z",
+   "quelle": "SEC",
+   "name": "Berryman Kevin C",
+   "ticker": "ITT",
+   "betrag": 501560.62,
+   "richtung": "buy",
+   "titel": "Berryman Kevin C (Director): ITT ($501,561)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:15:56Z",
+   "quelle": "SEC",
+   "name": "Bar Israel",
+   "ticker": "MTEK",
+   "betrag": 30800.000000000004,
+   "richtung": "buy",
+   "titel": "Bar Israel (Chief Executive Officer): MTEK ($30,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:15:58Z",
+   "quelle": "SEC",
+   "name": "Cardinale Gerald J.",
+   "ticker": "SKYD",
+   "betrag": 494843.852,
+   "richtung": "buy",
+   "titel": "Cardinale Gerald J. (Director): SKYD ($494,844)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
