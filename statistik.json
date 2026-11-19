@@ -7941,6 +7941,28 @@
    "titel": "Jones Stephen J (Director): TROX ($38,998)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:01:25Z",
+   "quelle": "SEC",
+   "name": "SEID PAUL",
+   "ticker": "INLX",
+   "betrag": 39518.512,
+   "richtung": "buy",
+   "titel": "SEID PAUL (Director): INLX ($39,519)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T21:01:26Z",
+   "quelle": "SEC",
+   "name": "O'Neill Stephen Andrew",
+   "ticker": "RIV",
+   "betrag": 95000.0,
+   "richtung": "buy",
+   "titel": "O'Neill Stephen Andrew: RIV ($95,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
