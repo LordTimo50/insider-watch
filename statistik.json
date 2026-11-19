@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-15T22:01:09Z",
-   "quelle": "SEC",
-   "name": "Ruddy Jordan B.",
-   "ticker": "BPRE",
-   "betrag": 44316.8,
-   "richtung": "buy",
-   "titel": "Ruddy Jordan B. (President): BPRE ($44,317) | 3 Kaeufer, $17.5M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T10:45:39Z",
    "quelle": "SEC",
    "name": "Pittas Aristeidis P",
@@ -8093,6 +8082,17 @@
    "betrag": 160205.36,
    "richtung": "buy",
    "titel": "Szela Mary T (CEO and President): TLSI ($160,205)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T22:01:33Z",
+   "quelle": "SEC",
+   "name": "Bender Shawn Robert",
+   "ticker": "FUNC",
+   "betrag": 99999.99639118,
+   "richtung": "buy",
+   "titel": "Bender Shawn Robert (Director): FUNC ($100,000)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
