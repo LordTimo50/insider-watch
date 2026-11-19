@@ -7996,6 +7996,17 @@
    "titel": "Schlacks Jabbok (Founder & CEO /): EQPT ($249,998)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T01:31:04Z",
+   "quelle": "SEC",
+   "name": "BLITZER MICHAEL",
+   "ticker": "USAR",
+   "betrag": 2996645.0,
+   "richtung": "buy",
+   "titel": "BLITZER MICHAEL (Director): USAR ($2,996,645)",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
