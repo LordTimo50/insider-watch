@@ -7996,6 +7996,28 @@
    "titel": "Sachetta Eric (Director): SRTS ($182,973)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T19:15:53Z",
+   "quelle": "SEC",
+   "name": "SCULLY WILLIAM P",
+   "ticker": "PRTA",
+   "betrag": 404680.0,
+   "richtung": "buy",
+   "titel": "SCULLY WILLIAM P (10%-Owner): PRTA ($404,680)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T19:15:55Z",
+   "quelle": "SEC",
+   "name": "Bergsvik Eirik",
+   "ticker": "HMH",
+   "betrag": 88080.0,
+   "richtung": "buy",
+   "titel": "Bergsvik Eirik (Chief Executive Officer): HMH ($88,080)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
