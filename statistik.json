@@ -7963,6 +7963,39 @@
    "titel": "DEUTSCH ROBERT V (Director): OIG ($105,881)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T01:15:44Z",
+   "quelle": "SEC",
+   "name": "Rees-Jones David",
+   "ticker": "RMIX",
+   "betrag": 731172.5,
+   "richtung": "buy",
+   "titel": "Rees-Jones David (Director): RMIX ($731,172) | 4 Kaeufer, $1.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T01:15:45Z",
+   "quelle": "SEC",
+   "name": "Schlacks William J.",
+   "ticker": "EQPT",
+   "betrag": 145400.0,
+   "richtung": "buy",
+   "titel": "Schlacks William J. (Founder & President): EQPT ($145,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T01:15:46Z",
+   "quelle": "SEC",
+   "name": "Schlacks Jabbok",
+   "ticker": "EQPT",
+   "betrag": 249997.56,
+   "richtung": "buy",
+   "titel": "Schlacks Jabbok (Founder & CEO /): EQPT ($249,998)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
