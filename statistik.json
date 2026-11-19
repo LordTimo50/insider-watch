@@ -8095,6 +8095,17 @@
    "titel": "Bender Shawn Robert (Director): FUNC ($100,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T22:31:04Z",
+   "quelle": "SEC",
+   "name": "TANNENBAUM LEONARD M",
+   "ticker": "AFCG",
+   "betrag": 298408.96,
+   "richtung": "buy",
+   "titel": "TANNENBAUM LEONARD M (Director): AFCG ($298,409)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
