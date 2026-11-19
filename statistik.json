@@ -8150,6 +8150,83 @@
    "titel": "TALWALKAR ABHIJIT Y (Director): IRTC ($763,706)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:01:15Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "HFRO",
+   "betrag": 67493.4,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): HFRO ($67,493)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:01:16Z",
+   "quelle": "SEC",
+   "name": "ROSENWALD LINDSAY A MD",
+   "ticker": "FBIO",
+   "betrag": 252583.1551,
+   "richtung": "buy",
+   "titel": "ROSENWALD LINDSAY A MD (PRESIDENT, CEO & CHAIRMAN): FBIO ($252,583)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:01:16Z",
+   "quelle": "SEC",
+   "name": "BROADWOOD PARTNERS, L.P.",
+   "ticker": "LCTX",
+   "betrag": 770700.0,
+   "richtung": "buy",
+   "titel": "BROADWOOD PARTNERS, L.P. (Director): LCTX ($770,700)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-19T23:01:17Z",
+   "quelle": "SEC",
+   "name": "BROADWOOD PARTNERS, L.P.",
+   "ticker": "IMDX",
+   "betrag": 5999999.25,
+   "richtung": "buy",
+   "titel": "BROADWOOD PARTNERS, L.P. (10%-Owner): IMDX ($5,999,999)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-19T23:01:21Z",
+   "quelle": "SEC",
+   "name": "Jin David",
+   "ticker": "FBIO",
+   "betrag": 87813.5895,
+   "richtung": "buy",
+   "titel": "Jin David (Chief Financial Officer): FBIO ($87,814)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:01:22Z",
+   "quelle": "SEC",
+   "name": "Schraudenbach John",
+   "ticker": "PAL",
+   "betrag": 78120.0,
+   "richtung": "buy",
+   "titel": "Schraudenbach John (Director): PAL ($78,120)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T23:01:23Z",
+   "quelle": "SEC",
+   "name": "COL DOUGLAS L",
+   "ticker": "PAL",
+   "betrag": 84300.0,
+   "richtung": "buy",
+   "titel": "COL DOUGLAS L (Director): PAL ($84,300)",
+   "gemeldet": false,
+   "zurueckgehalten": true
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
