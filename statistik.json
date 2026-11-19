@@ -8018,6 +8018,17 @@
    "titel": "Vranos Michael W (Co-Chief Investment Officer): EFC ($2,075,344) | 2 Kaeufer, $2.2M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T15:01:17Z",
+   "quelle": "SEC",
+   "name": "Sachetta Eric",
+   "ticker": "SRTS",
+   "betrag": 182972.72499999998,
+   "richtung": "buy",
+   "titel": "Sachetta Eric (Director): SRTS ($182,973)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-18",
