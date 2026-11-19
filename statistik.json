@@ -1,28 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-15T19:45:50Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "MXF",
-   "betrag": 254285.08,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($254,285)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
-   "zeit": "2026-10-15T19:45:52Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "GF",
-   "betrag": 54808.56,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): GF ($54,809)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-15T20:15:48Z",
    "quelle": "SEC",
    "name": "WARD JR STEPHEN M",
@@ -8005,6 +7983,17 @@
    "betrag": 88080.0,
    "richtung": "buy",
    "titel": "Bergsvik Eirik (Chief Executive Officer): HMH ($88,080)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-19T19:45:47Z",
+   "quelle": "SEC",
+   "name": "MAITLAND TRACY V",
+   "ticker": "AVK",
+   "betrag": 202979.99999999997,
+   "richtung": "buy",
+   "titel": "MAITLAND TRACY V (CHAIRMAN, PRESIDENT & CEO): AVK ($202,980)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
