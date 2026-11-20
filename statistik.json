@@ -8293,6 +8293,50 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($430,819)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T01:15:43Z",
+   "quelle": "SEC",
+   "name": "McGinnis Thomas Lynn",
+   "ticker": "VTIX",
+   "betrag": 40420.0,
+   "richtung": "buy",
+   "titel": "McGinnis Thomas Lynn (Chief Financial Officer): VTIX ($40,420)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T01:15:43Z",
+   "quelle": "SEC",
+   "name": "Goetgeluk Jan Roger",
+   "ticker": "VTIX",
+   "betrag": 40450.0,
+   "richtung": "buy",
+   "titel": "Goetgeluk Jan Roger (Chief Executive Officer): VTIX ($40,450)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T01:15:45Z",
+   "quelle": "SEC",
+   "name": "Ladd Robert T.",
+   "ticker": "SCM",
+   "betrag": 197100.0,
+   "richtung": "buy",
+   "titel": "Ladd Robert T. (President and CEO): SCM ($197,100)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T01:15:45Z",
+   "quelle": "SEC",
+   "name": "Murphy Thomas Edward",
+   "ticker": "AIRJ",
+   "betrag": 50182.799999999996,
+   "richtung": "buy",
+   "titel": "Murphy Thomas Edward (Director): AIRJ ($50,183)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
