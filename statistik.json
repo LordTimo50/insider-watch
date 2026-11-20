@@ -8887,6 +8887,50 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): HFRO ($375,235)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:30:59Z",
+   "quelle": "SEC",
+   "name": "Higuchi John W.",
+   "ticker": "LPCN",
+   "betrag": 225225.0,
+   "richtung": "buy",
+   "titel": "Higuchi John W. (Director): LPCN ($225,225)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:31:03Z",
+   "quelle": "SEC",
+   "name": "OLIVER ERIC L",
+   "ticker": "SJT",
+   "betrag": 1825877.02,
+   "richtung": "buy",
+   "titel": "OLIVER ERIC L (10%-Owner): SJT ($1,825,877)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:31:05Z",
+   "quelle": "SEC",
+   "name": "OLIVER ERIC L",
+   "ticker": "CRT",
+   "betrag": 72264.24,
+   "richtung": "buy",
+   "titel": "OLIVER ERIC L (10%-Owner): CRT ($72,264)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:31:08Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "ECF",
+   "betrag": 162998.55000000002,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($162,999)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-20",
