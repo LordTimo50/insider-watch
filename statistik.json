@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T11:31:00Z",
-   "quelle": "SEC",
-   "name": "Troim Tor Olav",
-   "ticker": "BORR",
-   "betrag": 2299150.0,
-   "richtung": "buy",
-   "titel": "Troim Tor Olav (Director): BORR ($2,299,150)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T14:31:04Z",
    "quelle": "SEC",
    "name": "Snowling Harvey Edward",
@@ -8368,6 +8357,17 @@
    "betrag": 42250.5,
    "richtung": "buy",
    "titel": "Wolff Benjamin G (PRESIDENT & CEO): PDYN ($42,250)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T11:31:06Z",
+   "quelle": "SEC",
+   "name": "Shen Ziyu",
+   "ticker": "ECX",
+   "betrag": 160893.89500000002,
+   "richtung": "buy",
+   "titel": "Shen Ziyu (Chief Executive Officer): ECX ($160,894)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
