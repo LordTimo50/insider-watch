@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T22:01:21Z",
-   "quelle": "SEC",
-   "name": "Rusnak Paul P.",
-   "ticker": "SAH",
-   "betrag": 752044.5,
-   "richtung": "buy",
-   "titel": "Rusnak Paul P. (10%-Owner): SAH ($752,044)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T23:30:58Z",
    "quelle": "SEC",
    "name": "Hassen Tyler Lewis",
@@ -8830,6 +8819,39 @@
    "betrag": 31770.0,
    "richtung": "buy",
    "titel": "Annas Christopher J. (Chairman & CEO): MRBK ($31,770)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:01:20Z",
+   "quelle": "SEC",
+   "name": "Arsenault Denis J.",
+   "ticker": "JUSH",
+   "betrag": 38104.0,
+   "richtung": "buy",
+   "titel": "Arsenault Denis J. (10%-Owner): JUSH ($38,104)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:01:26Z",
+   "quelle": "SEC",
+   "name": "Seglem Trygve",
+   "ticker": "KNOP",
+   "betrag": 34863375.0,
+   "richtung": "buy",
+   "titel": "Seglem Trygve (Director): KNOP ($34,863,375)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-20T22:01:28Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "LEO",
+   "betrag": 485007.4,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($485,007)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
