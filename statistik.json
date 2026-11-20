@@ -8436,6 +8436,39 @@
    "titel": "Beberman Perry S (EVP, Chief Financial Officer): BFH ($220,400) | 2 Kaeufer, $446K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:46:04Z",
+   "quelle": "SEC",
+   "name": "Holloway Michael Andrew",
+   "ticker": "NMAD",
+   "betrag": 42300.0,
+   "richtung": "buy",
+   "titel": "Holloway Michael Andrew (Director): NMAD ($42,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:46:05Z",
+   "quelle": "SEC",
+   "name": "DONEGAL MUTUAL INSURANCE CO",
+   "ticker": "DGICA",
+   "betrag": 265548.5484,
+   "richtung": "buy",
+   "titel": "DONEGAL MUTUAL INSURANCE CO (10%-Owner): DGICA ($265,549)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:46:06Z",
+   "quelle": "SEC",
+   "name": "Chan Chun Sing",
+   "ticker": "CLIK",
+   "betrag": 63856.062,
+   "richtung": "buy",
+   "titel": "Chan Chun Sing (Chief Executive Officer): CLIK ($63,856)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
