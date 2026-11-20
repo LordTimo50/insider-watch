@@ -8964,6 +8964,28 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($181,721)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T23:01:17Z",
+   "quelle": "SEC",
+   "name": "Energy Evolution Master Fund, Ltd.",
+   "ticker": "EP",
+   "betrag": 40717.7236,
+   "richtung": "buy",
+   "titel": "Energy Evolution Master Fund, Ltd. (10%-Owner): EP ($40,718)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T23:01:23Z",
+   "quelle": "SEC",
+   "name": "Tharp Carla Todd",
+   "ticker": "REI",
+   "betrag": 53500.0,
+   "richtung": "buy",
+   "titel": "Tharp Carla Todd (Director): REI ($53,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-20",
