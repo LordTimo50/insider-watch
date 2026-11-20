@@ -8469,6 +8469,28 @@
    "titel": "Chan Chun Sing (Chief Executive Officer): CLIK ($63,856)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T14:01:21Z",
+   "quelle": "SEC",
+   "name": "Ng Chen Lok",
+   "ticker": "SAGT",
+   "betrag": 267800.0,
+   "richtung": "buy",
+   "titel": "Ng Chen Lok (Chief Executive Officer): SAGT ($267,800)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T14:01:21Z",
+   "quelle": "SEC",
+   "name": "PERU RAMIRO G",
+   "ticker": "ELV",
+   "betrag": 383860.0,
+   "richtung": "buy",
+   "titel": "PERU RAMIRO G (Director): ELV ($383,860)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
