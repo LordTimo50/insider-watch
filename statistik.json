@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T20:45:47Z",
-   "quelle": "SEC",
-   "name": "EEME Energy SPV I, LLC",
-   "ticker": "SAFX",
-   "betrag": 142083450.544,
-   "richtung": "buy",
-   "titel": "EEME Energy SPV I, LLC (10%-Owner): SAFX ($142,083,451)",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T21:15:47Z",
    "quelle": "SEC",
    "name": "TOTH TERENCE J",
@@ -8644,6 +8633,17 @@
    "richtung": "buy",
    "titel": "Zartler William A (Chairman and Co-CEO): SEI ($212,440) | 4 Kaeufer, $713K in 14T",
    "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T20:45:46Z",
+   "quelle": "SEC",
+   "name": "Bruce Brian R",
+   "ticker": "NXG",
+   "betrag": 50326.875,
+   "richtung": "buy",
+   "titel": "Bruce Brian R (Director): NXG ($50,327)",
+   "gemeldet": false,
    "zurueckgehalten": false
   }
  ],
