@@ -8282,6 +8282,17 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($344,033)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T00:01:20Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "LEO",
+   "betrag": 430818.95999999996,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($430,819)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
