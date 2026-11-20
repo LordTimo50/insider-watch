@@ -8854,6 +8854,39 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): LEO ($485,007)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:15:47Z",
+   "quelle": "SEC",
+   "name": "Eu Alexander Zai De",
+   "ticker": "TMS",
+   "betrag": 109530.0,
+   "richtung": "buy",
+   "titel": "Eu Alexander Zai De (President): TMS ($109,530)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:15:47Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "MXF",
+   "betrag": 258553.34,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): MXF ($258,553)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:16:01Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "HFRO",
+   "betrag": 375235.2,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): HFRO ($375,235)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-20",
