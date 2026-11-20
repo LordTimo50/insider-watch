@@ -8557,6 +8557,17 @@
    "titel": "Hill Gary L. (Chief Executive Officer): TISI ($150,000)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T17:01:31Z",
+   "quelle": "SEC",
+   "name": "Poillon Diane",
+   "ticker": "BHRB",
+   "betrag": 106131.45,
+   "richtung": "buy",
+   "titel": "Poillon Diane (Director): BHRB ($106,131)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
