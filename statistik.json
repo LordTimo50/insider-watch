@@ -8535,6 +8535,17 @@
    "titel": "Pittas Aristeidis P (Director): EDRY ($38,310)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T15:15:52Z",
+   "quelle": "SEC",
+   "name": "BRESNER GREGG A.",
+   "ticker": "CION",
+   "betrag": 48110.0,
+   "richtung": "buy",
+   "titel": "BRESNER GREGG A. (President & CIO): CION ($48,110)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
