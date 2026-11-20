@@ -8645,6 +8645,39 @@
    "titel": "Bruce Brian R (Director): NXG ($50,327)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:01:13Z",
+   "quelle": "SEC",
+   "name": "CROWLEY TIMOTHY AMBROSE",
+   "ticker": "LAC",
+   "betrag": 174653.36,
+   "richtung": "buy",
+   "titel": "CROWLEY TIMOTHY AMBROSE (SVP, Gov & External Affairs): LAC ($174,653)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:01:15Z",
+   "quelle": "SEC",
+   "name": "Laverne Robert G.",
+   "ticker": "BCML",
+   "betrag": 38870.0,
+   "richtung": "buy",
+   "titel": "Laverne Robert G. (Director): BCML ($38,870)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:01:16Z",
+   "quelle": "SEC",
+   "name": "Intelligent Fanatics Capital Management LLC",
+   "ticker": "KLNG",
+   "betrag": 33200.0,
+   "richtung": "buy",
+   "titel": "Intelligent Fanatics Capital Management LLC (10%-Owner): KLNG ($33,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
