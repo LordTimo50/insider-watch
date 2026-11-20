@@ -8491,6 +8491,17 @@
    "titel": "PERU RAMIRO G (Director): ELV ($383,860)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T14:15:52Z",
+   "quelle": "SEC",
+   "name": "Teixeira Linares Marcio Antonio",
+   "ticker": "PICS",
+   "betrag": 299400.0,
+   "richtung": "buy",
+   "titel": "Teixeira Linares Marcio Antonio (Director): PICS ($299,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
