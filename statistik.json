@@ -8579,6 +8579,17 @@
    "titel": "Lefkowitz Steven W (Director): CRMD ($52,095)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T19:15:49Z",
+   "quelle": "SEC",
+   "name": "Lynch Mark T",
+   "ticker": "NTB",
+   "betrag": 376929.0,
+   "richtung": "buy",
+   "titel": "Lynch Mark T (Director): NTB ($376,929)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
