@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T10:45:39Z",
-   "quelle": "SEC",
-   "name": "Pittas Aristeidis P",
-   "ticker": "EDRY",
-   "betrag": 28900.92,
-   "richtung": "buy",
-   "titel": "Pittas Aristeidis P (Director): EDRY ($28,901)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T11:31:00Z",
    "quelle": "SEC",
    "name": "Troim Tor Olav",
