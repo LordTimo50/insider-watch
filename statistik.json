@@ -8744,8 +8744,74 @@
    "titel": "Langel Craig A (Director): GBCI ($53,452)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:31:18Z",
+   "quelle": "SEC",
+   "name": "LEWIS HAROLD G",
+   "ticker": "UPBD",
+   "betrag": 398565.0,
+   "richtung": "buy",
+   "titel": "LEWIS HAROLD G (Director): UPBD ($398,565)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-20T21:31:20Z",
+   "quelle": "SEC",
+   "name": "FURST JACK D",
+   "ticker": "DTI",
+   "betrag": 165000.0,
+   "richtung": "buy",
+   "titel": "FURST JACK D (Director): DTI ($165,000)",
+   "gemeldet": false,
+   "zurueckgehalten": true
+  },
+  {
+   "zeit": "2026-11-20T21:31:24Z",
+   "quelle": "SEC",
+   "name": "ERICKSON THOMAS W",
+   "ticker": "DDD",
+   "betrag": 163200.0,
+   "richtung": "buy",
+   "titel": "ERICKSON THOMAS W (Director): DDD ($163,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:31:27Z",
+   "quelle": "SEC",
+   "name": "Docler Holding S.a r.l.",
+   "ticker": "PLBY",
+   "betrag": 704121.5,
+   "richtung": "buy",
+   "titel": "Docler Holding S.a r.l. (Director): PLBY ($704,122)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:31:29Z",
+   "quelle": "SEC",
+   "name": "COLEMAN VICTOR J",
+   "ticker": "HPP",
+   "betrag": 75300.0,
+   "richtung": "buy",
+   "titel": "COLEMAN VICTOR J (Chief Executive Officer): HPP ($75,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:31:36Z",
+   "quelle": "SEC",
+   "name": "Garner Jennifer Anne",
+   "ticker": "OFRM",
+   "betrag": 118011.2,
+   "richtung": "buy",
+   "titel": "Garner Jennifer Anne (Director): OFRM ($118,011)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
- "letzter_tagesbericht": "2026-11-19",
+ "letzter_tagesbericht": "2026-11-20",
  "letzter_wochenbericht": "2026-W46"
 }
