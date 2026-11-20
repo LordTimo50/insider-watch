@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T18:45:49Z",
-   "quelle": "SEC",
-   "name": "Saba Capital Management, L.P.",
-   "ticker": "JOF",
-   "betrag": 161929.89,
-   "richtung": "buy",
-   "titel": "Saba Capital Management, L.P. (10%-Owner): JOF ($161,930)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T19:31:01Z",
    "quelle": "SEC",
    "name": "Mindlin Marcos Marcelo",
@@ -8577,6 +8566,17 @@
    "betrag": 50300.0,
    "richtung": "buy",
    "titel": "FOSTER WATT R JR (Director): BOTJ ($50,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T18:45:54Z",
+   "quelle": "SEC",
+   "name": "Lefkowitz Steven W",
+   "ticker": "CRMD",
+   "betrag": 52095.0,
+   "richtung": "buy",
+   "titel": "Lefkowitz Steven W (Director): CRMD ($52,095)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
