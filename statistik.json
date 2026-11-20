@@ -8513,6 +8513,28 @@
    "titel": "Pittas Aristeidis P (Director): ESEA ($30,832)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T14:45:47Z",
+   "quelle": "SEC",
+   "name": "Pittas Aristeidis P",
+   "ticker": "ESEA",
+   "betrag": 58976.0,
+   "richtung": "buy",
+   "titel": "Pittas Aristeidis P (Director): ESEA ($58,976)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T14:45:48Z",
+   "quelle": "SEC",
+   "name": "Pittas Aristeidis P",
+   "ticker": "EDRY",
+   "betrag": 38310.0,
+   "richtung": "buy",
+   "titel": "Pittas Aristeidis P (Director): EDRY ($38,310)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
