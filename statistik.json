@@ -8810,6 +8810,28 @@
    "titel": "Garner Jennifer Anne (Director): OFRM ($118,011)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:45:47Z",
+   "quelle": "SEC",
+   "name": "Schlacks Jabbok",
+   "ticker": "EQPT",
+   "betrag": 180364.05,
+   "richtung": "buy",
+   "titel": "Schlacks Jabbok (Founder & CEO): EQPT ($180,364)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:45:48Z",
+   "quelle": "SEC",
+   "name": "Annas Christopher J.",
+   "ticker": "MRBK",
+   "betrag": 31770.0,
+   "richtung": "buy",
+   "titel": "Annas Christopher J. (Chairman & CEO): MRBK ($31,770)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-20",
