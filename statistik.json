@@ -8546,6 +8546,17 @@
    "titel": "BRESNER GREGG A. (President & CIO): CION ($48,110)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T15:45:47Z",
+   "quelle": "SEC",
+   "name": "Hill Gary L.",
+   "ticker": "TISI",
+   "betrag": 150000.0,
+   "richtung": "buy",
+   "titel": "Hill Gary L. (Chief Executive Officer): TISI ($150,000)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
