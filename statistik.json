@@ -8601,6 +8601,17 @@
    "titel": "Kiai Parsa (Director): MED ($1,133,816)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T20:01:15Z",
+   "quelle": "SEC",
+   "name": "Sunderland Todd",
+   "ticker": "NXG",
+   "betrag": 41757.3,
+   "richtung": "buy",
+   "titel": "Sunderland Todd: NXG ($41,757)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
