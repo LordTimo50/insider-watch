@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T20:31:02Z",
-   "quelle": "SEC",
-   "name": "NIPPON LIFE INSURANCE CO",
-   "ticker": "CRBG",
-   "betrag": 20487096.4677,
-   "richtung": "buy",
-   "titel": "NIPPON LIFE INSURANCE CO (10%-Owner): CRBG ($20,487,096) [10b5-1-Plan]",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T20:45:47Z",
    "quelle": "SEC",
    "name": "EEME Energy SPV I, LLC",
@@ -8611,6 +8600,50 @@
    "richtung": "buy",
    "titel": "Sunderland Todd: NXG ($41,757)",
    "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T20:31:06Z",
+   "quelle": "SEC",
+   "name": "TEAGUE AJ",
+   "ticker": "SEI",
+   "betrag": 30821.25,
+   "richtung": "buy",
+   "titel": "TEAGUE AJ (Director): SEI ($30,821)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T20:31:07Z",
+   "quelle": "SEC",
+   "name": "Ramachandran Kyle S.",
+   "ticker": "SEI",
+   "betrag": 159750.0,
+   "richtung": "buy",
+   "titel": "Ramachandran Kyle S. (President): SEI ($159,750)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T20:31:08Z",
+   "quelle": "SEC",
+   "name": "Brock Amanda M",
+   "ticker": "SEI",
+   "betrag": 268900.0,
+   "richtung": "buy",
+   "titel": "Brock Amanda M (Co-Chief Executive Officer): SEI ($268,900) | 3 Kaeufer, $500K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T20:31:08Z",
+   "quelle": "SEC",
+   "name": "Zartler William A",
+   "ticker": "SEI",
+   "betrag": 212440.0,
+   "richtung": "buy",
+   "titel": "Zartler William A (Chairman and Co-CEO): SEI ($212,440) | 4 Kaeufer, $713K in 14T",
+   "gemeldet": true,
    "zurueckgehalten": false
   }
  ],
