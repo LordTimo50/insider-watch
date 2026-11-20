@@ -8370,6 +8370,17 @@
    "titel": "Shen Ziyu (Chief Executive Officer): ECX ($160,894)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T12:31:05Z",
+   "quelle": "SEC",
+   "name": "Foran Joseph Wm",
+   "ticker": "MTDR",
+   "betrag": 123050.0,
+   "richtung": "buy",
+   "titel": "Foran Joseph Wm (Chairman and CEO): MTDR ($123,050) | 6 Kaeufer, $741K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
