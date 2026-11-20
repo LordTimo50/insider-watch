@@ -8590,6 +8590,17 @@
    "titel": "Smith Lee Matthew (SEVP, Co-Pres, Co-COO & CFO): NYSE:FLG ($49,650)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T19:46:12Z",
+   "quelle": "SEC",
+   "name": "Kiai Parsa",
+   "ticker": "MED",
+   "betrag": 1133816.2718,
+   "richtung": "buy",
+   "titel": "Kiai Parsa (Director): MED ($1,133,816)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
