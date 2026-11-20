@@ -8931,6 +8931,39 @@
    "titel": "Saba Capital Management, L.P. (10%-Owner): ECF ($162,999)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:45:57Z",
+   "quelle": "SEC",
+   "name": "FRANKLIN PHILIP G",
+   "ticker": "TTMI",
+   "betrag": 291988.5,
+   "richtung": "buy",
+   "titel": "FRANKLIN PHILIP G (Director): TTMI ($291,988)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:46:03Z",
+   "quelle": "SEC",
+   "name": "Hill Darren M",
+   "ticker": "HBCP",
+   "betrag": 315013.35000000003,
+   "richtung": "buy",
+   "titel": "Hill Darren M (Chief Risk Officer): HBCP ($315,013)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T22:46:10Z",
+   "quelle": "SEC",
+   "name": "Saba Capital Management, L.P.",
+   "ticker": "DSM",
+   "betrag": 181720.80000000002,
+   "richtung": "buy",
+   "titel": "Saba Capital Management, L.P. (10%-Owner): DSM ($181,721)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-20",
