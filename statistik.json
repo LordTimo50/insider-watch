@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T14:31:04Z",
-   "quelle": "SEC",
-   "name": "Snowling Harvey Edward",
-   "ticker": "BORR",
-   "betrag": 1473000.0,
-   "richtung": "buy",
-   "titel": "Snowling Harvey Edward (Chief Operating Officer): BORR ($1,473,000) | 2 Kaeufer, $44.5M in 14T",
-   "gemeldet": true,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T18:45:49Z",
    "quelle": "SEC",
    "name": "Saba Capital Management, L.P.",
@@ -8500,6 +8489,28 @@
    "betrag": 299400.0,
    "richtung": "buy",
    "titel": "Teixeira Linares Marcio Antonio (Director): PICS ($299,400)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T14:31:11Z",
+   "quelle": "SEC",
+   "name": "Pruett William Rodney",
+   "ticker": "PICS",
+   "betrag": 232500.00000000003,
+   "richtung": "buy",
+   "titel": "Pruett William Rodney (Director): PICS ($232,500)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T14:31:11Z",
+   "quelle": "SEC",
+   "name": "Pittas Aristeidis P",
+   "ticker": "ESEA",
+   "betrag": 30831.65,
+   "richtung": "buy",
+   "titel": "Pittas Aristeidis P (Director): ESEA ($30,832)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
