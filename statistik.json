@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T21:15:47Z",
-   "quelle": "SEC",
-   "name": "TOTH TERENCE J",
-   "ticker": "NAD",
-   "betrag": 71799.99920703999,
-   "richtung": "buy",
-   "titel": "TOTH TERENCE J: NAD ($71,800)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-16T22:01:21Z",
    "quelle": "SEC",
    "name": "Rusnak Paul P.",
@@ -8676,6 +8665,83 @@
    "betrag": 33200.0,
    "richtung": "buy",
    "titel": "Intelligent Fanatics Capital Management LLC (10%-Owner): KLNG ($33,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:15:53Z",
+   "quelle": "SEC",
+   "name": "Morrison Christine M.",
+   "ticker": "AVEX",
+   "betrag": 102360.51000000001,
+   "richtung": "buy",
+   "titel": "Morrison Christine M. (Chief Legal Officer): AVEX ($102,361)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:15:54Z",
+   "quelle": "SEC",
+   "name": "BARTLEIN ROBERT",
+   "ticker": "CWBC",
+   "betrag": 72822.0,
+   "richtung": "buy",
+   "titel": "BARTLEIN ROBERT (Director): CWBC ($72,822)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:15:58Z",
+   "quelle": "SEC",
+   "name": "Elsztain Alejandro Gustavo",
+   "ticker": "CRESY",
+   "betrag": 134672.07,
+   "richtung": "buy",
+   "titel": "Elsztain Alejandro Gustavo (Director): CRESY ($134,672)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:15:59Z",
+   "quelle": "SEC",
+   "name": "Cannon-Brookes Michael",
+   "ticker": "TEAM",
+   "betrag": 1845676.9623999998,
+   "richtung": "buy",
+   "titel": "Cannon-Brookes Michael (CEO, Co-Founder): TEAM ($1,845,677) [10b5-1-Plan]",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:16:00Z",
+   "quelle": "SEC",
+   "name": "Zhang Ingrid",
+   "ticker": "LEGN",
+   "betrag": 163200.0,
+   "richtung": "buy",
+   "titel": "Zhang Ingrid (Chief Executive Officer): LEGN ($163,200)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:16:01Z",
+   "quelle": "SEC",
+   "name": "Golestani Clark",
+   "ticker": "ZPTA",
+   "betrag": 34650.0,
+   "richtung": "buy",
+   "titel": "Golestani Clark (Director): ZPTA ($34,650)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T21:16:04Z",
+   "quelle": "SEC",
+   "name": "Langel Craig A",
+   "ticker": "GBCI",
+   "betrag": 53452.0,
+   "richtung": "buy",
+   "titel": "Langel Craig A (Director): GBCI ($53,452)",
    "gemeldet": false,
    "zurueckgehalten": false
   }
