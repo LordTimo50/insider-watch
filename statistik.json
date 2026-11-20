@@ -8381,6 +8381,50 @@
    "titel": "Foran Joseph Wm (Chairman and CEO): MTDR ($123,050) | 6 Kaeufer, $741K in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:01:23Z",
+   "quelle": "SEC",
+   "name": "Williams Gregg",
+   "ticker": "VANI",
+   "betrag": 128325.301,
+   "richtung": "buy",
+   "titel": "Williams Gregg (Director): VANI ($128,325)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:01:24Z",
+   "quelle": "SEC",
+   "name": "Block Joel M",
+   "ticker": "DRK",
+   "betrag": 62162.282900000006,
+   "richtung": "buy",
+   "titel": "Block Joel M (Chief Executive Officer): DRK ($62,162)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:01:24Z",
+   "quelle": "SEC",
+   "name": "JUNEAU JOHN B",
+   "ticker": "CTGO",
+   "betrag": 97341.15,
+   "richtung": "buy",
+   "titel": "JUNEAU JOHN B (Director): CTGO ($97,341)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:01:25Z",
+   "quelle": "SEC",
+   "name": "Nauman Clynton R.",
+   "ticker": "CTGO",
+   "betrag": 75450.0,
+   "richtung": "buy",
+   "titel": "Nauman Clynton R. (Director): CTGO ($75,450)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
