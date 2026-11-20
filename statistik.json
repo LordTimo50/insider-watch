@@ -8568,6 +8568,17 @@
    "titel": "Poillon Diane (Director): BHRB ($106,131)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T17:15:44Z",
+   "quelle": "SEC",
+   "name": "FOSTER WATT R JR",
+   "ticker": "BOTJ",
+   "betrag": 50300.0,
+   "richtung": "buy",
+   "titel": "FOSTER WATT R JR (Director): BOTJ ($50,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
