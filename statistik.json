@@ -8337,6 +8337,39 @@
    "titel": "ALAM JOHN J (CEO & President): CRVO ($152,621)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T11:15:48Z",
+   "quelle": "SEC",
+   "name": "Lu Lee-Chung",
+   "ticker": "TSM",
+   "betrag": 302850.0,
+   "richtung": "buy",
+   "titel": "Lu Lee-Chung (VP): TSM ($302,850) | 3 Kaeufer, $1.1M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T11:15:49Z",
+   "quelle": "SEC",
+   "name": "Bardswich Lloyd",
+   "ticker": "UAMY",
+   "betrag": 25299.999999999996,
+   "richtung": "buy",
+   "titel": "Bardswich Lloyd (Dir, EVP & Chief Mining Eng): UAMY ($25,300)",
+   "gemeldet": false,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T11:15:50Z",
+   "quelle": "SEC",
+   "name": "Wolff Benjamin G",
+   "ticker": "PDYN",
+   "betrag": 42250.5,
+   "richtung": "buy",
+   "titel": "Wolff Benjamin G (PRESIDENT & CEO): PDYN ($42,250)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
