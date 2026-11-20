@@ -8425,6 +8425,17 @@
    "titel": "Nauman Clynton R. (Director): CTGO ($75,450)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-20T13:31:16Z",
+   "quelle": "SEC",
+   "name": "Beberman Perry S",
+   "ticker": "BFH",
+   "betrag": 220400.0,
+   "richtung": "buy",
+   "titel": "Beberman Perry S (EVP, Chief Financial Officer): BFH ($220,400) | 2 Kaeufer, $446K in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-19",
