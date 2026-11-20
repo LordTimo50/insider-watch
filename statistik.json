@@ -1,17 +1,6 @@
 {
  "trades": [
   {
-   "zeit": "2026-10-16T23:30:58Z",
-   "quelle": "SEC",
-   "name": "Hassen Tyler Lewis",
-   "ticker": "ZONE",
-   "betrag": 55150.0,
-   "richtung": "buy",
-   "titel": "Hassen Tyler Lewis (Chief Executive Officer): ZONE ($55,150)",
-   "gemeldet": false,
-   "zurueckgehalten": false
-  },
-  {
    "zeit": "2026-10-17T00:45:41Z",
    "quelle": "SEC",
    "name": "Opaleye Management Inc.",
