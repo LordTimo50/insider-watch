@@ -8964,6 +8964,28 @@
    "titel": "Tharp Carla Todd (Director): REI ($53,500)",
    "gemeldet": false,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-21T01:31:01Z",
+   "quelle": "SEC",
+   "name": "Gu Paul",
+   "ticker": "UPST",
+   "betrag": 860065.0,
+   "richtung": "buy",
+   "titel": "Gu Paul (Chief Executive Officer): UPST ($860,065)",
+   "gemeldet": true,
+   "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-21T01:31:02Z",
+   "quelle": "SEC",
+   "name": "Girouard Dave",
+   "ticker": "UPST",
+   "betrag": 950988.0,
+   "richtung": "buy",
+   "titel": "Girouard Dave (Director): UPST ($950,988) | 2 Kaeufer, $3.8M in 14T",
+   "gemeldet": true,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-20",
