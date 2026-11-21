@@ -8986,6 +8986,17 @@
    "titel": "Girouard Dave (Director): UPST ($950,988) | 2 Kaeufer, $3.8M in 14T",
    "gemeldet": true,
    "zurueckgehalten": false
+  },
+  {
+   "zeit": "2026-11-21T02:01:27Z",
+   "quelle": "SEC",
+   "name": "TANG KEVIN",
+   "ticker": "BOLD",
+   "betrag": 244231.37,
+   "richtung": "buy",
+   "titel": "TANG KEVIN (10%-Owner): BOLD ($244,231)",
+   "gemeldet": false,
+   "zurueckgehalten": false
   }
  ],
  "letzter_tagesbericht": "2026-11-20",
